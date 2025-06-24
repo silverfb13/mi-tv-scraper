@@ -1,15 +1,19 @@
-import axios from 'axios';
-import { load } from 'cheerio';
-import fs from 'fs/promises';
-import { parseStringPromise } from 'xml2js';
+function formatDateWithOffset(date) {
+  // Formata date para: YYYYMMDDHHmmss + offset -0300 (sem converter pra UTC)
+  // Exemplo: 20250623060000 -0300
+  const pad = (n) => n.toString().padStart(2, '0');
 
-async function loadChannels() {
-  const xml = await fs.readFile('channels.xml', 'utf-8');
-  const result = await parseStringPromise(xml);
-  return result.channels.channel.map(c => ({
-    id: c._.trim(),
-    site_id: c.$.site_id.replace('br#', '').trim()
-  }));
+  const year = date.getFullYear();
+  const month = pad(date.getMonth() + 1);
+  const day = pad(date.getDate());
+  const hours = pad(date.getHours());
+  const minutes = pad(date.getMinutes());
+  const seconds = pad(date.getSeconds());
+
+  // Fuso horário fixo -0300
+  const offset = '-0300';
+
+  return `${year}${month}${day}${hours}${minutes}${seconds} ${offset}`;
 }
 
 async function fetchChannelPrograms(channelId, date) {
@@ -32,11 +36,21 @@ async function fetchChannelPrograms(channelId, date) {
 
       if (time && title) {
         const [hours, minutes] = time.split(':').map(Number);
-        const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`);
-        const start = `${formatDate(startDate)} -0300`;
 
+        // Cria a data base com o dia da programação e hora do programa
+        let startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`);
+
+        // Se horário for menor que 06:00 (por exemplo), pode indicar que o programa é do dia seguinte, incrementa o dia
+        // Isso depende do seu contexto, ajuste se necessário
+        if (hours < 6) {
+          startDate.setDate(startDate.getDate() + 1);
+        }
+
+        const start = formatDateWithOffset(startDate);
+
+        // Considera duração padrão de 90 minutos
         const endDate = new Date(startDate.getTime() + 90 * 60000);
-        const end = `${formatDate(endDate)} -0300`;
+        const end = formatDateWithOffset(endDate);
 
         programs.push({
           start,
@@ -54,65 +68,3 @@ async function fetchChannelPrograms(channelId, date) {
     return [];
   }
 }
-
-function formatDate(date) {
-  return date.toISOString().replace(/[-:]/g, '').split('.')[0];
-}
-
-function getDates() {
-  const dates = [];
-  const today = new Date();
-
-  for (let i = -1; i <= 2; i++) {
-    const date = new Date(today);
-    date.setDate(today.getDate() + i);
-    dates.push(date.toISOString().split('T')[0]);
-  }
-
-  return dates;
-}
-
-function escapeXml(unsafe) {
-  return unsafe.replace(/&/g, '&amp;')
-               .replace(/</g, '&lt;')
-               .replace(/>/g, '&gt;')
-               .replace(/"/g, '&quot;')
-               .replace(/'/g, '&apos;');
-}
-
-async function generateEPG() {
-  console.log('Carregando canais...');
-  const channels = await loadChannels();
-
-  console.log(`Total de canais encontrados: ${channels.length}`);
-
-  let epgXml = '<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n';
-
-  channels.forEach(channel => {
-    epgXml += `  <channel id="${channel.id}">\n    <display-name lang="pt">${channel.id}</display-name>\n  </channel>\n`;
-  });
-
-  for (const channel of channels) {
-    console.log(`Buscando EPG para ${channel.id}...`);
-
-    const dates = getDates();
-    for (const date of dates) {
-      const programs = await fetchChannelPrograms(channel.site_id, date);
-
-      for (const program of programs) {
-        epgXml += `  <programme start="${program.start}" stop="${program.end}" channel="${channel.id}">\n`;
-        epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
-        epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
-        epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
-        epgXml += `  </programme>\n`;
-      }
-    }
-  }
-
-  epgXml += '</tv>';
-
-  await fs.writeFile('epg.xml', epgXml, 'utf-8');
-  console.log('EPG gerado com sucesso em epg.xml');
-}
-
-generateEPG();
