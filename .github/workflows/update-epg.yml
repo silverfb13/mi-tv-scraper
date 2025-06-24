@@ -1,33 +1,35 @@
-name: Atualizar EPG 4x por dia
+name: Atualizar EPG mi-tv-scraper
 
 on:
   schedule:
-    # A cada 6 horas: 0 0,6,12,18 * * *
-    - cron: '0 0,6,12,18 * * *'
-  workflow_dispatch: # Permite rodar manualmente pelo GitHub também
+    - cron: '0 0,6,12,18 * * *' # 4x por dia UTC: 00h, 06h, 12h, 18h
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout do repositório
+    - name: Fazer checkout do código
       uses: actions/checkout@v3
 
-    - name: Configurar Node.js
+    - name: Configurar Node.js 18
       uses: actions/setup-node@v3
       with:
-        node-version: '18'
+        node-version: 18
 
     - name: Instalar dependências
       run: npm install
 
-    - name: Rodar script de atualização EPG
+    - name: Rodar index.js para gerar epg.xml
       run: node index.js
 
-    - name: Commit e push do epg.xml atualizado
+    - name: Commit e push se epg.xml mudou
       run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git add epg.xml
-        git diff --quiet && echo "Nenhuma alteração no epg.xml" || (git commit -m "Atualização automática do EPG" && git push)
+        git diff --cached --quiet || git commit -m "Atualização automática do EPG"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
