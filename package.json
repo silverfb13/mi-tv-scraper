@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Gerador de EPG automático para Mi.tv e Vivo Play",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
