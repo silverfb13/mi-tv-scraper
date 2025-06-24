@@ -32,17 +32,14 @@ async function fetchChannelPrograms(channelId, date) {
 
       if (time && title) {
         const [hours, minutes] = time.split(':').map(Number);
-        const [year, month, day] = date.split('-').map(Number);
 
-        // Cria a data local no horário Brasil (UTC-3)
-        const localDate = new Date(year, month - 1, day, hours, minutes, 0);
+        // Criando data sem "T"
+        const startDate = new Date(`${date} ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`);
+        const start = `${formatDate(startDate)} -0300`;
 
-        // Ajusta para UTC (soma 3h para neutralizar o UTC-3)
-        const utcDate = new Date(localDate.getTime() + 3 * 60 * 60 * 1000);
-        const start = `${formatDate(utcDate)} +0000`;
-
-        const utcEndDate = new Date(utcDate.getTime() + 90 * 60000);
-        const end = `${formatDate(utcEndDate)} +0000`;
+        // Considerando 90 minutos de duração
+        const endDate = new Date(startDate.getTime() + 90 * 60000);
+        const end = `${formatDate(endDate)} -0300`;
 
         programs.push({
           start,
@@ -62,20 +59,31 @@ async function fetchChannelPrograms(channelId, date) {
 }
 
 function formatDate(date) {
-  return date.toISOString().replace(/[-:]/g, '').split('.')[0];
+  // Formatar como YYYYMMDDHHMMSS
+  const year = date.getFullYear();
+  const month = (date.getMonth() + 1).toString().padStart(2, '0');
+  const day = date.getDate().toString().padStart(2, '0');
+  const hours = date.getHours().toString().padStart(2, '0');
+  const minutes = date.getMinutes().toString().padStart(2, '0');
+  const seconds = date.getSeconds().toString().padStart(2, '0');
+  return `${year}${month}${day}${hours}${minutes}${seconds}`;
 }
 
 function getDates() {
   const dates = [];
-  const today = new Date();
+  const now = new Date();
+
+  // Ajustar para GMT -3
+  const localTime = new Date(now.getTime() - (3 * 60 * 60 * 1000));
 
   for (let i = -1; i <= 2; i++) {
-    const date = new Date(today);
-    date.setDate(today.getDate() + i);
+    const date = new Date(localTime);
+    date.setDate(localTime.getDate() + i);
     dates.push(date.toISOString().split('T')[0]);
   }
 
-  return dates;
+  // Retornar ontem, hoje, amanhã e depois de amanhã
+  return dates.slice(0, 4);
 }
 
 function escapeXml(unsafe) {
