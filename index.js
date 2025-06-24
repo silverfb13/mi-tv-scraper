@@ -2,24 +2,24 @@ import axios from 'axios';
 import { load } from 'cheerio';
 import fs from 'fs/promises';
 import { parseStringPromise } from 'xml2js';
+import dayjs from 'dayjs';
 
 async function loadChannels() {
   const xml = await fs.readFile('channels.xml', 'utf-8');
   const result = await parseStringPromise(xml);
   return result.channels.channel.map(c => ({
     id: c._.trim(),
-    site_id: c.$.site_id.replace('br#', '').trim()
+    site_id: c.$.site_id.replace('br#', '').trim(),
+    source: c.$.source || 'mi' // Se quiser separar por origem
   }));
 }
 
-async function fetchChannelPrograms(channelId, date) {
-  const url = `https://mi.tv/br/async/channel/${channelId}/${date}/2`;
+async function fetchMiTvPrograms(channelId, date) {
+  const url = `https://mi.tv/br/async/channel/${channelId}/${date}/0`;
 
   try {
     const response = await axios.get(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0'
-      }
+      headers: { 'User-Agent': 'Mozilla/5.0' }
     });
 
     const $ = load(response.data);
@@ -32,7 +32,6 @@ async function fetchChannelPrograms(channelId, date) {
 
       if (time && title) {
         const [hours, minutes] = time.split(':').map(Number);
-
         const startDate = new Date(`${date} ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`);
         const start = `${formatDate(startDate)} -0300`;
 
@@ -56,31 +55,55 @@ async function fetchChannelPrograms(channelId, date) {
   }
 }
 
+async function fetchVivoPlayPrograms(channelId, date) {
+  const starttime = Math.floor(date.getTime() / 1000);
+  const endtime = Math.floor(new Date(date.getTime() + 24 * 60 * 60 * 1000).getTime() / 1000);
+
+  const url = `https://contentapi-br.cdn.telefonica.com/25/default/pt-BR/schedules?ca_deviceTypes=null%7C401&ca_channelmaps=779%7Cnull&fields=Pid,Title,Description,ChannelName,ChannelNumber,CallLetter,Start,End,LiveChannelPid,LiveProgramPid,EpgSerieId,SeriesPid,SeriesId,SeasonPid,SeasonNumber,EpisodeNumber,images.videoFrame,images.banner,LiveToVod,AgeRatingPid,forbiddenTechnology,IsSoDisabled&includeRelations=Genre&orderBy=START_TIME%3Aa&filteravailability=false&includeAttributes=ca_cpvrDisable,ca_descriptors,ca_blackout_target,ca_blackout_areas&starttime=${starttime}&endtime=${endtime}&livechannelpids=${channelId}&offset=0&limit=1000`;
+
+  try {
+    const response = await axios.get(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0' }
+    });
+
+    const data = response.data.Content || [];
+    const programs = [];
+
+    data.forEach(item => {
+      const startDate = new Date(item.Start * 1000);
+      const endDate = new Date(item.End * 1000);
+
+      programs.push({
+        start: `${formatDate(startDate)} -0300`,
+        end: `${formatDate(endDate)} -0300`,
+        title: item.Title || 'Sem título',
+        desc: item.Description || 'Sem descrição',
+        rating: '[14]'
+      });
+    });
+
+    return programs;
+  } catch (error) {
+    console.error(`Erro ao buscar ${url}: ${error.message}`);
+    return [];
+  }
+}
+
 function formatDate(date) {
-  // Formatar manualmente: YYYYMMDDHHMMSS
-  const year = date.getFullYear();
-  const month = (date.getMonth() + 1).toString().padStart(2, '0');
-  const day = date.getDate().toString().padStart(2, '0');
-  const hours = date.getHours().toString().padStart(2, '0');
-  const minutes = date.getMinutes().toString().padStart(2, '0');
-  const seconds = date.getSeconds().toString().padStart(2, '0');
-  return `${year}${month}${day}${hours}${minutes}${seconds}`;
+  return date.toISOString().replace(/[-:]/g, '').split('.')[0];
 }
 
 function getDates() {
   const dates = [];
-  const now = new Date();
-
-  // Ajuste para GMT -3
-  const localTime = new Date(now.getTime() - (3 * 60 * 60 * 1000));
+  const today = new Date();
 
   for (let i = -1; i <= 2; i++) {
-    const date = new Date(localTime);
-    date.setDate(localTime.getDate() + i);
-    dates.push(date.toISOString().split('T')[0]);
+    const date = new Date(today);
+    date.setDate(today.getDate() + i);
+    dates.push(date);
   }
 
-  return dates.slice(0, 4); // Ontem, hoje, amanhã e depois de amanhã
+  return dates;
 }
 
 function escapeXml(unsafe) {
@@ -94,7 +117,6 @@ function escapeXml(unsafe) {
 async function generateEPG() {
   console.log('Carregando canais...');
   const channels = await loadChannels();
-
   console.log(`Total de canais encontrados: ${channels.length}`);
 
   let epgXml = '<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n';
@@ -108,7 +130,13 @@ async function generateEPG() {
 
     const dates = getDates();
     for (const date of dates) {
-      const programs = await fetchChannelPrograms(channel.site_id, date);
+      let programs = [];
+
+      if (channel.source === 'vivo') {
+        programs = await fetchVivoPlayPrograms(channel.site_id, date);
+      } else {
+        programs = await fetchMiTvPrograms(channel.site_id, date.toISOString().split('T')[0]);
+      }
 
       for (const program of programs) {
         epgXml += `  <programme start="${program.start}" stop="${program.end}" channel="${channel.id}">\n`;
