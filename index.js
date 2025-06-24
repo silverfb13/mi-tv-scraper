@@ -62,8 +62,8 @@ async function fetchChannelPrograms(channelId, date) {
       }
 
       programs.push({
-        start: `${formatDate(startDate)} -0700`,
-        end: `${formatDate(endDate)} -0700`,
+        start: `${formatDate(startDate)} -0100`,
+        end: `${formatDate(endDate)} -0100`,
         title,
         desc: description,
         rating: '[14]'
