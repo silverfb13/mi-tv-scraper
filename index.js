@@ -33,11 +33,9 @@ async function fetchChannelPrograms(channelId, date) {
       if (time && title) {
         const [hours, minutes] = time.split(':').map(Number);
 
-        // Criando data sem "T"
         const startDate = new Date(`${date} ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`);
         const start = `${formatDate(startDate)} -0300`;
 
-        // Considerando 90 minutos de duração
         const endDate = new Date(startDate.getTime() + 90 * 60000);
         const end = `${formatDate(endDate)} -0300`;
 
@@ -59,7 +57,7 @@ async function fetchChannelPrograms(channelId, date) {
 }
 
 function formatDate(date) {
-  // Formatar como YYYYMMDDHHMMSS
+  // Formatar manualmente: YYYYMMDDHHMMSS
   const year = date.getFullYear();
   const month = (date.getMonth() + 1).toString().padStart(2, '0');
   const day = date.getDate().toString().padStart(2, '0');
@@ -73,7 +71,7 @@ function getDates() {
   const dates = [];
   const now = new Date();
 
-  // Ajustar para GMT -3
+  // Ajuste para GMT -3
   const localTime = new Date(now.getTime() - (3 * 60 * 60 * 1000));
 
   for (let i = -1; i <= 2; i++) {
@@ -82,8 +80,7 @@ function getDates() {
     dates.push(date.toISOString().split('T')[0]);
   }
 
-  // Retornar ontem, hoje, amanhã e depois de amanhã
-  return dates.slice(0, 4);
+  return dates.slice(0, 4); // Ontem, hoje, amanhã e depois de amanhã
 }
 
 function escapeXml(unsafe) {
