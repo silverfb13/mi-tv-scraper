@@ -1,24 +1,18 @@
 {
-  "name": "epg-generator",
+  "name": "mi-tv-scraper",
   "version": "1.0.0",
-  "description": "Gerador de EPG automático para Mi.tv e Vivo Play",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [
-    "epg",
-    "iptv",
-    "mi.tv",
-    "vivo play"
-  ],
-  "author": "silverfb13",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.0",
-    "cheerio": "^1.0.0-rc.12",
-    "dayjs": "^1.11.9",
-    "xml2js": "^0.4.23"
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "xml2js": "^0.6.2"
   }
 }
