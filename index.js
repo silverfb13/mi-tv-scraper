@@ -25,29 +25,50 @@ async function fetchChannelPrograms(channelId, date) {
     const $ = load(response.data);
     const programs = [];
 
+    const tempPrograms = [];
+
     $('li').each((_, element) => {
       const time = $(element).find('.time').text().trim();
       const title = $(element).find('h2').text().trim();
       const description = $(element).find('.synopsis').text().trim();
 
       if (time && title) {
-        const [hours, minutes] = time.split(':').map(Number);
-
-        const startDate = new Date(`${date} ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`);
-        const start = `${formatDate(startDate)} -0300`;
-
-        const endDate = new Date(startDate.getTime() + 90 * 60000);
-        const end = `${formatDate(endDate)} -0300`;
-
-        programs.push({
-          start,
-          end,
+        tempPrograms.push({
+          time,
           title,
-          desc: description || 'Sem descrição',
-          rating: '[14]'
+          description: description || 'Sem descrição'
         });
       }
     });
+
+    for (let i = 0; i < tempPrograms.length; i++) {
+      const { time, title, description } = tempPrograms[i];
+
+      // Parse ISO com fuso -03:00
+      const startDate = new Date(`${date}T${time}:00-03:00`);
+
+      let endDate;
+      if (i < tempPrograms.length - 1) {
+        const nextTime = tempPrograms[i + 1].time;
+        endDate = new Date(`${date}T${nextTime}:00-03:00`);
+
+        // Ajusta dia caso passe da meia-noite
+        if (endDate <= startDate) {
+          endDate.setDate(endDate.getDate() + 1);
+        }
+      } else {
+        // Último programa do dia: 90 minutos depois
+        endDate = new Date(startDate.getTime() + 90 * 60000);
+      }
+
+      programs.push({
+        start: `${formatDate(startDate)} -0300`,
+        end: `${formatDate(endDate)} -0300`,
+        title,
+        desc: description,
+        rating: '[14]'
+      });
+    }
 
     return programs;
   } catch (error) {
@@ -57,7 +78,6 @@ async function fetchChannelPrograms(channelId, date) {
 }
 
 function formatDate(date) {
-  // Formatar manualmente: YYYYMMDDHHMMSS
   const year = date.getFullYear();
   const month = (date.getMonth() + 1).toString().padStart(2, '0');
   const day = date.getDate().toString().padStart(2, '0');
@@ -71,16 +91,13 @@ function getDates() {
   const dates = [];
   const now = new Date();
 
-  // Ajuste para GMT -3
-  const localTime = new Date(now.getTime() - (3 * 60 * 60 * 1000));
-
   for (let i = -1; i <= 2; i++) {
-    const date = new Date(localTime);
-    date.setDate(localTime.getDate() + i);
+    const date = new Date(now);
+    date.setDate(now.getDate() + i);
     dates.push(date.toISOString().split('T')[0]);
   }
 
-  return dates.slice(0, 4); // Ontem, hoje, amanhã e depois de amanhã
+  return dates.slice(0, 4);
 }
 
 function escapeXml(unsafe) {
