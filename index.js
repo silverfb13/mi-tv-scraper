@@ -12,23 +12,6 @@ async function loadChannels() {
   }));
 }
 
-// Função para corrigir horário e ajustar para UTC + formato EPG
-function parseProgramTime(dateStr, timeStr) {
-  // dateStr: "2025-06-23"
-  // timeStr: "23:30"
-  const [year, month, day] = dateStr.split('-').map(Number);
-  let [hour, minute] = timeStr.split(':').map(Number);
-
-  // Cria Date local do horário do programa
-  let dateObj = new Date(year, month - 1, day, hour, minute, 0);
-
-  // Ajusta para UTC somando 3h (porque o horário é UTC-3)
-  dateObj = new Date(dateObj.getTime() + 3 * 60 * 60 * 1000);
-
-  // Retorna string no formato yyyymmddHHMMSS +0000
-  return formatDate(dateObj) + ' +0000';
-}
-
 async function fetchChannelPrograms(channelId, date) {
   const url = `https://mi.tv/br/async/channel/${channelId}/${date}/0`;
 
@@ -48,24 +31,18 @@ async function fetchChannelPrograms(channelId, date) {
       const description = $(element).find('.synopsis').text().trim();
 
       if (time && title) {
-        // Usa a função nova para o horário correto
-        const start = parseProgramTime(date, time);
+        const [hours, minutes] = time.split(':').map(Number);
+        const [year, month, day] = date.split('-').map(Number);
 
-        // Para calcular o end, cria objeto Date a partir do start (UTC)
-        const startDate = new Date(
-          parseInt(start.substring(0,4)),
-          parseInt(start.substring(4,6)) - 1,
-          parseInt(start.substring(6,8)),
-          parseInt(start.substring(8,10)),
-          parseInt(start.substring(10,12)),
-          parseInt(start.substring(12,14))
-        );
+        // Cria a data local no horário Brasil (UTC-3)
+        const localDate = new Date(year, month - 1, day, hours, minutes, 0);
 
-        // Programa dura 90 minutos
-        const endDate = new Date(startDate.getTime() + 90 * 60000);
+        // Ajusta para UTC (soma 3h para neutralizar o UTC-3)
+        const utcDate = new Date(localDate.getTime() + 3 * 60 * 60 * 1000);
+        const start = `${formatDate(utcDate)} +0000`;
 
-        // Ajusta o end para string EPG (formato yyyymmddHHMMSS +0000)
-        const end = formatDate(endDate) + ' +0000';
+        const utcEndDate = new Date(utcDate.getTime() + 90 * 60000);
+        const end = `${formatDate(utcEndDate)} +0000`;
 
         programs.push({
           start,
