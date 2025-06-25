@@ -44,10 +44,15 @@ async function fetchChannelPrograms(channelId, date) {
     for (let i = 0; i < tempPrograms.length; i++) {
       const { time, title, description } = tempPrograms[i];
 
-      // Pega horário GMT 0
+      // Converte o horário base GMT 0 para GMT -3
       const startDate = new Date(`${date}T${time}:00Z`);
-      // Converte para GMT -3
       startDate.setHours(startDate.getHours() - 3);
+
+      // Garante que o horário não volte para o dia anterior
+      const minDate = new Date(`${date}T00:00:00-03:00`);
+      if (startDate < minDate) {
+        startDate.setDate(startDate.getDate() + 1);
+      }
 
       let endDate;
       if (i < tempPrograms.length - 1) {
@@ -55,12 +60,17 @@ async function fetchChannelPrograms(channelId, date) {
         endDate = new Date(`${date}T${nextTime}:00Z`);
         endDate.setHours(endDate.getHours() - 3);
 
-        // Ajusta dia caso passe da meia-noite
+        // Garante que o horário não volte para o dia anterior
+        if (endDate < minDate) {
+          endDate.setDate(endDate.getDate() + 1);
+        }
+
+        // Ajusta caso o próximo horário seja menor (passagem da meia-noite)
         if (endDate <= startDate) {
           endDate.setDate(endDate.getDate() + 1);
         }
       } else {
-        // Último programa do dia: 90 minutos depois
+        // Último programa: assume 90 minutos
         endDate = new Date(startDate.getTime() + 90 * 60000);
       }
 
