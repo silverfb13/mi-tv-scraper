@@ -24,15 +24,15 @@ async function fetchChannelPrograms(channelId, date) {
     const programs = [];
 
     $('li.card-program').each((_, element) => {
-      const start = $(element).attr('data-start');
-      const end = $(element).attr('data-end');
+      const startStr = $(element).attr('data-start');
+      const endStr = $(element).attr('data-end');
 
-      if (start && end) {
+      if (startStr && endStr) {
+        const startDate = new Date(startStr);
+        const endDate = new Date(endStr);
+
         const title = $(element).find('.program-title').text().trim() || 'Sem título';
         const description = $(element).find('.synopsis').text().trim() || 'Sem descrição';
-
-        const startDate = new Date(start);
-        const endDate = new Date(end);
 
         programs.push({
           start: startDate,
@@ -71,10 +71,10 @@ function getDates() {
 
 function escapeXml(unsafe) {
   return unsafe.replace(/&/g, '&amp;')
-               .replace(/</g, '&lt;')
-               .replace(/>/g, '&gt;')
-               .replace(/"/g, '&quot;')
-               .replace(/'/g, '&apos;');
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
 }
 
 async function generateEPG() {
@@ -97,31 +97,36 @@ async function generateEPG() {
       const programs = await fetchChannelPrograms(channel.site_id, date);
 
       for (const program of programs) {
-        const splitThreshold = new Date(program.start);
-        splitThreshold.setUTCHours(3, 0, 0, 0);
+        const splitTime = new Date(program.start);
+        splitTime.setUTCHours(3, 0, 0, 0);
 
-        if (program.start < splitThreshold && program.end > splitThreshold) {
-          // Programa cruza 03:00 - Dividir
-          const firstPartEnd = new Date(splitThreshold);
-          firstPartEnd.setUTCSeconds(firstPartEnd.getUTCSeconds() - 1);
+        if (program.start < splitTime && program.end > splitTime) {
+          // Programa atravessa 03:00 - precisa dividir
 
+          // Primeira parte (antes das 03:00)
+          const firstPartEnd = new Date(splitTime.getTime() - 1000); // até 02:59:59
           epgXml += `  <programme start="${formatDate(program.start)}" stop="${formatDate(firstPartEnd)}" channel="${channel.id}">\n`;
           epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
           epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
           epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
           epgXml += `  </programme>\n`;
 
-          // Parte depois das 03:00 vai para o próximo dia
-          const secondPartStart = new Date(splitThreshold);
-          const secondPartEnd = new Date(program.end);
-
-          epgXml += `  <programme start="${formatDate(secondPartStart)}" stop="${formatDate(secondPartEnd)}" channel="${channel.id}">\n`;
+          // Segunda parte (depois das 03:00)
+          const secondPartStart = new Date(splitTime);
+          epgXml += `  <programme start="${formatDate(secondPartStart)}" stop="${formatDate(program.end)}" channel="${channel.id}">\n`;
           epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
           epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
           epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
           epgXml += `  </programme>\n`;
-        } else {
-          // Programa normal
+        } else if (program.start >= splitTime) {
+          // Programas a partir de 03:00 já vão normalmente
+          epgXml += `  <programme start="${formatDate(program.start)}" stop="${formatDate(program.end)}" channel="${channel.id}">\n`;
+          epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
+          epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
+          epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
+          epgXml += `  </programme>\n`;
+        } else if (program.end <= splitTime) {
+          // Programas totalmente antes de 03:00
           epgXml += `  <programme start="${formatDate(program.start)}" stop="${formatDate(program.end)}" channel="${channel.id}">\n`;
           epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
           epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
