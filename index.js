@@ -13,7 +13,7 @@ async function loadChannels() {
 }
 
 async function fetchChannelPrograms(channelId, date) {
-  const url = `https://mi.tv/br/async/channel/${channelId}/${date}/2`;
+  const url = `https://mi.tv/br/async/channel/${channelId}/${date}/0`;
 
   try {
     const response = await axios.get(url, {
