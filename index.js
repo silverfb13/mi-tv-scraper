@@ -27,7 +27,7 @@ function getTargetDates() {
   const now = new Date();
   const baseDate = new Date(now.getTime() - (3 * 60 * 60 * 1000)); // Ajuste GMT -3
 
-  for (let i = -1; i <= 2; i++) { // Ontem, hoje, amanhã e depois de amanhã
+  for (let i = -2; i <= 3; i++) {
     const date = new Date(baseDate);
     date.setDate(baseDate.getDate() + i);
     dates.push(date.toISOString().split('T')[0]);
@@ -65,7 +65,7 @@ async function fetchChannelPrograms(channelId, date) {
 
         let startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00Z`);
 
-        // A partir das 03:00 (GMT 0000), adicionar um dia
+        // 🔥 Ajuste correto: se o horário for >= 03:00 GMT 0000, ADICIONA UM DIA (ajuste interno, NÃO altera o link)
         if (startDate.getUTCHours() >= 3) {
           startDate.setUTCDate(startDate.getUTCDate() + 1);
         }
