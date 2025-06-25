@@ -1,1722 +1,1722 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<tv source-info-name="mi.tv" generator-info-name="EPG Generator" generator-info-url="https://mi.tv">
-  <channel id="">
-    <display-name>A&amp;E HD</display-name>
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="A&E HD">
+    <display-name lang="pt">A&E HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Amazon Sat HD</display-name>
+  <channel id="Amazon Sat HD">
+    <display-name lang="pt">Amazon Sat HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>AMC HD</display-name>
+  <channel id="AMC HD">
+    <display-name lang="pt">AMC HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Animal Planet HD</display-name>
+  <channel id="Animal Planet HD">
+    <display-name lang="pt">Animal Planet HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Arte 1 HD</display-name>
+  <channel id="Arte 1 HD">
+    <display-name lang="pt">Arte 1 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>AXN HD</display-name>
+  <channel id="AXN HD">
+    <display-name lang="pt">AXN HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Amazonas HD</display-name>
+  <channel id="Band Amazonas HD">
+    <display-name lang="pt">Band Amazonas HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Bahia HD</display-name>
+  <channel id="Band Bahia HD">
+    <display-name lang="pt">Band Bahia HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Belém</display-name>
+  <channel id="Band Belém">
+    <display-name lang="pt">Band Belém</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band BH HD</display-name>
+  <channel id="Band BH HD">
+    <display-name lang="pt">Band BH HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Brasília</display-name>
+  <channel id="Band Brasília">
+    <display-name lang="pt">Band Brasília</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Brasília HD</display-name>
+  <channel id="Band Brasília HD">
+    <display-name lang="pt">Band Brasília HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Campinas</display-name>
+  <channel id="Band Campinas">
+    <display-name lang="pt">Band Campinas</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Campinas HD</display-name>
+  <channel id="Band Campinas HD">
+    <display-name lang="pt">Band Campinas HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Curitiba HD</display-name>
+  <channel id="Band Curitiba HD">
+    <display-name lang="pt">Band Curitiba HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band HD</display-name>
+  <channel id="Band HD">
+    <display-name lang="pt">Band HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Maceió</display-name>
+  <channel id="Band Maceió">
+    <display-name lang="pt">Band Maceió</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Maceió HD</display-name>
+  <channel id="Band Maceió HD">
+    <display-name lang="pt">Band Maceió HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Mato Grosso</display-name>
+  <channel id="Band Mato Grosso">
+    <display-name lang="pt">Band Mato Grosso</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Mato Grosso HD</display-name>
+  <channel id="Band Mato Grosso HD">
+    <display-name lang="pt">Band Mato Grosso HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Minas</display-name>
+  <channel id="Band Minas">
+    <display-name lang="pt">Band Minas</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Minas HD</display-name>
+  <channel id="Band Minas HD">
+    <display-name lang="pt">Band Minas HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Natal HD</display-name>
+  <channel id="Band Natal HD">
+    <display-name lang="pt">Band Natal HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Piauí</display-name>
+  <channel id="Band Piauí">
+    <display-name lang="pt">Band Piauí</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Piauí HD</display-name>
+  <channel id="Band Piauí HD">
+    <display-name lang="pt">Band Piauí HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Porto Alegre</display-name>
+  <channel id="Band Porto Alegre">
+    <display-name lang="pt">Band Porto Alegre</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Rio</display-name>
+  <channel id="Band Rio">
+    <display-name lang="pt">Band Rio</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Rio Grande do Sul HD</display-name>
+  <channel id="Band Rio Grande do Sul HD">
+    <display-name lang="pt">Band Rio Grande do Sul HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band RJ HD</display-name>
+  <channel id="Band RJ HD">
+    <display-name lang="pt">Band RJ HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Roraima</display-name>
+  <channel id="Band Roraima">
+    <display-name lang="pt">Band Roraima</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Roraima HD</display-name>
+  <channel id="Band Roraima HD">
+    <display-name lang="pt">Band Roraima HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band São Luís - TV Maranhão</display-name>
+  <channel id="Band São Luís - TV Maranhão">
+    <display-name lang="pt">Band São Luís - TV Maranhão</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band São Luís - TV Maranhão HD</display-name>
+  <channel id="Band São Luís - TV Maranhão HD">
+    <display-name lang="pt">Band São Luís - TV Maranhão HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Satélite</display-name>
+  <channel id="Band Satélite">
+    <display-name lang="pt">Band Satélite</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Satélite HD</display-name>
+  <channel id="Band Satélite HD">
+    <display-name lang="pt">Band Satélite HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band TV Goiânia HD</display-name>
+  <channel id="Band TV Goiânia HD">
+    <display-name lang="pt">Band TV Goiânia HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Band Vale</display-name>
+  <channel id="Band Vale">
+    <display-name lang="pt">Band Vale</display-name>
   </channel>
-  <channel id="">
-    <display-name>Bandnews HD</display-name>
+  <channel id="Bandnews HD">
+    <display-name lang="pt">Bandnews HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>BandSports HD</display-name>
+  <channel id="BandSports HD">
+    <display-name lang="pt">BandSports HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>BBC Earth HD</display-name>
+  <channel id="BBC Earth HD">
+    <display-name lang="pt">BBC Earth HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>BBC News HD</display-name>
+  <channel id="BBC News HD">
+    <display-name lang="pt">BBC News HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>BH News TV</display-name>
+  <channel id="BH News TV">
+    <display-name lang="pt">BH News TV</display-name>
   </channel>
-  <channel id="">
-    <display-name>Bloomberg</display-name>
+  <channel id="Bloomberg">
+    <display-name lang="pt">Bloomberg</display-name>
   </channel>
-  <channel id="">
-    <display-name>Bloomberg HD</display-name>
+  <channel id="Bloomberg HD">
+    <display-name lang="pt">Bloomberg HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Boa Vontade TV HD</display-name>
+  <channel id="Boa Vontade TV HD">
+    <display-name lang="pt">Boa Vontade TV HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Boomerang HD</display-name>
+  <channel id="Boomerang HD">
+    <display-name lang="pt">Boomerang HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Canal Adulto</display-name>
+  <channel id="Canal Adulto">
+    <display-name lang="pt">Canal Adulto</display-name>
   </channel>
-  <channel id="">
-    <display-name>Canal Agromix</display-name>
+  <channel id="Canal Agromix">
+    <display-name lang="pt">Canal Agromix</display-name>
   </channel>
-  <channel id="">
-    <display-name>Canal Brasil HD</display-name>
+  <channel id="Canal Brasil HD">
+    <display-name lang="pt">Canal Brasil HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Canal Legislativo TVAL</display-name>
+  <channel id="Canal Legislativo TVAL">
+    <display-name lang="pt">Canal Legislativo TVAL</display-name>
   </channel>
-  <channel id="">
-    <display-name>Canal Universitário CNU</display-name>
+  <channel id="Canal Universitário CNU">
+    <display-name lang="pt">Canal Universitário CNU</display-name>
   </channel>
-  <channel id="">
-    <display-name>Canal Universitário TV UFSC</display-name>
+  <channel id="Canal Universitário TV UFSC">
+    <display-name lang="pt">Canal Universitário TV UFSC</display-name>
   </channel>
-  <channel id="">
-    <display-name>$nameFromProvider</display-name>
+  <channel id="$nameFromProvider">
+    <display-name lang="pt">$nameFromProvider</display-name>
   </channel>
-  <channel id="">
-    <display-name>Canção Nova HD</display-name>
+  <channel id="Canção Nova HD">
+    <display-name lang="pt">Canção Nova HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Cartoon Network Brazil HD</display-name>
+  <channel id="Cartoon Network Brazil HD">
+    <display-name lang="pt">Cartoon Network Brazil HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Cinemax</display-name>
+  <channel id="Cinemax">
+    <display-name lang="pt">Cinemax</display-name>
   </channel>
-  <channel id="">
-    <display-name>CNN</display-name>
+  <channel id="CNN">
+    <display-name lang="pt">CNN</display-name>
   </channel>
-  <channel id="">
-    <display-name>CNN</display-name>
+  <channel id="CNN">
+    <display-name lang="pt">CNN</display-name>
   </channel>
-  <channel id="">
-    <display-name>CNN Brasil</display-name>
+  <channel id="CNN Brasil">
+    <display-name lang="pt">CNN Brasil</display-name>
   </channel>
-  <channel id="">
-    <display-name>CNN en Español HD</display-name>
+  <channel id="CNN en Español HD">
+    <display-name lang="pt">CNN en Español HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>CNN En Español Latin America</display-name>
+  <channel id="CNN En Español Latin America">
+    <display-name lang="pt">CNN En Español Latin America</display-name>
   </channel>
-  <channel id="">
-    <display-name>CNT</display-name>
+  <channel id="CNT">
+    <display-name lang="pt">CNT</display-name>
   </channel>
-  <channel id="">
-    <display-name>CNT Bahía</display-name>
+  <channel id="CNT Bahía">
+    <display-name lang="pt">CNT Bahía</display-name>
   </channel>
-  <channel id="">
-    <display-name>CNT Bahía HD</display-name>
+  <channel id="CNT Bahía HD">
+    <display-name lang="pt">CNT Bahía HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>CNT HD</display-name>
+  <channel id="CNT HD">
+    <display-name lang="pt">CNT HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>CNT Rio</display-name>
+  <channel id="CNT Rio">
+    <display-name lang="pt">CNT Rio</display-name>
   </channel>
-  <channel id="">
-    <display-name>Combate</display-name>
+  <channel id="Combate">
+    <display-name lang="pt">Combate</display-name>
   </channel>
-  <channel id="">
-    <display-name>Combate HD</display-name>
+  <channel id="Combate HD">
+    <display-name lang="pt">Combate HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Comedy Central HD</display-name>
+  <channel id="Comedy Central HD">
+    <display-name lang="pt">Comedy Central HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Cultura HD</display-name>
+  <channel id="Cultura HD">
+    <display-name lang="pt">Cultura HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Curta! HD</display-name>
+  <channel id="Curta! HD">
+    <display-name lang="pt">Curta! HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Discovery Civilization</display-name>
+  <channel id="Discovery Civilization">
+    <display-name lang="pt">Discovery Civilization</display-name>
   </channel>
-  <channel id="">
-    <display-name>Discovery Civilization HD</display-name>
+  <channel id="Discovery Civilization HD">
+    <display-name lang="pt">Discovery Civilization HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Discovery HD</display-name>
+  <channel id="Discovery HD">
+    <display-name lang="pt">Discovery HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Discovery Home &amp; Health HD</display-name>
+  <channel id="Discovery Home & Health HD">
+    <display-name lang="pt">Discovery Home & Health HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Discovery Kids HD</display-name>
+  <channel id="Discovery Kids HD">
+    <display-name lang="pt">Discovery Kids HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Discovery Science HD</display-name>
+  <channel id="Discovery Science HD">
+    <display-name lang="pt">Discovery Science HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Discovery Sciene HD</display-name>
+  <channel id="Discovery Sciene HD">
+    <display-name lang="pt">Discovery Sciene HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Discovery Turbo HD</display-name>
+  <channel id="Discovery Turbo HD">
+    <display-name lang="pt">Discovery Turbo HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Disney HD</display-name>
+  <channel id="Disney HD">
+    <display-name lang="pt">Disney HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Disney Junior</display-name>
+  <channel id="Disney Junior">
+    <display-name lang="pt">Disney Junior</display-name>
   </channel>
-  <channel id="">
-    <display-name>Disney Junior Brazil HD</display-name>
+  <channel id="Disney Junior Brazil HD">
+    <display-name lang="pt">Disney Junior Brazil HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Disney XD</display-name>
+  <channel id="Disney XD">
+    <display-name lang="pt">Disney XD</display-name>
   </channel>
-  <channel id="">
-    <display-name>DOGTV HD</display-name>
+  <channel id="DOGTV HD">
+    <display-name lang="pt">DOGTV HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>E! HD</display-name>
+  <channel id="E! HD">
+    <display-name lang="pt">E! HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>É-Paraná</display-name>
+  <channel id="É-Paraná">
+    <display-name lang="pt">É-Paraná</display-name>
   </channel>
-  <channel id="">
-    <display-name>EPTV Campinas</display-name>
+  <channel id="EPTV Campinas">
+    <display-name lang="pt">EPTV Campinas</display-name>
   </channel>
-  <channel id="">
-    <display-name>EPTV Campinas HD</display-name>
+  <channel id="EPTV Campinas HD">
+    <display-name lang="pt">EPTV Campinas HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>EPTV Central</display-name>
+  <channel id="EPTV Central">
+    <display-name lang="pt">EPTV Central</display-name>
   </channel>
-  <channel id="">
-    <display-name>EPTV Central HD</display-name>
+  <channel id="EPTV Central HD">
+    <display-name lang="pt">EPTV Central HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>EPTV Ribeirão Preto</display-name>
+  <channel id="EPTV Ribeirão Preto">
+    <display-name lang="pt">EPTV Ribeirão Preto</display-name>
   </channel>
-  <channel id="">
-    <display-name>EPTV Ribeirão Preto HD</display-name>
+  <channel id="EPTV Ribeirão Preto HD">
+    <display-name lang="pt">EPTV Ribeirão Preto HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>EPTV Sul de Minas</display-name>
+  <channel id="EPTV Sul de Minas">
+    <display-name lang="pt">EPTV Sul de Minas</display-name>
   </channel>
-  <channel id="">
-    <display-name>ESPN Extra</display-name>
+  <channel id="ESPN Extra">
+    <display-name lang="pt">ESPN Extra</display-name>
   </channel>
-  <channel id="">
-    <display-name>ESPN Extra</display-name>
+  <channel id="ESPN Extra">
+    <display-name lang="pt">ESPN Extra</display-name>
   </channel>
-  <channel id="">
-    <display-name>ESPN Extra HD</display-name>
+  <channel id="ESPN Extra HD">
+    <display-name lang="pt">ESPN Extra HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>ESPN1</display-name>
+  <channel id="ESPN1">
+    <display-name lang="pt">ESPN1</display-name>
   </channel>
-  <channel id="">
-    <display-name>ESPN Sur Andina (93A)</display-name>
+  <channel id="ESPN Sur Andina (93A)">
+    <display-name lang="pt">ESPN Sur Andina (93A)</display-name>
   </channel>
-  <channel id="">
-    <display-name>Esporte Interativo</display-name>
+  <channel id="Esporte Interativo">
+    <display-name lang="pt">Esporte Interativo</display-name>
   </channel>
-  <channel id="">
-    <display-name>Esporte Interativo</display-name>
+  <channel id="Esporte Interativo">
+    <display-name lang="pt">Esporte Interativo</display-name>
   </channel>
-  <channel id="">
-    <display-name>Esporte Interativo 2</display-name>
+  <channel id="Esporte Interativo 2">
+    <display-name lang="pt">Esporte Interativo 2</display-name>
   </channel>
-  <channel id="">
-    <display-name>Esporte Interativo 2 HD</display-name>
+  <channel id="Esporte Interativo 2 HD">
+    <display-name lang="pt">Esporte Interativo 2 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Esporte Interativo HD</display-name>
+  <channel id="Esporte Interativo HD">
+    <display-name lang="pt">Esporte Interativo HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Esporte Interativo HD</display-name>
+  <channel id="Esporte Interativo HD">
+    <display-name lang="pt">Esporte Interativo HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>EWTN Latin America</display-name>
+  <channel id="EWTN Latin America">
+    <display-name lang="pt">EWTN Latin America</display-name>
   </channel>
-  <channel id="">
-    <display-name>Film &amp; Arts HD</display-name>
+  <channel id="Film & Arts HD">
+    <display-name lang="pt">Film & Arts HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Fish TV HD</display-name>
+  <channel id="Fish TV HD">
+    <display-name lang="pt">Fish TV HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Food Network HD Brasil</display-name>
+  <channel id="Food Network HD Brasil">
+    <display-name lang="pt">Food Network HD Brasil</display-name>
   </channel>
-  <channel id="">
-    <display-name>FOX Premium Action</display-name>
+  <channel id="FOX Premium Action">
+    <display-name lang="pt">FOX Premium Action</display-name>
   </channel>
-  <channel id="">
-    <display-name>FOX Premium Action HD</display-name>
+  <channel id="FOX Premium Action HD">
+    <display-name lang="pt">FOX Premium Action HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Star Channel HD</display-name>
+  <channel id="Star Channel HD">
+    <display-name lang="pt">Star Channel HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Star Life HD</display-name>
+  <channel id="Star Life HD">
+    <display-name lang="pt">Star Life HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>FOX Premium 1 HD</display-name>
+  <channel id="FOX Premium 1 HD">
+    <display-name lang="pt">FOX Premium 1 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Star Hits 2 SD</display-name>
+  <channel id="Star Hits 2 SD">
+    <display-name lang="pt">Star Hits 2 SD</display-name>
   </channel>
-  <channel id="">
-    <display-name>FOX Premium 2 HD</display-name>
+  <channel id="FOX Premium 2 HD">
+    <display-name lang="pt">FOX Premium 2 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>FOX Sports 2 HD</display-name>
+  <channel id="FOX Sports 2 HD">
+    <display-name lang="pt">FOX Sports 2 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>FOX Sports HD</display-name>
+  <channel id="FOX Sports HD">
+    <display-name lang="pt">FOX Sports HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>FURB TV</display-name>
+  <channel id="FURB TV">
+    <display-name lang="pt">FURB TV</display-name>
   </channel>
-  <channel id="">
-    <display-name>Futura HD</display-name>
+  <channel id="Futura HD">
+    <display-name lang="pt">Futura HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>FX HD</display-name>
+  <channel id="FX HD">
+    <display-name lang="pt">FX HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Gazeta HD</display-name>
+  <channel id="Gazeta HD">
+    <display-name lang="pt">Gazeta HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Glitz</display-name>
+  <channel id="Glitz">
+    <display-name lang="pt">Glitz</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo Anhanguera</display-name>
+  <channel id="Globo Anhanguera">
+    <display-name lang="pt">Globo Anhanguera</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo Belo Horizonte</display-name>
+  <channel id="Globo Belo Horizonte">
+    <display-name lang="pt">Globo Belo Horizonte</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo Belo Horizonte HD</display-name>
+  <channel id="Globo Belo Horizonte HD">
+    <display-name lang="pt">Globo Belo Horizonte HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo Brasília HD</display-name>
+  <channel id="Globo Brasília HD">
+    <display-name lang="pt">Globo Brasília HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo Brasília HD</display-name>
+  <channel id="Globo Brasília HD">
+    <display-name lang="pt">Globo Brasília HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo Minas</display-name>
+  <channel id="Globo Minas">
+    <display-name lang="pt">Globo Minas</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo Natal</display-name>
+  <channel id="Globo Natal">
+    <display-name lang="pt">Globo Natal</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo News HD</display-name>
+  <channel id="Globo News HD">
+    <display-name lang="pt">Globo News HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo Recife</display-name>
+  <channel id="Globo Recife">
+    <display-name lang="pt">Globo Recife</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo Rio HD</display-name>
+  <channel id="Globo Rio HD">
+    <display-name lang="pt">Globo Rio HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo São Paulo HD</display-name>
+  <channel id="Globo São Paulo HD">
+    <display-name lang="pt">Globo São Paulo HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo TV Internacional</display-name>
+  <channel id="Globo TV Internacional">
+    <display-name lang="pt">Globo TV Internacional</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo TV Tem Bauru</display-name>
+  <channel id="Globo TV Tem Bauru">
+    <display-name lang="pt">Globo TV Tem Bauru</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo TV Tribuna</display-name>
+  <channel id="Globo TV Tribuna">
+    <display-name lang="pt">Globo TV Tribuna</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo TV Vanguarda</display-name>
+  <channel id="Globo TV Vanguarda">
+    <display-name lang="pt">Globo TV Vanguarda</display-name>
   </channel>
-  <channel id="">
-    <display-name>+ Globosat</display-name>
+  <channel id="+ Globosat">
+    <display-name lang="pt">+ Globosat</display-name>
   </channel>
-  <channel id="">
-    <display-name>Gloob HD</display-name>
+  <channel id="Gloob HD">
+    <display-name lang="pt">Gloob HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Gloobinho HD</display-name>
+  <channel id="Gloobinho HD">
+    <display-name lang="pt">Gloobinho HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>GNT HD</display-name>
+  <channel id="GNT HD">
+    <display-name lang="pt">GNT HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Golf Channel</display-name>
+  <channel id="Golf Channel">
+    <display-name lang="pt">Golf Channel</display-name>
   </channel>
-  <channel id="">
-    <display-name>Golf Channel HD</display-name>
+  <channel id="Golf Channel HD">
+    <display-name lang="pt">Golf Channel HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>GOVERNO DO ESTADO DO CEARA ASSEMBLEIA LEGISLATIVA</display-name>
+  <channel id="GOVERNO DO ESTADO DO CEARA ASSEMBLEIA LEGISLATIVA">
+    <display-name lang="pt">GOVERNO DO ESTADO DO CEARA ASSEMBLEIA LEGISLATIVA</display-name>
   </channel>
-  <channel id="">
-    <display-name>H2 HD</display-name>
+  <channel id="H2 HD">
+    <display-name lang="pt">H2 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>HBO 2</display-name>
+  <channel id="HBO 2">
+    <display-name lang="pt">HBO 2</display-name>
   </channel>
-  <channel id="">
-    <display-name>HBO 2 HD</display-name>
+  <channel id="HBO 2 HD">
+    <display-name lang="pt">HBO 2 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>HBO HD</display-name>
+  <channel id="HBO HD">
+    <display-name lang="pt">HBO HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>HBO Plus</display-name>
+  <channel id="HBO Plus">
+    <display-name lang="pt">HBO Plus</display-name>
   </channel>
-  <channel id="">
-    <display-name>HBO Plus</display-name>
+  <channel id="HBO Plus">
+    <display-name lang="pt">HBO Plus</display-name>
   </channel>
-  <channel id="">
-    <display-name>HBO Signature</display-name>
+  <channel id="HBO Signature">
+    <display-name lang="pt">HBO Signature</display-name>
   </channel>
-  <channel id="">
-    <display-name>HBO Signature HD</display-name>
+  <channel id="HBO Signature HD">
+    <display-name lang="pt">HBO Signature HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>HGTV HD</display-name>
+  <channel id="HGTV HD">
+    <display-name lang="pt">HGTV HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>HISTORY CHANNEL HD</display-name>
+  <channel id="HISTORY CHANNEL HD">
+    <display-name lang="pt">HISTORY CHANNEL HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Hustler TV</display-name>
+  <channel id="Hustler TV">
+    <display-name lang="pt">Hustler TV</display-name>
   </channel>
-  <channel id="">
-    <display-name>Ideal TV HD</display-name>
+  <channel id="Ideal TV HD">
+    <display-name lang="pt">Ideal TV HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Inter TV Alto Litoral</display-name>
+  <channel id="Inter TV Alto Litoral">
+    <display-name lang="pt">Inter TV Alto Litoral</display-name>
   </channel>
-  <channel id="">
-    <display-name>InterTV Costa Branca HD</display-name>
+  <channel id="InterTV Costa Branca HD">
+    <display-name lang="pt">InterTV Costa Branca HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>InterTV Grande Minas</display-name>
+  <channel id="InterTV Grande Minas">
+    <display-name lang="pt">InterTV Grande Minas</display-name>
   </channel>
-  <channel id="">
-    <display-name>InterTV Planície HD</display-name>
+  <channel id="InterTV Planície HD">
+    <display-name lang="pt">InterTV Planície HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>InterTV Serra Mar</display-name>
+  <channel id="InterTV Serra Mar">
+    <display-name lang="pt">InterTV Serra Mar</display-name>
   </channel>
-  <channel id="">
-    <display-name>Investigação Discovery HD</display-name>
+  <channel id="Investigação Discovery HD">
+    <display-name lang="pt">Investigação Discovery HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Latino</display-name>
+  <channel id="Latino">
+    <display-name lang="pt">Latino</display-name>
   </channel>
-  <channel id="">
-    <display-name>Lifetime HD</display-name>
+  <channel id="Lifetime HD">
+    <display-name lang="pt">Lifetime HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>HBO Mundi</display-name>
+  <channel id="HBO Mundi">
+    <display-name lang="pt">HBO Mundi</display-name>
   </channel>
-  <channel id="">
-    <display-name>HBO Xtreme</display-name>
+  <channel id="HBO Xtreme">
+    <display-name lang="pt">HBO Xtreme</display-name>
   </channel>
-  <channel id="">
-    <display-name>Max Up</display-name>
+  <channel id="Max Up">
+    <display-name lang="pt">Max Up</display-name>
   </channel>
-  <channel id="">
-    <display-name>Maxprime*e</display-name>
+  <channel id="Maxprime*e">
+    <display-name lang="pt">Maxprime*e</display-name>
   </channel>
-  <channel id="">
-    <display-name>MaxPrime Panregional</display-name>
+  <channel id="MaxPrime Panregional">
+    <display-name lang="pt">MaxPrime Panregional</display-name>
   </channel>
-  <channel id="">
-    <display-name>Mega TV (Brazil)</display-name>
+  <channel id="Mega TV (Brazil)">
+    <display-name lang="pt">Mega TV (Brazil)</display-name>
   </channel>
-  <channel id="">
-    <display-name>MEGA TVHD</display-name>
+  <channel id="MEGA TVHD">
+    <display-name lang="pt">MEGA TVHD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Megapix HD</display-name>
+  <channel id="Megapix HD">
+    <display-name lang="pt">Megapix HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Meio Norte HD</display-name>
+  <channel id="Meio Norte HD">
+    <display-name lang="pt">Meio Norte HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>MIX TV</display-name>
+  <channel id="MIX TV">
+    <display-name lang="pt">MIX TV</display-name>
   </channel>
-  <channel id="">
-    <display-name>MTV</display-name>
+  <channel id="MTV">
+    <display-name lang="pt">MTV</display-name>
   </channel>
-  <channel id="">
-    <display-name>MultiCultura Educação</display-name>
+  <channel id="MultiCultura Educação">
+    <display-name lang="pt">MultiCultura Educação</display-name>
   </channel>
-  <channel id="">
-    <display-name>Multishow HD</display-name>
+  <channel id="Multishow HD">
+    <display-name lang="pt">Multishow HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Music Box Brasil HD</display-name>
+  <channel id="Music Box Brasil HD">
+    <display-name lang="pt">Music Box Brasil HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Nat Geo Kids HD</display-name>
+  <channel id="Nat Geo Kids HD">
+    <display-name lang="pt">Nat Geo Kids HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>National Geographic Wild</display-name>
+  <channel id="National Geographic Wild">
+    <display-name lang="pt">National Geographic Wild</display-name>
   </channel>
-  <channel id="">
-    <display-name>National Geographic HD</display-name>
+  <channel id="National Geographic HD">
+    <display-name lang="pt">National Geographic HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>NBR</display-name>
+  <channel id="NBR">
+    <display-name lang="pt">NBR</display-name>
   </channel>
-  <channel id="">
-    <display-name>NBR Florianopolis</display-name>
+  <channel id="NBR Florianopolis">
+    <display-name lang="pt">NBR Florianopolis</display-name>
   </channel>
-  <channel id="">
-    <display-name>NHK</display-name>
+  <channel id="NHK">
+    <display-name lang="pt">NHK</display-name>
   </channel>
-  <channel id="">
-    <display-name>NHK HD</display-name>
+  <channel id="NHK HD">
+    <display-name lang="pt">NHK HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Nick HD</display-name>
+  <channel id="Nick HD">
+    <display-name lang="pt">Nick HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Nick Jr. HD</display-name>
+  <channel id="Nick Jr. HD">
+    <display-name lang="pt">Nick Jr. HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>NordesTV</display-name>
+  <channel id="NordesTV">
+    <display-name lang="pt">NordesTV</display-name>
   </channel>
-  <channel id="">
-    <display-name>NordesTV HD</display-name>
+  <channel id="NordesTV HD">
+    <display-name lang="pt">NordesTV HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>NSC TV Blumenau</display-name>
+  <channel id="NSC TV Blumenau">
+    <display-name lang="pt">NSC TV Blumenau</display-name>
   </channel>
-  <channel id="">
-    <display-name>Off HD</display-name>
+  <channel id="Off HD">
+    <display-name lang="pt">Off HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Paramount Channel HD</display-name>
+  <channel id="Paramount Channel HD">
+    <display-name lang="pt">Paramount Channel HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Play TV</display-name>
+  <channel id="Play TV">
+    <display-name lang="pt">Play TV</display-name>
   </channel>
-  <channel id="">
-    <display-name>PlayBoy HD</display-name>
+  <channel id="PlayBoy HD">
+    <display-name lang="pt">PlayBoy HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Poa TV</display-name>
+  <channel id="Poa TV">
+    <display-name lang="pt">Poa TV</display-name>
   </channel>
-  <channel id="">
-    <display-name>Ponto Jus</display-name>
+  <channel id="Ponto Jus">
+    <display-name lang="pt">Ponto Jus</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 2</display-name>
+  <channel id="Premiere 2">
+    <display-name lang="pt">Premiere 2</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 2 - HD</display-name>
+  <channel id="Premiere 2 - HD">
+    <display-name lang="pt">Premiere 2 - HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 3</display-name>
+  <channel id="Premiere 3">
+    <display-name lang="pt">Premiere 3</display-name>
   </channel>
-  <channel id="">
-    <display-name>PREMIERE 3 HD</display-name>
+  <channel id="PREMIERE 3 HD">
+    <display-name lang="pt">PREMIERE 3 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 3 HD</display-name>
+  <channel id="Premiere 3 HD">
+    <display-name lang="pt">Premiere 3 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 4</display-name>
+  <channel id="Premiere 4">
+    <display-name lang="pt">Premiere 4</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 4 HD</display-name>
+  <channel id="Premiere 4 HD">
+    <display-name lang="pt">Premiere 4 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 5 Brazil</display-name>
+  <channel id="Premiere 5 Brazil">
+    <display-name lang="pt">Premiere 5 Brazil</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 5 HD</display-name>
+  <channel id="Premiere 5 HD">
+    <display-name lang="pt">Premiere 5 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 6</display-name>
+  <channel id="Premiere 6">
+    <display-name lang="pt">Premiere 6</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 6 HD</display-name>
+  <channel id="Premiere 6 HD">
+    <display-name lang="pt">Premiere 6 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 7</display-name>
+  <channel id="Premiere 7">
+    <display-name lang="pt">Premiere 7</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 7 HD</display-name>
+  <channel id="Premiere 7 HD">
+    <display-name lang="pt">Premiere 7 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 8</display-name>
+  <channel id="Premiere 8">
+    <display-name lang="pt">Premiere 8</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 8 HD</display-name>
+  <channel id="Premiere 8 HD">
+    <display-name lang="pt">Premiere 8 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 9</display-name>
+  <channel id="Premiere 9">
+    <display-name lang="pt">Premiere 9</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 9 HD</display-name>
+  <channel id="Premiere 9 HD">
+    <display-name lang="pt">Premiere 9 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere 10 HD</display-name>
+  <channel id="Premiere 10 HD">
+    <display-name lang="pt">Premiere 10 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere Clubes HD</display-name>
+  <channel id="Premiere Clubes HD">
+    <display-name lang="pt">Premiere Clubes HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere FC</display-name>
+  <channel id="Premiere FC">
+    <display-name lang="pt">Premiere FC</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere FC HD</display-name>
+  <channel id="Premiere FC HD">
+    <display-name lang="pt">Premiere FC HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>PREMIERE HD 2</display-name>
+  <channel id="PREMIERE HD 2">
+    <display-name lang="pt">PREMIERE HD 2</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere HD 4</display-name>
+  <channel id="Premiere HD 4">
+    <display-name lang="pt">Premiere HD 4</display-name>
   </channel>
-  <channel id="">
-    <display-name>Premiere HD 5</display-name>
+  <channel id="Premiere HD 5">
+    <display-name lang="pt">Premiere HD 5</display-name>
   </channel>
-  <channel id="">
-    <display-name>Prime Box Brazil HD</display-name>
+  <channel id="Prime Box Brazil HD">
+    <display-name lang="pt">Prime Box Brazil HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>PUC TV Goiás HD</display-name>
+  <channel id="PUC TV Goiás HD">
+    <display-name lang="pt">PUC TV Goiás HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RBI HD</display-name>
+  <channel id="RBI HD">
+    <display-name lang="pt">RBI HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RBS TV Caxias do Sul HD</display-name>
+  <channel id="RBS TV Caxias do Sul HD">
+    <display-name lang="pt">RBS TV Caxias do Sul HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RBS TV Cruz Alta HD</display-name>
+  <channel id="RBS TV Cruz Alta HD">
+    <display-name lang="pt">RBS TV Cruz Alta HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RBS TV Florianópolis</display-name>
+  <channel id="RBS TV Florianópolis">
+    <display-name lang="pt">RBS TV Florianópolis</display-name>
   </channel>
-  <channel id="">
-    <display-name>RBS TV HD</display-name>
+  <channel id="RBS TV HD">
+    <display-name lang="pt">RBS TV HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RBS TV Rio Grande HD</display-name>
+  <channel id="RBS TV Rio Grande HD">
+    <display-name lang="pt">RBS TV Rio Grande HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RBS TV Santa Cruz do Sul HD</display-name>
+  <channel id="RBS TV Santa Cruz do Sul HD">
+    <display-name lang="pt">RBS TV Santa Cruz do Sul HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RBS TV Uruguaiana HD</display-name>
+  <channel id="RBS TV Uruguaiana HD">
+    <display-name lang="pt">RBS TV Uruguaiana HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RBTI</display-name>
+  <channel id="RBTI">
+    <display-name lang="pt">RBTI</display-name>
   </channel>
-  <channel id="">
-    <display-name>RBTI HD</display-name>
+  <channel id="RBTI HD">
+    <display-name lang="pt">RBTI HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Aracaju</display-name>
+  <channel id="Record TV Aracaju">
+    <display-name lang="pt">Record TV Aracaju</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Bahia</display-name>
+  <channel id="Record TV Bahia">
+    <display-name lang="pt">Record TV Bahia</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Bauru</display-name>
+  <channel id="Record TV Bauru">
+    <display-name lang="pt">Record TV Bauru</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Belem</display-name>
+  <channel id="Record TV Belem">
+    <display-name lang="pt">Record TV Belem</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Brasília</display-name>
+  <channel id="Record TV Brasília">
+    <display-name lang="pt">Record TV Brasília</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Campinas</display-name>
+  <channel id="Record TV Campinas">
+    <display-name lang="pt">Record TV Campinas</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Campo Grande</display-name>
+  <channel id="Record TV Campo Grande">
+    <display-name lang="pt">Record TV Campo Grande</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Cascavel</display-name>
+  <channel id="Record TV Cascavel">
+    <display-name lang="pt">Record TV Cascavel</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Cuiaba</display-name>
+  <channel id="Record TV Cuiaba">
+    <display-name lang="pt">Record TV Cuiaba</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Curitiba</display-name>
+  <channel id="Record TV Curitiba">
+    <display-name lang="pt">Record TV Curitiba</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Florianopolis</display-name>
+  <channel id="Record TV Florianopolis">
+    <display-name lang="pt">Record TV Florianopolis</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Fortaleza</display-name>
+  <channel id="Record TV Fortaleza">
+    <display-name lang="pt">Record TV Fortaleza</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Franca</display-name>
+  <channel id="Record TV Franca">
+    <display-name lang="pt">Record TV Franca</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Goiás</display-name>
+  <channel id="Record TV Goiás">
+    <display-name lang="pt">Record TV Goiás</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV HD</display-name>
+  <channel id="Record TV HD">
+    <display-name lang="pt">Record TV HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV International</display-name>
+  <channel id="Record TV International">
+    <display-name lang="pt">Record TV International</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Joao Pessoa</display-name>
+  <channel id="Record TV Joao Pessoa">
+    <display-name lang="pt">Record TV Joao Pessoa</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Maceio</display-name>
+  <channel id="Record TV Maceio">
+    <display-name lang="pt">Record TV Maceio</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Maringa</display-name>
+  <channel id="Record TV Maringa">
+    <display-name lang="pt">Record TV Maringa</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Minas</display-name>
+  <channel id="Record TV Minas">
+    <display-name lang="pt">Record TV Minas</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Natal</display-name>
+  <channel id="Record TV Natal">
+    <display-name lang="pt">Record TV Natal</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record News HD</display-name>
+  <channel id="Record News HD">
+    <display-name lang="pt">Record News HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Porto Alegre</display-name>
+  <channel id="Record TV Porto Alegre">
+    <display-name lang="pt">Record TV Porto Alegre</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Rio</display-name>
+  <channel id="Record TV Rio">
+    <display-name lang="pt">Record TV Rio</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Santos</display-name>
+  <channel id="Record TV Santos">
+    <display-name lang="pt">Record TV Santos</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Brasília HD</display-name>
+  <channel id="Record TV Brasília HD">
+    <display-name lang="pt">Record TV Brasília HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV Cabrália HD</display-name>
+  <channel id="Record TV Cabrália HD">
+    <display-name lang="pt">Record TV Cabrália HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Record TV RS</display-name>
+  <channel id="Record TV RS">
+    <display-name lang="pt">Record TV RS</display-name>
   </channel>
-  <channel id="">
-    <display-name>RecordTV Belém HD</display-name>
+  <channel id="RecordTV Belém HD">
+    <display-name lang="pt">RecordTV Belém HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RecordTV Cuiabá</display-name>
+  <channel id="RecordTV Cuiabá">
+    <display-name lang="pt">RecordTV Cuiabá</display-name>
   </channel>
-  <channel id="">
-    <display-name>RecordTV Tocantins</display-name>
+  <channel id="RecordTV Tocantins">
+    <display-name lang="pt">RecordTV Tocantins</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Amazônica Rio Branco</display-name>
+  <channel id="Rede Amazônica Rio Branco">
+    <display-name lang="pt">Rede Amazônica Rio Branco</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Amazônica Rio Branco HD</display-name>
+  <channel id="Rede Amazônica Rio Branco HD">
+    <display-name lang="pt">Rede Amazônica Rio Branco HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Boas Novas HD</display-name>
+  <channel id="Rede Boas Novas HD">
+    <display-name lang="pt">Rede Boas Novas HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Brasil HD</display-name>
+  <channel id="Rede Brasil HD">
+    <display-name lang="pt">Rede Brasil HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Difusora HD</display-name>
+  <channel id="Rede Difusora HD">
+    <display-name lang="pt">Rede Difusora HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Familia HD</display-name>
+  <channel id="Rede Familia HD">
+    <display-name lang="pt">Rede Familia HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Gênesis HD</display-name>
+  <channel id="Rede Gênesis HD">
+    <display-name lang="pt">Rede Gênesis HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo</display-name>
+  <channel id="Globo">
+    <display-name lang="pt">Globo</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo Aracaju</display-name>
+  <channel id="Globo Aracaju">
+    <display-name lang="pt">Globo Aracaju</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo Maceio</display-name>
+  <channel id="Globo Maceio">
+    <display-name lang="pt">Globo Maceio</display-name>
   </channel>
-  <channel id="">
-    <display-name>Globo Teresina</display-name>
+  <channel id="Globo Teresina">
+    <display-name lang="pt">Globo Teresina</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Gospel HD</display-name>
+  <channel id="Rede Gospel HD">
+    <display-name lang="pt">Rede Gospel HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Mais</display-name>
+  <channel id="Rede Mais">
+    <display-name lang="pt">Rede Mais</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Mercosul</display-name>
+  <channel id="Rede Mercosul">
+    <display-name lang="pt">Rede Mercosul</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Mercosul HD</display-name>
+  <channel id="Rede Mercosul HD">
+    <display-name lang="pt">Rede Mercosul HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Minas HD</display-name>
+  <channel id="Rede Minas HD">
+    <display-name lang="pt">Rede Minas HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede NGT</display-name>
+  <channel id="Rede NGT">
+    <display-name lang="pt">Rede NGT</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede NGT Nova Geracao de Televisao HD</display-name>
+  <channel id="Rede NGT Nova Geracao de Televisao HD">
+    <display-name lang="pt">Rede NGT Nova Geracao de Televisao HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Record Cuiaba HD</display-name>
+  <channel id="Rede Record Cuiaba HD">
+    <display-name lang="pt">Rede Record Cuiaba HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Record Maceio HD</display-name>
+  <channel id="Rede Record Maceio HD">
+    <display-name lang="pt">Rede Record Maceio HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Record Porto Alegre HD</display-name>
+  <channel id="Rede Record Porto Alegre HD">
+    <display-name lang="pt">Rede Record Porto Alegre HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Século 21 HD</display-name>
+  <channel id="Rede Século 21 HD">
+    <display-name lang="pt">Rede Século 21 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Super HD</display-name>
+  <channel id="Rede Super HD">
+    <display-name lang="pt">Rede Super HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede TV Belem HD</display-name>
+  <channel id="Rede TV Belem HD">
+    <display-name lang="pt">Rede TV Belem HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! HD</display-name>
+  <channel id="RedeTV! HD">
+    <display-name lang="pt">RedeTV! HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Pampa</display-name>
+  <channel id="RedeTV! Pampa">
+    <display-name lang="pt">RedeTV! Pampa</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! SP</display-name>
+  <channel id="RedeTV! SP">
+    <display-name lang="pt">RedeTV! SP</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Sul</display-name>
+  <channel id="RedeTV! Sul">
+    <display-name lang="pt">RedeTV! Sul</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Belo Horizonte</display-name>
+  <channel id="Rede Vida Belo Horizonte">
+    <display-name lang="pt">Rede Vida Belo Horizonte</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Belo Horizonte HD</display-name>
+  <channel id="Rede Vida Belo Horizonte HD">
+    <display-name lang="pt">Rede Vida Belo Horizonte HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Cascavel</display-name>
+  <channel id="Rede Vida Cascavel">
+    <display-name lang="pt">Rede Vida Cascavel</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Cascavel HD</display-name>
+  <channel id="Rede Vida Cascavel HD">
+    <display-name lang="pt">Rede Vida Cascavel HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Cuiaba</display-name>
+  <channel id="Rede Vida Cuiaba">
+    <display-name lang="pt">Rede Vida Cuiaba</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Cuiaba HD</display-name>
+  <channel id="Rede Vida Cuiaba HD">
+    <display-name lang="pt">Rede Vida Cuiaba HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Goiania</display-name>
+  <channel id="Rede Vida Goiania">
+    <display-name lang="pt">Rede Vida Goiania</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Goiania HD</display-name>
+  <channel id="Rede Vida Goiania HD">
+    <display-name lang="pt">Rede Vida Goiania HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida HD</display-name>
+  <channel id="Rede Vida HD">
+    <display-name lang="pt">Rede Vida HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Porto Alegre</display-name>
+  <channel id="Rede Vida Porto Alegre">
+    <display-name lang="pt">Rede Vida Porto Alegre</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Porto Alegre HD</display-name>
+  <channel id="Rede Vida Porto Alegre HD">
+    <display-name lang="pt">Rede Vida Porto Alegre HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Recife</display-name>
+  <channel id="Rede Vida Recife">
+    <display-name lang="pt">Rede Vida Recife</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Recife HD</display-name>
+  <channel id="Rede Vida Recife HD">
+    <display-name lang="pt">Rede Vida Recife HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Sao Luis</display-name>
+  <channel id="Rede Vida Sao Luis">
+    <display-name lang="pt">Rede Vida Sao Luis</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Sao Luis HD</display-name>
+  <channel id="Rede Vida Sao Luis HD">
+    <display-name lang="pt">Rede Vida Sao Luis HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Vitoria</display-name>
+  <channel id="Rede Vida Vitoria">
+    <display-name lang="pt">Rede Vida Vitoria</display-name>
   </channel>
-  <channel id="">
-    <display-name>Rede Vida Vitoria HD</display-name>
+  <channel id="Rede Vida Vitoria HD">
+    <display-name lang="pt">Rede Vida Vitoria HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Belém</display-name>
+  <channel id="RedeTV! Belém">
+    <display-name lang="pt">RedeTV! Belém</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Belo Horizonte HD</display-name>
+  <channel id="RedeTV! Belo Horizonte HD">
+    <display-name lang="pt">RedeTV! Belo Horizonte HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Fortaleza</display-name>
+  <channel id="RedeTV! Fortaleza">
+    <display-name lang="pt">RedeTV! Fortaleza</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Fortaleza HD</display-name>
+  <channel id="RedeTV! Fortaleza HD">
+    <display-name lang="pt">RedeTV! Fortaleza HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Manaus</display-name>
+  <channel id="RedeTV! Manaus">
+    <display-name lang="pt">RedeTV! Manaus</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Manaus HD</display-name>
+  <channel id="RedeTV! Manaus HD">
+    <display-name lang="pt">RedeTV! Manaus HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Natal</display-name>
+  <channel id="RedeTV! Natal">
+    <display-name lang="pt">RedeTV! Natal</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Porto Velho</display-name>
+  <channel id="RedeTV! Porto Velho">
+    <display-name lang="pt">RedeTV! Porto Velho</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Porto Velho HD</display-name>
+  <channel id="RedeTV! Porto Velho HD">
+    <display-name lang="pt">RedeTV! Porto Velho HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Recife HD</display-name>
+  <channel id="RedeTV! Recife HD">
+    <display-name lang="pt">RedeTV! Recife HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Rio de Janeiro</display-name>
+  <channel id="RedeTV! Rio de Janeiro">
+    <display-name lang="pt">RedeTV! Rio de Janeiro</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! Rio de Janeiro HD</display-name>
+  <channel id="RedeTV! Rio de Janeiro HD">
+    <display-name lang="pt">RedeTV! Rio de Janeiro HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RedeTV! São Paulo HD</display-name>
+  <channel id="RedeTV! São Paulo HD">
+    <display-name lang="pt">RedeTV! São Paulo HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RIC TV Curitiba HD</display-name>
+  <channel id="RIC TV Curitiba HD">
+    <display-name lang="pt">RIC TV Curitiba HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RIC TV Florianópolis HD</display-name>
+  <channel id="RIC TV Florianópolis HD">
+    <display-name lang="pt">RIC TV Florianópolis HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RIT HD</display-name>
+  <channel id="RIT HD">
+    <display-name lang="pt">RIT HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RPC Cascavel</display-name>
+  <channel id="RPC Cascavel">
+    <display-name lang="pt">RPC Cascavel</display-name>
   </channel>
-  <channel id="">
-    <display-name>RPC Curitiba HD</display-name>
+  <channel id="RPC Curitiba HD">
+    <display-name lang="pt">RPC Curitiba HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RPC Londrina HD</display-name>
+  <channel id="RPC Londrina HD">
+    <display-name lang="pt">RPC Londrina HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>RPC Maringá</display-name>
+  <channel id="RPC Maringá">
+    <display-name lang="pt">RPC Maringá</display-name>
   </channel>
-  <channel id="">
-    <display-name>RTPi RadioTV Portuguesa Int'l</display-name>
+  <channel id="RTPi RadioTV Portuguesa Int'l">
+    <display-name lang="pt">RTPi RadioTV Portuguesa Int'l</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Belem</display-name>
+  <channel id="SBT Belem">
+    <display-name lang="pt">SBT Belem</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Belem HD</display-name>
+  <channel id="SBT Belem HD">
+    <display-name lang="pt">SBT Belem HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Belo Horizonte</display-name>
+  <channel id="SBT Belo Horizonte">
+    <display-name lang="pt">SBT Belo Horizonte</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Brasilia</display-name>
+  <channel id="SBT Brasilia">
+    <display-name lang="pt">SBT Brasilia</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Brasília HD</display-name>
+  <channel id="SBT Brasília HD">
+    <display-name lang="pt">SBT Brasília HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Cascavel</display-name>
+  <channel id="SBT Cascavel">
+    <display-name lang="pt">SBT Cascavel</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Criciuma</display-name>
+  <channel id="SBT Criciuma">
+    <display-name lang="pt">SBT Criciuma</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Cuiabá</display-name>
+  <channel id="SBT Cuiabá">
+    <display-name lang="pt">SBT Cuiabá</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Cuiabá HD</display-name>
+  <channel id="SBT Cuiabá HD">
+    <display-name lang="pt">SBT Cuiabá HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Florianopolis</display-name>
+  <channel id="SBT Florianopolis">
+    <display-name lang="pt">SBT Florianopolis</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Goiania TV Serra Dourada</display-name>
+  <channel id="SBT Goiania TV Serra Dourada">
+    <display-name lang="pt">SBT Goiania TV Serra Dourada</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT HD</display-name>
+  <channel id="SBT HD">
+    <display-name lang="pt">SBT HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Juiz de Fora</display-name>
+  <channel id="SBT Juiz de Fora">
+    <display-name lang="pt">SBT Juiz de Fora</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Maceio</display-name>
+  <channel id="SBT Maceio">
+    <display-name lang="pt">SBT Maceio</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Manaus</display-name>
+  <channel id="SBT Manaus">
+    <display-name lang="pt">SBT Manaus</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Maringa</display-name>
+  <channel id="SBT Maringa">
+    <display-name lang="pt">SBT Maringa</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT MS</display-name>
+  <channel id="SBT MS">
+    <display-name lang="pt">SBT MS</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Natal</display-name>
+  <channel id="SBT Natal">
+    <display-name lang="pt">SBT Natal</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Piaui</display-name>
+  <channel id="SBT Piaui">
+    <display-name lang="pt">SBT Piaui</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Rio HD</display-name>
+  <channel id="SBT Rio HD">
+    <display-name lang="pt">SBT Rio HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT RS</display-name>
+  <channel id="SBT RS">
+    <display-name lang="pt">SBT RS</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT RS HD</display-name>
+  <channel id="SBT RS HD">
+    <display-name lang="pt">SBT RS HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT São Paulo</display-name>
+  <channel id="SBT São Paulo">
+    <display-name lang="pt">SBT São Paulo</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT São Paulo HD</display-name>
+  <channel id="SBT São Paulo HD">
+    <display-name lang="pt">SBT São Paulo HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Salvador</display-name>
+  <channel id="SBT Salvador">
+    <display-name lang="pt">SBT Salvador</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Santa Catarina HD</display-name>
+  <channel id="SBT Santa Catarina HD">
+    <display-name lang="pt">SBT Santa Catarina HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Sergipe</display-name>
+  <channel id="SBT Sergipe">
+    <display-name lang="pt">SBT Sergipe</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Sergipe HD</display-name>
+  <channel id="SBT Sergipe HD">
+    <display-name lang="pt">SBT Sergipe HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Tocantins</display-name>
+  <channel id="SBT Tocantins">
+    <display-name lang="pt">SBT Tocantins</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Tocantins HD</display-name>
+  <channel id="SBT Tocantins HD">
+    <display-name lang="pt">SBT Tocantins HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT TV Ponta Verde HD</display-name>
+  <channel id="SBT TV Ponta Verde HD">
+    <display-name lang="pt">SBT TV Ponta Verde HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SBT Vitoria</display-name>
+  <channel id="SBT Vitoria">
+    <display-name lang="pt">SBT Vitoria</display-name>
   </channel>
-  <channel id="">
-    <display-name>Sex Zone</display-name>
+  <channel id="Sex Zone">
+    <display-name lang="pt">Sex Zone</display-name>
   </channel>
-  <channel id="">
-    <display-name>Sex Zone HD</display-name>
+  <channel id="Sex Zone HD">
+    <display-name lang="pt">Sex Zone HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SexPrive Brasileirinhas</display-name>
+  <channel id="SexPrive Brasileirinhas">
+    <display-name lang="pt">SexPrive Brasileirinhas</display-name>
   </channel>
-  <channel id="">
-    <display-name>Sexy Hot HD</display-name>
+  <channel id="Sexy Hot HD">
+    <display-name lang="pt">Sexy Hot HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Shopbuy</display-name>
+  <channel id="Shopbuy">
+    <display-name lang="pt">Shopbuy</display-name>
   </channel>
-  <channel id="">
-    <display-name>SIC Internacional</display-name>
+  <channel id="SIC Internacional">
+    <display-name lang="pt">SIC Internacional</display-name>
   </channel>
-  <channel id="">
-    <display-name>SIC TV HD</display-name>
+  <channel id="SIC TV HD">
+    <display-name lang="pt">SIC TV HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Sony HD</display-name>
+  <channel id="Sony HD">
+    <display-name lang="pt">Sony HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Space HD</display-name>
+  <channel id="Space HD">
+    <display-name lang="pt">Space HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SporTV2 HD</display-name>
+  <channel id="SporTV2 HD">
+    <display-name lang="pt">SporTV2 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SporTV3 HD</display-name>
+  <channel id="SporTV3 HD">
+    <display-name lang="pt">SporTV3 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>SporTV HD</display-name>
+  <channel id="SporTV HD">
+    <display-name lang="pt">SporTV HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Studio Universal HD</display-name>
+  <channel id="Studio Universal HD">
+    <display-name lang="pt">Studio Universal HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Sucesso</display-name>
+  <channel id="Sucesso">
+    <display-name lang="pt">Sucesso</display-name>
   </channel>
-  <channel id="">
-    <display-name>Sundance HD Brasil</display-name>
+  <channel id="Sundance HD Brasil">
+    <display-name lang="pt">Sundance HD Brasil</display-name>
   </channel>
-  <channel id="">
-    <display-name>Syfy HD</display-name>
+  <channel id="Syfy HD">
+    <display-name lang="pt">Syfy HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TBS HD</display-name>
+  <channel id="TBS HD">
+    <display-name lang="pt">TBS HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Telecine Action HD</display-name>
+  <channel id="Telecine Action HD">
+    <display-name lang="pt">Telecine Action HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Telecine Cult HD</display-name>
+  <channel id="Telecine Cult HD">
+    <display-name lang="pt">Telecine Cult HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Telecine Fun HD</display-name>
+  <channel id="Telecine Fun HD">
+    <display-name lang="pt">Telecine Fun HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Telecine Pipoca HD</display-name>
+  <channel id="Telecine Pipoca HD">
+    <display-name lang="pt">Telecine Pipoca HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Telecine Premium HD</display-name>
+  <channel id="Telecine Premium HD">
+    <display-name lang="pt">Telecine Premium HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Telecine Touch HD</display-name>
+  <channel id="Telecine Touch HD">
+    <display-name lang="pt">Telecine Touch HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Telefe</display-name>
+  <channel id="Telefe">
+    <display-name lang="pt">Telefe</display-name>
   </channel>
-  <channel id="">
-    <display-name>TeleSur</display-name>
+  <channel id="TeleSur">
+    <display-name lang="pt">TeleSur</display-name>
   </channel>
-  <channel id="">
-    <display-name>Terra Viva HD</display-name>
+  <channel id="Terra Viva HD">
+    <display-name lang="pt">Terra Viva HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TLC HD</display-name>
+  <channel id="TLC HD">
+    <display-name lang="pt">TLC HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TNT HD</display-name>
+  <channel id="TNT HD">
+    <display-name lang="pt">TNT HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TNT Series HD</display-name>
+  <channel id="TNT Series HD">
+    <display-name lang="pt">TNT Series HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Travel Box Brazil HD</display-name>
+  <channel id="Travel Box Brazil HD">
+    <display-name lang="pt">Travel Box Brazil HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>truTV HD</display-name>
+  <channel id="truTV HD">
+    <display-name lang="pt">truTV HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV5</display-name>
+  <channel id="TV5">
+    <display-name lang="pt">TV5</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV 5</display-name>
+  <channel id="TV 5">
+    <display-name lang="pt">TV 5</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV A Crítica HD</display-name>
+  <channel id="TV A Crítica HD">
+    <display-name lang="pt">TV A Crítica HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV AL</display-name>
+  <channel id="TV AL">
+    <display-name lang="pt">TV AL</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Aldeia</display-name>
+  <channel id="TV Aldeia">
+    <display-name lang="pt">TV Aldeia</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Allamanda</display-name>
+  <channel id="TV Allamanda">
+    <display-name lang="pt">TV Allamanda</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Allamanda HD</display-name>
+  <channel id="TV Allamanda HD">
+    <display-name lang="pt">TV Allamanda HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Alterosa</display-name>
+  <channel id="TV Alterosa">
+    <display-name lang="pt">TV Alterosa</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Alterosa HD</display-name>
+  <channel id="TV Alterosa HD">
+    <display-name lang="pt">TV Alterosa HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Alvorada do Sul</display-name>
+  <channel id="TV Alvorada do Sul">
+    <display-name lang="pt">TV Alvorada do Sul</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Alvorada do Sul HD</display-name>
+  <channel id="TV Alvorada do Sul HD">
+    <display-name lang="pt">TV Alvorada do Sul HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Amapá HD</display-name>
+  <channel id="TV Amapá HD">
+    <display-name lang="pt">TV Amapá HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Amazônia</display-name>
+  <channel id="TV Amazônia">
+    <display-name lang="pt">TV Amazônia</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Amazônia HD</display-name>
+  <channel id="TV Amazônia HD">
+    <display-name lang="pt">TV Amazônia HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Ambiental</display-name>
+  <channel id="TV Ambiental">
+    <display-name lang="pt">TV Ambiental</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Anhaguera Catalão</display-name>
+  <channel id="TV Anhaguera Catalão">
+    <display-name lang="pt">TV Anhaguera Catalão</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Anhanguera Luziânia</display-name>
+  <channel id="TV Anhanguera Luziânia">
+    <display-name lang="pt">TV Anhanguera Luziânia</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Anhanguera Palmas</display-name>
+  <channel id="TV Anhanguera Palmas">
+    <display-name lang="pt">TV Anhanguera Palmas</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Anhanguera Palmas HD</display-name>
+  <channel id="TV Anhanguera Palmas HD">
+    <display-name lang="pt">TV Anhanguera Palmas HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Anhanguera Rio Verde</display-name>
+  <channel id="TV Anhanguera Rio Verde">
+    <display-name lang="pt">TV Anhanguera Rio Verde</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Antena 10 HD</display-name>
+  <channel id="TV Antena 10 HD">
+    <display-name lang="pt">TV Antena 10 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Aparecida HD</display-name>
+  <channel id="TV Aparecida HD">
+    <display-name lang="pt">TV Aparecida HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Aperipê</display-name>
+  <channel id="TV Aperipê">
+    <display-name lang="pt">TV Aperipê</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Aperipê HD</display-name>
+  <channel id="TV Aperipê HD">
+    <display-name lang="pt">TV Aperipê HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Apoio HD</display-name>
+  <channel id="TV Apoio HD">
+    <display-name lang="pt">TV Apoio HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Arapuan</display-name>
+  <channel id="TV Arapuan">
+    <display-name lang="pt">TV Arapuan</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Arapuan HD</display-name>
+  <channel id="TV Arapuan HD">
+    <display-name lang="pt">TV Arapuan HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Aratu HD</display-name>
+  <channel id="TV Aratu HD">
+    <display-name lang="pt">TV Aratu HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Ariquemes HD</display-name>
+  <channel id="TV Ariquemes HD">
+    <display-name lang="pt">TV Ariquemes HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Asa Branca HD</display-name>
+  <channel id="TV Asa Branca HD">
+    <display-name lang="pt">TV Asa Branca HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Atalaia HD</display-name>
+  <channel id="TV Atalaia HD">
+    <display-name lang="pt">TV Atalaia HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Bahia HD</display-name>
+  <channel id="TV Bahia HD">
+    <display-name lang="pt">TV Bahia HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Boa Vista</display-name>
+  <channel id="TV Boa Vista">
+    <display-name lang="pt">TV Boa Vista</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Boa Vista HD</display-name>
+  <channel id="TV Boa Vista HD">
+    <display-name lang="pt">TV Boa Vista HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Borborema</display-name>
+  <channel id="TV Borborema">
+    <display-name lang="pt">TV Borborema</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Brasil HD</display-name>
+  <channel id="TV Brasil HD">
+    <display-name lang="pt">TV Brasil HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV BRASIL RIO DE JANEIRO</display-name>
+  <channel id="TV BRASIL RIO DE JANEIRO">
+    <display-name lang="pt">TV BRASIL RIO DE JANEIRO</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV BRASIL RIO DE JANEIRO HD</display-name>
+  <channel id="TV BRASIL RIO DE JANEIRO HD">
+    <display-name lang="pt">TV BRASIL RIO DE JANEIRO HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV BRASIL SÃO PAULO</display-name>
+  <channel id="TV BRASIL SÃO PAULO">
+    <display-name lang="pt">TV BRASIL SÃO PAULO</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV BRASIL SÃO PAULO HD</display-name>
+  <channel id="TV BRASIL SÃO PAULO HD">
+    <display-name lang="pt">TV BRASIL SÃO PAULO HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Brasília</display-name>
+  <channel id="TV Brasília">
+    <display-name lang="pt">TV Brasília</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Brasília HD</display-name>
+  <channel id="TV Brasília HD">
+    <display-name lang="pt">TV Brasília HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Cabo Branco HD</display-name>
+  <channel id="TV Cabo Branco HD">
+    <display-name lang="pt">TV Cabo Branco HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Câmara HD</display-name>
+  <channel id="TV Câmara HD">
+    <display-name lang="pt">TV Câmara HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Capixaba HD</display-name>
+  <channel id="TV Capixaba HD">
+    <display-name lang="pt">TV Capixaba HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Catarina?</display-name>
+  <channel id="TV Catarina?">
+    <display-name lang="pt">TV Catarina?</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Catarina HD</display-name>
+  <channel id="TV Catarina HD">
+    <display-name lang="pt">TV Catarina HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Ceará HD</display-name>
+  <channel id="TV Ceará HD">
+    <display-name lang="pt">TV Ceará HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Cei</display-name>
+  <channel id="TV Cei">
+    <display-name lang="pt">TV Cei</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Centro América</display-name>
+  <channel id="TV Centro América">
+    <display-name lang="pt">TV Centro América</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Centro América Cuiabá HD</display-name>
+  <channel id="TV Centro América Cuiabá HD">
+    <display-name lang="pt">TV Centro América Cuiabá HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Centro América Tangará da Serra</display-name>
+  <channel id="TV Centro América Tangará da Serra">
+    <display-name lang="pt">TV Centro América Tangará da Serra</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Cidadania</display-name>
+  <channel id="TV Cidadania">
+    <display-name lang="pt">TV Cidadania</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Cidade</display-name>
+  <channel id="TV Cidade">
+    <display-name lang="pt">TV Cidade</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Cidade</display-name>
+  <channel id="TV Cidade">
+    <display-name lang="pt">TV Cidade</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Cidade HD</display-name>
+  <channel id="TV Cidade HD">
+    <display-name lang="pt">TV Cidade HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Climatempo</display-name>
+  <channel id="TV Climatempo">
+    <display-name lang="pt">TV Climatempo</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Clube HD</display-name>
+  <channel id="TV Clube HD">
+    <display-name lang="pt">TV Clube HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Clube HD</display-name>
+  <channel id="TV Clube HD">
+    <display-name lang="pt">TV Clube HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Comunicações Interativas HD</display-name>
+  <channel id="TV Comunicações Interativas HD">
+    <display-name lang="pt">TV Comunicações Interativas HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Comunitária</display-name>
+  <channel id="TV Comunitária">
+    <display-name lang="pt">TV Comunitária</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Correio HD</display-name>
+  <channel id="TV Correio HD">
+    <display-name lang="pt">TV Correio HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Diário</display-name>
+  <channel id="TV Diário">
+    <display-name lang="pt">TV Diário</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Diário HD</display-name>
+  <channel id="TV Diário HD">
+    <display-name lang="pt">TV Diário HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Educativa</display-name>
+  <channel id="TV Educativa">
+    <display-name lang="pt">TV Educativa</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Educativa da Bahia HD</display-name>
+  <channel id="TV Educativa da Bahia HD">
+    <display-name lang="pt">TV Educativa da Bahia HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Educativa de Porto Alegre HD</display-name>
+  <channel id="TV Educativa de Porto Alegre HD">
+    <display-name lang="pt">TV Educativa de Porto Alegre HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Equinócio</display-name>
+  <channel id="TV Equinócio">
+    <display-name lang="pt">TV Equinócio</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Equinócio HD</display-name>
+  <channel id="TV Equinócio HD">
+    <display-name lang="pt">TV Equinócio HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Feliz HD</display-name>
+  <channel id="TV Feliz HD">
+    <display-name lang="pt">TV Feliz HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Fronteira</display-name>
+  <channel id="TV Fronteira">
+    <display-name lang="pt">TV Fronteira</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Gazeta</display-name>
+  <channel id="TV Gazeta">
+    <display-name lang="pt">TV Gazeta</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Gazeta HD</display-name>
+  <channel id="TV Gazeta HD">
+    <display-name lang="pt">TV Gazeta HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Gazeta</display-name>
+  <channel id="TV Gazeta">
+    <display-name lang="pt">TV Gazeta</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Gazeta HD</display-name>
+  <channel id="TV Gazeta HD">
+    <display-name lang="pt">TV Gazeta HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Gazeta Noroeste</display-name>
+  <channel id="TV Gazeta Noroeste">
+    <display-name lang="pt">TV Gazeta Noroeste</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Gazeta Norte</display-name>
+  <channel id="TV Gazeta Norte">
+    <display-name lang="pt">TV Gazeta Norte</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Gazeta Rio Branco</display-name>
+  <channel id="TV Gazeta Rio Branco">
+    <display-name lang="pt">TV Gazeta Rio Branco</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Gazeta Rio Branco HD</display-name>
+  <channel id="TV Gazeta Rio Branco HD">
+    <display-name lang="pt">TV Gazeta Rio Branco HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Gazeta Sul</display-name>
+  <channel id="TV Gazeta Sul">
+    <display-name lang="pt">TV Gazeta Sul</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Globo Panorama</display-name>
+  <channel id="TV Globo Panorama">
+    <display-name lang="pt">TV Globo Panorama</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Grande Rio</display-name>
+  <channel id="TV Grande Rio">
+    <display-name lang="pt">TV Grande Rio</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Guajará-Mirim</display-name>
+  <channel id="TV Guajará-Mirim">
+    <display-name lang="pt">TV Guajará-Mirim</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Imperial</display-name>
+  <channel id="TV Imperial">
+    <display-name lang="pt">TV Imperial</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Imperial HD</display-name>
+  <channel id="TV Imperial HD">
+    <display-name lang="pt">TV Imperial HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Integração</display-name>
+  <channel id="TV Integração">
+    <display-name lang="pt">TV Integração</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Integração Araxá</display-name>
+  <channel id="TV Integração Araxá">
+    <display-name lang="pt">TV Integração Araxá</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Integração Uberaba</display-name>
+  <channel id="TV Integração Uberaba">
+    <display-name lang="pt">TV Integração Uberaba</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Integração Uberlândia HD</display-name>
+  <channel id="TV Integração Uberlândia HD">
+    <display-name lang="pt">TV Integração Uberlândia HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Interativa</display-name>
+  <channel id="TV Interativa">
+    <display-name lang="pt">TV Interativa</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Interativa HD</display-name>
+  <channel id="TV Interativa HD">
+    <display-name lang="pt">TV Interativa HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Itacoatiara</display-name>
+  <channel id="TV Itacoatiara">
+    <display-name lang="pt">TV Itacoatiara</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Itararé</display-name>
+  <channel id="TV Itararé">
+    <display-name lang="pt">TV Itararé</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Jangadeiro HD</display-name>
+  <channel id="TV Jangadeiro HD">
+    <display-name lang="pt">TV Jangadeiro HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Ji-Paraná HD</display-name>
+  <channel id="TV Ji-Paraná HD">
+    <display-name lang="pt">TV Ji-Paraná HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Jornal HD</display-name>
+  <channel id="TV Jornal HD">
+    <display-name lang="pt">TV Jornal HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Justiça</display-name>
+  <channel id="TV Justiça">
+    <display-name lang="pt">TV Justiça</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Liberal</display-name>
+  <channel id="TV Liberal">
+    <display-name lang="pt">TV Liberal</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Liberal Castanhal</display-name>
+  <channel id="TV Liberal Castanhal">
+    <display-name lang="pt">TV Liberal Castanhal</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Liberal HD</display-name>
+  <channel id="TV Liberal HD">
+    <display-name lang="pt">TV Liberal HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Liberal Paragominas</display-name>
+  <channel id="TV Liberal Paragominas">
+    <display-name lang="pt">TV Liberal Paragominas</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Liberal Parauapebas</display-name>
+  <channel id="TV Liberal Parauapebas">
+    <display-name lang="pt">TV Liberal Parauapebas</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Liberal Redenção</display-name>
+  <channel id="TV Liberal Redenção">
+    <display-name lang="pt">TV Liberal Redenção</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Macapá</display-name>
+  <channel id="TV Macapá">
+    <display-name lang="pt">TV Macapá</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Macapá HD</display-name>
+  <channel id="TV Macapá HD">
+    <display-name lang="pt">TV Macapá HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV MAIOR - (RedeTV PB)</display-name>
+  <channel id="TV MAIOR - (RedeTV PB)">
+    <display-name lang="pt">TV MAIOR - (RedeTV PB)</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Manaíra</display-name>
+  <channel id="TV Manaíra">
+    <display-name lang="pt">TV Manaíra</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Manaira HD</display-name>
+  <channel id="TV Manaira HD">
+    <display-name lang="pt">TV Manaira HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Mar Alagoas</display-name>
+  <channel id="TV Mar Alagoas">
+    <display-name lang="pt">TV Mar Alagoas</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Maranhense</display-name>
+  <channel id="TV Maranhense">
+    <display-name lang="pt">TV Maranhense</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Maranhense HD</display-name>
+  <channel id="TV Maranhense HD">
+    <display-name lang="pt">TV Maranhense HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Meridional</display-name>
+  <channel id="TV Meridional">
+    <display-name lang="pt">TV Meridional</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Meridional HD</display-name>
+  <channel id="TV Meridional HD">
+    <display-name lang="pt">TV Meridional HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Mirante Cocais HD</display-name>
+  <channel id="TV Mirante Cocais HD">
+    <display-name lang="pt">TV Mirante Cocais HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Mirante São Luís</display-name>
+  <channel id="TV Mirante São Luís">
+    <display-name lang="pt">TV Mirante São Luís</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Mirante São Luis HD</display-name>
+  <channel id="TV Mirante São Luis HD">
+    <display-name lang="pt">TV Mirante São Luis HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Mirante Santa Inês</display-name>
+  <channel id="TV Mirante Santa Inês">
+    <display-name lang="pt">TV Mirante Santa Inês</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Morena</display-name>
+  <channel id="TV Morena">
+    <display-name lang="pt">TV Morena</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Morena Corumbá</display-name>
+  <channel id="TV Morena Corumbá">
+    <display-name lang="pt">TV Morena Corumbá</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Morena HD</display-name>
+  <channel id="TV Morena HD">
+    <display-name lang="pt">TV Morena HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Morena Ponta Porã</display-name>
+  <channel id="TV Morena Ponta Porã">
+    <display-name lang="pt">TV Morena Ponta Porã</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV MS HD</display-name>
+  <channel id="TV MS HD">
+    <display-name lang="pt">TV MS HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Mundial</display-name>
+  <channel id="TV Mundial">
+    <display-name lang="pt">TV Mundial</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Mundial HD</display-name>
+  <channel id="TV Mundial HD">
+    <display-name lang="pt">TV Mundial HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Novo Tempo HD</display-name>
+  <channel id="TV Novo Tempo HD">
+    <display-name lang="pt">TV Novo Tempo HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV O Povo</display-name>
+  <channel id="TV O Povo">
+    <display-name lang="pt">TV O Povo</display-name>
   </channel>
-  <channel id="">
-    <display-name>Canal FDR HD</display-name>
+  <channel id="Canal FDR HD">
+    <display-name lang="pt">Canal FDR HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Omega</display-name>
+  <channel id="TV Omega">
+    <display-name lang="pt">TV Omega</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Pajuçara HD</display-name>
+  <channel id="TV Pajuçara HD">
+    <display-name lang="pt">TV Pajuçara HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Pantanal</display-name>
+  <channel id="TV Pantanal">
+    <display-name lang="pt">TV Pantanal</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Pantanal HD</display-name>
+  <channel id="TV Pantanal HD">
+    <display-name lang="pt">TV Pantanal HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Paraíba</display-name>
+  <channel id="TV Paraíba">
+    <display-name lang="pt">TV Paraíba</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Paraíba HD</display-name>
+  <channel id="TV Paraíba HD">
+    <display-name lang="pt">TV Paraíba HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Parintins</display-name>
+  <channel id="TV Parintins">
+    <display-name lang="pt">TV Parintins</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Parintins HD</display-name>
+  <channel id="TV Parintins HD">
+    <display-name lang="pt">TV Parintins HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Ponta Negra HD</display-name>
+  <channel id="TV Ponta Negra HD">
+    <display-name lang="pt">TV Ponta Negra HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Rá Tim Bum! HD</display-name>
+  <channel id="TV Rá Tim Bum! HD">
+    <display-name lang="pt">TV Rá Tim Bum! HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Rio Branco</display-name>
+  <channel id="TV Rio Branco">
+    <display-name lang="pt">TV Rio Branco</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Rio Branco HD</display-name>
+  <channel id="TV Rio Branco HD">
+    <display-name lang="pt">TV Rio Branco HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Rio Sul</display-name>
+  <channel id="TV Rio Sul">
+    <display-name lang="pt">TV Rio Sul</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Rio Sul</display-name>
+  <channel id="TV Rio Sul">
+    <display-name lang="pt">TV Rio Sul</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Rondônia HD</display-name>
+  <channel id="TV Rondônia HD">
+    <display-name lang="pt">TV Rondônia HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Roraima HD</display-name>
+  <channel id="TV Roraima HD">
+    <display-name lang="pt">TV Roraima HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV São Luís</display-name>
+  <channel id="TV São Luís">
+    <display-name lang="pt">TV São Luís</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV São Luis HD</display-name>
+  <channel id="TV São Luis HD">
+    <display-name lang="pt">TV São Luis HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Santa Cruz</display-name>
+  <channel id="TV Santa Cruz">
+    <display-name lang="pt">TV Santa Cruz</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Senado HD</display-name>
+  <channel id="TV Senado HD">
+    <display-name lang="pt">TV Senado HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Sorocaba</display-name>
+  <channel id="TV Sorocaba">
+    <display-name lang="pt">TV Sorocaba</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Sudoeste HD</display-name>
+  <channel id="TV Sudoeste HD">
+    <display-name lang="pt">TV Sudoeste HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Tambaú</display-name>
+  <channel id="TV Tambaú">
+    <display-name lang="pt">TV Tambaú</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Tambaú HD</display-name>
+  <channel id="TV Tambaú HD">
+    <display-name lang="pt">TV Tambaú HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Tarobá Londrina HD</display-name>
+  <channel id="TV Tarobá Londrina HD">
+    <display-name lang="pt">TV Tarobá Londrina HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV TEM Itapetininga</display-name>
+  <channel id="TV TEM Itapetininga">
+    <display-name lang="pt">TV TEM Itapetininga</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV TEM Sorocaba</display-name>
+  <channel id="TV TEM Sorocaba">
+    <display-name lang="pt">TV TEM Sorocaba</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV TEM Sorocaba HD</display-name>
+  <channel id="TV TEM Sorocaba HD">
+    <display-name lang="pt">TV TEM Sorocaba HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Tribuna HD</display-name>
+  <channel id="TV Tribuna HD">
+    <display-name lang="pt">TV Tribuna HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Tribuna HD</display-name>
+  <channel id="TV Tribuna HD">
+    <display-name lang="pt">TV Tribuna HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Tribuna HD</display-name>
+  <channel id="TV Tribuna HD">
+    <display-name lang="pt">TV Tribuna HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Tropical</display-name>
+  <channel id="TV Tropical">
+    <display-name lang="pt">TV Tropical</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Tropical HD</display-name>
+  <channel id="TV Tropical HD">
+    <display-name lang="pt">TV Tropical HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Tropical HD</display-name>
+  <channel id="TV Tropical HD">
+    <display-name lang="pt">TV Tropical HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Tucuju</display-name>
+  <channel id="TV Tucuju">
+    <display-name lang="pt">TV Tucuju</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV UFSC HD</display-name>
+  <channel id="TV UFSC HD">
+    <display-name lang="pt">TV UFSC HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV União HD</display-name>
+  <channel id="TV União HD">
+    <display-name lang="pt">TV União HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Universidade de Porto Alegre</display-name>
+  <channel id="TV Universidade de Porto Alegre">
+    <display-name lang="pt">TV Universidade de Porto Alegre</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Vanguarda HD</display-name>
+  <channel id="TV Vanguarda HD">
+    <display-name lang="pt">TV Vanguarda HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Verdes Mares Cariri</display-name>
+  <channel id="TV Verdes Mares Cariri">
+    <display-name lang="pt">TV Verdes Mares Cariri</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Verdes Mares HD</display-name>
+  <channel id="TV Verdes Mares HD">
+    <display-name lang="pt">TV Verdes Mares HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Vitória</display-name>
+  <channel id="TV Vitória">
+    <display-name lang="pt">TV Vitória</display-name>
   </channel>
-  <channel id="">
-    <display-name>TV Vitória HD</display-name>
+  <channel id="TV Vitória HD">
+    <display-name lang="pt">TV Vitória HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>TVCI-TV COMUNICACOES INTERATIVAS LTDA</display-name>
+  <channel id="TVCI-TV COMUNICACOES INTERATIVAS LTDA">
+    <display-name lang="pt">TVCI-TV COMUNICACOES INTERATIVAS LTDA</display-name>
   </channel>
-  <channel id="">
-    <display-name>TVT HD</display-name>
+  <channel id="TVT HD">
+    <display-name lang="pt">TVT HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Universal HD</display-name>
+  <channel id="Universal HD">
+    <display-name lang="pt">Universal HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Venus TV SD</display-name>
+  <channel id="Venus TV SD">
+    <display-name lang="pt">Venus TV SD</display-name>
   </channel>
-  <channel id="">
-    <display-name>VH1 HD</display-name>
+  <channel id="VH1 HD">
+    <display-name lang="pt">VH1 HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>VH1 Megahits</display-name>
+  <channel id="VH1 Megahits">
+    <display-name lang="pt">VH1 Megahits</display-name>
   </channel>
-  <channel id="">
-    <display-name>VH 1 Megahits Brazil</display-name>
+  <channel id="VH 1 Megahits Brazil">
+    <display-name lang="pt">VH 1 Megahits Brazil</display-name>
   </channel>
-  <channel id="">
-    <display-name>Viva HD</display-name>
+  <channel id="Viva HD">
+    <display-name lang="pt">Viva HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>Warner Channel HD</display-name>
+  <channel id="Warner Channel HD">
+    <display-name lang="pt">Warner Channel HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>WooHoo HD</display-name>
+  <channel id="WooHoo HD">
+    <display-name lang="pt">WooHoo HD</display-name>
   </channel>
-  <channel id="">
-    <display-name>ZooMoo Kids HD</display-name>
+  <channel id="ZooMoo Kids HD">
+    <display-name lang="pt">ZooMoo Kids HD</display-name>
   </channel>
 </tv>
