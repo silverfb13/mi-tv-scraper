@@ -17,9 +17,7 @@ async function fetchChannelPrograms(channelId, date) {
 
   try {
     const response = await axios.get(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0'
-      }
+      headers: { 'User-Agent': 'Mozilla/5.0' }
     });
 
     const $ = load(response.data);
@@ -44,20 +42,20 @@ async function fetchChannelPrograms(channelId, date) {
     for (let i = 0; i < tempPrograms.length; i++) {
       const { time, title, description } = tempPrograms[i];
 
-      // Interpreta como GMT 0 e ajusta para GMT -3
-      const startDate = new Date(`${date}T${time}:00Z`);
-      startDate.setHours(startDate.getHours() - 3);
+      // Hora local, sem alterar fuso
+      const startDate = new Date(`${date}T${time}:00`);
 
       let endDate;
       if (i < tempPrograms.length - 1) {
         const nextTime = tempPrograms[i + 1].time;
-        endDate = new Date(`${date}T${nextTime}:00Z`);
-        endDate.setHours(endDate.getHours() - 3);
+        endDate = new Date(`${date}T${nextTime}:00`);
 
+        // Se o próximo horário for menor ou igual ao atual, avançar para o dia seguinte
         if (endDate <= startDate) {
           endDate.setDate(endDate.getDate() + 1);
         }
       } else {
+        // Último programa do dia: adiciona 90 minutos
         endDate = new Date(startDate.getTime() + 90 * 60000);
       }
 
