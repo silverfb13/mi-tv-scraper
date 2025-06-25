@@ -1,144 +1,108 @@
-import axios from 'axios';
-import { load } from 'cheerio';
-import fs from 'fs/promises';
-import { parseStringPromise } from 'xml2js';
+const axios = require('axios');
+const cheerio = require('cheerio');
+const fs = require('fs');
+const xml2js = require('xml2js');
 
-async function loadChannels() {
-  const xml = await fs.readFile('channels.xml', 'utf-8');
-  const result = await parseStringPromise(xml);
-  return result.channels.channel.map(c => ({
-    id: c._.trim(),
-    site_id: c.$.site_id.replace('br#', '').trim()
-  }));
+const BASE_URL = 'https://mi.tv/br/async/channel/';
+
+async function carregarCanais() {
+    const xml = fs.readFileSync('channels.xml', 'utf-8');
+    const result = await xml2js.parseStringPromise(xml);
+    return result.channels.channel.map(canal => ({
+        id: canal.$.site_id,
+        xmltv_id: canal.$.xmltv_id,
+        nome: canal._
+    }));
 }
 
-async function fetchChannelPrograms(channelId, date) {
-  const url = `https://mi.tv/br/async/channel/${channelId}/${date}/0`;
+function getDatas() {
+    const hoje = new Date();
+    hoje.setUTCHours(0, 0, 0, 0);
 
-  try {
-    const response = await axios.get(url, {
-      headers: { 'User-Agent': 'Mozilla/5.0' }
-    });
+    const datas = [];
+    for (let i = -1; i <= 2; i++) { // Ontem, Hoje, Amanhã, Depois de Amanhã
+        const data = new Date(hoje);
+        data.setDate(data.getDate() + i);
 
-    const $ = load(response.data);
-    const programs = [];
+        const ano = data.getUTCFullYear();
+        const mes = String(data.getUTCMonth() + 1).padStart(2, '0');
+        const dia = String(data.getUTCDate()).padStart(2, '0');
 
-    const tempPrograms = [];
+        datas.push(`${ano}-${mes}-${dia}`);
+    }
+    return datas;
+}
 
-    $('li').each((_, element) => {
-      const time = $(element).find('.time').text().trim();
-      const title = $(element).find('h2').text().trim();
-      const description = $(element).find('.synopsis').text().trim();
+async function buscarProgramacao(canal, data) {
+    const url = `${BASE_URL}${canal.id}/${data}/0`;
+    let programas = [];
 
-      if (time && title) {
-        tempPrograms.push({
-          time,
-          title,
-          description: description || 'Sem descrição'
+    try {
+        const { data: html } = await axios.get(url);
+        const $ = cheerio.load(html);
+
+        $('.broadcast').each((_, elem) => {
+            const hora = $(elem).find('.time').text().trim();
+            if (!hora) return;
+
+            const titulo = $(elem).find('h2').text().trim();
+            const descricao = $(elem).find('.synopsis').text().trim();
+
+            const [horas, minutos] = hora.split(':').map(Number);
+            const inicio = new Date(`${data}T${String(horas).padStart(2, '0')}:${String(minutos).padStart(2, '0')}:00Z`);
+            const fim = new Date(inicio.getTime() + 2 * 60 * 60 * 1000); // Duração padrão de 2h
+
+            programas.push({
+                start: formatarDataEPG(inicio),
+                stop: formatarDataEPG(fim),
+                channel: canal.xmltv_id,
+                title: titulo,
+                desc: descricao
+            });
         });
-      }
-    });
 
-    for (let i = 0; i < tempPrograms.length; i++) {
-      const { time, title, description } = tempPrograms[i];
+    } catch (error) {
+        console.error(`Erro ao buscar ${canal.nome} (${data}):`, error.message);
+    }
 
-      // Hora local, sem alterar fuso
-      const startDate = new Date(`${date}T${time}:00`);
+    return programas;
+}
 
-      let endDate;
-      if (i < tempPrograms.length - 1) {
-        const nextTime = tempPrograms[i + 1].time;
-        endDate = new Date(`${date}T${nextTime}:00`);
+function formatarDataEPG(data) {
+    const ano = data.getUTCFullYear();
+    const mes = String(data.getUTCMonth() + 1).padStart(2, '0');
+    const dia = String(data.getUTCDate()).padStart(2, '0');
+    const horas = String(data.getUTCHours()).padStart(2, '0');
+    const minutos = String(data.getUTCMinutes()).padStart(2, '0');
+    const segundos = String(data.getUTCSeconds()).padStart(2, '0');
+    return `${ano}${mes}${dia}${horas}${minutos}${segundos} +0000`;
+}
 
-        // Se o próximo horário for menor ou igual ao atual, avançar para o dia seguinte
-        if (endDate <= startDate) {
-          endDate.setDate(endDate.getDate() + 1);
+async function gerarEPG() {
+    const canais = await carregarCanais();
+    const datas = getDatas();
+
+    let epg = `<?xml version="1.0" encoding="UTF-8"?>\n<tv generator-info-name="EPG Generator">\n`;
+
+    for (let canal of canais) {
+        epg += `  <channel id="${canal.xmltv_id}">\n    <display-name>${canal.nome}</display-name>\n  </channel>\n`;
+
+        for (let data of datas) {
+            const programas = await buscarProgramacao(canal, data);
+
+            for (let prog of programas) {
+                epg += `  <programme start="${prog.start}" stop="${prog.stop}" channel="${prog.channel}">\n`;
+                epg += `    <title lang="pt">${prog.title}</title>\n`;
+                epg += `    <desc lang="pt">${prog.desc}</desc>\n`;
+                epg += `    <rating system="Brazil">\n      <value>[Livre]</value>\n    </rating>\n`;
+                epg += `  </programme>\n`;
+            }
         }
-      } else {
-        // Último programa do dia: adiciona 90 minutos
-        endDate = new Date(startDate.getTime() + 90 * 60000);
-      }
-
-      programs.push({
-        start: `${formatDate(startDate)} -0300`,
-        end: `${formatDate(endDate)} -0300`,
-        title,
-        desc: description,
-        rating: '[14]'
-      });
     }
 
-    return programs;
-  } catch (error) {
-    console.error(`Erro ao buscar ${url}: ${error.message}`);
-    return [];
-  }
+    epg += `</tv>`;
+    fs.writeFileSync('epg.xml', epg);
+    console.log('✅ EPG gerado com sucesso!');
 }
 
-function formatDate(date) {
-  const year = date.getFullYear();
-  const month = (date.getMonth() + 1).toString().padStart(2, '0');
-  const day = date.getDate().toString().padStart(2, '0');
-  const hours = date.getHours().toString().padStart(2, '0');
-  const minutes = date.getMinutes().toString().padStart(2, '0');
-  const seconds = date.getSeconds().toString().padStart(2, '0');
-  return `${year}${month}${day}${hours}${minutes}${seconds}`;
-}
-
-function getDates() {
-  const dates = [];
-  const now = new Date();
-
-  for (let i = -1; i <= 2; i++) {
-    const date = new Date(now);
-    date.setDate(now.getDate() + i);
-    dates.push(date.toISOString().split('T')[0]);
-  }
-
-  return dates.slice(0, 4);
-}
-
-function escapeXml(unsafe) {
-  return unsafe.replace(/&/g, '&amp;')
-               .replace(/</g, '&lt;')
-               .replace(/>/g, '&gt;')
-               .replace(/"/g, '&quot;')
-               .replace(/'/g, '&apos;');
-}
-
-async function generateEPG() {
-  console.log('Carregando canais...');
-  const channels = await loadChannels();
-
-  console.log(`Total de canais encontrados: ${channels.length}`);
-
-  let epgXml = '<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n';
-
-  channels.forEach(channel => {
-    epgXml += `  <channel id="${channel.id}">\n    <display-name lang="pt">${channel.id}</display-name>\n  </channel>\n`;
-  });
-
-  for (const channel of channels) {
-    console.log(`Buscando EPG para ${channel.id}...`);
-
-    const dates = getDates();
-    for (const date of dates) {
-      const programs = await fetchChannelPrograms(channel.site_id, date);
-
-      for (const program of programs) {
-        epgXml += `  <programme start="${program.start}" stop="${program.end}" channel="${channel.id}">\n`;
-        epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
-        epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
-        epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
-        epgXml += `  </programme>\n`;
-      }
-    }
-  }
-
-  epgXml += '</tv>';
-
-  await fs.writeFile('epg.xml', epgXml, 'utf-8');
-  console.log('EPG gerado com sucesso em epg.xml');
-}
-
-generateEPG();
+gerarEPG();
