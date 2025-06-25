@@ -38,7 +38,7 @@ async function fetchChannelPrograms(channelId, date) {
       }
     });
 
-    // Organizar e calcular horários de término
+    // Calcular horários de término com base no início do próximo programa
     for (let i = 0; i < programs.length; i++) {
       const program = programs[i];
       const nextProgram = programs[i + 1];
@@ -48,12 +48,11 @@ async function fetchChannelPrograms(channelId, date) {
       if (nextProgram) {
         endDate = new Date(nextProgram.startDate);
       } else {
-        // Último programa (duração padrão 90 min)
+        // Último programa dura 90 minutos
         endDate = new Date(program.startDate.getTime() + 90 * 60000);
       }
 
-      program.start = formatDate(program.startDate);
-      program.end = formatDate(endDate);
+      program.endDate = endDate;
     }
 
     return programs;
@@ -64,7 +63,7 @@ async function fetchChannelPrograms(channelId, date) {
 }
 
 function formatDate(date) {
-  // Formatar manualmente: YYYYMMDDHHMMSS +0000
+  // Formatar como YYYYMMDDHHMMSS +0000
   const year = date.getUTCFullYear();
   const month = (date.getUTCMonth() + 1).toString().padStart(2, '0');
   const day = date.getUTCDate().toString().padStart(2, '0');
@@ -116,22 +115,16 @@ async function generateEPG() {
       const programs = await fetchChannelPrograms(channel.site_id, date);
 
       for (const program of programs) {
-        const startHour = parseInt(program.start.substr(8, 2));
-        const programStartDate = new Date(program.start.substr(0, 4) + '-' + program.start.substr(4, 2) + '-' + program.start.substr(6, 2));
-        const programEndDate = new Date(program.end.substr(0, 4) + '-' + program.end.substr(4, 2) + '-' + program.end.substr(6, 2));
-        let finalStart = program.start;
-        let finalEnd = program.end;
+        let startDate = new Date(program.startDate);
+        let endDate = new Date(program.endDate);
 
-        // Adiciona 1 dia caso o programa comece a partir das 00:00
-        if (startHour >= 0 && startHour < 3) {
-          const newStart = new Date(new Date(programStartDate.getTime() + (24 * 60 * 60 * 1000)).toISOString().substr(0, 10) + program.start.substr(8));
-          const newEnd = new Date(new Date(programEndDate.getTime() + (24 * 60 * 60 * 1000)).toISOString().substr(0, 10) + program.end.substr(8));
-
-          finalStart = formatDate(newStart);
-          finalEnd = formatDate(newEnd);
+        // Se o programa começa entre 00:00 e 02:59, somar 1 dia
+        if (startDate.getUTCHours() < 3) {
+          startDate.setUTCDate(startDate.getUTCDate() + 1);
+          endDate.setUTCDate(endDate.getUTCDate() + 1);
         }
 
-        epgXml += `  <programme start="${finalStart}" stop="${finalEnd}" channel="${channel.id}">\n`;
+        epgXml += `  <programme start="${formatDate(startDate)}" stop="${formatDate(endDate)}" channel="${channel.id}">\n`;
         epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
         epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
         epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
