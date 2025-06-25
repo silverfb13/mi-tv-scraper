@@ -33,11 +33,13 @@ async function fetchChannelPrograms(channelId, date) {
       if (time && title) {
         const [hours, minutes] = time.split(':').map(Number);
 
-        const startDate = new Date(`${date} ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`);
-        const start = `${formatDate(startDate)} -0300`;
+        const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`);
+        startDate.setHours(startDate.getHours() + 3); // Corrigir fuso para GMT+0
+
+        const start = `${formatDate(startDate)} +0000`;
 
         const endDate = new Date(startDate.getTime() + 90 * 60000);
-        const end = `${formatDate(endDate)} -0300`;
+        const end = `${formatDate(endDate)} +0000`;
 
         programs.push({
           start,
@@ -57,7 +59,6 @@ async function fetchChannelPrograms(channelId, date) {
 }
 
 function formatDate(date) {
-  // Formatar manualmente: YYYYMMDDHHMMSS
   const year = date.getFullYear();
   const month = (date.getMonth() + 1).toString().padStart(2, '0');
   const day = date.getDate().toString().padStart(2, '0');
@@ -71,12 +72,9 @@ function getDates() {
   const dates = [];
   const now = new Date();
 
-  // Ajuste para GMT -3
-  const localTime = new Date(now.getTime() - (3 * 60 * 60 * 1000));
-
   for (let i = -1; i <= 2; i++) {
-    const date = new Date(localTime);
-    date.setDate(localTime.getDate() + i);
+    const date = new Date(now);
+    date.setDate(now.getDate() + i);
     dates.push(date.toISOString().split('T')[0]);
   }
 
