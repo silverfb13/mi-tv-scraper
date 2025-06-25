@@ -1,121 +1,129 @@
 import axios from 'axios';
+import { load } from 'cheerio';
 import fs from 'fs/promises';
-import { parseStringPromise, Builder } from 'xml2js';
+import { parseStringPromise } from 'xml2js';
 
-// Função para formatar datas YYYY-MM-DD
-function formatDate(date) {
-  return date.toISOString().slice(0, 10);
-}
-
-// Pega datas de ontem, hoje, amanhã e depois de amanhã
-function getDatesToFetch() {
-  const dates = [];
-  const now = new Date();
-  for (let offset = -1; offset <= 2; offset++) {
-    const d = new Date(now);
-    d.setDate(now.getDate() + offset);
-    dates.push(formatDate(d));
-  }
-  return dates;
-}
-
-// Lê e parseia channels.xml para extrair IDs e nomes
-async function readChannels() {
-  const xml = await fs.readFile('channels.xml', 'utf8');
+async function loadChannels() {
+  const xml = await fs.readFile('channels.xml', 'utf-8');
   const result = await parseStringPromise(xml);
-  // Esperando que o XML tenha <tv><channel> com id e display-name
-  const channels = result.tv.channel.map(ch => ({
-    id: ch.$.id,
-    name: ch['display-name'][0] || ch.$['display-name'] || ch.$['name'] || 'Sem nome',
+  return result.channels.channel.map(c => ({
+    id: c._.trim(),
+    site_id: c.$.site_id.replace('br#', '').trim()
   }));
-  return channels;
 }
 
-// Busca a programação de um canal para uma data
-async function fetchSchedule(canalId, date) {
-  const url = `https://mi.tv/br/async/channel/${canalId}/${date}/0`;
+async function fetchChannelPrograms(channelId, date) {
+  const url = `https://mi.tv/br/async/channel/${channelId}/${date}/2`;
+
   try {
-    const res = await axios.get(url);
-    // Retorna array de programas (já com start, end, title, description)
-    return res.data;
+    const response = await axios.get(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0'
+      }
+    });
+
+    const $ = load(response.data);
+    const programs = [];
+
+    $('li').each((_, element) => {
+      const time = $(element).find('.time').text().trim();
+      const title = $(element).find('h2').text().trim();
+      const description = $(element).find('.synopsis').text().trim();
+
+      if (time && title) {
+        const [hours, minutes] = time.split(':').map(Number);
+
+        const startDate = new Date(`${date} ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`);
+        const start = `${formatDate(startDate)} -0300`;
+
+        const endDate = new Date(startDate.getTime() + 90 * 60000);
+        const end = `${formatDate(endDate)} -0300`;
+
+        programs.push({
+          start,
+          end,
+          title,
+          desc: description || 'Sem descrição',
+          rating: '[14]'
+        });
+      }
+    });
+
+    return programs;
   } catch (error) {
-    console.error(`Erro ao buscar programação para ${canalId} em ${date}:`, error.message);
+    console.error(`Erro ao buscar ${url}: ${error.message}`);
     return [];
   }
 }
 
-// Monta o XML EPG
-function buildXML(epgData) {
-  const builder = new Builder({ headless: true, rootName: 'tv' });
-
-  const tv = {
-    $: { 'generator-info-name': 'mi-tv-scraper' },
-    channel: [],
-    programme: [],
-  };
-
-  for (const canal of epgData) {
-    tv.channel.push({ $: { id: canal.id }, 'display-name': canal.name });
-
-    for (const prog of canal.programs) {
-      tv.programme.push({
-        $: {
-          start: prog.start, // formato: YYYYMMDDHHmmss +0000 (ex: 20250624153000 +0000)
-          stop: prog.end,
-          channel: canal.id,
-        },
-        title: { _: prog.title, $: { lang: 'pt' } },
-        desc: { _: prog.description, $: { lang: 'pt' } },
-      });
-    }
-  }
-
-  return builder.buildObject(tv);
+function formatDate(date) {
+  // Formatar manualmente: YYYYMMDDHHMMSS
+  const year = date.getFullYear();
+  const month = (date.getMonth() + 1).toString().padStart(2, '0');
+  const day = date.getDate().toString().padStart(2, '0');
+  const hours = date.getHours().toString().padStart(2, '0');
+  const minutes = date.getMinutes().toString().padStart(2, '0');
+  const seconds = date.getSeconds().toString().padStart(2, '0');
+  return `${year}${month}${day}${hours}${minutes}${seconds}`;
 }
 
-// Função principal que gera o EPG completo
+function getDates() {
+  const dates = [];
+  const now = new Date();
+
+  // Ajuste para GMT -3
+  const localTime = new Date(now.getTime() - (3 * 60 * 60 * 1000));
+
+  for (let i = -1; i <= 2; i++) {
+    const date = new Date(localTime);
+    date.setDate(localTime.getDate() + i);
+    dates.push(date.toISOString().split('T')[0]);
+  }
+
+  return dates.slice(0, 4); // Ontem, hoje, amanhã e depois de amanhã
+}
+
+function escapeXml(unsafe) {
+  return unsafe.replace(/&/g, '&amp;')
+               .replace(/</g, '&lt;')
+               .replace(/>/g, '&gt;')
+               .replace(/"/g, '&quot;')
+               .replace(/'/g, '&apos;');
+}
+
 async function generateEPG() {
-  console.log('Lendo canais...');
-  const channels = await readChannels();
+  console.log('Carregando canais...');
+  const channels = await loadChannels();
 
-  const dates = getDatesToFetch();
-  console.log('Datas para buscar:', dates);
+  console.log(`Total de canais encontrados: ${channels.length}`);
 
-  const epgData = [];
+  let epgXml = '<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n';
 
-  for (const canal of channels) {
-    console.log(`Buscando programação do canal ${canal.id} (${canal.name})`);
-    let allPrograms = [];
+  channels.forEach(channel => {
+    epgXml += `  <channel id="${channel.id}">\n    <display-name lang="pt">${channel.id}</display-name>\n  </channel>\n`;
+  });
 
+  for (const channel of channels) {
+    console.log(`Buscando EPG para ${channel.id}...`);
+
+    const dates = getDates();
     for (const date of dates) {
-      const progs = await fetchSchedule(canal.id, date);
-      if (Array.isArray(progs)) {
-        // Aqui você pode adaptar o formato do objeto conforme o que a API retorna
-        // Exemplo de transformação para o padrão esperado:
-        const mapped = progs.map(p => ({
-          start: p.start.replace(' ', '') + ' +0000', // ajusta para formato XMLTV
-          end: p.end.replace(' ', '') + ' +0000',
-          title: p.title,
-          description: p.description,
-        }));
-        allPrograms = allPrograms.concat(mapped);
+      const programs = await fetchChannelPrograms(channel.site_id, date);
+
+      for (const program of programs) {
+        epgXml += `  <programme start="${program.start}" stop="${program.end}" channel="${channel.id}">\n`;
+        epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
+        epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
+        epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
+        epgXml += `  </programme>\n`;
       }
     }
-
-    epgData.push({
-      id: canal.id,
-      name: canal.name,
-      programs: allPrograms,
-    });
   }
 
-  console.log('Montando XML...');
-  const xml = buildXML(epgData);
+  epgXml += '</tv>';
 
-  console.log('Salvando epg.xml...');
-  await fs.writeFile('epg.xml', xml, 'utf8');
-
-  console.log('EPG atualizado com sucesso!');
+  await fs.writeFile('epg.xml', epgXml, 'utf-8');
+  console.log('EPG gerado com sucesso em epg.xml');
 }
 
-generateEPG().catch(console.error);
+generateEPG();
