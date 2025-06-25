@@ -17,9 +17,7 @@ async function fetchChannelPrograms(channelId, date) {
 
   try {
     const response = await axios.get(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0'
-      }
+      headers: { 'User-Agent': 'Mozilla/5.0' }
     });
 
     const $ = load(response.data);
@@ -34,7 +32,7 @@ async function fetchChannelPrograms(channelId, date) {
         const [hours, minutes] = time.split(':').map(Number);
 
         const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`);
-        startDate.setHours(startDate.getHours() + 3); // Corrigir fuso para GMT+0
+        startDate.setHours(startDate.getHours() + 3); // Corrigir GMT-3 para GMT+0
 
         const start = `${formatDate(startDate)} +0000`;
 
@@ -72,13 +70,13 @@ function getDates() {
   const dates = [];
   const now = new Date();
 
-  for (let i = -1; i <= 2; i++) {
+  for (let i = 0; i <= 2; i++) { // Apenas hoje, amanhã e depois de amanhã
     const date = new Date(now);
     date.setDate(now.getDate() + i);
     dates.push(date.toISOString().split('T')[0]);
   }
 
-  return dates.slice(0, 4); // Ontem, hoje, amanhã e depois de amanhã
+  return dates;
 }
 
 function escapeXml(unsafe) {
