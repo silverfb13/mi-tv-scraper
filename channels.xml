@@ -370,7 +370,7 @@
   <channel site="mi.tv" lang="pt" xmltv_id="" site_id="br#sic-tv-hd">SIC TV HD</channel>
   <channel site="mi.tv" lang="pt" xmltv_id="" site_id="br#sony-hd">Sony HD</channel>
   <channel site="mi.tv" lang="pt" xmltv_id="" site_id="br#space-hd">Space HD</channel>
-  <channel site="mi.tv" lang="pt" xmltv_id="" site_id="br#sportv2-hd">SporTV2 HD</channel>
+  <channel site="mi.tv" lang="pt" xmltv_id="" site_id="br#sportv2">SporTV2 HD</channel>
   <channel site="mi.tv" lang="pt" xmltv_id="" site_id="br#sportv3-hd">SporTV3 HD</channel>
   <channel site="mi.tv" lang="pt" xmltv_id="" site_id="br#sportv-hd">SporTV HD</channel>
   <channel site="mi.tv" lang="pt" xmltv_id="" site_id="br#studio-universal-hd">Studio Universal HD</channel>
