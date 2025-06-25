@@ -35,7 +35,6 @@ async function fetchChannelPrograms(channelId, date) {
 
         let programDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00Z`);
 
-        // Se o programa for a partir de 00:00, adiciona 1 dia (somente dentro desse link)
         if (hours === 0 && minutes === 0) {
           addOneDay = true;
         }
@@ -46,7 +45,6 @@ async function fetchChannelPrograms(channelId, date) {
 
         const start = `${formatDate(programDate)} +0000`;
 
-        // Duração padrão de 90 minutos
         const endDate = new Date(programDate.getTime() + 90 * 60000);
         const end = `${formatDate(endDate)} +0000`;
 
@@ -89,7 +87,7 @@ function getDates() {
     dates.push(date.toISOString().split('T')[0]);
   }
 
-  return dates.slice(1, 4); // Hoje, amanhã e depois de amanhã
+  return dates; // Ontem, hoje, amanhã e depois de amanhã
 }
 
 function escapeXml(unsafe) {
