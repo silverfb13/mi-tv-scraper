@@ -23,20 +23,31 @@ async function fetchChannelPrograms(channelId, date) {
     const $ = load(response.data);
     const programs = [];
 
+    let addOneDay = false;
+
     $('li').each((_, element) => {
       const time = $(element).find('.time').text().trim();
       const title = $(element).find('h2').text().trim();
       const description = $(element).find('.synopsis').text().trim();
 
       if (time && title) {
-        const [hours, minutes] = time.split(':').map(Number);
+        let [hours, minutes] = time.split(':').map(Number);
 
-        const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`);
-        startDate.setHours(startDate.getHours() + 3); // Corrigir GMT-3 para GMT+0
+        let programDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00Z`);
 
-        const start = `${formatDate(startDate)} +0000`;
+        // Se o programa for a partir de 00:00, adiciona 1 dia (somente dentro desse link)
+        if (hours === 0 && minutes === 0) {
+          addOneDay = true;
+        }
 
-        const endDate = new Date(startDate.getTime() + 90 * 60000);
+        if (addOneDay) {
+          programDate.setUTCDate(programDate.getUTCDate() + 1);
+        }
+
+        const start = `${formatDate(programDate)} +0000`;
+
+        // Duração padrão de 90 minutos
+        const endDate = new Date(programDate.getTime() + 90 * 60000);
         const end = `${formatDate(endDate)} +0000`;
 
         programs.push({
@@ -57,12 +68,12 @@ async function fetchChannelPrograms(channelId, date) {
 }
 
 function formatDate(date) {
-  const year = date.getFullYear();
-  const month = (date.getMonth() + 1).toString().padStart(2, '0');
-  const day = date.getDate().toString().padStart(2, '0');
-  const hours = date.getHours().toString().padStart(2, '0');
-  const minutes = date.getMinutes().toString().padStart(2, '0');
-  const seconds = date.getSeconds().toString().padStart(2, '0');
+  const year = date.getUTCFullYear();
+  const month = (date.getUTCMonth() + 1).toString().padStart(2, '0');
+  const day = date.getUTCDate().toString().padStart(2, '0');
+  const hours = date.getUTCHours().toString().padStart(2, '0');
+  const minutes = date.getUTCMinutes().toString().padStart(2, '0');
+  const seconds = date.getUTCSeconds().toString().padStart(2, '0');
   return `${year}${month}${day}${hours}${minutes}${seconds}`;
 }
 
@@ -70,13 +81,15 @@ function getDates() {
   const dates = [];
   const now = new Date();
 
-  for (let i = 0; i <= 2; i++) { // Apenas hoje, amanhã e depois de amanhã
-    const date = new Date(now);
-    date.setDate(now.getDate() + i);
+  const localTime = new Date(now.getTime() - (3 * 60 * 60 * 1000)); // GMT -3
+
+  for (let i = -1; i <= 2; i++) {
+    const date = new Date(localTime);
+    date.setDate(localTime.getDate() + i);
     dates.push(date.toISOString().split('T')[0]);
   }
 
-  return dates;
+  return dates.slice(1, 4); // Hoje, amanhã e depois de amanhã
 }
 
 function escapeXml(unsafe) {
