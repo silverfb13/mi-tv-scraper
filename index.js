@@ -109,24 +109,38 @@ async function generateEPG() {
       const programs = await fetchChannelPrograms(channel.site_id, date);
       if (programs.length === 0) continue;
 
-      const splitHour = 3; // 03:00 GMT 0000
+      const splitHour = 3; // 03:00 AM
       const lastProgramStart = programs[programs.length - 1].startDate;
 
       for (const program of programs) {
         const programStartHour = program.startDate.getUTCHours();
+        const programStartTime = program.startDate.getTime();
 
-        if (programStartHour < splitHour || program.startDate.getTime() === lastProgramStart.getTime()) {
-          // Programação normal do dia
+        // SE O PROGRAMA COMEÇA ANTES DAS 03:00 -> FICA NO DIA NORMAL
+        if (programStartHour < splitHour) {
           epgXml += `  <programme start="${program.start}" stop="${program.end}" channel="${channel.id}">\n`;
           epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
           epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
           epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
           epgXml += `  </programme>\n`;
-        } else {
-          // Programação que vai para o dia seguinte
-          const nextDayIndex = i + 1;
-          if (nextDayIndex >= dates.length) continue;
+        }
 
+        // SE O PROGRAMA COMEÇA ENTRE 03:00 E O HORÁRIO DE INÍCIO DO ÚLTIMO PROGRAMA -> VAI PARA O DIA SEGUINTE
+        else if (programStartTime < lastProgramStart.getTime()) {
+          const newStartDate = new Date(program.startDate.getTime() + (24 * 60 * 60 * 1000));
+          const newEndDate = new Date(program.endDate.getTime() + (24 * 60 * 60 * 1000));
+          const newStart = `${formatDate(newStartDate)} +0000`;
+          const newEnd = `${formatDate(newEndDate)} +0000`;
+
+          epgXml += `  <programme start="${newStart}" stop="${newEnd}" channel="${channel.id}">\n`;
+          epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
+          epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
+          epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
+          epgXml += `  </programme>\n`;
+        }
+
+        // SE O PROGRAMA É O ÚLTIMO DA LISTA OU COMEÇA NO MESMO HORÁRIO -> FICA NO DIA NORMAL
+        else {
           epgXml += `  <programme start="${program.start}" stop="${program.end}" channel="${channel.id}">\n`;
           epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
           epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
