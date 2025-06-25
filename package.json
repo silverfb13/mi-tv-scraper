@@ -1,9 +1,8 @@
 {
   "name": "mi-tv-scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "Scraper EPG mi.tv",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
@@ -16,4 +15,3 @@
     "xml2js": "^0.6.2"
   }
 }
-
