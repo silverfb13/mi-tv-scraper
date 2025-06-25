@@ -44,13 +44,16 @@ async function fetchChannelPrograms(channelId, date) {
     for (let i = 0; i < tempPrograms.length; i++) {
       const { time, title, description } = tempPrograms[i];
 
-      // Parse ISO com fuso -03:00
-      const startDate = new Date(`${date}T${time}:00-03:00`);
+      // Pega horário GMT 0
+      const startDate = new Date(`${date}T${time}:00Z`);
+      // Converte para GMT -3
+      startDate.setHours(startDate.getHours() - 3);
 
       let endDate;
       if (i < tempPrograms.length - 1) {
         const nextTime = tempPrograms[i + 1].time;
-        endDate = new Date(`${date}T${nextTime}:00-03:00`);
+        endDate = new Date(`${date}T${nextTime}:00Z`);
+        endDate.setHours(endDate.getHours() - 3);
 
         // Ajusta dia caso passe da meia-noite
         if (endDate <= startDate) {
@@ -62,8 +65,8 @@ async function fetchChannelPrograms(channelId, date) {
       }
 
       programs.push({
-        start: `${formatDate(startDate)} +0200`,
-        end: `${formatDate(endDate)} +0200`,
+        start: `${formatDate(startDate)} -0300`,
+        end: `${formatDate(endDate)} -0300`,
         title,
         desc: description,
         rating: '[14]'
@@ -144,4 +147,3 @@ async function generateEPG() {
 }
 
 generateEPG();
-
