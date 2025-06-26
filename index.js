@@ -56,7 +56,7 @@ function getDates() {
   const dates = [];
   const now = new Date();
 
-  for (let i = -1; i <= 3; i++) {
+  for (let i = -1; i <= 2; i++) {
     const date = new Date(now);
     date.setUTCDate(now.getUTCDate() + i);
     dates.push(date.toISOString().split('T')[0]);
