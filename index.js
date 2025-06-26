@@ -31,11 +31,8 @@ async function fetchChannelPrograms(channelId, date) {
       if (time && title) {
         const [hours, minutes] = time.split(':').map(Number);
         const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00Z`);
-        const endDate = new Date(startDate.getTime() + 90 * 60000); // Duração estimada, pode ajustar conforme o real
-
         programs.push({
           start: startDate,
-          end: endDate,
           title,
           desc: description || 'Sem descrição',
           rating: '[14]'
@@ -80,38 +77,54 @@ function aplicarRegras(programs) {
 
   const adjustedPrograms = [];
   const firstProgramTime = programs[0].start.getUTCHours() * 100 + programs[0].start.getUTCMinutes();
-  const lastProgramTime = programs[programs.length - 1].start.getUTCHours() * 100 + programs[programs.length - 1].start.getUTCMinutes();
 
-  programs.forEach(program => {
-    const startHour = program.start.getUTCHours();
-    const startMinutes = program.start.getUTCMinutes();
-    const startTime = startHour * 100 + startMinutes;
-
-    let xmlDate = program.start;
+  for (let i = 0; i < programs.length; i++) {
+    let program = programs[i];
+    let startHour = program.start.getUTCHours();
+    let startMinutes = program.start.getUTCMinutes();
+    let startTime = startHour * 100 + startMinutes;
 
     // Regra 1: Entre 00:00 e 03:00
     if (startHour >= 0 && startHour < 3) {
       program.start = new Date(program.start.getTime() + (24 * 60 * 60 * 1000));
-      program.end = new Date(program.end.getTime() + (24 * 60 * 60 * 1000));
-      // O dia do XML continua igual
     }
-    // Regra 2: Entre 03:00 e o primeiro programa do dia (ou último programa do dia anterior)
+    // Regra 2: Entre 03:00 e início do primeiro programa do dia
     else if (startHour >= 3 && startTime < firstProgramTime) {
       program.start = new Date(program.start.getTime() + (24 * 60 * 60 * 1000));
-      program.end = new Date(program.end.getTime() + (24 * 60 * 60 * 1000));
-      xmlDate = new Date(xmlDate.getTime() + (24 * 60 * 60 * 1000));
     }
 
-    adjustedPrograms.push({
-      start: formatDate(program.start),
-      end: formatDate(program.end),
-      title: program.title,
-      desc: program.desc,
-      rating: program.rating
-    });
-  });
+    adjustedPrograms.push(program);
+  }
 
   return adjustedPrograms;
+}
+
+function atribuirHorariosFinais(programs) {
+  const completedPrograms = [];
+
+  for (let i = 0; i < programs.length; i++) {
+    const current = programs[i];
+    const next = programs[i + 1];
+
+    let end;
+
+    if (next) {
+      end = new Date(next.start);
+    } else {
+      // Se for o último programa, adiciona 1 hora fictícia
+      end = new Date(current.start.getTime() + 60 * 60000);
+    }
+
+    completedPrograms.push({
+      start: formatDate(current.start),
+      end: formatDate(end),
+      title: current.title,
+      desc: current.desc,
+      rating: current.rating
+    });
+  }
+
+  return completedPrograms;
 }
 
 async function generateEPG() {
@@ -132,6 +145,7 @@ async function generateEPG() {
     for (const date of dates) {
       let programs = await fetchChannelPrograms(channel.site_id, date);
       programs = aplicarRegras(programs);
+      programs = atribuirHorariosFinais(programs);
 
       for (const program of programs) {
         epgXml += `  <programme start="${program.start} +0000" stop="${program.end} +0000" channel="${channel.id}">\n`;
@@ -146,7 +160,7 @@ async function generateEPG() {
   epgXml += '</tv>';
 
   await fs.writeFile('epg.xml', epgXml, 'utf-8');
-  console.log('EPG gerado com sucesso em epg.xml');
+  console.log('✅ EPG gerado com sucesso em epg.xml');
 }
 
 generateEPG();
