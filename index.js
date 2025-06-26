@@ -16,7 +16,12 @@ async function fetchChannelPrograms(channelId, date) {
   const url = `https://mi.tv/br/async/channel/${channelId}/${date}/0`;
 
   try {
-    const response = await axios.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+    const response = await axios.get(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0'
+      }
+    });
+
     const $ = load(response.data);
     const programs = [];
 
@@ -27,12 +32,13 @@ async function fetchChannelPrograms(channelId, date) {
 
       if (time && title) {
         const [hours, minutes] = time.split(':').map(Number);
-        const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00Z`);
-        const endDate = new Date(startDate.getTime() + 90 * 60000);
+        const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`);
+        const start = new Date(startDate);
+        const end = new Date(startDate.getTime() + 90 * 60000);
 
         programs.push({
-          startDate,
-          endDate,
+          start,
+          end,
           title,
           desc: description || 'Sem descrição',
           rating: '[14]'
@@ -48,34 +54,35 @@ async function fetchChannelPrograms(channelId, date) {
 }
 
 function formatDate(date) {
-  const year = date.getUTCFullYear();
-  const month = (date.getUTCMonth() + 1).toString().padStart(2, '0');
-  const day = date.getUTCDate().toString().padStart(2, '0');
-  const hours = date.getUTCHours().toString().padStart(2, '0');
-  const minutes = date.getUTCMinutes().toString().padStart(2, '0');
-  const seconds = date.getUTCSeconds().toString().padStart(2, '0');
+  const year = date.getFullYear();
+  const month = (date.getMonth() + 1).toString().padStart(2, '0');
+  const day = date.getDate().toString().padStart(2, '0');
+  const hours = date.getHours().toString().padStart(2, '0');
+  const minutes = date.getMinutes().toString().padStart(2, '0');
+  const seconds = date.getSeconds().toString().padStart(2, '0');
   return `${year}${month}${day}${hours}${minutes}${seconds}`;
 }
 
 function getDates() {
   const dates = [];
   const now = new Date();
+  const localTime = new Date(now.getTime() - (3 * 60 * 60 * 1000));
 
   for (let i = -1; i <= 2; i++) {
-    const date = new Date(now);
-    date.setUTCDate(now.getUTCDate() + i);
+    const date = new Date(localTime);
+    date.setDate(localTime.getDate() + i);
     dates.push(date.toISOString().split('T')[0]);
   }
 
-  return dates; // Ontem, hoje, amanhã e depois de amanhã
+  return dates.slice(0, 4);
 }
 
 function escapeXml(unsafe) {
   return unsafe.replace(/&/g, '&amp;')
-               .replace(/</g, '&lt;')
-               .replace(/>/g, '&gt;')
-               .replace(/"/g, '&quot;')
-               .replace(/'/g, '&apos;');
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
 }
 
 async function generateEPG() {
@@ -92,53 +99,66 @@ async function generateEPG() {
   for (const channel of channels) {
     console.log(`Buscando EPG para ${channel.id}...`);
     const dates = getDates();
-    let allPrograms = [];
 
     for (const date of dates) {
       const programs = await fetchChannelPrograms(channel.site_id, date);
-      programs.forEach(p => p.sourceDate = date);
-      allPrograms = allPrograms.concat(programs);
-    }
+      if (programs.length === 0) continue;
 
-    allPrograms.sort((a, b) => a.startDate - b.startDate);
+      const lastProgramStart = programs[programs.length - 1].start;
 
-    if (allPrograms.length === 0) continue;
+      for (const program of programs) {
+        const startHour = program.start.getHours();
+        const startMinutes = program.start.getMinutes();
 
-    const firstProgram = allPrograms[0];
-    const firstProgramHour = firstProgram.startDate.getUTCHours();
+        // Se começar entre 00:00 e o início do último programa da lista, adicionar 1 dia no horário, mas manter no mesmo dia da programação
+        if (program.start.getHours() >= 0 && program.start < lastProgramStart) {
+          program.start.setDate(program.start.getDate() + 1);
+          program.end.setDate(program.end.getDate() + 1);
+        }
 
-    for (let program of allPrograms) {
-      let startDate = program.startDate;
-      let endDate = program.endDate;
+        // Se começar entre 03:00 e o início do último programa da lista, mover para o próximo dia da programação
+        if (program.start.getHours() >= 3 && program.start < lastProgramStart) {
+          const newDate = new Date(date);
+          newDate.setDate(newDate.getDate() + 1);
+          date = newDate.toISOString().split('T')[0];
+        }
 
-      const programHour = startDate.getUTCHours();
+        // Dividir programa que atravessa 03:00
+        const threeAM = new Date(program.start);
+        threeAM.setHours(3, 0, 0, 0);
 
-      // Adicionar +1 dia no horário (somente entre 00:00 e o início do primeiro programa)
-      if (programHour < firstProgramHour && programHour >= 0) {
-        startDate = new Date(startDate.getTime() + 24 * 60 * 60 * 1000);
-        endDate = new Date(endDate.getTime() + 24 * 60 * 60 * 1000);
+        if (program.start < threeAM && program.end > threeAM) {
+          // Parte antes das 03:00
+          epgXml += `  <programme start="${formatDate(program.start)} 0000" stop="${formatDate(threeAM)} 0000" channel="${channel.id}">\n`;
+          epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
+          epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
+          epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
+          epgXml += `  </programme>\n`;
+
+          // Parte depois das 03:00
+          const newDate = new Date(date);
+          newDate.setDate(newDate.getDate() + 1);
+          const nextDate = newDate.toISOString().split('T')[0];
+
+          epgXml += `  <programme start="${formatDate(threeAM)} 0000" stop="${formatDate(program.end)} 0000" channel="${channel.id}">\n`;
+          epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
+          epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
+          epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
+          epgXml += `  </programme>\n`;
+        } else {
+          // Programa normal
+          epgXml += `  <programme start="${formatDate(program.start)} 0000" stop="${formatDate(program.end)} 0000" channel="${channel.id}">\n`;
+          epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
+          epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
+          epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
+          epgXml += `  </programme>\n`;
+        }
       }
-
-      // Mover para o dia seguinte no XML (somente entre 03:00 e o início do primeiro programa)
-      let channelId = channel.id;
-      if (programHour >= 3 && programHour < firstProgramHour) {
-        const originalDate = new Date(program.sourceDate + 'T00:00:00Z');
-        originalDate.setUTCDate(originalDate.getUTCDate() + 1);
-        const newDateString = originalDate.toISOString().split('T')[0];
-        channelId = channel.id; // Mantemos o canal igual, só mudamos o dia no start
-        startDate = new Date(startDate.getTime() + 24 * 60 * 60 * 1000);
-        endDate = new Date(endDate.getTime() + 24 * 60 * 60 * 1000);
-      }
-
-      epgXml += `  <programme start="${formatDate(startDate)} +0000" stop="${formatDate(endDate)} +0000" channel="${channelId}">\n`;
-      epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
-      epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
-      epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
-      epgXml += `  </programme>\n`;
     }
   }
 
   epgXml += '</tv>';
+
   await fs.writeFile('epg.xml', epgXml, 'utf-8');
   console.log('EPG gerado com sucesso em epg.xml');
 }
