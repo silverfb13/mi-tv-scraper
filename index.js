@@ -12,36 +12,6 @@ async function loadChannels() {
   }));
 }
 
-function formatDate(date) {
-  const year = date.getFullYear();
-  const month = (date.getMonth() + 1).toString().padStart(2, '0');
-  const day = date.getDate().toString().padStart(2, '0');
-  const hours = date.getHours().toString().padStart(2, '0');
-  const minutes = date.getMinutes().toString().padStart(2, '0');
-  const seconds = date.getSeconds().toString().padStart(2, '0');
-  return `${year}${month}${day}${hours}${minutes}${seconds}`;
-}
-
-function getDates() {
-  const dates = [];
-  const now = new Date();
-  const localTime = new Date(now.getTime() - (3 * 60 * 60 * 1000));
-  for (let i = -1; i <= 2; i++) {
-    const date = new Date(localTime);
-    date.setDate(localTime.getDate() + i);
-    dates.push(date.toISOString().split('T')[0]);
-  }
-  return dates;
-}
-
-function escapeXml(unsafe) {
-  return unsafe.replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&apos;');
-}
-
 async function fetchChannelPrograms(channelId, date) {
   const url = `https://mi.tv/br/async/channel/${channelId}/${date}/0`;
 
@@ -62,10 +32,9 @@ async function fetchChannelPrograms(channelId, date) {
 
       if (time && title) {
         const [hours, minutes] = time.split(':').map(Number);
-        const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00-03:00`);
-
+        const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00Z`);
         programs.push({
-          start: startDate,
+          startDate,
           title,
           desc: description || 'Sem descrição',
           rating: '[14]'
@@ -78,6 +47,37 @@ async function fetchChannelPrograms(channelId, date) {
     console.error(`Erro ao buscar ${url}: ${error.message}`);
     return [];
   }
+}
+
+function formatDate(date) {
+  const year = date.getUTCFullYear();
+  const month = (date.getUTCMonth() + 1).toString().padStart(2, '0');
+  const day = date.getUTCDate().toString().padStart(2, '0');
+  const hours = date.getUTCHours().toString().padStart(2, '0');
+  const minutes = date.getUTCMinutes().toString().padStart(2, '0');
+  const seconds = date.getUTCSeconds().toString().padStart(2, '0');
+  return `${year}${month}${day}${hours}${minutes}${seconds}`;
+}
+
+function getDates() {
+  const dates = [];
+  const now = new Date();
+
+  for (let i = -1; i <= 2; i++) {
+    const date = new Date(now);
+    date.setUTCDate(now.getUTCDate() + i);
+    dates.push(date.toISOString().split('T')[0]);
+  }
+
+  return dates;
+}
+
+function escapeXml(unsafe) {
+  return unsafe.replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
 }
 
 async function generateEPG() {
@@ -94,97 +94,90 @@ async function generateEPG() {
 
   for (const channel of channels) {
     console.log(`Buscando EPG para ${channel.id}...`);
-    const dates = getDates();
     let allPrograms = [];
 
+    const dates = getDates();
     for (const date of dates) {
       const programs = await fetchChannelPrograms(channel.site_id, date);
       allPrograms = allPrograms.concat(programs);
     }
 
-    allPrograms.sort((a, b) => a.start - b.start);
+    allPrograms.sort((a, b) => a.startDate - b.startDate);
 
-    let correctedPrograms = [];
-    let lastEnd = null;
-
+    // Corrigir a duração e os horários sobrepostos
     for (let i = 0; i < allPrograms.length; i++) {
-      const current = allPrograms[i];
-      const next = allPrograms[i + 1];
+      let currentProgram = allPrograms[i];
+      let nextProgram = allPrograms[i + 1];
 
-      let start = new Date(current.start);
-      let end = next ? new Date(next.start) : new Date(start.getTime() + 90 * 60000);
+      if (nextProgram) {
+        currentProgram.endDate = new Date(nextProgram.startDate);
+      } else {
+        currentProgram.endDate = new Date(currentProgram.startDate.getTime() + 90 * 60000); // Assume 90 minutos no último
+      }
+    }
 
-      // Regras entre 00:00 e início do primeiro programa
-      if (start.getHours() < 3 && start < allPrograms[0].start) {
-        start.setDate(start.getDate() + 1);
-        end.setDate(end.getDate() + 1);
+    // Aplicar as regras de 00:00 e 03:00
+    const finalPrograms = [];
+    const lastProgramStart = allPrograms[allPrograms.length - 1].startDate;
+
+    for (let program of allPrograms) {
+      const startHour = program.startDate.getUTCHours();
+      let programDay = new Date(program.startDate);
+
+      if (program.startDate < lastProgramStart) {
+        if (program.startDate.getUTCHours() < 3 && program.startDate.getUTCHours() >= 0) {
+          // Entre 00:00 e início do último programa: adicionar +1 dia no horário, mas manter no mesmo dia no XML
+          program.startDate.setUTCDate(program.startDate.getUTCDate() + 1);
+          program.endDate.setUTCDate(program.endDate.getUTCDate() + 1);
+        }
       }
 
-      let forceNextDay = false;
-
-      // Regras entre 03:00 e início do primeiro programa
-      if (start.getHours() >= 3 && start < allPrograms[0].start) {
-        forceNextDay = true;
+      if (program.startDate.getUTCHours() >= 3 && program.startDate < lastProgramStart) {
+        // Entre 03:00 e início do último programa: mover para o dia seguinte no XML
+        programDay.setUTCDate(programDay.getUTCDate() + 1);
       }
 
       // Dividir programas que atravessam 03:00
-      if (start.getHours() < 3 && end.getHours() >= 3) {
-        let splitTime = new Date(start);
-        splitTime.setHours(3, 0, 0, 0);
+      const threeAM = new Date(program.startDate);
+      threeAM.setUTCHours(3, 0, 0, 0);
 
-        correctedPrograms.push({
-          start: start,
-          end: splitTime,
-          title: current.title,
-          desc: current.desc,
-          rating: current.rating,
-          forceNextDay: false
+      if (program.startDate < threeAM && program.endDate > threeAM) {
+        // Parte antes das 03:00
+        finalPrograms.push({
+          start: formatDate(program.startDate),
+          end: formatDate(threeAM),
+          channel: channel.id,
+          title: program.title,
+          desc: program.desc,
+          rating: program.rating
         });
 
-        correctedPrograms.push({
-          start: splitTime,
-          end: end,
-          title: current.title,
-          desc: current.desc,
-          rating: current.rating,
-          forceNextDay: true
+        // Parte depois das 03:00 (mover para dia seguinte no XML)
+        const nextDay = new Date(programDay);
+        nextDay.setUTCDate(nextDay.getUTCDate() + 1);
+
+        finalPrograms.push({
+          start: formatDate(threeAM),
+          end: formatDate(program.endDate),
+          channel: channel.id,
+          title: program.title,
+          desc: program.desc,
+          rating: program.rating
         });
-
-        lastEnd = end;
-        continue;
+      } else {
+        finalPrograms.push({
+          start: formatDate(program.startDate),
+          end: formatDate(program.endDate),
+          channel: channel.id,
+          title: program.title,
+          desc: program.desc,
+          rating: program.rating
+        });
       }
-
-      // Corrigir se estiver sobrepondo o anterior
-      if (lastEnd && start < lastEnd) {
-        start = new Date(lastEnd);
-        if (next) end = new Date(next.start);
-        else end = new Date(start.getTime() + 90 * 60000);
-      }
-
-      correctedPrograms.push({
-        start,
-        end,
-        title: current.title,
-        desc: current.desc,
-        rating: current.rating,
-        forceNextDay
-      });
-
-      lastEnd = end;
     }
 
-    for (const program of correctedPrograms) {
-      let startStr = formatDate(program.start);
-      let endStr = formatDate(program.end);
-
-      if (program.forceNextDay) {
-        program.start.setDate(program.start.getDate() + 1);
-        program.end.setDate(program.end.getDate() + 1);
-        startStr = formatDate(program.start);
-        endStr = formatDate(program.end);
-      }
-
-      epgXml += `  <programme start="${startStr} +0000" stop="${endStr} +0000" channel="${channel.id}">\n`;
+    for (const program of finalPrograms) {
+      epgXml += `  <programme start="${program.start} +0000" stop="${program.end} +0000" channel="${program.channel}">\n`;
       epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
       epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
       epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
