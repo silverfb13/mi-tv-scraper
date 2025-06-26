@@ -60,7 +60,7 @@ function formatDate(date) {
 function getDates() {
   const dates = [];
   const now = new Date();
-  for (let i = -1; i <= 2; i++) { // Ontem, hoje, amanhã, depois de amanhã
+  for (let i = -1; i <= 2; i++) {
     const date = new Date(now);
     date.setUTCDate(now.getUTCDate() + i);
     dates.push(date.toISOString().split('T')[0]);
@@ -98,41 +98,50 @@ async function generateEPG() {
       allPrograms = allPrograms.concat(programs);
     }
 
+    if (allPrograms.length === 0) continue;
+
     // Ordena os programas por horário de início
     allPrograms.sort((a, b) => a.start - b.start);
 
-    if (allPrograms.length === 0) continue;
-
     const firstProgramTime = allPrograms[0].start;
 
-    // Reajustar horários:
     const adjustedPrograms = [];
 
     for (let i = 0; i < allPrograms.length; i++) {
       let prog = allPrograms[i];
 
-      // Se programa começar entre 00:00 e o início do primeiro programa, adicionar 1 dia no horário
-      if (prog.start.getUTCHours() < firstProgramTime.getUTCHours()) {
-        prog.start.setUTCDate(prog.start.getUTCDate() + 1);
-        prog.end.setUTCDate(prog.end.getUTCDate() + 1);
+      // Criar cópias das datas para não afetar o objeto original
+      let startCopy = new Date(prog.start);
+      let endCopy = new Date(prog.end);
+
+      // Se o programa começar entre 00:00 e o horário do primeiro programa da lista
+      if (startCopy.getUTCHours() < firstProgramTime.getUTCHours()) {
+        startCopy.setUTCDate(startCopy.getUTCDate() + 1);
+        endCopy.setUTCDate(endCopy.getUTCDate() + 1);
       }
 
-      // Se programa começar após as 03:00 UTC, mover para o dia seguinte (lógico)
-      if (prog.start.getUTCHours() >= 3 && prog.start > firstProgramTime) {
-        prog.start.setUTCDate(prog.start.getUTCDate() + 1);
-        prog.end.setUTCDate(prog.end.getUTCDate() + 1);
+      // Se o programa começar a partir das 03:00 UTC
+      if (startCopy.getUTCHours() >= 3 && startCopy.getTime() > firstProgramTime.getTime()) {
+        startCopy.setUTCDate(startCopy.getUTCDate() + 1);
+        endCopy.setUTCDate(endCopy.getUTCDate() + 1);
       }
 
-      // Se houver sobreposição, ajustar o início para depois do fim do anterior
+      // Ajuste de sobreposição
       if (adjustedPrograms.length > 0) {
         const prev = adjustedPrograms[adjustedPrograms.length - 1];
-        if (prog.start <= prev.end) {
-          prog.start = new Date(prev.end.getTime() + 1000); // adicionar 1 segundo
-          prog.end = new Date(prog.start.getTime() + 90 * 60000);
+        if (startCopy <= prev.end) {
+          startCopy = new Date(prev.end.getTime() + 1000);
+          endCopy = new Date(startCopy.getTime() + 90 * 60000);
         }
       }
 
-      adjustedPrograms.push(prog);
+      adjustedPrograms.push({
+        start: startCopy,
+        end: endCopy,
+        title: prog.title,
+        desc: prog.desc,
+        rating: prog.rating
+      });
     }
 
     // Escrever no XML
