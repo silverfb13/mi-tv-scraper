@@ -36,10 +36,10 @@ function getDates() {
 
 function escapeXml(unsafe) {
   return unsafe.replace(/&/g, '&amp;')
-               .replace(/</g, '&lt;')
-               .replace(/>/g, '&gt;')
-               .replace(/"/g, '&quot;')
-               .replace(/'/g, '&apos;');
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
 }
 
 async function fetchChannelPrograms(channelId, date) {
@@ -63,8 +63,9 @@ async function fetchChannelPrograms(channelId, date) {
       if (time && title) {
         const [hours, minutes] = time.split(':').map(Number);
         const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00-03:00`);
+
         programs.push({
-          startDate,
+          start: startDate,
           title,
           desc: description || 'Sem descrição',
           rating: '[14]'
@@ -101,77 +102,75 @@ async function generateEPG() {
       allPrograms = allPrograms.concat(programs);
     }
 
-    allPrograms.sort((a, b) => a.startDate - b.startDate);
+    allPrograms.sort((a, b) => a.start - b.start);
 
     let correctedPrograms = [];
-    let lastEndDate = null;
+    let lastEnd = null;
 
     for (let i = 0; i < allPrograms.length; i++) {
-      let program = allPrograms[i];
-      let start = new Date(program.startDate);
+      const current = allPrograms[i];
+      const next = allPrograms[i + 1];
 
-      // Definir a duração como 90 minutos padrão
-      let end = new Date(start.getTime() + 90 * 60000);
+      let start = new Date(current.start);
+      let end = next ? new Date(next.start) : new Date(start.getTime() + 90 * 60000);
 
-      // Se o horário do programa for entre 00:00 e o início do primeiro programa da lista
-      if (start.getHours() < 3 && start < allPrograms[0].startDate) {
+      // Regras entre 00:00 e início do primeiro programa
+      if (start.getHours() < 3 && start < allPrograms[0].start) {
         start.setDate(start.getDate() + 1);
         end.setDate(end.getDate() + 1);
       }
 
-      // Se o horário do programa for após 03:00 e antes do primeiro programa da lista -> mover para o próximo dia no XML
       let forceNextDay = false;
-      if (start.getHours() >= 3 && start < allPrograms[0].startDate) {
+
+      // Regras entre 03:00 e início do primeiro programa
+      if (start.getHours() >= 3 && start < allPrograms[0].start) {
         forceNextDay = true;
       }
 
-      // Se o programa atravessa 03:00 -> dividir
+      // Dividir programas que atravessam 03:00
       if (start.getHours() < 3 && end.getHours() >= 3) {
-        let part1End = new Date(start);
-        part1End.setHours(3, 0, 0, 0);
+        let splitTime = new Date(start);
+        splitTime.setHours(3, 0, 0, 0);
 
-        let part2Start = new Date(part1End);
-
-        // Parte antes de 03:00
         correctedPrograms.push({
-          start: new Date(start),
-          end: part1End,
-          title: program.title,
-          desc: program.desc,
-          rating: program.rating,
+          start: start,
+          end: splitTime,
+          title: current.title,
+          desc: current.desc,
+          rating: current.rating,
           forceNextDay: false
         });
 
-        // Parte depois de 03:00 (programação do dia seguinte)
         correctedPrograms.push({
-          start: part2Start,
-          end: new Date(end),
-          title: program.title,
-          desc: program.desc,
-          rating: program.rating,
+          start: splitTime,
+          end: end,
+          title: current.title,
+          desc: current.desc,
+          rating: current.rating,
           forceNextDay: true
         });
 
-        lastEndDate = new Date(end);
+        lastEnd = end;
         continue;
       }
 
-      // Programas contínuos
-      if (lastEndDate && start < lastEndDate) {
-        start = new Date(lastEndDate);
-        end = new Date(start.getTime() + 90 * 60000);
+      // Corrigir se estiver sobrepondo o anterior
+      if (lastEnd && start < lastEnd) {
+        start = new Date(lastEnd);
+        if (next) end = new Date(next.start);
+        else end = new Date(start.getTime() + 90 * 60000);
       }
 
       correctedPrograms.push({
         start,
         end,
-        title: program.title,
-        desc: program.desc,
-        rating: program.rating,
+        title: current.title,
+        desc: current.desc,
+        rating: current.rating,
         forceNextDay
       });
 
-      lastEndDate = new Date(end);
+      lastEnd = end;
     }
 
     for (const program of correctedPrograms) {
