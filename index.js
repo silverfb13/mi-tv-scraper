@@ -48,7 +48,8 @@ async function fetchChannelPrograms(channelId, date) {
 }
 
 function formatDate(date) {
-  return date.toISOString().replace('T', ' ').replace(/[-:]/g, '').split('.')[0];
+  const pad = (n) => n.toString().padStart(2, '0');
+  return `${date.getUTCFullYear()}${pad(date.getUTCMonth() + 1)}${pad(date.getUTCDate())}${pad(date.getUTCHours())}${pad(date.getUTCMinutes())}${pad(date.getUTCSeconds())}`;
 }
 
 function getDates() {
@@ -72,33 +73,6 @@ function escapeXml(unsafe) {
     .replace(/'/g, '&apos;');
 }
 
-function aplicarRegras(programs) {
-  if (programs.length === 0) return [];
-
-  const adjustedPrograms = [];
-  const firstProgramTime = programs[0].start.getUTCHours() * 100 + programs[0].start.getUTCMinutes();
-
-  for (let i = 0; i < programs.length; i++) {
-    let program = programs[i];
-    let startHour = program.start.getUTCHours();
-    let startMinutes = program.start.getUTCMinutes();
-    let startTime = startHour * 100 + startMinutes;
-
-    // Regra 1: Entre 00:00 e 03:00
-    if (startHour >= 0 && startHour < 3) {
-      program.start = new Date(program.start.getTime() + (24 * 60 * 60 * 1000));
-    }
-    // Regra 2: Entre 03:00 e início do primeiro programa do dia
-    else if (startHour >= 3 && startTime < firstProgramTime) {
-      program.start = new Date(program.start.getTime() + (24 * 60 * 60 * 1000));
-    }
-
-    adjustedPrograms.push(program);
-  }
-
-  return adjustedPrograms;
-}
-
 function atribuirHorariosFinais(programs) {
   const completedPrograms = [];
 
@@ -111,7 +85,6 @@ function atribuirHorariosFinais(programs) {
     if (next) {
       end = new Date(next.start);
     } else {
-      // Se for o último programa, adiciona 1 hora fictícia
       end = new Date(current.start.getTime() + 60 * 60000);
     }
 
@@ -144,7 +117,6 @@ async function generateEPG() {
     const dates = getDates();
     for (const date of dates) {
       let programs = await fetchChannelPrograms(channel.site_id, date);
-      programs = aplicarRegras(programs);
       programs = atribuirHorariosFinais(programs);
 
       for (const program of programs) {
