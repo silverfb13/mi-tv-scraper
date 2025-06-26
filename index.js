@@ -1,163 +1,207 @@
-const axios = require('axios');
-const fs = require('fs');
-const { parseStringPromise, Builder } = require('xml2js');
+import axios from 'axios';
+import { parseStringPromise } from 'xml2js';
+import fs from 'fs/promises';
 
-const CHANNELS_FILE = 'channels.xml';
-const OUTPUT_FILE = 'epg.xml';
+// Função para obter datas no formato yyyy-mm-dd para ontem, hoje, amanhã e depois de amanhã
+function getDates() {
+  const today = new Date();
+  const dates = [];
+
+  for (let offset = -1; offset <= 2; offset++) {
+    const d = new Date(Date.UTC(
+      today.getUTCFullYear(),
+      today.getUTCMonth(),
+      today.getUTCDate() + offset
+    ));
+    const yyyy = d.getUTCFullYear();
+    const mm = String(d.getUTCMonth() + 1).padStart(2, '0');
+    const dd = String(d.getUTCDate()).padStart(2, '0');
+    dates.push(`${yyyy}-${mm}-${dd}`);
+  }
+  return dates; // [ontem, hoje, amanha, depois_amanha]
+}
 
 async function loadChannels() {
-    const data = fs.readFileSync(CHANNELS_FILE, 'utf-8');
-    const channels = [];
-    const result = await parseStringPromise(data);
-    result.channels.channel.forEach(ch => {
-        channels.push({
-            id: ch.$.xmltv_id,
-            name: ch._
-        });
+  const xmlChannels = await fs.readFile('channels.xml', 'utf-8');
+  const parsed = await parseStringPromise(xmlChannels);
+
+  const channels = [];
+
+  parsed.channels.channel.forEach(ch => {
+    let rawId = ch.$.site_id; // ex: "br#band-belem"
+    let cleanId = rawId.includes('br#') ? rawId.split('br#')[1] : rawId;
+    channels.push({
+      id: cleanId,
+      xmltv_id: ch.$.xmltv_id || '',
+      name: ch._
     });
-    return channels;
+  });
+
+  return channels;
 }
 
-function getDates() {
-    const now = new Date();
-    const dates = [];
-    for (let i = -1; i <= 2; i++) { // ontem, hoje, amanhã, depois de amanhã
-        const date = new Date(now);
-        date.setUTCDate(date.getUTCDate() + i);
-        const yyyy = date.getUTCFullYear();
-        const mm = String(date.getUTCMonth() + 1).padStart(2, '0');
-        const dd = String(date.getUTCDate()).padStart(2, '0');
-        dates.push(`${yyyy}-${mm}-${dd}`);
+// Função que ajusta as programações entre 00:00 e 03:00 para o próximo dia no XML
+function ajustarProgramasEPG(programas, dataReferencia) {
+  // dataReferencia é uma string yyyy-mm-dd para o dia que estamos processando (GMT+0)
+  // Retorna um array de programas ajustados com início e fim em formato ISO para XMLTV
+
+  const programasAjustados = [];
+
+  for (let i = 0; i < programas.length; i++) {
+    const prog = programas[i];
+    // prog.time é "HH:mm" em GMT+0, convertemos para Date
+    let [hora, min] = prog.time.split(':').map(Number);
+
+    // Cria data inicial do programa
+    let inicio = new Date(`${dataReferencia}T${prog.time}:00Z`);
+
+    // Para achar fim, pega o horário do próximo programa ou considera +1h se for o último
+    let fim;
+    if (i + 1 < programas.length) {
+      let [horaFim, minFim] = programas[i + 1].time.split(':').map(Number);
+      fim = new Date(`${dataReferencia}T${programas[i + 1].time}:00Z`);
+      // Se fim < inicio, é dia seguinte
+      if (fim <= inicio) {
+        fim.setUTCDate(fim.getUTCDate() + 1);
+      }
+    } else {
+      // Último programa, vamos considerar duração fixa de 1 hora (ou você pode ajustar)
+      fim = new Date(inicio);
+      fim.setUTCHours(fim.getUTCHours() + 1);
     }
-    return dates;
-}
 
-function parseTimeToMinutes(time) {
-    const [hours, minutes] = time.split(':').map(Number);
-    return hours * 60 + minutes;
-}
+    // Regra 2: Se o horário inicial está entre 00:00 e 03:00 (GMT+0), adiciona 1 dia no XML (data de exibição)
+    // Além disso, se o programa atravessa 03:00, divide em dois blocos
 
-function addMinutes(date, minutesToAdd) {
-    const newDate = new Date(date.getTime() + minutesToAdd * 60000);
-    return newDate;
-}
+    // Verifica se inicio está entre 00:00 e 03:00
+    if (inicio.getUTCHours() < 3) {
+      // Ajusta o início e fim para o dia seguinte
+      let inicioNovo = new Date(inicio);
+      inicioNovo.setUTCDate(inicioNovo.getUTCDate() + 1);
 
-function formatDate(date) {
-    const yyyy = date.getUTCFullYear();
-    const mm = String(date.getUTCMonth() + 1).padStart(2, '0');
-    const dd = String(date.getUTCDate()).padStart(2, '0');
-    const hh = String(date.getUTCHours()).padStart(2, '0');
-    const min = String(date.getUTCMinutes()).padStart(2, '0');
-    return `${yyyy}${mm}${dd}${hh}${min}00 +0000`;
-}
+      let fimNovo = new Date(fim);
+      fimNovo.setUTCDate(fimNovo.getUTCDate() + 1);
 
-async function fetchEPG(channel, date) {
-    const url = `https://mi.tv/br/async/channel/${channel.id}/${date}/0`;
-    try {
-        const { data } = await axios.get(url);
-        return data;
-    } catch (error) {
-        console.error(`Erro ao buscar: ${url}`);
-        return '';
+      // Verifica se programa atravessa 03:00 (ou seja, fim > 03:00 do dia atual)
+      let tresHoras = new Date(dataReferencia + 'T03:00:00Z');
+
+      if (fim > tresHoras && inicio < tresHoras) {
+        // Divide em dois programas:
+        // Parte 1: inicio até 03:00 no dia atual
+        programasAjustados.push({
+          start: inicio.toISOString().replace(/[-:]|\.\d{3}/g, ''),
+          stop: tresHoras.toISOString().replace(/[-:]|\.\d{3}/g, ''),
+          title: prog.title,
+          desc: prog.desc || ''
+        });
+
+        // Parte 2: 03:00 até fim no dia seguinte (já ajustado)
+        programasAjustados.push({
+          start: tresHoras.toISOString().replace(/[-:]|\.\d{3}/g, '').slice(0, 8) + 'T030000Z'.slice(9), // 03:00 do dia seguinte
+          stop: fimNovo.toISOString().replace(/[-:]|\.\d{3}/g, ''),
+          title: prog.title,
+          desc: prog.desc || ''
+        });
+      } else {
+        // Programa normal, só ajusta o dia para o próximo
+        programasAjustados.push({
+          start: inicioNovo.toISOString().replace(/[-:]|\.\d{3}/g, ''),
+          stop: fimNovo.toISOString().replace(/[-:]|\.\d{3}/g, ''),
+          title: prog.title,
+          desc: prog.desc || ''
+        });
+      }
+
+    } else {
+      // Programa normal (fora do intervalo 00-03)
+      programasAjustados.push({
+        start: inicio.toISOString().replace(/[-:]|\.\d{3}/g, ''),
+        stop: fim.toISOString().replace(/[-:]|\.\d{3}/g, ''),
+        title: prog.title,
+        desc: prog.desc || ''
+      });
     }
+  }
+
+  return programasAjustados;
 }
 
-async function processChannel(channel) {
-    const dates = getDates();
-    const programmes = [];
+async function fetchEPGForChannel(channelId, date) {
+  const url = `https://mi.tv/br/async/channel/${channelId}/${date}/0`;
 
-    for (let i = 0; i < dates.length; i++) {
-        const date = dates[i];
-        const nextDate = dates[i + 1];
+  const res = await axios.get(url);
+  // Supondo que res.data seja JSON com array de programas { time, title, desc }
+  // Você pode precisar ajustar conforme a estrutura real da resposta
 
-        if (!nextDate && i < 3) continue;
+  // Exemplo: res.data = [{ time: "05:30", title: "Programa X", desc: "..." }, ...]
 
-        const html = await fetchEPG(channel, date);
-        const regex = /<li[^>]*>.*?<span class="time">([\d:]+)<\/span>.*?<h2>(.*?)<\/h2>.*?<span class="sub-title">(.*?)<\/span>.*?<p class="synopsis">\s*(.*?)\s*<\/p>.*?<\/li>/gs;
+  return res.data;
+}
 
-        const matches = [...html.matchAll(regex)];
+async function gerarEPG() {
+  const channels = await loadChannels();
+  const dates = getDates();
 
-        let dayStart = new Date(`${date}T00:00:00Z`);
-        let nextDayStart = new Date(`${nextDate}T00:00:00Z`);
+  let epgXML = `<?xml version="1.0" encoding="UTF-8"?>\n<tv generator-info-name="mi.tv scraper" source-info-url="https://mi.tv" source-info-name="mi.tv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">\n`;
 
-        for (let j = 0; j < matches.length; j++) {
-            const [, time, title, category, desc] = matches[j];
-            const startTime = parseTimeToMinutes(time);
-            let startDate = addMinutes(dayStart, startTime);
+  for (const ch of channels) {
+    epgXML += `  <channel id="${ch.id}">\n`;
+    epgXML += `    <display-name>${ch.name}</display-name>\n`;
+    epgXML += `  </channel>\n`;
 
-            let endDate;
+    for (const date of dates) {
+      const programas = await fetchEPGForChannel(ch.id, date);
 
-            if (j + 1 < matches.length) {
-                const nextTime = parseTimeToMinutes(matches[j + 1][1]);
-                endDate = addMinutes(dayStart, nextTime);
-            } else {
-                endDate = addMinutes(startDate, 60); // default: 1h
-            }
+      const programasAjustados = ajustarProgramasEPG(programas, date);
 
-            // Regra entre 00:00 e 03:00
-            if (startTime >= 0 && startTime < 180) {
-                startDate = addMinutes(startDate, 1440);
-                endDate = addMinutes(endDate, 1440);
-            }
-
-            // Regra de mover após 03:00 para o próximo dia
-            if (startTime >= 180 && i < 3) {
-                programmes.push({
-                    channel: channel.id,
-                    start: formatDate(startDate),
-                    stop: formatDate(endDate),
-                    title: title.trim(),
-                    desc: desc.trim(),
-                    category: category.trim()
-                });
-            } else if (startTime < 180 || i === 3) {
-                programmes.push({
-                    channel: channel.id,
-                    start: formatDate(startDate),
-                    stop: formatDate(endDate),
-                    title: title.trim(),
-                    desc: desc.trim(),
-                    category: category.trim()
-                });
-            }
+      for (const prog of programasAjustados) {
+        epgXML += `  <programme start="${prog.start}" stop="${prog.stop}" channel="${ch.id}">\n`;
+        epgXML += `    <title lang="pt">${prog.title}</title>\n`;
+        if (prog.desc) {
+          epgXML += `    <desc lang="pt">${prog.desc}</desc>\n`;
         }
+        epgXML += `  </programme>\n`;
+      }
     }
+  }
 
-    return programmes;
+  epgXML += `</tv>`;
+
+  await fs.writeFile('epg.xml', epgXML, 'utf-8');
+  console.log('EPG gerado com sucesso!');
 }
 
-async function buildEPG() {
-    const channels = await loadChannels();
-    const epg = { tv: { channel: [], programme: [] } };
+// Função para agendar a execução às 00:00 e 12:00
+function agendarAtualizacao() {
+  const agora = new Date();
+  const hora = agora.getUTCHours();
+  const minutos = agora.getUTCMinutes();
+  const segundos = agora.getUTCSeconds();
 
-    channels.forEach(channel => {
-        epg.tv.channel.push({
-            id: channel.id,
-            'display-name': channel.name
-        });
-    });
+  // Próxima execução será às 00:00 ou 12:00
+  let proximaExecucao;
 
-    for (const channel of channels) {
-        console.log(`Processando canal: ${channel.name}`);
-        const programmes = await processChannel(channel);
-        programmes.forEach(p => {
-            epg.tv.programme.push({
-                $: {
-                    start: p.start,
-                    stop: p.stop,
-                    channel: p.channel
-                },
-                title: { _: p.title },
-                desc: { _: p.desc },
-                category: { _: p.category }
-            });
-        });
+  if (hora < 12) {
+    proximaExecucao = new Date(Date.UTC(agora.getUTCFullYear(), agora.getUTCMonth(), agora.getUTCDate(), 12, 0, 0));
+  } else {
+    // Se passou das 12:00, agenda para 00:00 do próximo dia
+    proximaExecucao = new Date(Date.UTC(agora.getUTCFullYear(), agora.getUTCMonth(), agora.getUTCDate() + 1, 0, 0, 0));
+  }
+
+  const delay = proximaExecucao.getTime() - agora.getTime();
+
+  setTimeout(async () => {
+    try {
+      await gerarEPG();
+      agendarAtualizacao(); // Agenda próxima
+    } catch (e) {
+      console.error('Erro ao gerar EPG:', e);
+      agendarAtualizacao(); // Agenda próxima mesmo com erro
     }
-
-    const builder = new Builder();
-    const xml = builder.buildObject(epg);
-    fs.writeFileSync(OUTPUT_FILE, xml);
-    console.log('EPG atualizado com sucesso!');
+  }, delay);
 }
 
-buildEPG();
+(async () => {
+  await gerarEPG();
+  agendarAtualizacao();
+})();
