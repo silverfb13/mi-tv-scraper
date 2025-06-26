@@ -17,13 +17,14 @@ async function fetchChannelPrograms(channelId, date) {
 
   try {
     const response = await axios.get(url, {
-      headers: { 'User-Agent': 'Mozilla/5.0' }
+      headers: {
+        'User-Agent': 'Mozilla/5.0'
+      }
     });
 
     const $ = load(response.data);
     const programs = [];
 
-    // Captura dados do site
     $('li').each((_, element) => {
       const time = $(element).find('.time').text().trim();
       const title = $(element).find('h2').text().trim();
@@ -31,11 +32,14 @@ async function fetchChannelPrograms(channelId, date) {
 
       if (time && title) {
         const [hours, minutes] = time.split(':').map(Number);
-        // Cria objeto Date para o início do programa em GMT +0000
-        const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00Z`);
+        const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00Z`); // GMT +0000
+        // O fim do programa vai ser ajustado no final, por enquanto só pega a duração padrão de 90 min
+        // Mas vamos usar a regra para ajustar depois
+        const endDate = new Date(startDate.getTime() + 90 * 60000);
 
         programs.push({
           startDate,
+          endDate,
           title,
           desc: description || 'Sem descrição',
           rating: '[14]'
@@ -43,26 +47,14 @@ async function fetchChannelPrograms(channelId, date) {
       }
     });
 
-    // Agora calcula o endDate de cada programa usando o startDate do próximo
-    for (let i = 0; i < programs.length; i++) {
-      if (i + 1 < programs.length) {
-        // Duração até o próximo programa
-        programs[i].endDate = new Date(programs[i + 1].startDate);
-      } else {
-        // Último programa do dia: assume duração padrão 90 min
-        programs[i].endDate = new Date(programs[i].startDate.getTime() + 90 * 60000);
-      }
-    }
-
     return programs;
-
   } catch (error) {
     console.error(`Erro ao buscar ${url}: ${error.message}`);
     return [];
   }
 }
 
-// Função para formatar data no formato desejado sem "T"
+// Formatar sem o "T"
 function formatDate(date) {
   return date.toISOString().replace('T', ' ').replace(/[-:]/g, '').split('.')[0];
 }
@@ -88,64 +80,36 @@ function escapeXml(unsafe) {
                .replace(/'/g, '&apos;');
 }
 
-// FUNÇÃO PRINCIPAL DAS 3 REGRAS
-function ajustarProgramasComRegras(programas) {
-  const programasAjustados = [];
-  if (programas.length === 0) return programasAjustados;
+// Função que ajusta horários segundo as regras:
+// 1) Se programa começar depois das 03:00 UTC, joga para o próximo dia (ajustando start e end)
+// 2) Se programa começar antes das 03:00 e terminar depois, mantém no mesmo dia (sem dividir)
+// 3) Se end <= start (programa passa da meia-noite), ajusta end para dia seguinte
+function ajustarHorarioPrograma(programa) {
+  const corte3h = new Date(programa.startDate);
+  corte3h.setUTCHours(3, 0, 0, 0); // 03:00 do mesmo dia
 
-  // 03:00 AM do dia do primeiro programa em UTC (GMT+0000)
-  const diaReferencia = new Date(programas[0].startDate);
-  diaReferencia.setUTCHours(3, 0, 0, 0);
+  let start = new Date(programa.startDate);
+  let end = new Date(programa.endDate);
 
-  for (const prog of programas) {
-    const start = prog.startDate;
-    const end = prog.endDate;
-
-    if (end <= diaReferencia) {
-      // Programa termina antes das 3h -> fica no mesmo dia
-      programasAjustados.push(prog);
-
-    } else if (start >= diaReferencia) {
-      // Programa começa após as 3h -> passa para o dia seguinte (+1 dia)
-      const novoStart = new Date(start);
-      const novoEnd = new Date(end);
-      novoStart.setUTCDate(novoStart.getUTCDate() + 1);
-      novoEnd.setUTCDate(novoEnd.getUTCDate() + 1);
-
-      programasAjustados.push({
-        ...prog,
-        startDate: novoStart,
-        endDate: novoEnd,
-      });
-
-    } else {
-      // Programa atravessa 3h -> divide em dois programas
-
-      // Parte 1: do início até 03:00
-      programasAjustados.push({
-        ...prog,
-        startDate: start,
-        endDate: diaReferencia,
-      });
-
-      // Parte 2: de 03:00 até o fim, no dia seguinte
-      const novoStart = new Date(diaReferencia);
-      const novoEnd = new Date(end);
-      novoStart.setUTCDate(novoStart.getUTCDate() + 1);
-      novoEnd.setUTCDate(novoEnd.getUTCDate() + 1);
-
-      programasAjustados.push({
-        ...prog,
-        startDate: novoStart,
-        endDate: novoEnd,
-      });
-    }
+  // Ajusta programa que passa da meia-noite
+  if (end <= start) {
+    end.setUTCDate(end.getUTCDate() + 1);
   }
 
-  // Ordena para evitar sobreposição
-  programasAjustados.sort((a, b) => a.startDate - b.startDate);
+  // Se programa começa depois ou exatamente às 03:00, joga para o próximo dia
+  if (start >= corte3h) {
+    start.setUTCDate(start.getUTCDate() + 1);
+    end.setUTCDate(end.getUTCDate() + 1);
+    return { start, end };
+  }
 
-  return programasAjustados;
+  // Se programa começa antes das 03:00 e termina depois das 03:00, mantém sem dividir
+  if (start < corte3h && end > corte3h) {
+    return { start, end };
+  }
+
+  // Caso contrário, mantém os horários originais
+  return { start, end };
 }
 
 async function generateEPG() {
@@ -167,14 +131,14 @@ async function generateEPG() {
     for (const date of dates) {
       const programs = await fetchChannelPrograms(channel.site_id, date);
 
-      // Aplica as regras
-      const programasAjustados = ajustarProgramasComRegras(programs);
+      for (const program of programs) {
+        // Ajusta horário conforme regra
+        const { start, end } = ajustarHorarioPrograma(program);
 
-      for (const program of programasAjustados) {
-        const start = formatDate(program.startDate) + ' +0000';
-        const end = formatDate(program.endDate) + ' +0000';
+        const startStr = formatDate(start) + ' +0000';
+        const endStr = formatDate(end) + ' +0000';
 
-        epgXml += `  <programme start="${start}" stop="${end}" channel="${channel.id}">\n`;
+        epgXml += `  <programme start="${startStr}" stop="${endStr}" channel="${channel.id}">\n`;
         epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
         epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
         epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
