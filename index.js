@@ -31,8 +31,8 @@ async function fetchChannelPrograms(channelId, date) {
         const endDate = new Date(startDate.getTime() + 90 * 60000);
 
         programs.push({
-          start: startDate,
-          end: endDate,
+          startDate,
+          endDate,
           title,
           desc: description || 'Sem descrição',
           rating: '[14]'
@@ -54,18 +54,20 @@ function formatDate(date) {
   const hours = date.getUTCHours().toString().padStart(2, '0');
   const minutes = date.getUTCMinutes().toString().padStart(2, '0');
   const seconds = date.getUTCSeconds().toString().padStart(2, '0');
-  return `${year}${month}${day}${hours}${minutes}${seconds} +0000`;
+  return `${year}${month}${day}${hours}${minutes}${seconds}`;
 }
 
 function getDates() {
   const dates = [];
   const now = new Date();
+
   for (let i = -1; i <= 2; i++) {
     const date = new Date(now);
     date.setUTCDate(now.getUTCDate() + i);
     dates.push(date.toISOString().split('T')[0]);
   }
-  return dates;
+
+  return dates; // Ontem, hoje, amanhã e depois de amanhã
 }
 
 function escapeXml(unsafe) {
@@ -89,73 +91,54 @@ async function generateEPG() {
 
   for (const channel of channels) {
     console.log(`Buscando EPG para ${channel.id}...`);
-
-    let allPrograms = [];
     const dates = getDates();
+    let allPrograms = [];
 
     for (const date of dates) {
       const programs = await fetchChannelPrograms(channel.site_id, date);
+      programs.forEach(p => p.sourceDate = date);
       allPrograms = allPrograms.concat(programs);
     }
 
+    allPrograms.sort((a, b) => a.startDate - b.startDate);
+
     if (allPrograms.length === 0) continue;
 
-    // Ordena os programas por horário de início
-    allPrograms.sort((a, b) => a.start - b.start);
+    const firstProgram = allPrograms[0];
+    const firstProgramHour = firstProgram.startDate.getUTCHours();
 
-    const firstProgramTime = allPrograms[0].start;
+    for (let program of allPrograms) {
+      let startDate = program.startDate;
+      let endDate = program.endDate;
 
-    const adjustedPrograms = [];
+      const programHour = startDate.getUTCHours();
 
-    for (let i = 0; i < allPrograms.length; i++) {
-      let prog = allPrograms[i];
-
-      // Criar cópias das datas para não afetar o objeto original
-      let startCopy = new Date(prog.start);
-      let endCopy = new Date(prog.end);
-
-      // Se o programa começar entre 00:00 e o horário do primeiro programa da lista
-      if (startCopy.getUTCHours() < firstProgramTime.getUTCHours()) {
-        startCopy.setUTCDate(startCopy.getUTCDate() + 1);
-        endCopy.setUTCDate(endCopy.getUTCDate() + 1);
+      // Adicionar +1 dia no horário (somente entre 00:00 e o início do primeiro programa)
+      if (programHour < firstProgramHour && programHour >= 0) {
+        startDate = new Date(startDate.getTime() + 24 * 60 * 60 * 1000);
+        endDate = new Date(endDate.getTime() + 24 * 60 * 60 * 1000);
       }
 
-      // Se o programa começar a partir das 03:00 UTC
-      if (startCopy.getUTCHours() >= 3 && startCopy.getTime() > firstProgramTime.getTime()) {
-        startCopy.setUTCDate(startCopy.getUTCDate() + 1);
-        endCopy.setUTCDate(endCopy.getUTCDate() + 1);
+      // Mover para o dia seguinte no XML (somente entre 03:00 e o início do primeiro programa)
+      let channelId = channel.id;
+      if (programHour >= 3 && programHour < firstProgramHour) {
+        const originalDate = new Date(program.sourceDate + 'T00:00:00Z');
+        originalDate.setUTCDate(originalDate.getUTCDate() + 1);
+        const newDateString = originalDate.toISOString().split('T')[0];
+        channelId = channel.id; // Mantemos o canal igual, só mudamos o dia no start
+        startDate = new Date(startDate.getTime() + 24 * 60 * 60 * 1000);
+        endDate = new Date(endDate.getTime() + 24 * 60 * 60 * 1000);
       }
 
-      // Ajuste de sobreposição
-      if (adjustedPrograms.length > 0) {
-        const prev = adjustedPrograms[adjustedPrograms.length - 1];
-        if (startCopy <= prev.end) {
-          startCopy = new Date(prev.end.getTime() + 1000);
-          endCopy = new Date(startCopy.getTime() + 90 * 60000);
-        }
-      }
-
-      adjustedPrograms.push({
-        start: startCopy,
-        end: endCopy,
-        title: prog.title,
-        desc: prog.desc,
-        rating: prog.rating
-      });
-    }
-
-    // Escrever no XML
-    adjustedPrograms.forEach(prog => {
-      epgXml += `  <programme start="${formatDate(prog.start)}" stop="${formatDate(prog.end)}" channel="${channel.id}">\n`;
-      epgXml += `    <title lang="pt">${escapeXml(prog.title)}</title>\n`;
-      epgXml += `    <desc lang="pt">${escapeXml(prog.desc)}</desc>\n`;
-      epgXml += `    <rating system="Brazil">\n      <value>${prog.rating}</value>\n    </rating>\n`;
+      epgXml += `  <programme start="${formatDate(startDate)} +0000" stop="${formatDate(endDate)} +0000" channel="${channelId}">\n`;
+      epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
+      epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
+      epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
       epgXml += `  </programme>\n`;
-    });
+    }
   }
 
   epgXml += '</tv>';
-
   await fs.writeFile('epg.xml', epgXml, 'utf-8');
   console.log('EPG gerado com sucesso em epg.xml');
 }
