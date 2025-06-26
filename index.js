@@ -12,10 +12,72 @@ async function loadChannels() {
   }));
 }
 
+async function fetchChannelPrograms(channelId, date) {
+  const url = `https://mi.tv/br/async/channel/${channelId}/${date}/0`;
+
+  try {
+    const response = await axios.get(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0' }
+    });
+
+    const $ = load(response.data);
+    const programs = [];
+
+    // Captura dados do site
+    $('li').each((_, element) => {
+      const time = $(element).find('.time').text().trim();
+      const title = $(element).find('h2').text().trim();
+      const description = $(element).find('.synopsis').text().trim();
+
+      if (time && title) {
+        const [hours, minutes] = time.split(':').map(Number);
+        // Cria objeto Date para o início do programa em GMT +0000
+        const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00Z`);
+
+        programs.push({
+          startDate,
+          title,
+          desc: description || 'Sem descrição',
+          rating: '[14]'
+        });
+      }
+    });
+
+    // Agora calcula o endDate de cada programa usando o startDate do próximo
+    for (let i = 0; i < programs.length; i++) {
+      if (i + 1 < programs.length) {
+        // Duração até o próximo programa
+        programs[i].endDate = new Date(programs[i + 1].startDate);
+      } else {
+        // Último programa do dia: assume duração padrão 90 min
+        programs[i].endDate = new Date(programs[i].startDate.getTime() + 90 * 60000);
+      }
+    }
+
+    return programs;
+
+  } catch (error) {
+    console.error(`Erro ao buscar ${url}: ${error.message}`);
+    return [];
+  }
+}
+
+// Função para formatar data no formato desejado sem "T"
 function formatDate(date) {
-  // Formata para "YYYYMMDD HHMMSS +0000" sem 'T'
-  // ISO é UTC, já bom para GMT+0000
-  return date.toISOString().replace('T', ' ').replace(/[-:]/g, '').split('.')[0] + ' +0000';
+  return date.toISOString().replace('T', ' ').replace(/[-:]/g, '').split('.')[0];
+}
+
+function getDates() {
+  const dates = [];
+  const today = new Date();
+
+  for (let i = -1; i <= 2; i++) {
+    const date = new Date(today);
+    date.setDate(today.getDate() + i);
+    dates.push(date.toISOString().split('T')[0]);
+  }
+
+  return dates;
 }
 
 function escapeXml(unsafe) {
@@ -26,149 +88,64 @@ function escapeXml(unsafe) {
                .replace(/'/g, '&apos;');
 }
 
-function addDays(date, days) {
-  const d = new Date(date);
-  d.setUTCDate(d.getUTCDate() + days);
-  return d;
-}
+// FUNÇÃO PRINCIPAL DAS 3 REGRAS
+function ajustarProgramasComRegras(programas) {
+  const programasAjustados = [];
+  if (programas.length === 0) return programasAjustados;
 
-function startOfDayUTC(date) {
-  const d = new Date(date);
-  d.setUTCHours(0, 0, 0, 0);
-  return d;
-}
+  // 03:00 AM do dia do primeiro programa em UTC (GMT+0000)
+  const diaReferencia = new Date(programas[0].startDate);
+  diaReferencia.setUTCHours(3, 0, 0, 0);
 
-async function fetchChannelPrograms(channelId, dateStr) {
-  const url = `https://mi.tv/br/async/channel/${channelId}/${dateStr}/0`;
-  try {
-    const response = await axios.get(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0'
-      }
-    });
+  for (const prog of programas) {
+    const start = prog.startDate;
+    const end = prog.endDate;
 
-    const $ = load(response.data);
-    const programs = [];
+    if (end <= diaReferencia) {
+      // Programa termina antes das 3h -> fica no mesmo dia
+      programasAjustados.push(prog);
 
-    $('li').each((_, element) => {
-      const time = $(element).find('.time').text().trim();
-      const title = $(element).find('h2').text().trim();
-      const description = $(element).find('.synopsis').text().trim();
+    } else if (start >= diaReferencia) {
+      // Programa começa após as 3h -> passa para o dia seguinte (+1 dia)
+      const novoStart = new Date(start);
+      const novoEnd = new Date(end);
+      novoStart.setUTCDate(novoStart.getUTCDate() + 1);
+      novoEnd.setUTCDate(novoEnd.getUTCDate() + 1);
 
-      if (time && title) {
-        const [hours, minutes] = time.split(':').map(Number);
-        // Cria o startDate em UTC (GMT+0000)
-        const startDate = new Date(`${dateStr}T${hours.toString().padStart(2,'0')}:${minutes.toString().padStart(2,'0')}:00Z`);
-
-        // Duracao fixa de 90 minutos (podemos melhorar depois se precisar)
-        const endDate = new Date(startDate.getTime() + 90 * 60000);
-
-        programs.push({
-          startDate,
-          endDate,
-          title,
-          desc: description || 'Sem descrição',
-          rating: '[14]'
-        });
-      }
-    });
-
-    return programs;
-  } catch (error) {
-    console.error(`Erro ao buscar ${url}: ${error.message}`);
-    return [];
-  }
-}
-
-// Aplicar as 3 regras de ajuste do EPG (regra 1, 2 e 3)
-function aplicarRegras(programsDiaX, programsDiaXmais1) {
-  const resultado = [];
-
-  // Ordena programas por horário inicial
-  programsDiaX.sort((a,b) => a.startDate - b.startDate);
-  if (programsDiaXmais1) programsDiaXmais1.sort((a,b) => a.startDate - b.startDate);
-
-  const ultimoProgramaDiaX = programsDiaX[programsDiaX.length - 1];
-  const primeiroProgramaDiaXmais1 = programsDiaXmais1 ? programsDiaXmais1[0] : null;
-
-  // Limite para considerar o último horário do dia X
-  const limiteFim = primeiroProgramaDiaXmais1
-    ? primeiroProgramaDiaXmais1.startDate
-    : (ultimoProgramaDiaX ? ultimoProgramaDiaX.endDate : null);
-
-  for (const prog of programsDiaX) {
-    const startH = prog.startDate.getUTCHours();
-    const endH = prog.endDate.getUTCHours();
-
-    const tresAM = new Date(prog.startDate);
-    tresAM.setUTCHours(3,0,0,0);
-
-    // Regra 3: programa atravessa 03:00 (começa antes e termina depois)
-    if (prog.startDate < tresAM && prog.endDate > tresAM) {
-      // Parte 1: até 03:00 do dia X
-      const parte1 = {
+      programasAjustados.push({
         ...prog,
-        endDate: tresAM
-      };
+        startDate: novoStart,
+        endDate: novoEnd,
+      });
 
-      // Parte 2: após 03:00, deslocado para o dia seguinte
-      const parte2 = {
+    } else {
+      // Programa atravessa 3h -> divide em dois programas
+
+      // Parte 1: do início até 03:00
+      programasAjustados.push({
         ...prog,
-        startDate: tresAM,
-        endDate: new Date(prog.endDate.getTime() + 24*3600*1000)
-      };
+        startDate: start,
+        endDate: diaReferencia,
+      });
 
-      resultado.push(parte1);
-      resultado.push(parte2);
-      continue;
-    }
+      // Parte 2: de 03:00 até o fim, no dia seguinte
+      const novoStart = new Date(diaReferencia);
+      const novoEnd = new Date(end);
+      novoStart.setUTCDate(novoStart.getUTCDate() + 1);
+      novoEnd.setUTCDate(novoEnd.getUTCDate() + 1);
 
-    // Regra 1: programas entre 00:00 e 03:00 ficam no dia X
-    if (startH >= 0 && startH < 3) {
-      resultado.push(prog);
-      continue;
-    }
-
-    // Regra 2: programas entre 03:00 e limiteFim vão para o dia seguinte
-    if (startH >= 3 && limiteFim && prog.startDate < limiteFim) {
-      const deslocado = {
+      programasAjustados.push({
         ...prog,
-        startDate: new Date(prog.startDate.getTime() + 24*3600*1000),
-        endDate: new Date(prog.endDate.getTime() + 24*3600*1000),
-      };
-      resultado.push(deslocado);
-      continue;
+        startDate: novoStart,
+        endDate: novoEnd,
+      });
     }
-
-    // Caso padrão - fica no mesmo dia
-    resultado.push(prog);
   }
 
-  return resultado;
-}
+  // Ordena para evitar sobreposição
+  programasAjustados.sort((a, b) => a.startDate - b.startDate);
 
-function formatForXML(prog, channelId) {
-  return `  <programme start="${formatDate(prog.startDate)}" stop="${formatDate(prog.endDate)}" channel="${channelId}">
-    <title lang="pt">${escapeXml(prog.title)}</title>
-    <desc lang="pt">${escapeXml(prog.desc)}</desc>
-    <rating system="Brazil">
-      <value>${prog.rating}</value>
-    </rating>
-  </programme>
-`;
-}
-
-function getDates() {
-  const dates = [];
-  const today = new Date();
-
-  for (let i = -1; i <= 2; i++) {
-    const date = new Date(today);
-    date.setUTCDate(today.getUTCDate() + i);
-    dates.push(date.toISOString().split('T')[0]);
-  }
-
-  return dates;
+  return programasAjustados;
 }
 
 async function generateEPG() {
@@ -179,27 +156,29 @@ async function generateEPG() {
 
   let epgXml = '<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n';
 
-  for (const channel of channels) {
+  channels.forEach(channel => {
     epgXml += `  <channel id="${channel.id}">\n    <display-name lang="pt">${channel.id}</display-name>\n  </channel>\n`;
-  }
+  });
 
   for (const channel of channels) {
     console.log(`Buscando EPG para ${channel.id}...`);
 
     const dates = getDates();
+    for (const date of dates) {
+      const programs = await fetchChannelPrograms(channel.site_id, date);
 
-    // Buscar programas 2 em 2 para aplicar regra que olha dia X+1
-    for (let i = 0; i < dates.length - 1; i++) {
-      const diaX = dates[i];
-      const diaXmais1 = dates[i+1];
+      // Aplica as regras
+      const programasAjustados = ajustarProgramasComRegras(programs);
 
-      const programsDiaX = await fetchChannelPrograms(channel.site_id, diaX);
-      const programsDiaXmais1 = await fetchChannelPrograms(channel.site_id, diaXmais1);
+      for (const program of programasAjustados) {
+        const start = formatDate(program.startDate) + ' +0000';
+        const end = formatDate(program.endDate) + ' +0000';
 
-      const programsCorrigidos = aplicarRegras(programsDiaX, programsDiaXmais1);
-
-      for (const prog of programsCorrigidos) {
-        epgXml += formatForXML(prog, channel.id);
+        epgXml += `  <programme start="${start}" stop="${end}" channel="${channel.id}">\n`;
+        epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
+        epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
+        epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
+        epgXml += `  </programme>\n`;
       }
     }
   }
