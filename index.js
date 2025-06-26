@@ -32,11 +32,11 @@ async function fetchChannelPrograms(channelId, date) {
 
       if (time && title) {
         const [hours, minutes] = time.split(':').map(Number);
-        const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`);
-        const start = `${formatDate(startDate)} -0300`;
+        const startDate = new Date(`${date}T${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00Z`); // 'Z' força GMT +0000
+        const start = `${formatDate(startDate)} +0000`;
 
         const endDate = new Date(startDate.getTime() + 90 * 60000);
-        const end = `${formatDate(endDate)} -0300`;
+        const end = `${formatDate(endDate)} +0000`;
 
         programs.push({
           start,
@@ -55,7 +55,7 @@ async function fetchChannelPrograms(channelId, date) {
   }
 }
 
-// REMOVER o "T" no formato final
+// Formatar sem o "T"
 function formatDate(date) {
   return date.toISOString().replace('T', ' ').replace(/[-:]/g, '').split('.')[0];
 }
