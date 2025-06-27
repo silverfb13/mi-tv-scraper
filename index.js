@@ -76,9 +76,7 @@ function aplicarRegras(programs) {
   if (programs.length === 0) return [];
 
   const adjustedPrograms = [];
-
-  // Pega o horário do último programa do dia
-  const lastProgramTime = programs[programs.length - 1].start.getUTCHours() * 100 + programs[programs.length - 1].start.getUTCMinutes();
+  const firstProgramTime = programs[0].start.getUTCHours() * 100 + programs[0].start.getUTCMinutes();
 
   for (let i = 0; i < programs.length; i++) {
     let program = programs[i];
@@ -86,9 +84,9 @@ function aplicarRegras(programs) {
     let startMinutes = program.start.getUTCMinutes();
     let startTime = startHour * 100 + startMinutes;
 
-    // Nova regra: entre 00:00 e o início do último programa do dia
-    if (startTime >= 0 && startTime < lastProgramTime) {
-      program.start = new Date(program.start.getTime() + (24 * 60 * 60 * 1000)); // soma 1 dia
+    // Regra: Entre 00:00 e o início do primeiro programa
+    if (startTime < firstProgramTime) {
+      program.start = new Date(program.start.getTime() + (24 * 60 * 60 * 1000));
     }
 
     adjustedPrograms.push(program);
@@ -109,13 +107,12 @@ function atribuirHorariosFinais(programs) {
     if (next) {
       end = new Date(next.start);
     } else {
-      // Se for o último programa, adiciona 1 hora fictícia
       end = new Date(current.start.getTime() + 60 * 60000);
     }
 
     completedPrograms.push({
-      start: formatDate(current.start),
-      end: formatDate(end),
+      start: current.start,
+      end: end,
       title: current.title,
       desc: current.desc,
       rating: current.rating
@@ -140,13 +137,46 @@ async function generateEPG() {
     console.log(`Buscando EPG para ${channel.id}...`);
 
     const dates = getDates();
+    let allPrograms = [];
+
+    // Busca e processa os programas
     for (const date of dates) {
       let programs = await fetchChannelPrograms(channel.site_id, date);
       programs = aplicarRegras(programs);
       programs = atribuirHorariosFinais(programs);
+      allPrograms.push({ date, programs });
+    }
 
-      for (const program of programs) {
-        epgXml += `  <programme start="${program.start} +0000" stop="${program.end} +0000" channel="${channel.id}">\n`;
+    // Aplica a substituição dos primeiros programas
+    for (let i = 1; i < allPrograms.length; i++) {
+      const previousDay = allPrograms[i - 1];
+      const currentDay = allPrograms[i];
+
+      if (previousDay.programs.length > 0 && currentDay.programs.length > 0) {
+        // Pega o último programa do dia anterior
+        const lastProgram = previousDay.programs[previousDay.programs.length - 1];
+
+        // Ajusta o horário de início para o início do dia atual
+        lastProgram.start = new Date(`${currentDay.date}T00:00:00Z`);
+
+        // Ajusta o horário de fim para o início do segundo programa do dia atual
+        const secondProgram = currentDay.programs[1];
+        if (secondProgram) {
+          lastProgram.end = new Date(secondProgram.start);
+        } else {
+          // Se não tiver segundo programa, adiciona 1 hora
+          lastProgram.end = new Date(lastProgram.start.getTime() + 60 * 60000);
+        }
+
+        // Substitui o primeiro programa do dia atual pelo último programa do dia anterior
+        currentDay.programs[0] = lastProgram;
+      }
+    }
+
+    // Escreve os programas no XML
+    for (const day of allPrograms) {
+      for (const program of day.programs) {
+        epgXml += `  <programme start="${formatDate(program.start)} +0000" stop="${formatDate(program.end)} +0000" channel="${channel.id}">\n`;
         epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
         epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
         epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
