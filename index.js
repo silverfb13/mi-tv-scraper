@@ -85,12 +85,13 @@ function atribuirHorariosFinais(programs) {
     if (next) {
       end = new Date(next.start);
     } else {
+      // Se não tem próximo, programa dura 1 hora
       end = new Date(current.start.getTime() + 60 * 60000);
     }
 
     completedPrograms.push({
-      start: formatDate(current.start),
-      end: formatDate(end),
+      start: current.start,
+      end,
       title: current.title,
       desc: current.desc,
       rating: current.rating
@@ -98,6 +99,48 @@ function atribuirHorariosFinais(programs) {
   }
 
   return completedPrograms;
+}
+
+// NOVA FUNÇÃO que aplica a regra 2 modificada:
+// Move programas entre 00:00 e início do último programa para o dia seguinte
+function ajustarProgramasParaDiaSeguinte(programs) {
+  if (programs.length === 0) return programs;
+
+  // Encontra o horário do início do último programa do dia (menor horário entre os programas?)
+  // Na verdade, pelo que você quer, o "início do último programa" é o horário do último programa em horário UTC (mais tarde)
+  // O "início do último programa" significa o horário do programa com o horário maior
+
+  // Ordena programas pelo horário de início só pra garantir
+  programs.sort((a, b) => a.start - b.start);
+
+  const lastProgramStart = programs[programs.length - 1].start;
+
+  return programs.map(p => {
+    const startUTC = p.start;
+    // Hora do início do programa em horas e minutos
+    // Queremos mover TODOS os programas que começam entre 00:00 e lastProgramStart para o dia seguinte.
+    // Como lastProgramStart pode ser 23:xx, a regra será quase todos os programas do dia (a menos que o último programa seja meia-noite, aí não mexe)
+
+    // Como a data do programa já tem dia e hora, vamos comparar hora: se o start é >= 00:00 do dia e < lastProgramStart, move para dia seguinte.
+    // Só precisa garantir que o start do programa é no mesmo dia (pois programas podem ser de dias diferentes dependendo do carregamento)
+
+    // Então: Se startUTC >= 00:00 do dia (sempre true) e startUTC < lastProgramStart -> add +1 dia
+
+    if (startUTC < lastProgramStart) {
+      // Move para o dia seguinte somando +1 dia
+      const newStart = new Date(startUTC.getTime() + 24 * 3600 * 1000);
+      const newEnd = new Date(p.end.getTime() + 24 * 3600 * 1000);
+
+      return {
+        ...p,
+        start: newStart,
+        end: newEnd
+      };
+    } else {
+      // Mantém o programa
+      return p;
+    }
+  });
 }
 
 async function generateEPG() {
@@ -119,8 +162,11 @@ async function generateEPG() {
       let programs = await fetchChannelPrograms(channel.site_id, date);
       programs = atribuirHorariosFinais(programs);
 
+      // Aqui aplica a regra nova que você pediu:
+      programs = ajustarProgramasParaDiaSeguinte(programs);
+
       for (const program of programs) {
-        epgXml += `  <programme start="${program.start} +0000" stop="${program.end} +0000" channel="${channel.id}">\n`;
+        epgXml += `  <programme start="${formatDate(program.start)} +0000" stop="${formatDate(program.end)} +0000" channel="${channel.id}">\n`;
         epgXml += `    <title lang="pt">${escapeXml(program.title)}</title>\n`;
         epgXml += `    <desc lang="pt">${escapeXml(program.desc)}</desc>\n`;
         epgXml += `    <rating system="Brazil">\n      <value>${program.rating}</value>\n    </rating>\n`;
