@@ -4780,7 +4780,7 @@
   </programme>
   <programme start="20260218011900 +0000" stop="20260218021000 +0000" channel="Animal Planet HD">
     <title lang="pt">Coração de Urso</title>
-    <desc lang="pt">Jeff ensina os ursos a se alimentar na natureza, mas a pata de Bob ainda preocupa. Depois de perdê-los de vista, Jeff pensa nas dificuldades de reintroduzir os animais em seu habitat natural.</desc>
+    <desc lang="pt">Jeff ensina os ursos a se alimentar na natureza, mas a pata de Bob ainda preocupa. Após perdê-los de vista, Jeff pensa nas dificuldades de reintroduzir os animais em seu habitat natural.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -5254,14 +5254,14 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220065700 +0000" stop="20260220074800 +0000" channel="Animal Planet HD">
+  <programme start="20260220065700 +0000" stop="20260220074900 +0000" channel="Animal Planet HD">
     <title lang="pt">Veterinários do Texas</title>
     <desc lang="pt">Dr. Ross examina uma coruja atropelada por um carro. Jamie Bell, uma cadela que não se alimenta há dias, esconde um grande e peludo segredo. Os veterinários visitam um centro de resgate de animais selvagens no Texas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220074800 +0000" stop="20260220083600 +0000" channel="Animal Planet HD">
+  <programme start="20260220074900 +0000" stop="20260220083600 +0000" channel="Animal Planet HD">
     <title lang="pt">Veterinários do Texas</title>
     <desc lang="pt">Dr. Blue abre a clínica depois que o Furacão Havey despeja mais de 75 centímetros de chuva sobre Houston, Texas. Os veterinários ajudam os animais afetados pela tempestade e lidam com os problemas pessoais causados na cidade.</desc>
     <rating system="Brazil">
@@ -7606,14 +7606,14 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220120000 +0000" stop="20260220144000 +0000" channel="Band Amazonas HD">
+  <programme start="20260220120000 +0000" stop="20260220140000 +0000" channel="Band Amazonas HD">
     <title lang="pt">Bora Brasil</title>
     <desc lang="pt">Acompanhe as principais informações do Brasil e do mundo com leveza, interatividade e credibilidade.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220144000 +0000" stop="20260220150000 +0000" channel="Band Amazonas HD">
+  <programme start="20260220140000 +0000" stop="20260220150000 +0000" channel="Band Amazonas HD">
     <title lang="pt">Jogo Aberto</title>
     <desc lang="pt">Acompanhe notícias, debates diários e tudo o que você precisa saber sobre o futebol e os demais esportes no Brasil e ao redor do mundo.</desc>
     <rating system="Brazil">
@@ -7655,16 +7655,9 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220203000 +0000" stop="20260220215000 +0000" channel="Band Amazonas HD">
-    <title lang="pt">Brasil Urgente</title>
-    <desc lang="pt">Acompanhe os principais acontecimentos do dia no Piauí, com foco em temas do cotidiano.</desc>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  <programme start="20260220215000 +0000" stop="20260220222000 +0000" channel="Band Amazonas HD">
-    <title lang="pt">Band Cidade</title>
-    <desc lang="pt">Acompanhe as notícias diárias mais importantes do estado do Piauí.</desc>
+  <programme start="20260220203000 +0000" stop="20260220222000 +0000" channel="Band Amazonas HD">
+    <title lang="pt">Local</title>
+    <desc lang="pt">Horário destinado à exibição de conteúdo regional.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -33340,7 +33333,7 @@
   </programme>
   <programme start="20260220115600 +0000" stop="20260220120200 +0000" channel="Boomerang HD">
     <title lang="pt">Cuquín</title>
-    <desc lang="pt">Cuquín, Cyan e Clementina são três crianças travessas e cheias de imaginação. Sempre em busca de novas aventuras, eles procuram tesouros piratas, voam até a lua e vivem muitas outras aventuras.</desc>
+    <desc lang="pt">Clementina perde seu bule e não quer arrumar tudo para encontrá-lo. Ela se imagina no Mundo Bagunçado onde cria ainda mais bagunça, até perceber que a arrumação pode ser divertida e pode ajudá-la a encontrar seu bule perdido.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -33564,7 +33557,7 @@
   </programme>
   <programme start="20260220161000 +0000" stop="20260220161600 +0000" channel="Boomerang HD">
     <title lang="pt">Cuquín</title>
-    <desc lang="pt">Cuquín, Cyan e Clementina são três crianças travessas e cheias de imaginação. Sempre em busca de novas aventuras, eles procuram tesouros piratas, voam até a lua e vivem muitas outras aventuras.</desc>
+    <desc lang="pt">Clementina perde seu bule e não quer arrumar tudo para encontrá-lo. Ela se imagina no Mundo Bagunçado onde cria ainda mais bagunça, até perceber que a arrumação pode ser divertida e pode ajudá-la a encontrar seu bule perdido.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -33893,7 +33886,7 @@
   </programme>
   <programme start="20260220225900 +0000" stop="20260220230500 +0000" channel="Boomerang HD">
     <title lang="pt">Cuquín</title>
-    <desc lang="pt">Cuquín, Cyan e Clementina são três crianças travessas e cheias de imaginação. Sempre em busca de novas aventuras, eles procuram tesouros piratas, voam até a lua e vivem muitas outras aventuras.</desc>
+    <desc lang="pt">Clementina perde seu bule e não quer arrumar tudo para encontrá-lo. Ela se imagina no Mundo Bagunçado onde cria ainda mais bagunça, até perceber que a arrumação pode ser divertida e pode ajudá-la a encontrar seu bule perdido.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -35391,7 +35384,7 @@
   </programme>
   <programme start="20260217115000 +0000" stop="20260217132000 +0000" channel="Canal Brasil HD">
     <title lang="pt">Caramuru - A Invenção do Brasil</title>
-    <desc lang="pt">Portugal, século 16. Após ser enganado pela sedutora Isabelle, o jovem Diogo é deportado para o Brasil, mas sua caravela naufraga. Por milagre, ele é salvo pelo cacique Itaparica. Em terras brasileiras, ele passa a ser chamado de Caramuru e vive um harmônico triângulo amoroso com as duas filhas do cacique, Moema e Paraguaçu.</desc>
+    <desc lang="pt">Portugal, século XVI. Após ser enganado pela sedutora Isabelle, o jovem Diogo é deportado para o Brasil, mas sua caravela naufraga. Por milagre, ele é salvo pelo cacique Itaparica. Em terras brasileiras, ele passa a ser chamado de Caramuru e vive um harmônico triângulo amoroso com as duas filhas do cacique, Moema e Paraguaçu.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -36910,14 +36903,14 @@
   </programme>
   <programme start="20260221033000 +0000" stop="20260221040000 +0000" channel="Canal Universitário CNU">
     <title lang="pt">Doc TV Unesp</title>
-    <desc lang="pt">Uma variedade de conteúdos documentais produzidos pela equipe de pesquisadores da Unesp.</desc>
+    <desc lang="pt">Os pesquisadores Jean-Paul Vernier e Hazel Vernier, em conjunto com os pesquisadores Bruno Biazon e Demilson Quintão, tentam caracterizar as plumas do vulcão Hunga Tonga.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260221040000 +0000" stop="20260220043000 +0000" channel="Canal Universitário CNU">
     <title lang="pt">Doc TV Unesp</title>
-    <desc lang="pt">Uma variedade de conteúdos documentais produzidos pela equipe de pesquisadores da Unesp.</desc>
+    <desc lang="pt">Os pesquisadores Jean-Paul Vernier e Hazel Vernier, em conjunto com os pesquisadores Bruno Biazon e Demilson Quintão, tentam caracterizar as plumas do vulcão Hunga Tonga.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -42202,7 +42195,7 @@
   </programme>
   <programme start="20260220123000 +0000" stop="20260220130000 +0000" channel="Cartoon Network Brazil HD">
     <title lang="pt">Chapolin e os Colorados</title>
-    <desc lang="pt">Sem descrição</desc>
+    <desc lang="pt">Chapolin procura um homem das cavernas descongelado que anda à solta. Lina e Bobby o disfarçam de estudante. Tudo vai bem até o jantar com a prefeita e o vizinho que, na verdade, é o Professor Popov, empenhado em recapturá-lo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -42419,28 +42412,28 @@
   </programme>
   <programme start="20260217084000 +0000" stop="20260217084900 +0000" channel="Cinemax">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217084900 +0000" stop="20260217090000 +0000" channel="Cinemax">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217090000 +0000" stop="20260217091100 +0000" channel="Cinemax">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217091100 +0000" stop="20260217092300 +0000" channel="Cinemax">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -42769,21 +42762,21 @@
   </programme>
   <programme start="20260220082500 +0000" stop="20260220083900 +0000" channel="Cinemax">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220083900 +0000" stop="20260220084900 +0000" channel="Cinemax">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220084900 +0000" stop="20260220090000 +0000" channel="Cinemax">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -53568,35 +53561,35 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220063500 +0000" stop="20260220065900 +0000" channel="Discovery HD">
+  <programme start="20260220063500 +0000" stop="20260220065800 +0000" channel="Discovery HD">
     <title lang="pt">Operação Fronteira - Brasil</title>
     <desc lang="pt">O episódio apresenta apreensão de foragido da justiça, carvão ilegal e drogas na fronteira.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220065900 +0000" stop="20260220072300 +0000" channel="Discovery HD">
+  <programme start="20260220065800 +0000" stop="20260220072200 +0000" channel="Discovery HD">
     <title lang="pt">Operação Fronteira - Brasil</title>
     <desc lang="pt">PRF apreende suspeitos de furto e de tráfico na fronteira brasileira.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220072300 +0000" stop="20260220074700 +0000" channel="Discovery HD">
+  <programme start="20260220072200 +0000" stop="20260220074600 +0000" channel="Discovery HD">
     <title lang="pt">Operação Fronteira - Brasil</title>
     <desc lang="pt">A Polícia Rodoviária Federal fiscaliza crime ambiental, tráfico e porte de armas na fronteira.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220074700 +0000" stop="20260220081300 +0000" channel="Discovery HD">
+  <programme start="20260220074600 +0000" stop="20260220081100 +0000" channel="Discovery HD">
     <title lang="pt">Operação Fronteira - Brasil</title>
     <desc lang="pt">PRF apreende drogas e foragido da Justiça na fronteira brasileira.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220081300 +0000" stop="20260220090000 +0000" channel="Discovery HD">
+  <programme start="20260220081100 +0000" stop="20260220090000 +0000" channel="Discovery HD">
     <title lang="pt">Operação Fronteira - Itália</title>
     <desc lang="pt">Na Itália, apenas podem ser importados alimentos embalados a vácuo ou acompanhados de documento de transporte. Mas a pólvora negra transportada por um passageiro proveniente da Nigéria não pode ser claramente identificada pelos guardas.</desc>
     <rating system="Brazil">
@@ -54345,21 +54338,21 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220072200 +0000" channel="Discovery Home & Health HD">
+  <programme start="20260220000000 +0000" stop="20260220072100 +0000" channel="Discovery Home & Health HD">
     <title lang="pt">Pesadelo na Cozinha</title>
     <desc lang="pt">Jacquin chega no Dona Emília, um restaurante comandado pelo português Celestino e com ambiente bastante nostálgico na curiosa Rua das Motos. No entanto, a casa esconde surpresas que deixam o chef de queixo caído.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220072200 +0000" channel="Discovery Home & Health HD">
+  <programme start="20260220000000 +0000" stop="20260220072100 +0000" channel="Discovery Home & Health HD">
     <title lang="pt">Pesadelo na Cozinha</title>
     <desc lang="pt">Jacquin chega no Dona Emília, um restaurante comandado pelo português Celestino e com ambiente bastante nostálgico na curiosa Rua das Motos. No entanto, a casa esconde surpresas que deixam o chef de queixo caído.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220072200 +0000" stop="20260220090000 +0000" channel="Discovery Home & Health HD">
+  <programme start="20260220072100 +0000" stop="20260220090000 +0000" channel="Discovery Home & Health HD">
     <title lang="pt">Quilos Mortais - Como Eles Estão Agora?</title>
     <desc lang="pt">A perda de peso proporciona momentos emocionantes quando Julian e a esposa, Irma, adotam um bebê, mas a paternidade pode distrair Julian de seus objetivos; Cindy precisa mudar de atitude se quiser perder peso.</desc>
     <rating system="Brazil">
@@ -54634,21 +54627,21 @@
   </programme>
   <programme start="20260217082500 +0000" stop="20260217083700 +0000" channel="Discovery Kids HD">
     <title lang="pt">Agente Binky ao Resgate!</title>
-    <desc lang="pt">Os VURST roubam a bicicleta do Humano Menor e a equipe precisa recuperá-la do inimigo e devolvê-la à estação espacial.</desc>
+    <desc lang="pt">O Humano Menor vai conferir os peixes no lado e os bichinhos acham que eles querem substituir o Loo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217083700 +0000" stop="20260217084800 +0000" channel="Discovery Kids HD">
     <title lang="pt">Agente Binky ao Resgate!</title>
-    <desc lang="pt">Os VURST roubam a bicicleta do Humano Menor e a equipe precisa recuperá-la do inimigo e devolvê-la à estação espacial.</desc>
+    <desc lang="pt">O Humano Menor vai conferir os peixes no lado e os bichinhos acham que eles querem substituir o Loo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217084800 +0000" stop="20260217090000 +0000" channel="Discovery Kids HD">
     <title lang="pt">Agente Binky ao Resgate!</title>
-    <desc lang="pt">Os VURST roubam a bicicleta do Humano Menor e a equipe precisa recuperá-la do inimigo e devolvê-la à estação espacial.</desc>
+    <desc lang="pt">O Humano Menor vai conferir os peixes no lado e os bichinhos acham que eles querem substituir o Loo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -54865,7 +54858,7 @@
   </programme>
   <programme start="20260217163000 +0000" stop="20260217164100 +0000" channel="Discovery Kids HD">
     <title lang="pt">Hello Kitty: Super Style!</title>
-    <desc lang="pt">Chegou o dia da Festa Boogy Woogy de Patins em Cherry Town, mas Zonty não sabe patinar. Kitty Atleta decide ajudá-lo.</desc>
+    <desc lang="pt">O novo smoothie do Nori vira febre. Ele fica super atarefado, mas graças à chef Kitty, que assume o comando, ele pode tirar uma folga merecida.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -54879,7 +54872,7 @@
   </programme>
   <programme start="20260217165400 +0000" stop="20260217170500 +0000" channel="Discovery Kids HD">
     <title lang="pt">Hello Kitty: Super Style!</title>
-    <desc lang="pt">Depois que os Castores convencem Kitty a fazer reparos enquanto eles se divertem na praia, Frido ajuda Kitty a aprender a dizer não.</desc>
+    <desc lang="pt">PI encontra uma chave misteriosa no museu. A detetive Kitty o ajuda a encontrar a porta que ela abre, enquanto Frido planeja pegar a chave e o tesouro que ela pode esconder.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -55005,7 +54998,7 @@
   </programme>
   <programme start="20260217210300 +0000" stop="20260217211400 +0000" channel="Discovery Kids HD">
     <title lang="pt">Hello Kitty: Super Style!</title>
-    <desc lang="pt">Depois que os Castores convencem Kitty a fazer reparos enquanto eles se divertem na praia, Frido ajuda Kitty a aprender a dizer não.</desc>
+    <desc lang="pt">PI encontra uma chave misteriosa no museu. A detetive Kitty o ajuda a encontrar a porta que ela abre, enquanto Frido planeja pegar a chave e o tesouro que ela pode esconder.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -55173,14 +55166,14 @@
   </programme>
   <programme start="20260218020500 +0000" stop="20260218021600 +0000" channel="Discovery Kids HD">
     <title lang="pt">Super Wish</title>
-    <desc lang="pt">As crianças ficam presas em piscinas de blocos de espuma e encontram a Princesa Brilho Intenso. O castelo dela foi derrubado, e a turma se oferece para ajudar a construir um novo.</desc>
+    <desc lang="pt">Jesse e a turma dão a maior festa de aniversário que a Terra do Feliz Aniversário já viu para fazer o desejo sair do esconderijo. Mas Balloonicus tem um grande plano para estragar a festa.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260218021600 +0000" stop="20260218023100 +0000" channel="Discovery Kids HD">
     <title lang="pt">Super Wish</title>
-    <desc lang="pt">As crianças ficam presas em piscinas de blocos de espuma e encontram a Princesa Brilho Intenso. O castelo dela foi derrubado, e a turma se oferece para ajudar a construir um novo.</desc>
+    <desc lang="pt">Jesse e a turma dão a maior festa de aniversário que a Terra do Feliz Aniversário já viu para fazer o desejo sair do esconderijo. Mas Balloonicus tem um grande plano para estragar a festa.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -55236,14 +55229,14 @@
   </programme>
   <programme start="20260218032200 +0000" stop="20260218033400 +0000" channel="Discovery Kids HD">
     <title lang="pt">The Dog &amp; Pony Show</title>
-    <desc lang="pt">Dog se torna um ilusionista e estranhas coisas acontecem quando Pony usa sua cauda encantada.</desc>
+    <desc lang="pt">Dog e Pony experimentam voar em um trapézio, mas a Cauda Encantada de Pony faz eles subirem demais.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260218033400 +0000" stop="20260218034500 +0000" channel="Discovery Kids HD">
     <title lang="pt">The Dog &amp; Pony Show</title>
-    <desc lang="pt">Dog se torna um ilusionista e estranhas coisas acontecem quando Pony usa sua cauda encantada.</desc>
+    <desc lang="pt">Dog e Pony experimentam voar em um trapézio, mas a Cauda Encantada de Pony faz eles subirem demais.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -56879,35 +56872,35 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220061100 +0000" channel="Discovery Kids HD">
+  <programme start="20260220000000 +0000" stop="20260220061200 +0000" channel="Discovery Kids HD">
     <title lang="pt">Topo Gigio</title>
     <desc lang="pt">Gemma J. lança um desafio de dança na Internet, mas Zoe não é boa dançarina. Com isso, Gigio tenta ensinar-lhe uma coreografia fantástica.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220061100 +0000" channel="Discovery Kids HD">
+  <programme start="20260220000000 +0000" stop="20260220061200 +0000" channel="Discovery Kids HD">
     <title lang="pt">Topo Gigio</title>
     <desc lang="pt">Gemma J. lança um desafio de dança na Internet, mas Zoe não é boa dançarina. Com isso, Gigio tenta ensinar-lhe uma coreografia fantástica.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220061100 +0000" stop="20260220062200 +0000" channel="Discovery Kids HD">
+  <programme start="20260220061200 +0000" stop="20260220062300 +0000" channel="Discovery Kids HD">
     <title lang="pt">Underdogs United</title>
     <desc lang="pt">Beto usa falas dramáticas para convencer seus companheiros de time a fazer favores para ele. O time percebe o que ele está fazendo e usam a mesma moeda com Beto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220062200 +0000" stop="20260220063300 +0000" channel="Discovery Kids HD">
+  <programme start="20260220062300 +0000" stop="20260220063400 +0000" channel="Discovery Kids HD">
     <title lang="pt">Underdogs United</title>
     <desc lang="pt">Capi está muito feliz porque uma de suas jogadas foi indicada a um prêmio, mas Gigi descobre que Capi trapaceou sem querer. Ela e os outros jogadores se esforçam para dar a notícia sem magoar Capi.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220063300 +0000" stop="20260220064400 +0000" channel="Discovery Kids HD">
+  <programme start="20260220063400 +0000" stop="20260220064400 +0000" channel="Discovery Kids HD">
     <title lang="pt">Kung Fu Wa</title>
     <desc lang="pt">Para chegar à Superguerreira, Manípulo controla todos os habitantes da Ilha Estrelada e os transforma em seus fantoches.</desc>
     <rating system="Brazil">
@@ -56935,58 +56928,58 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220071700 +0000" stop="20260220072800 +0000" channel="Discovery Kids HD">
+  <programme start="20260220071700 +0000" stop="20260220072900 +0000" channel="Discovery Kids HD">
     <title lang="pt">O Show da Luna!</title>
     <desc lang="pt">Luna, Júpiter e Cláudio observam uma mancha no céu à noite e ficam intrigados para saber o que é. Para isso, pedem ajuda para o amigo Galileu, que empresta o telescópio para eles explorarem a Via Láctea.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220072800 +0000" stop="20260220073900 +0000" channel="Discovery Kids HD">
+  <programme start="20260220072900 +0000" stop="20260220074100 +0000" channel="Discovery Kids HD">
     <title lang="pt">O Show da Luna!</title>
     <desc lang="pt">Luna, Júpiter e Cláudio percebem diferença na aparência das frutas. Ao experimentar algumas laranjas, sentem que umas estão muito mais doces do que as outras, e por isso tentam entender se esse fato vale para todas as frutas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220073900 +0000" stop="20260220080200 +0000" channel="Discovery Kids HD">
+  <programme start="20260220074100 +0000" stop="20260220080400 +0000" channel="Discovery Kids HD">
     <title lang="pt">Peppa Pig</title>
     <desc lang="pt">O policial Panda leva suas filhas gêmeas para o grupo de brincadeiras. Elas adoram montar quebra-cabeças e solucionar mistérios, como seu pai.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220080200 +0000" stop="20260220081300 +0000" channel="Discovery Kids HD">
+  <programme start="20260220080400 +0000" stop="20260220081500 +0000" channel="Discovery Kids HD">
     <title lang="pt">O Resort Zoobak</title>
     <desc lang="pt">Bayo e Alejandro acreditam que Ozo é um alienígena e estragam a festa do irmão de Ozo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220081300 +0000" stop="20260220082400 +0000" channel="Discovery Kids HD">
+  <programme start="20260220081500 +0000" stop="20260220082600 +0000" channel="Discovery Kids HD">
     <title lang="pt">O Resort Zoobak</title>
     <desc lang="pt">A equipe acredita que um urso quer comprar o resort e fazem de tudo para que sua estadia seja ruim.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220082400 +0000" stop="20260220083600 +0000" channel="Discovery Kids HD">
+  <programme start="20260220082600 +0000" stop="20260220083800 +0000" channel="Discovery Kids HD">
     <title lang="pt">Agente Binky ao Resgate!</title>
-    <desc lang="pt">Os VURST roubam a bicicleta do Humano Menor e a equipe precisa recuperá-la do inimigo e devolvê-la à estação espacial.</desc>
+    <desc lang="pt">O Humano Menor vai conferir os peixes no lado e os bichinhos acham que eles querem substituir o Loo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220083600 +0000" stop="20260220084800 +0000" channel="Discovery Kids HD">
+  <programme start="20260220083800 +0000" stop="20260220084900 +0000" channel="Discovery Kids HD">
     <title lang="pt">Agente Binky ao Resgate!</title>
-    <desc lang="pt">Os VURST roubam a bicicleta do Humano Menor e a equipe precisa recuperá-la do inimigo e devolvê-la à estação espacial.</desc>
+    <desc lang="pt">O Humano Menor vai conferir os peixes no lado e os bichinhos acham que eles querem substituir o Loo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220084800 +0000" stop="20260220090000 +0000" channel="Discovery Kids HD">
+  <programme start="20260220084900 +0000" stop="20260220090000 +0000" channel="Discovery Kids HD">
     <title lang="pt">Agente Binky ao Resgate!</title>
-    <desc lang="pt">Os VURST roubam a bicicleta do Humano Menor e a equipe precisa recuperá-la do inimigo e devolvê-la à estação espacial.</desc>
+    <desc lang="pt">O Humano Menor vai conferir os peixes no lado e os bichinhos acham que eles querem substituir o Loo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57217,7 +57210,7 @@
   </programme>
   <programme start="20260220165400 +0000" stop="20260220170500 +0000" channel="Discovery Kids HD">
     <title lang="pt">Hello Kitty: Super Style!</title>
-    <desc lang="pt">Depois que os Castores convencem Kitty a fazer reparos enquanto eles se divertem na praia, Frido ajuda Kitty a aprender a dizer não.</desc>
+    <desc lang="pt">PI encontra uma chave misteriosa no museu. A detetive Kitty o ajuda a encontrar a porta que ela abre, enquanto Frido planeja pegar a chave e o tesouro que ela pode esconder.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57462,14 +57455,14 @@
   </programme>
   <programme start="20260221020500 +0000" stop="20260221021700 +0000" channel="Discovery Kids HD">
     <title lang="pt">Super Wish</title>
-    <desc lang="pt">As crianças ficam presas em piscinas de blocos de espuma e encontram a Princesa Brilho Intenso. O castelo dela foi derrubado, e a turma se oferece para ajudar a construir um novo.</desc>
+    <desc lang="pt">Jesse e a turma dão a maior festa de aniversário que a Terra do Feliz Aniversário já viu para fazer o desejo sair do esconderijo. Mas Balloonicus tem um grande plano para estragar a festa.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260221021700 +0000" stop="20260221023100 +0000" channel="Discovery Kids HD">
     <title lang="pt">Super Wish</title>
-    <desc lang="pt">As crianças ficam presas em piscinas de blocos de espuma e encontram a Princesa Brilho Intenso. O castelo dela foi derrubado, e a turma se oferece para ajudar a construir um novo.</desc>
+    <desc lang="pt">Jesse e a turma dão a maior festa de aniversário que a Terra do Feliz Aniversário já viu para fazer o desejo sair do esconderijo. Mas Balloonicus tem um grande plano para estragar a festa.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57525,14 +57518,14 @@
   </programme>
   <programme start="20260221032200 +0000" stop="20260221033300 +0000" channel="Discovery Kids HD">
     <title lang="pt">The Dog &amp; Pony Show</title>
-    <desc lang="pt">Dog se torna um ilusionista e estranhas coisas acontecem quando Pony usa sua cauda encantada.</desc>
+    <desc lang="pt">Dog e Pony experimentam voar em um trapézio, mas a Cauda Encantada de Pony faz eles subirem demais.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260221033300 +0000" stop="20260221034500 +0000" channel="Discovery Kids HD">
     <title lang="pt">The Dog &amp; Pony Show</title>
-    <desc lang="pt">Dog se torna um ilusionista e estranhas coisas acontecem quando Pony usa sua cauda encantada.</desc>
+    <desc lang="pt">Dog e Pony experimentam voar em um trapézio, mas a Cauda Encantada de Pony faz eles subirem demais.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57644,7 +57637,7 @@
   </programme>
   <programme start="20260217083600 +0000" stop="20260217092400 +0000" channel="Discovery Science HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça um dos bondinhos mais incríveis do mundo. Proporcionando vistas incríveis, o Ngong Ping foi construído nas montanhas de Hong Kong e se estende por 5,8 km sobre o Mar do Sul da China até a maior estátua de Buda do mundo.</desc>
+    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57665,14 +57658,14 @@
   </programme>
   <programme start="20260217110000 +0000" stop="20260217114800 +0000" channel="Discovery Science HD">
     <title lang="pt">Popular Science: Futuro</title>
-    <desc lang="pt">Descubra como as pessoas vão se divertir daqui a uma década sem controle remoto, teclado e mouse, apenas entrando em um jogo de computador e controlando-o com as mãos.</desc>
+    <desc lang="pt">Descubra o futuro dos super-humanos: membros protéticos melhores que os biológicos, um pó que faz partes do corpo amputadas crescerem, músculos fortes sem efeitos colaterais dos esteroides e um olho biônico.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217114800 +0000" stop="20260217123600 +0000" channel="Discovery Science HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça um dos bondinhos mais incríveis do mundo. Proporcionando vistas incríveis, o Ngong Ping foi construído nas montanhas de Hong Kong e se estende por 5,8 km sobre o Mar do Sul da China até a maior estátua de Buda do mundo.</desc>
+    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57707,7 +57700,7 @@
   </programme>
   <programme start="20260217154800 +0000" stop="20260217163600 +0000" channel="Discovery Science HD">
     <title lang="pt">Popular Science: Futuro</title>
-    <desc lang="pt">Descubra como as pessoas vão se divertir daqui a uma década sem controle remoto, teclado e mouse, apenas entrando em um jogo de computador e controlando-o com as mãos.</desc>
+    <desc lang="pt">Descubra o futuro dos super-humanos: membros protéticos melhores que os biológicos, um pó que faz partes do corpo amputadas crescerem, músculos fortes sem efeitos colaterais dos esteroides e um olho biônico.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58316,14 +58309,14 @@
   </programme>
   <programme start="20260220110000 +0000" stop="20260220114800 +0000" channel="Discovery Science HD">
     <title lang="pt">Popular Science: Futuro</title>
-    <desc lang="pt">Descubra como as pessoas vão se divertir daqui a uma década sem controle remoto, teclado e mouse, apenas entrando em um jogo de computador e controlando-o com as mãos.</desc>
+    <desc lang="pt">Descubra o futuro dos super-humanos: membros protéticos melhores que os biológicos, um pó que faz partes do corpo amputadas crescerem, músculos fortes sem efeitos colaterais dos esteroides e um olho biônico.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220114800 +0000" stop="20260220123600 +0000" channel="Discovery Science HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça um dos bondinhos mais incríveis do mundo. Proporcionando vistas incríveis, o Ngong Ping foi construído nas montanhas de Hong Kong e se estende por 5,8 km sobre o Mar do Sul da China até a maior estátua de Buda do mundo.</desc>
+    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58358,7 +58351,7 @@
   </programme>
   <programme start="20260220154800 +0000" stop="20260220163600 +0000" channel="Discovery Science HD">
     <title lang="pt">Popular Science: Futuro</title>
-    <desc lang="pt">Descubra como as pessoas vão se divertir daqui a uma década sem controle remoto, teclado e mouse, apenas entrando em um jogo de computador e controlando-o com as mãos.</desc>
+    <desc lang="pt">Descubra o futuro dos super-humanos: membros protéticos melhores que os biológicos, um pó que faz partes do corpo amputadas crescerem, músculos fortes sem efeitos colaterais dos esteroides e um olho biônico.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58512,7 +58505,7 @@
   </programme>
   <programme start="20260217083600 +0000" stop="20260217092400 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça um dos bondinhos mais incríveis do mundo. Proporcionando vistas incríveis, o Ngong Ping foi construído nas montanhas de Hong Kong e se estende por 5,8 km sobre o Mar do Sul da China até a maior estátua de Buda do mundo.</desc>
+    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58533,14 +58526,14 @@
   </programme>
   <programme start="20260217110000 +0000" stop="20260217114800 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Popular Science: Futuro</title>
-    <desc lang="pt">Descubra como as pessoas vão se divertir daqui a uma década sem controle remoto, teclado e mouse, apenas entrando em um jogo de computador e controlando-o com as mãos.</desc>
+    <desc lang="pt">Descubra o futuro dos super-humanos: membros protéticos melhores que os biológicos, um pó que faz partes do corpo amputadas crescerem, músculos fortes sem efeitos colaterais dos esteroides e um olho biônico.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217114800 +0000" stop="20260217123600 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça um dos bondinhos mais incríveis do mundo. Proporcionando vistas incríveis, o Ngong Ping foi construído nas montanhas de Hong Kong e se estende por 5,8 km sobre o Mar do Sul da China até a maior estátua de Buda do mundo.</desc>
+    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58575,7 +58568,7 @@
   </programme>
   <programme start="20260217154800 +0000" stop="20260217163600 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Popular Science: Futuro</title>
-    <desc lang="pt">Descubra como as pessoas vão se divertir daqui a uma década sem controle remoto, teclado e mouse, apenas entrando em um jogo de computador e controlando-o com as mãos.</desc>
+    <desc lang="pt">Descubra o futuro dos super-humanos: membros protéticos melhores que os biológicos, um pó que faz partes do corpo amputadas crescerem, músculos fortes sem efeitos colaterais dos esteroides e um olho biônico.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -59184,14 +59177,14 @@
   </programme>
   <programme start="20260220110000 +0000" stop="20260220114800 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Popular Science: Futuro</title>
-    <desc lang="pt">Descubra como as pessoas vão se divertir daqui a uma década sem controle remoto, teclado e mouse, apenas entrando em um jogo de computador e controlando-o com as mãos.</desc>
+    <desc lang="pt">Descubra o futuro dos super-humanos: membros protéticos melhores que os biológicos, um pó que faz partes do corpo amputadas crescerem, músculos fortes sem efeitos colaterais dos esteroides e um olho biônico.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220114800 +0000" stop="20260220123600 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça um dos bondinhos mais incríveis do mundo. Proporcionando vistas incríveis, o Ngong Ping foi construído nas montanhas de Hong Kong e se estende por 5,8 km sobre o Mar do Sul da China até a maior estátua de Buda do mundo.</desc>
+    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -59226,7 +59219,7 @@
   </programme>
   <programme start="20260220154800 +0000" stop="20260220163600 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Popular Science: Futuro</title>
-    <desc lang="pt">Descubra como as pessoas vão se divertir daqui a uma década sem controle remoto, teclado e mouse, apenas entrando em um jogo de computador e controlando-o com as mãos.</desc>
+    <desc lang="pt">Descubra o futuro dos super-humanos: membros protéticos melhores que os biológicos, um pó que faz partes do corpo amputadas crescerem, músculos fortes sem efeitos colaterais dos esteroides e um olho biônico.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -59973,21 +59966,21 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220062700 +0000" channel="Discovery Turbo HD">
+  <programme start="20260220000000 +0000" stop="20260220062800 +0000" channel="Discovery Turbo HD">
     <title lang="pt">Acumuladores de Carros</title>
     <desc lang="pt">Rick e Chuck restauram um Chrysler 300D 1958 para um acumulador de carros com segundas intenções.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220062700 +0000" channel="Discovery Turbo HD">
+  <programme start="20260220000000 +0000" stop="20260220062800 +0000" channel="Discovery Turbo HD">
     <title lang="pt">Acumuladores de Carros</title>
     <desc lang="pt">Rick e Chuck restauram um Chrysler 300D 1958 para um acumulador de carros com segundas intenções.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220062700 +0000" stop="20260220071800 +0000" channel="Discovery Turbo HD">
+  <programme start="20260220062800 +0000" stop="20260220071800 +0000" channel="Discovery Turbo HD">
     <title lang="pt">Carros Irados</title>
     <desc lang="pt">Dave Kindig, que começou sua carreira trabalhando em um Volkswagen na garagem, compra um ônibus VW 1962 para reformar e vender; um Mustang Boss 1968 ganha algumas melhorias.</desc>
     <rating system="Brazil">
@@ -67610,56 +67603,56 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220060600 +0000" channel="Food Network HD Brasil">
+  <programme start="20260220000000 +0000" stop="20260220060400 +0000" channel="Food Network HD Brasil">
     <title lang="pt">Sabor na Brasa</title>
     <desc lang="pt">Roger conhece as incríveis operações de defumação responsáveis por algumas das carnes mais saborosas do mercado. Ele visita um famoso restaurante no Tennessee e uma casa com 80 anos de história em frutos do mar defumados.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220060600 +0000" channel="Food Network HD Brasil">
+  <programme start="20260220000000 +0000" stop="20260220060400 +0000" channel="Food Network HD Brasil">
     <title lang="pt">Sabor na Brasa</title>
     <desc lang="pt">Roger conhece as incríveis operações de defumação responsáveis por algumas das carnes mais saborosas do mercado. Ele visita um famoso restaurante no Tennessee e uma casa com 80 anos de história em frutos do mar defumados.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220060600 +0000" stop="20260220062900 +0000" channel="Food Network HD Brasil">
+  <programme start="20260220060400 +0000" stop="20260220062500 +0000" channel="Food Network HD Brasil">
     <title lang="pt">Sabor na Brasa</title>
     <desc lang="pt">Roger adora um bom sanduíche de churrasco. Na Barbecue Exchange, ele prova sanduíches feitos de pescoço de porco e bacon. E no Papa KayJoe&apos;s BBQ, em Centerville, o recheio é de porco, picles e molho picante.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220062900 +0000" stop="20260220065000 +0000" channel="Food Network HD Brasil">
+  <programme start="20260220062500 +0000" stop="20260220064700 +0000" channel="Food Network HD Brasil">
     <title lang="pt">Lanchonetes Clássicas com Guy Fieri</title>
     <desc lang="pt">Guy viaja pelos Estados Unidos atrás de comida caseira. Em Boston, ele visita um bairro onde experimenta receitas com frango, waffles e deliciosos bolinhos fritos. Ele também come chilli de peito bovino, pizza de carne curada e muito mais.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220065000 +0000" stop="20260220071100 +0000" channel="Food Network HD Brasil">
+  <programme start="20260220064700 +0000" stop="20260220070800 +0000" channel="Food Network HD Brasil">
     <title lang="pt">Lanchonetes Clássicas com Guy Fieri</title>
     <desc lang="pt">Guy experimenta pratos deliciosos da culinária internacional. Em Cincinnati, ele come o churrasco de frango jamaicano e peixe picante. Em Boston, porcini cascioni e rosetes. E, em Duluth, burritos tailandeses e curry de cordeiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220071100 +0000" stop="20260220073200 +0000" channel="Food Network HD Brasil">
+  <programme start="20260220070800 +0000" stop="20260220072900 +0000" channel="Food Network HD Brasil">
     <title lang="pt">Lanchonetes Clássicas com Guy Fieri</title>
     <desc lang="pt">Guy vai até cidades pequenas com grandes sabores. No interior de Wisconsin, um bar de beira de estrada serve sanduíches de peito bovino e barriga de porco crocante. No Oregon, ele prova um hambúrguer monstruoso e uma pizza com um toque singular.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220073200 +0000" stop="20260220081800 +0000" channel="Food Network HD Brasil">
+  <programme start="20260220072900 +0000" stop="20260220081400 +0000" channel="Food Network HD Brasil">
     <title lang="pt">Show de Cozinha</title>
     <desc lang="pt">Novos usos para romã; segredos para fazer ovos Benedict; brunch Bellini.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220081800 +0000" stop="20260220090000 +0000" channel="Food Network HD Brasil">
+  <programme start="20260220081400 +0000" stop="20260220090000 +0000" channel="Food Network HD Brasil">
     <title lang="pt">Show de Cozinha</title>
     <desc lang="pt">Katie Lee prepara um peito de peru grelhado com frutas cítricas e geleia de abacaxi, enquanto Jeff Mauro faz a melhor salada de batata doce do mundo; Geoffrey Zakarian ensina a fazer uma couve-flor frita com tempero picante.</desc>
     <rating system="Brazil">
@@ -67899,7 +67892,7 @@
   </programme>
   <programme start="20260221010100 +0000" stop="20260221014800 +0000" channel="Food Network HD Brasil">
     <title lang="pt">Show de Cozinha</title>
-    <desc lang="pt">O episódio celebra a comida afetiva aprimorando o macarrão com queijo e a pipoca red velvet. Os apresentadores também anunciam o ganhador de um concurso de confeitaria.</desc>
+    <desc lang="pt">Celebramos as receitas e os sabores preferidos, começando com uma panqueca fácil com calda de bordo e limão. A comediante Michelle Collins aprende a fazer repolho recheado no estilo da Hungria.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -69304,7 +69297,14 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218000000 +0000" stop="20260218003000 +0000" channel="Futura HD">
+  <programme start="20260218000000 +0000" stop="20260218000100 +0000" channel="Futura HD">
+    <title lang="pt">Afroturismo - O Rio que Deságua na África</title>
+    <desc lang="pt">A vida de Tia Ciata, uma figura fundamental na criação do samba carioca e na preservação da rica herança cultural afrodescendente.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260218000100 +0000" stop="20260218003000 +0000" channel="Futura HD">
     <title lang="pt">Afroturismo - O Rio que Deságua na África</title>
     <desc lang="pt">A vida de Tia Ciata, uma figura fundamental na criação do samba carioca e na preservação da rica herança cultural afrodescendente.</desc>
     <rating system="Brazil">
@@ -69325,35 +69325,35 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218011500 +0000" stop="20260218013000 +0000" channel="Futura HD">
+  <programme start="20260218011500 +0000" stop="20260218013200 +0000" channel="Futura HD">
     <title lang="pt">Territórios</title>
     <desc lang="pt">Poeta, rapper, slammer e graduanda em Geografia. Após receber o prêmio de melhor atuação do Festival Mix Brasil, foi uma das poetas convidadas para realizar a primeira batalha de Slam no Rock in Rio.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218013000 +0000" stop="20260218020000 +0000" channel="Futura HD">
+  <programme start="20260218013200 +0000" stop="20260218020000 +0000" channel="Futura HD">
     <title lang="pt">Sou Quilombola</title>
     <desc lang="pt">Dizer &quot;sou quilombola&quot; é mais que uma afirmação, é um manifesto. O episódio pulsa com a voz da juventude que ressignifica o passado, ocupa o presente e demarca o futuro, transformando a herança dos ancestrais em resistência e orgulho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218020000 +0000" stop="20260218030000 +0000" channel="Futura HD">
+  <programme start="20260218020000 +0000" stop="20260218033000 +0000" channel="Futura HD">
     <title lang="pt">Histórias de Vendimia</title>
     <desc lang="pt">Veja seis histórias de luta e resiliência, com elementos icônicos do maior festival de Mendoza, na Argentina: o trabalho da terra, os imigrantes, o General San Martín, a Virgen de la Carrodilla, os povos originários e a água.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218030000 +0000" stop="20260218033000 +0000" channel="Futura HD">
+  <programme start="20260218033000 +0000" stop="20260218040400 +0000" channel="Futura HD">
     <title lang="pt">Mutirão Saúde</title>
     <desc lang="pt">Entre trabalho, estágio e faculdade, Edelde mantém uma agenda sobrecarregada que desencadeou hipertensão e crises ansiosas. Os especialistas oferecem orientações essenciais de autocuidado e estratégias para gerenciamento emocional.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218033000 +0000" stop="20260218041500 +0000" channel="Futura HD">
+  <programme start="20260218040400 +0000" stop="20260218041500 +0000" channel="Futura HD">
     <title lang="pt">Inspira Fundo</title>
     <desc lang="pt">A falta de perspectiva e oportunidades para jovens da periferia é um grande problema no Brasil. Algumas iniciativas estão tentando mudar essa realidade com as artes, incentivando talentos e desenvolvendo carreiras.</desc>
     <rating system="Brazil">
@@ -71378,7 +71378,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Globo Anhanguera">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -72015,7 +72015,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Globo Belo Horizonte">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -72652,7 +72652,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Globo Belo Horizonte HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -73296,7 +73296,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Globo Brasília HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -73947,7 +73947,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Globo Natal">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -74934,7 +74934,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Globo Recife">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -75578,7 +75578,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Globo Rio HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -76215,7 +76215,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Globo São Paulo HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -76887,7 +76887,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Globo TV Tribuna">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -79349,7 +79349,14 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218000000 +0000" stop="20260218012000 +0000" channel="Gloob HD">
+  <programme start="20260218000000 +0000" stop="20260218000100 +0000" channel="Gloob HD">
+    <title lang="pt">Abá e Sua Banda</title>
+    <desc lang="pt">Abá, um príncipe jovem e músico, sonha em tocar no Festival da Primavera. Ele consegue deixar o castelo e encontra Ana, uma garota talentosa na bateria, e seu amigo de infância, Juca, que também é um instrumentista. Juntos, os amigos enfrentam Don Coco, que deseja eliminar a diversidade da região.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260218000100 +0000" stop="20260218012000 +0000" channel="Gloob HD">
     <title lang="pt">Abá e Sua Banda</title>
     <desc lang="pt">Abá, um príncipe jovem e músico, sonha em tocar no Festival da Primavera. Ele consegue deixar o castelo e encontra Ana, uma garota talentosa na bateria, e seu amigo de infância, Juca, que também é um instrumentista. Juntos, os amigos enfrentam Don Coco, que deseja eliminar a diversidade da região.</desc>
     <rating system="Brazil">
@@ -81995,72 +82002,93 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218000000 +0000" stop="20260218000500 +0000" channel="Gloobinho HD">
+  <programme start="20260218000000 +0000" stop="20260218000200 +0000" channel="Gloobinho HD">
     <title lang="pt">Clube da Anittinha</title>
     <desc lang="pt">Anitinha precisa terminar seus deveres de casa e Rositcha coloca Renuvem para ajudá-la. Mas os irmãos querem muito jogar com os amigos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218000500 +0000" stop="20260218001000 +0000" channel="Gloobinho HD">
+  <programme start="20260218000200 +0000" stop="20260218000800 +0000" channel="Gloobinho HD">
     <title lang="pt">Clube da Anittinha</title>
     <desc lang="pt">Anitinha e Renuvem querem assistir o último capítulo da Menina Cometa, mas Rositcha fez um lindo jantar para eles comerem em família.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218001000 +0000" stop="20260218002000 +0000" channel="Gloobinho HD">
+  <programme start="20260218000800 +0000" stop="20260218001900 +0000" channel="Gloobinho HD">
     <title lang="pt">Ursinhos Carinhosos</title>
     <desc lang="pt">Dibble planta as sementes de um arbusto estranho, sem saber que ele se alastra rápido.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218002000 +0000" stop="20260218003000 +0000" channel="Gloobinho HD">
+  <programme start="20260218001900 +0000" stop="20260218002900 +0000" channel="Gloobinho HD">
     <title lang="pt">Senninha na Pista Maluca</title>
     <desc lang="pt">O Pistatrix cria a pista sertão. Senninha e Braço Duro encaram o salto do abismo crepitante e descobrem que coragem também é saber confiar nos amigos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218003000 +0000" stop="20260218004500 +0000" channel="Gloobinho HD">
+  <programme start="20260218002900 +0000" stop="20260218003700 +0000" channel="Gloobinho HD">
     <title lang="pt">Vovó Tatá</title>
     <desc lang="pt">Juca e Keka querem saber quem rega as flores no Brinca-Mundo. Vovó Tatá apresenta à duplinha o Locomochuva, um trem que solta nuvens e que precisa da ajuda deles para fazer o serviço.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218004500 +0000" stop="20260218005000 +0000" channel="Gloobinho HD">
+  <programme start="20260218003700 +0000" stop="20260218004400 +0000" channel="Gloobinho HD">
     <title lang="pt">Oi, Duggee!</title>
     <desc lang="pt">Duggee pede ajuda aos escoteiros para limpar a oficina, mas quando terminam, não encontram ele.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218005000 +0000" stop="20260218010000 +0000" channel="Gloobinho HD">
+  <programme start="20260218004400 +0000" stop="20260218005200 +0000" channel="Gloobinho HD">
     <title lang="pt">Pipas</title>
     <desc lang="pt">Papagaio tem um sonho: ver o lendário Gigante Cantante. As pipas decidem ir atrás desta estranha criatura e, ao seguirem uma antiga cantiga, deparam-se com três figuras misteriosas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218010000 +0000" stop="20260218010300 +0000" channel="Gloobinho HD">
+  <programme start="20260218005200 +0000" stop="20260218005500 +0000" channel="Gloobinho HD">
     <title lang="pt">Little Angel</title>
     <desc lang="pt">A família faz uma visita ao parque aquático e é a primeira vez de Joãozinho lá.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218010300 +0000" stop="20260218010600 +0000" channel="Gloobinho HD">
+  <programme start="20260218005500 +0000" stop="20260218005900 +0000" channel="Gloobinho HD">
     <title lang="pt">Little Angel</title>
     <desc lang="pt">A família compete amistosamente jogando minigolfe e Joãozinho aprende a importância de se empenhar.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218010600 +0000" stop="20260218010900 +0000" channel="Gloobinho HD">
+  <programme start="20260218005900 +0000" stop="20260218010200 +0000" channel="Gloobinho HD">
     <title lang="pt">Little Angel</title>
     <desc lang="pt">Joãozinho e sua família enchem todo tipo de balões engraçados.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260218010200 +0000" stop="20260218010500 +0000" channel="Gloobinho HD">
+    <title lang="pt">Little Angel</title>
+    <desc lang="pt">Joãozinho não para de pedir mais dez minutos acordado sempre que a Mamãe vai levá-lo para a cama.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260218010500 +0000" stop="20260218010800 +0000" channel="Gloobinho HD">
+    <title lang="pt">Little Angel</title>
+    <desc lang="pt">Joãozinho e seus amigos aprendem sobre os vários empregos de uma comunidade.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260218010800 +0000" stop="20260218010900 +0000" channel="Gloobinho HD">
+    <title lang="pt">Little Angel</title>
+    <desc lang="pt">Joãozinho viaja para uma terra pré-histórica da fantasia após adormecer com o Sr. Dino.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -92663,56 +92691,56 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220061500 +0000" channel="HGTV HD">
+  <programme start="20260220000000 +0000" stop="20260220062000 +0000" channel="HGTV HD">
     <title lang="pt">Vida no Paraíso - Ilhas</title>
     <desc lang="pt">Uma cabeleireira e um barbeiro decidem realizar um sonho antigo: morar perto da praia em St. Simons Island, Geórgia. Ela busca uma casa com um charme vintage, mas ele teme uma reforma extensa e prefere uma construção nova.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220061500 +0000" channel="HGTV HD">
+  <programme start="20260220000000 +0000" stop="20260220062000 +0000" channel="HGTV HD">
     <title lang="pt">Vida no Paraíso - Ilhas</title>
     <desc lang="pt">Uma cabeleireira e um barbeiro decidem realizar um sonho antigo: morar perto da praia em St. Simons Island, Geórgia. Ela busca uma casa com um charme vintage, mas ele teme uma reforma extensa e prefere uma construção nova.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220061500 +0000" stop="20260220063700 +0000" channel="HGTV HD">
+  <programme start="20260220062000 +0000" stop="20260220064100 +0000" channel="HGTV HD">
     <title lang="pt">Vida no Paraíso - Ilhas</title>
     <desc lang="pt">Uma jovem recém-casada pede a ajuda de um amigo para achar uma casa em John&apos;s Island, Carolina do Sul. Seu marido trabalha perto do porto de Charleston e a mudança permitirá que fiquem mais tempo juntos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220063700 +0000" stop="20260220070000 +0000" channel="HGTV HD">
+  <programme start="20260220064100 +0000" stop="20260220070300 +0000" channel="HGTV HD">
     <title lang="pt">Em Busca da Casa Perfeita</title>
     <desc lang="pt">Melhores amigos da infância procuram um bangalô perto do centro de Austin, que tenham uma garagem ou espaço de trabalho grande o suficiente para fazer móveis.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220070000 +0000" stop="20260220072400 +0000" channel="HGTV HD">
+  <programme start="20260220070300 +0000" stop="20260220072600 +0000" channel="HGTV HD">
     <title lang="pt">Em Busca da Casa Perfeita</title>
     <desc lang="pt">Médicos de Cleveland procuram uma casa nova e precisam se mudar antes da chegada de seu novo bebê.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220072400 +0000" stop="20260220074800 +0000" channel="HGTV HD">
+  <programme start="20260220072600 +0000" stop="20260220074900 +0000" channel="HGTV HD">
     <title lang="pt">Em Busca da Casa Perfeita</title>
     <desc lang="pt">Um ex-atleta profissional e sua família se mudam para Califórnia para o Oregon em busca de uma vida mais tranquila.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220074800 +0000" stop="20260220081200 +0000" channel="HGTV HD">
+  <programme start="20260220074900 +0000" stop="20260220081300 +0000" channel="HGTV HD">
     <title lang="pt">A Sonhada Casa do Lago</title>
     <desc lang="pt">Casal esperando o terceiro filho procura uma casa para passar as férias no Lago Douglas, Tennessee.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220081200 +0000" stop="20260220083600 +0000" channel="HGTV HD">
+  <programme start="20260220081300 +0000" stop="20260220083600 +0000" channel="HGTV HD">
     <title lang="pt">A Sonhada Casa do Lago</title>
     <desc lang="pt">Um casal é transferido de cidade e procura uma casa na região de Chain of Lakes, na Flórida.</desc>
     <rating system="Brazil">
@@ -93113,7 +93141,7 @@
   </programme>
   <programme start="20260217120300 +0000" stop="20260217124800 +0000" channel="HISTORY CHANNEL HD">
     <title lang="pt">Caçadores de Relíquias</title>
-    <desc lang="pt">Os Caçadores de Relíquias compartilham algumas de suas melhores descobertas sobre quatro rodas que encontraram viajando da Califórnia para a Pensilvânia. Entre elas, um Cadillac escondido e abandonado e um Impala antigo que ganhou vida nova.</desc>
+    <desc lang="pt">Mike e Frank ficam impressionados após se cruzarem com verdadeiras lendas do rock n&apos; roll. Em uma busca minuciosa, eles tentam encontrar relíquias únicas do universo da música.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -93218,14 +93246,14 @@
   </programme>
   <programme start="20260217225500 +0000" stop="20260217234000 +0000" channel="HISTORY CHANNEL HD">
     <title lang="pt">Caçadores de Relíquias</title>
-    <desc lang="pt">Os Caçadores de Relíquias compartilham algumas de suas melhores descobertas sobre quatro rodas que encontraram viajando da Califórnia para a Pensilvânia. Entre elas, um Cadillac escondido e abandonado e um Impala antigo que ganhou vida nova.</desc>
+    <desc lang="pt">Mike e Frank ficam impressionados após se cruzarem com verdadeiras lendas do rock n&apos; roll. Em uma busca minuciosa, eles tentam encontrar relíquias únicas do universo da música.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217234000 +0000" stop="20260218002500 +0000" channel="HISTORY CHANNEL HD">
     <title lang="pt">Caçadores de Relíquias</title>
-    <desc lang="pt">Os Caçadores de Relíquias compartilham algumas de suas melhores descobertas sobre quatro rodas que encontraram viajando da Califórnia para a Pensilvânia. Entre elas, um Cadillac escondido e abandonado e um Impala antigo que ganhou vida nova.</desc>
+    <desc lang="pt">Mike e Frank ficam impressionados após se cruzarem com verdadeiras lendas do rock n&apos; roll. Em uma busca minuciosa, eles tentam encontrar relíquias únicas do universo da música.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -93239,7 +93267,7 @@
   </programme>
   <programme start="20260218011000 +0000" stop="20260218015300 +0000" channel="HISTORY CHANNEL HD">
     <title lang="pt">Caçadores de Relíquias</title>
-    <desc lang="pt">Os Caçadores de Relíquias compartilham algumas de suas melhores descobertas sobre quatro rodas que encontraram viajando da Califórnia para a Pensilvânia. Entre elas, um Cadillac escondido e abandonado e um Impala antigo que ganhou vida nova.</desc>
+    <desc lang="pt">Mike e Frank ficam impressionados após se cruzarem com verdadeiras lendas do rock n&apos; roll. Em uma busca minuciosa, eles tentam encontrar relíquias únicas do universo da música.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -93785,7 +93813,7 @@
   </programme>
   <programme start="20260220121100 +0000" stop="20260220130100 +0000" channel="HISTORY CHANNEL HD">
     <title lang="pt">Caçadores de Relíquias</title>
-    <desc lang="pt">Os Caçadores de Relíquias compartilham algumas de suas melhores descobertas sobre quatro rodas que encontraram viajando da Califórnia para a Pensilvânia. Entre elas, um Cadillac escondido e abandonado e um Impala antigo que ganhou vida nova.</desc>
+    <desc lang="pt">Mike e Frank ficam impressionados após se cruzarem com verdadeiras lendas do rock n&apos; roll. Em uma busca minuciosa, eles tentam encontrar relíquias únicas do universo da música.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -95197,21 +95225,21 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220064300 +0000" channel="Investigação Discovery HD">
+  <programme start="20260220000000 +0000" stop="20260220064400 +0000" channel="Investigação Discovery HD">
     <title lang="pt">Férias Mortais</title>
     <desc lang="pt">O sonho de um homem rico de ter um paraíso à beira-mar no México se transforma em pesadelo após a polícia o encontrar brutalmente assassinado. Um triângulo amoroso, enganos e traição se desenrolam em um caso onde a ganância colide com ambição mortal.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220064300 +0000" channel="Investigação Discovery HD">
+  <programme start="20260220000000 +0000" stop="20260220064400 +0000" channel="Investigação Discovery HD">
     <title lang="pt">Férias Mortais</title>
     <desc lang="pt">O sonho de um homem rico de ter um paraíso à beira-mar no México se transforma em pesadelo após a polícia o encontrar brutalmente assassinado. Um triângulo amoroso, enganos e traição se desenrolam em um caso onde a ganância colide com ambição mortal.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220064300 +0000" stop="20260220072700 +0000" channel="Investigação Discovery HD">
+  <programme start="20260220064400 +0000" stop="20260220072700 +0000" channel="Investigação Discovery HD">
     <title lang="pt">190 - O Assassino Ligou?</title>
     <desc lang="pt">Uma mulher é morta enquanto liga para a polícia. O marido é baleado na perna e alega que foi um invasor, mas a polícia desconfia. Quando um homem é brutalmente assassinado, a polícia descobre o plano terrível da esposa dele.</desc>
     <rating system="Brazil">
@@ -103039,7 +103067,7 @@
   </programme>
   <programme start="20260217060400 +0000" stop="20260217063000 +0000" channel="Multishow HD">
     <title lang="pt">Chapolin</title>
-    <desc lang="pt">Dr. Chapatin atende um paciente que vive como dono de casa; Ramón cria um verniz invisiblizador, mas um sujeito que trabalha com ele quer roubar essa invenção.</desc>
+    <desc lang="pt">Dr. Chapatin atende um paciente que vive como dono de casa; Ramón cria um verniz invisibilizador, mas um sujeito que trabalha com ele quer roubar essa invenção.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -103102,7 +103130,7 @@
   </programme>
   <programme start="20260217102800 +0000" stop="20260217105400 +0000" channel="Multishow HD">
     <title lang="pt">Chapolin</title>
-    <desc lang="pt">Dr. Chapatin atende um paciente que vive como dono de casa; Ramón cria um verniz invisiblizador, mas um sujeito que trabalha com ele quer roubar essa invenção.</desc>
+    <desc lang="pt">Dr. Chapatin atende um paciente que vive como dono de casa; Ramón cria um verniz invisibilizador, mas um sujeito que trabalha com ele quer roubar essa invenção.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -103207,7 +103235,7 @@
   </programme>
   <programme start="20260217182100 +0000" stop="20260217192100 +0000" channel="Multishow HD">
     <title lang="pt">Big Show</title>
-    <desc lang="pt">Debates, jogos, entrevistas e convidados especiais, incluindo o eliminado da semana no &quot;BBB&quot;.</desc>
+    <desc lang="pt">Sarah Andrade brinca sobre retornar ao BBB 26 prometendo &quot;tacar o terror da fanfic&quot;. O programa apresenta quadros divertidos como &quot;Chef de Baixo Nível&quot; testando combinações culinárias dos brothers, &quot;Carnaval Globobeira&quot;, e muito mais.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -103291,7 +103319,7 @@
   </programme>
   <programme start="20260218005000 +0000" stop="20260218015000 +0000" channel="Multishow HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -104124,7 +104152,7 @@
   </programme>
   <programme start="20260220102400 +0000" stop="20260220105200 +0000" channel="Multishow HD">
     <title lang="pt">Chapolin</title>
-    <desc lang="pt">Dr. Chapatin atende um paciente que vive como dono de casa; Ramón cria um verniz invisiblizador, mas um sujeito que trabalha com ele quer roubar essa invenção.</desc>
+    <desc lang="pt">Dr. Chapatin atende um paciente que vive como dono de casa; Ramón cria um verniz invisibilizador, mas um sujeito que trabalha com ele quer roubar essa invenção.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -115056,14 +115084,14 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218003500 +0000" stop="20260218010300 +0000" channel="Off HD">
+  <programme start="20260218003500 +0000" stop="20260218010400 +0000" channel="Off HD">
     <title lang="pt">Voo de Cinema</title>
     <desc lang="pt">Em Perris Valley, na Califórnia, Cani filma atletas. Filmar uma pessoa a mais de 300km/h já é difícil, mas um grupo de quatro a oito torna-se um grande desafio para Luigi.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218010300 +0000" stop="20260218020000 +0000" channel="Off HD">
+  <programme start="20260218010400 +0000" stop="20260218020000 +0000" channel="Off HD">
     <title lang="pt">Aventura em Foco</title>
     <desc lang="pt">O mergulhador e fotógrafo subaquático Henry Fila vai a Fernando de Noronha na busca de um sonho: produzir uma foto noturna, de longa exposição, nunca tentada.</desc>
     <rating system="Brazil">
@@ -116059,14 +116087,14 @@
   </programme>
   <programme start="20260221013100 +0000" stop="20260221014600 +0000" channel="Off HD">
     <title lang="pt">Race Tapes</title>
-    <desc lang="pt">O melhor dos mundos do freeride e do downhill se cruza com Kade Edwards e Kaos Seagrave.</desc>
+    <desc lang="pt">Vali Höll e Jackson Goldstone fizeram carreira vitoriosa nas competições de base e precisam provar que são merecedores de um lugar no primeiro escalão da Copa do Mundo de MTB.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260221014600 +0000" stop="20260221020200 +0000" channel="Off HD">
     <title lang="pt">Race Tapes</title>
-    <desc lang="pt">O melhor dos mundos do freeride e do downhill se cruza com Kade Edwards e Kaos Seagrave.</desc>
+    <desc lang="pt">Vali Höll e Jackson Goldstone fizeram carreira vitoriosa nas competições de base e precisam provar que são merecedores de um lugar no primeiro escalão da Copa do Mundo de MTB.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -121384,23 +121412,30 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260217223000 +0000" stop="20260218011000 +0000" channel="Premiere Clubes HD">
+  <programme start="20260217223000 +0000" stop="20260218004300 +0000" channel="Premiere Clubes HD">
     <title lang="pt">Sampaio Corrêa-RJ x Desportiva Ferroviária</title>
     <desc lang="pt">Equipes de todo o território brasileiro se enfrentam no tradicional mata-mata de futebol masculino de olho na sonhada vaga para a Copa Libertadores da América.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218011000 +0000" stop="20260218021000 +0000" channel="Premiere Clubes HD">
+  <programme start="20260218004300 +0000" stop="20260218014300 +0000" channel="Premiere Clubes HD">
     <title lang="pt">Remo x Mirassol</title>
     <desc lang="pt">Vinte equipes disputam, em pontos corridos e 38 rodadas, a Série A do futebol masculino brasileiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218021000 +0000" stop="20260218031000 +0000" channel="Premiere Clubes HD">
+  <programme start="20260218014300 +0000" stop="20260218024200 +0000" channel="Premiere Clubes HD">
     <title lang="pt">Grêmio x Botafogo</title>
     <desc lang="pt">Vinte equipes disputam, em pontos corridos e 38 rodadas, a Série A do futebol masculino brasileiro.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260218024200 +0000" stop="20260218031000 +0000" channel="Premiere Clubes HD">
+    <title lang="pt">Programação Premiere Clubes</title>
+    <desc lang="pt">Acompanhe a programação do canal.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -125299,7 +125334,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="RBS TV Florianópolis">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -125936,7 +125971,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="RBS TV Rio Grande HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -138557,7 +138592,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Rede Amazônica Rio Branco">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -139201,7 +139236,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Rede Amazônica Rio Branco HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -141728,7 +141763,7 @@
   </programme>
   <programme start="20260217142000 +0000" stop="20260217155000 +0000" channel="Rede Difusora HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -141742,7 +141777,7 @@
   </programme>
   <programme start="20260217165500 +0000" stop="20260217171500 +0000" channel="Rede Difusora HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -142267,7 +142302,7 @@
   </programme>
   <programme start="20260220142000 +0000" stop="20260220155000 +0000" channel="Rede Difusora HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -142288,7 +142323,7 @@
   </programme>
   <programme start="20260220165500 +0000" stop="20260220171500 +0000" channel="Rede Difusora HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -143877,7 +143912,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Globo">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -144514,7 +144549,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Globo Aracaju">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -145151,7 +145186,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="Globo Teresina">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -182937,7 +182972,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="RPC Curitiba HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -183574,7 +183609,7 @@
   </programme>
   <programme start="20260218034100 +0000" stop="20260218035400 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Fotobox</title>
-    <desc lang="pt">Fotobox é um programa sobre fotografia. A tecnologia e os fotógrafos têm uma presença assegurada neste espaço.</desc>
+    <desc lang="pt">Um programa dedicado à fotografia e seus amantes.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -183964,42 +183999,42 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220100000 +0000" stop="20260220101500 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260220100000 +0000" stop="20260220102000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Consulta Externa</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220101500 +0000" stop="20260220103000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260220102000 +0000" stop="20260220103000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Acolá Dentro</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220103000 +0000" stop="20260220110000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260220103000 +0000" stop="20260220111900 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Histórias da Terra e da Gente</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220110000 +0000" stop="20260220120000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260220111900 +0000" stop="20260220121900 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Sociedade Civil</title>
     <desc lang="pt">Cidadãos experientes participam de debate onde discutem problemas de diferentes áreas, buscando encontrar soluções práticas para as questões apresentadas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220120000 +0000" stop="20260220123000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260220121900 +0000" stop="20260220124300 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Fabrico Internacional</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220123000 +0000" stop="20260220125800 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260220124300 +0000" stop="20260220125800 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Esta Língua que nos Une - Compacto</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
@@ -184013,21 +184048,21 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220142000 +0000" stop="20260220144300 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260220142000 +0000" stop="20260220144100 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Joga Quem Quizzer</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220144300 +0000" stop="20260220145500 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260220144100 +0000" stop="20260220145900 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">A Minha Cena - Calendário do Advento</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220145500 +0000" stop="20260220173000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260220145900 +0000" stop="20260220173000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Praça da Alegria</title>
     <desc lang="pt">O talk-show da manhã que trata de todo o país e de todos os portugueses: da saúde e nutrição, das causas sociais, dos sucessos musicais, do esporte, da economia e das finanças, da gastronomia e culinária, da infância, do turismo e da moda.</desc>
     <rating system="Brazil">
@@ -184055,70 +184090,70 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220210100 +0000" stop="20260220213000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260220210100 +0000" stop="20260220213400 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">A Prova dos Factos</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220213000 +0000" stop="20260220230700 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260220213400 +0000" stop="20260220230800 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">A Nossa Tarde</title>
     <desc lang="pt">Emoções transparecem a partir de histórias de vida de pessoas que se superam perante adversidades.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220230700 +0000" stop="20260221000000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260220230800 +0000" stop="20260221000000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Vila Faia</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260221000000 +0000" stop="20260221010100 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260221000000 +0000" stop="20260221010200 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">24 Horas</title>
     <desc lang="pt">Acompanhe as notícias do dia com um olhar especial para a atualidade.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260221010100 +0000" stop="20260221015400 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260221010200 +0000" stop="20260221015400 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Joker</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260221015400 +0000" stop="20260221033000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260221015400 +0000" stop="20260221032600 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Em Casa d&apos;Amália</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260221033000 +0000" stop="20260221043000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260221032600 +0000" stop="20260221042600 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Notícias do Atlântico</title>
     <desc lang="pt">Programa informativo feito a partir das regiões da Madeira e dos Açores.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260221043000 +0000" stop="20260221050000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260221042600 +0000" stop="20260221050000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Linha da Frente</title>
     <desc lang="pt">O programa tem a ambição de mostrar e contar histórias do mundo sem esquecer o seu foco português.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260221050000 +0000" stop="20260221053000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260221050000 +0000" stop="20260221054500 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Pôr do Sol</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260221053000 +0000" stop="20260221063000 +0000" channel="RTPi RadioTV Portuguesa Int'l">
+  <programme start="20260221054500 +0000" stop="20260221064500 +0000" channel="RTPi RadioTV Portuguesa Int'l">
     <title lang="pt">Esta Língua que nos Une - Compacto</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
@@ -197840,14 +197875,14 @@
   </programme>
   <programme start="20260217083900 +0000" stop="20260217084700 +0000" channel="Space HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217084700 +0000" stop="20260217090000 +0000" channel="Space HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -198393,14 +198428,14 @@
   </programme>
   <programme start="20260220083900 +0000" stop="20260220084800 +0000" channel="Space HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220084800 +0000" stop="20260220090000 +0000" channel="Space HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -198678,16 +198713,37 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218010000 +0000" stop="20260218033000 +0000" channel="SporTV2 HD">
+  <programme start="20260218010000 +0000" stop="20260218011200 +0000" channel="SporTV2 HD">
     <title lang="pt">Diário de Inverno</title>
     <desc lang="pt">Encerramento do dia de transmissões dos Jogos Olímpicos de Inverno Milão-Cortina 2026, com os melhores momentos das provas, destaques da jornada olímpica, quadro de medalhas atualizado e projeção dos próximos eventos, entre outras atrações.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218033000 +0000" stop="20260217053000 +0000" channel="SporTV2 HD">
+  <programme start="20260218011200 +0000" stop="20260218030100 +0000" channel="SporTV2 HD">
     <title lang="pt">Diário de Inverno</title>
     <desc lang="pt">Encerramento do dia de transmissões dos Jogos Olímpicos de Inverno Milão-Cortina 2026, com os melhores momentos das provas, destaques da jornada olímpica, quadro de medalhas atualizado e projeção dos próximos eventos, entre outras atrações.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260218030100 +0000" stop="20260217045500 +0000" channel="SporTV2 HD">
+    <title lang="pt">Diário de Inverno</title>
+    <desc lang="pt">Encerramento do dia de transmissões dos Jogos Olímpicos de Inverno Milão-Cortina 2026, com os melhores momentos das provas, destaques da jornada olímpica, quadro de medalhas atualizado e projeção dos próximos eventos, entre outras atrações.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260217045500 +0000" stop="20260217052300 +0000" channel="SporTV2 HD">
+    <title lang="pt">On the Line</title>
+    <desc lang="pt">A história por trás dos melhores momentos do esqui alpino nos Jogos Olímpicos de Inverno.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260217052300 +0000" stop="20260217053000 +0000" channel="SporTV2 HD">
+    <title lang="pt">Esqui Cross-Country - Classificatória Feminina</title>
+    <desc lang="pt">Vigésima quinta edição dos Jogos Olímpicos de Inverno, com 116 eventos competitivos distribuídos entre oito esportes diferentes e participação de atletas de todo o planeta. Milão e Cortina d&apos;Ampezzo, na Itália, são as sedes principais das disputas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -199023,7 +199079,7 @@
   </programme>
   <programme start="20260217083000 +0000" stop="20260217093000 +0000" channel="SporTV3 HD">
     <title lang="pt">Finais Clássicas</title>
-    <desc lang="pt">Andy Murray e Juan Martín del Potro se enfrentam em um dos grandes momentos do Rio 2016.</desc>
+    <desc lang="pt">Relembre a final do tênis feminino entre Monica Puig x Angelique Kerber.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -199058,7 +199114,7 @@
   </programme>
   <programme start="20260217133000 +0000" stop="20260217143000 +0000" channel="SporTV3 HD">
     <title lang="pt">Finais Clássicas</title>
-    <desc lang="pt">Andy Murray e Juan Martín del Potro se enfrentam em um dos grandes momentos do Rio 2016.</desc>
+    <desc lang="pt">Relembre a final do tênis feminino entre Monica Puig x Angelique Kerber.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -199106,28 +199162,28 @@
     </rating>
   </programme>
   <programme start="20260218000000 +0000" stop="20260218063000 +0000" channel="SporTV3 HD">
-    <title lang="pt">Primeiras Rodadas - Quadra Guga Kuerten</title>
+    <title lang="pt">Primeiras Rodadas - João Fonseca (BRA) x Thiago Monteiro (BRA)</title>
     <desc lang="pt">Décima segunda edição da principal competição internacional de tênis disputada em solo brasileiro. Com nível ATP 500, o torneio é realizado no Jockey Club Brasileiro, no Rio de Janeiro, RJ.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260218000000 +0000" stop="20260218063000 +0000" channel="SporTV3 HD">
-    <title lang="pt">Primeiras Rodadas - Quadra Guga Kuerten</title>
+    <title lang="pt">Primeiras Rodadas - João Fonseca (BRA) x Thiago Monteiro (BRA)</title>
     <desc lang="pt">Décima segunda edição da principal competição internacional de tênis disputada em solo brasileiro. Com nível ATP 500, o torneio é realizado no Jockey Club Brasileiro, no Rio de Janeiro, RJ.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260218063000 +0000" stop="20260218083000 +0000" channel="SporTV3 HD">
-    <title lang="pt">Primeiras Rodadas - Quadra Guga Kuerten</title>
+    <title lang="pt">Primeiras Rodadas - Luis Guto Miguel (BRA) x Vilius Gaubas (LIT)</title>
     <desc lang="pt">Décima segunda edição da principal competição internacional de tênis disputada em solo brasileiro. Com nível ATP 500, o torneio é realizado no Jockey Club Brasileiro, no Rio de Janeiro, RJ.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260218083000 +0000" stop="20260218103000 +0000" channel="SporTV3 HD">
-    <title lang="pt">Primeiras Rodadas - Quadra 1</title>
+    <title lang="pt">Rio Open de Tênis 2026</title>
     <desc lang="pt">Décima segunda edição da principal competição internacional de tênis disputada em solo brasileiro. Com nível ATP 500, o torneio é realizado no Jockey Club Brasileiro, no Rio de Janeiro, RJ.</desc>
     <rating system="Brazil">
       <value>[14]</value>
@@ -199149,13 +199205,13 @@
   </programme>
   <programme start="20260218160000 +0000" stop="20260218170000 +0000" channel="SporTV3 HD">
     <title lang="pt">Finais Clássicas</title>
-    <desc lang="pt">Andy Murray e Juan Martín del Potro se enfrentam em um dos grandes momentos do Rio 2016.</desc>
+    <desc lang="pt">Relembre a final do tênis feminino entre Monica Puig x Angelique Kerber.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260218170000 +0000" stop="20260218190000 +0000" channel="SporTV3 HD">
-    <title lang="pt">Primeiras Rodadas - Quadra Guga Kuerten</title>
+    <title lang="pt">Primeiras Rodadas - João Fonseca (BRA) x Thiago Monteiro (BRA)</title>
     <desc lang="pt">Décima segunda edição da principal competição internacional de tênis disputada em solo brasileiro. Com nível ATP 500, o torneio é realizado no Jockey Club Brasileiro, no Rio de Janeiro, RJ.</desc>
     <rating system="Brazil">
       <value>[14]</value>
@@ -199462,7 +199518,14 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218010000 +0000" stop="20260218023000 +0000" channel="SporTV HD">
+  <programme start="20260218010000 +0000" stop="20260218015800 +0000" channel="SporTV HD">
+    <title lang="pt">Troca de Passes</title>
+    <desc lang="pt">O dia a dia do esporte e as principais notícias pelo país.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260218015800 +0000" stop="20260218023000 +0000" channel="SporTV HD">
     <title lang="pt">Troca de Passes</title>
     <desc lang="pt">O dia a dia do esporte e as principais notícias pelo país.</desc>
     <rating system="Brazil">
@@ -202262,21 +202325,21 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220062800 +0000" stop="20260220071400 +0000" channel="TBS HD">
+  <programme start="20260220062800 +0000" stop="20260220071500 +0000" channel="TBS HD">
     <title lang="pt">Se o Destino Quiser</title>
     <desc lang="pt">Após a morte de sua mãe, Ates leva uma vida desordenada longe de sua família. Quando o pai também morre, sua vida muda radicalmente, pois ele lhe deixa uma herança totalmente inesperada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220071400 +0000" stop="20260220080100 +0000" channel="TBS HD">
+  <programme start="20260220071500 +0000" stop="20260220080300 +0000" channel="TBS HD">
     <title lang="pt">Yargi - Segredos de Família</title>
     <desc lang="pt">Ceylin e Pars fazem tudo o que podem para encontrar Yekta; todos lamentam o fato de Mehmetcan não se lembrar de nada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220080100 +0000" stop="20260220085000 +0000" channel="TBS HD">
+  <programme start="20260220080300 +0000" stop="20260220085000 +0000" channel="TBS HD">
     <title lang="pt">O Canto do Pássaro</title>
     <desc lang="pt">Ay?en e Abidin ficam noivos, apesar dos sentimentos reprimidos de Abidin por Suna; Tar?k descobre o segredo de Seyran.</desc>
     <rating system="Brazil">
@@ -203706,7 +203769,7 @@
   </programme>
   <programme start="20260217225000 +0000" stop="20260218010000 +0000" channel="Telecine Pipoca HD">
     <title lang="pt">Cinquenta Tons de Cinza</title>
-    <desc lang="pt">A estudante de literatura Anastasia Steele, de 21 anos, entrevista o jovem biolionário Christian Grey, como um favor a sua colega de quarto Kate Kavanagh. Ela vê nele um homem atraente e brilhante, e ele fica igualmente fascinado por ela.</desc>
+    <desc lang="pt">A estudante de literatura Anastasia Steele, de 21 anos, entrevista o jovem bilionário Christian Grey, como um favor à sua colega de quarto Kate Kavanagh. Ela vê nele um homem atraente e brilhante, e ele fica igualmente fascinado por ela.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -203930,7 +203993,7 @@
   </programme>
   <programme start="20260220082500 +0000" stop="20260220104000 +0000" channel="Telecine Pipoca HD">
     <title lang="pt">Cinquenta Tons de Cinza</title>
-    <desc lang="pt">A estudante de literatura Anastasia Steele, de 21 anos, entrevista o jovem biolionário Christian Grey, como um favor a sua colega de quarto Kate Kavanagh. Ela vê nele um homem atraente e brilhante, e ele fica igualmente fascinado por ela.</desc>
+    <desc lang="pt">A estudante de literatura Anastasia Steele, de 21 anos, entrevista o jovem bilionário Christian Grey, como um favor à sua colega de quarto Kate Kavanagh. Ela vê nele um homem atraente e brilhante, e ele fica igualmente fascinado por ela.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -206366,21 +206429,21 @@
   </programme>
   <programme start="20260217083900 +0000" stop="20260217084800 +0000" channel="TNT HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217084800 +0000" stop="20260217090000 +0000" channel="TNT HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217090000 +0000" stop="20260217093600 +0000" channel="TNT HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -206961,35 +207024,35 @@
   </programme>
   <programme start="20260220071900 +0000" stop="20260220075400 +0000" channel="TNT HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220075400 +0000" stop="20260220082800 +0000" channel="TNT HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220082800 +0000" stop="20260220083900 +0000" channel="TNT HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220083900 +0000" stop="20260220085000 +0000" channel="TNT HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220085000 +0000" stop="20260220090000 +0000" channel="TNT HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -207143,14 +207206,14 @@
   </programme>
   <programme start="20260217052900 +0000" stop="20260217061000 +0000" channel="TNT Series HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217061000 +0000" stop="20260217065200 +0000" channel="TNT Series HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -207164,21 +207227,21 @@
   </programme>
   <programme start="20260217073400 +0000" stop="20260217074600 +0000" channel="TNT Series HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217074600 +0000" stop="20260217082100 +0000" channel="TNT Series HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217082100 +0000" stop="20260217085600 +0000" channel="TNT Series HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -207192,7 +207255,7 @@
   </programme>
   <programme start="20260217090000 +0000" stop="20260217091100 +0000" channel="TNT Series HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -207248,28 +207311,28 @@
   </programme>
   <programme start="20260217144100 +0000" stop="20260217152600 +0000" channel="TNT Series HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217152600 +0000" stop="20260217161100 +0000" channel="TNT Series HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217161100 +0000" stop="20260217165500 +0000" channel="TNT Series HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217165500 +0000" stop="20260217173800 +0000" channel="TNT Series HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -207381,14 +207444,14 @@
   </programme>
   <programme start="20260218000000 +0000" stop="20260218060100 +0000" channel="TNT Series HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260218000000 +0000" stop="20260218060100 +0000" channel="TNT Series HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -211243,70 +211306,70 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220061000 +0000" channel="truTV HD">
+  <programme start="20260220000000 +0000" stop="20260220060900 +0000" channel="truTV HD">
     <title lang="pt">Robot Chicken</title>
     <desc lang="pt">Os Pomsie&apos;s vieram para dominar o mundo; as crianças de Hogwarts podem ver os reais medos uns dos outros; descobrimos que a Alexa nunca para de ouvir e que isso só pode levar ao... Apocalipse.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220061000 +0000" channel="truTV HD">
+  <programme start="20260220000000 +0000" stop="20260220060900 +0000" channel="truTV HD">
     <title lang="pt">Robot Chicken</title>
     <desc lang="pt">Os Pomsie&apos;s vieram para dominar o mundo; as crianças de Hogwarts podem ver os reais medos uns dos outros; descobrimos que a Alexa nunca para de ouvir e que isso só pode levar ao... Apocalipse.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220061000 +0000" stop="20260220062100 +0000" channel="truTV HD">
+  <programme start="20260220060900 +0000" stop="20260220062000 +0000" channel="truTV HD">
     <title lang="pt">Smiling Friends</title>
     <desc lang="pt">Depois de comer um artefato misterioso encontrado em um antigo cemitério, Pim repentina e misteriosamente fica verde brilhante, para o desespero de todos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220062100 +0000" stop="20260220063200 +0000" channel="truTV HD">
+  <programme start="20260220062000 +0000" stop="20260220063100 +0000" channel="truTV HD">
     <title lang="pt">Smiling Friends</title>
     <desc lang="pt">Pim e Charlie ajudam um estranho que ninguém gosta. Chefe e Allan têm outras questões.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220063200 +0000" stop="20260220065800 +0000" channel="truTV HD">
+  <programme start="20260220063100 +0000" stop="20260220065700 +0000" channel="truTV HD">
     <title lang="pt">Clone High</title>
     <desc lang="pt">Scudworth nomeia Joana diretora por um dia e ela tenta reconquistar os antigos amigos com uma festa na escola. Mas as coisas acabam saindo de controle.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220065800 +0000" stop="20260220072100 +0000" channel="truTV HD">
+  <programme start="20260220065700 +0000" stop="20260220072100 +0000" channel="truTV HD">
     <title lang="pt">Genndy Tartakovsky&apos;s Primal</title>
     <desc lang="pt">Uma velha vingança volta para causar estragos e Spear precisa sacrificar tudo para detê-la.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220072100 +0000" stop="20260220074400 +0000" channel="truTV HD">
+  <programme start="20260220072100 +0000" stop="20260220074300 +0000" channel="truTV HD">
     <title lang="pt">Samurai Jack</title>
     <desc lang="pt">Abu tira um velho e assassino robô da aposentadoria para eliminar Jack, o maior dos alvos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220074400 +0000" stop="20260220075500 +0000" channel="truTV HD">
+  <programme start="20260220074300 +0000" stop="20260220075500 +0000" channel="truTV HD">
     <title lang="pt">Mike Tyson Mysteries</title>
     <desc lang="pt">A equipe compartilha seus altos e baixos do dia ao redor da mesa de jantar e viaja para a Escócia.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220075500 +0000" stop="20260220080600 +0000" channel="truTV HD">
+  <programme start="20260220075500 +0000" stop="20260220080700 +0000" channel="truTV HD">
     <title lang="pt">Mike Tyson Mysteries</title>
     <desc lang="pt">Dois amantes infelizes de famílias rivais recorrem à equipe em busca de ajuda.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220080600 +0000" stop="20260220081800 +0000" channel="truTV HD">
+  <programme start="20260220080700 +0000" stop="20260220081800 +0000" channel="truTV HD">
     <title lang="pt">Space Ghost de Costa a Costa</title>
     <desc lang="pt">Lokar apresenta o episódio piloto do programa original, &quot;Birdman de Costa a Costa&quot;, estrelando Birdman, antes de Space Ghost tornar-se apresentador oficial.</desc>
     <rating system="Brazil">
@@ -211497,7 +211560,7 @@
   </programme>
   <programme start="20260220180300 +0000" stop="20260220182700 +0000" channel="truTV HD">
     <title lang="pt">My Hero Academia</title>
-    <desc lang="pt">Shoto dá uma bronca em Deku; Katsuki tem que lidar com um rival e Katchan se descontrola.</desc>
+    <desc lang="pt">Shoto dá uma bronca em Deku; Katsuki tem que lidar com um rival e Kacchan se descontrola.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -211861,7 +211924,7 @@
   </programme>
   <programme start="20260217150900 +0000" stop="20260217153900 +0000" channel="TV5">
     <title lang="pt">Chef pays</title>
-    <desc lang="pt">La cheffe Louise Denisot prépare de la semoule au lait et au bois d&apos;Inde.</desc>
+    <desc lang="pt">Une rencontre culinaire et culturelle à travers la fusion entre un ingrédient typique des Outre-mer et des recettes traditionnelles du terroir français et d&apos;ailleurs. Des recettes inédites et faciles à réaliser avec le produit phare retenu.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -213534,7 +213597,7 @@
   </programme>
   <programme start="20260217080000 +0000" stop="20260217093000 +0000" channel="TV A Crítica HD">
     <title lang="pt">Magazine</title>
-    <desc lang="pt">Novidades sobre culinária, moda, saúde, música e muito mais.</desc>
+    <desc lang="pt">Un magazine sur des sujets d&apos;actualité d&apos;intérêt général pour la société.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -213576,7 +213639,7 @@
   </programme>
   <programme start="20260217190000 +0000" stop="20260217210000 +0000" channel="TV A Crítica HD">
     <title lang="pt">Magazine</title>
-    <desc lang="pt">Novidades sobre culinária, moda, saúde, música e muito mais.</desc>
+    <desc lang="pt">Un magazine sur des sujets d&apos;actualité d&apos;intérêt général pour la société.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -213758,7 +213821,7 @@
   </programme>
   <programme start="20260219183000 +0000" stop="20260219210000 +0000" channel="TV A Crítica HD">
     <title lang="pt">Magazine</title>
-    <desc lang="pt">Novidades sobre culinária, moda, saúde, música e muito mais.</desc>
+    <desc lang="pt">Un magazine sur des sujets d&apos;actualité d&apos;intérêt général pour la société.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -218826,7 +218889,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Alvorada do Sul HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -219470,7 +219533,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Amapá HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -224349,7 +224412,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Anhanguera Palmas">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -224986,7 +225049,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Anhanguera Palmas HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -228591,7 +228654,7 @@
   </programme>
   <programme start="20260217142000 +0000" stop="20260217150000 +0000" channel="TV Aperipê HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -228626,7 +228689,7 @@
   </programme>
   <programme start="20260217180000 +0000" stop="20260217190000 +0000" channel="TV Aperipê HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -229263,7 +229326,7 @@
   </programme>
   <programme start="20260220142000 +0000" stop="20260220150000 +0000" channel="TV Aperipê HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -229298,7 +229361,7 @@
   </programme>
   <programme start="20260220180000 +0000" stop="20260220190000 +0000" channel="TV Aperipê HD">
     <title lang="pt">A Anunciar</title>
-    <desc lang="pt">Programação a anunciar.</desc>
+    <desc lang="pt">Programação a ser anunciada.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -233120,7 +233183,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Bahia HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -241163,7 +241226,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Cabo Branco HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -245664,7 +245727,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Centro América Cuiabá HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -249381,7 +249444,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Clube HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -251159,7 +251222,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Diário">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -254097,16 +254160,16 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218000000 +0000" stop="20260218010000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Terra dos Primatas</title>
-    <desc lang="pt">Primatas, como lêmures e babuínos, demonstram adaptabilidade e resiliência em suas vidas cotidianas na busca por comida e abrigo.</desc>
+  <programme start="20260218000000 +0000" stop="20260218011500 +0000" channel="TV Educativa da Bahia HD">
+    <title lang="pt">Filme</title>
+    <desc lang="pt">As melhores produções de conteúdo adulto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218010000 +0000" stop="20260218020000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Um Milagre</title>
-    <desc lang="pt">Ali, um médico que sofre de um transtorno autista, começa a trabalhar em um hospital de Istambul. Superando os preconceitos de pacientes e colegas, Ali encontra uma família capaz de apreciar o valor de suas habilidades especiais.</desc>
+  <programme start="20260218011500 +0000" stop="20260218020000 +0000" channel="TV Educativa da Bahia HD">
+    <title lang="pt">Filme</title>
+    <desc lang="pt">As melhores produções de conteúdo adulto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -254133,15 +254196,15 @@
     </rating>
   </programme>
   <programme start="20260218000000 +0000" stop="20260218073000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Segredos do Ártico</title>
-    <desc lang="pt">Descubra os segredos do Ártico, um lugar misterioso e pouco povoado. Devido ao clima hostil desses territórios, a vida selvagem e as tribos da população Inuit batalham para sobreviver.</desc>
+    <title lang="pt">Dando a Real com Demori</title>
+    <desc lang="pt">Jornalista Leandro Demori bate um papo direto e descontraído com grandes personalidades. Política, vida pessoal, muita informação e entretenimento.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260218000000 +0000" stop="20260218073000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Segredos do Ártico</title>
-    <desc lang="pt">Descubra os segredos do Ártico, um lugar misterioso e pouco povoado. Devido ao clima hostil desses territórios, a vida selvagem e as tribos da população Inuit batalham para sobreviver.</desc>
+    <title lang="pt">Dando a Real com Demori</title>
+    <desc lang="pt">Jornalista Leandro Demori bate um papo direto e descontraído com grandes personalidades. Política, vida pessoal, muita informação e entretenimento.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -254440,23 +254503,16 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220073000 +0000" channel="TV Educativa da Bahia HD">
+  <programme start="20260220000000 +0000" stop="20260220080000 +0000" channel="TV Educativa da Bahia HD">
     <title lang="pt">Segredos do Ártico</title>
     <desc lang="pt">Descubra os segredos do Ártico, um lugar misterioso e pouco povoado. Devido ao clima hostil desses territórios, a vida selvagem e as tribos da população Inuit batalham para sobreviver.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220000000 +0000" stop="20260220073000 +0000" channel="TV Educativa da Bahia HD">
+  <programme start="20260220000000 +0000" stop="20260220080000 +0000" channel="TV Educativa da Bahia HD">
     <title lang="pt">Segredos do Ártico</title>
     <desc lang="pt">Descubra os segredos do Ártico, um lugar misterioso e pouco povoado. Devido ao clima hostil desses territórios, a vida selvagem e as tribos da população Inuit batalham para sobreviver.</desc>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  <programme start="20260220073000 +0000" stop="20260220080000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Eu Não Desisto de Você</title>
-    <desc lang="pt">As histórias das vidas que foram mudadas pela Casa de Passagem, um lar para meninas em situação de rua em Recife. Fundada pela advogada e ativista Ana Vasconcelos, a instituição lutava para manter as garotas longe das drogas e da prostituição.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -254468,28 +254524,21 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220090000 +0000" stop="20260220100000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Giro Nordeste</title>
-    <desc lang="pt">Entrevistas com personalidades nordestinas e nacionais com a participação de jornalistas das emissoras públicas de TV e rádio do Nordeste.</desc>
+  <programme start="20260220090000 +0000" stop="20260220093000 +0000" channel="TV Educativa da Bahia HD">
+    <title lang="pt">Olhar Independente</title>
+    <desc lang="pt">Programa divulga e discute produções audiovisuais nordestinas, promovendo a interação da televisão universitária com os produtores independentes.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220100000 +0000" stop="20260220103000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">TV Brasil Animada</title>
-    <desc lang="pt">A faixa de programação brinca com a imaginação das crianças com séries e desenhos que apresentam conteúdo infantil de qualidade, educativo, consciente e divertido.</desc>
+  <programme start="20260220093000 +0000" stop="20260220100000 +0000" channel="TV Educativa da Bahia HD">
+    <title lang="pt">Bem Viver</title>
+    <desc lang="pt">Um programa com informações e debates que visam melhorar a qualidade de vida.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220103000 +0000" stop="20260220111500 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Zoomoo Kids</title>
-    <desc lang="pt">Programação que cultiva grandes valores no desenvolvimento infantil, como respeito às diferenças, amizade, companheirismo, vida saudável e consciência ecológica.</desc>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  <programme start="20260220111500 +0000" stop="20260220150000 +0000" channel="TV Educativa da Bahia HD">
+  <programme start="20260220100000 +0000" stop="20260220150000 +0000" channel="TV Educativa da Bahia HD">
     <title lang="pt">TV Brasil Animada</title>
     <desc lang="pt">A faixa de programação brinca com a imaginação das crianças com séries e desenhos que apresentam conteúdo infantil de qualidade, educativo, consciente e divertido.</desc>
     <rating system="Brazil">
@@ -254503,9 +254552,44 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220160000 +0000" stop="20260220190000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Zoomoo Kids</title>
-    <desc lang="pt">Programação que cultiva grandes valores no desenvolvimento infantil, como respeito às diferenças, amizade, companheirismo, vida saudável e consciência ecológica.</desc>
+  <programme start="20260220160000 +0000" stop="20260220163000 +0000" channel="TV Educativa da Bahia HD">
+    <title lang="pt">Ruralidades Bahia</title>
+    <desc lang="pt">Matheus Boa Sorte, um viajante contador de histórias, revela cenários e modos de vida de produtores rurais baianos, suas culturas, riquezas e desafios.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260220163000 +0000" stop="20260220170000 +0000" channel="TV Educativa da Bahia HD">
+    <title lang="pt">Bem Bahia</title>
+    <desc lang="pt">A atração combina música, teatro, poesia, dança, artes plásticas e visuais, eventos de cultura e arte. O programa visa fortalecer a identidade cultural do estado da Bahia, além de mostrar os destaques do que acontece na capital e no interior.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260220170000 +0000" stop="20260220173000 +0000" channel="TV Educativa da Bahia HD">
+    <title lang="pt">Brasil Visto de Cima</title>
+    <desc lang="pt">Um emocionante voo pelo Brasil. Por meio de imagens feitas em helicópteros e drones, surgem ângulos, visões e reflexões sobre os encantos, as belezas, as curiosidades e as contradições de um país imenso e cheio de surpresas.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260220173000 +0000" stop="20260220180000 +0000" channel="TV Educativa da Bahia HD">
+    <title lang="pt">Estádios Históricos</title>
+    <desc lang="pt">Acompanhe a história de palcos clássicos do futebol brasileiro e suas construções.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260220180000 +0000" stop="20260220183000 +0000" channel="TV Educativa da Bahia HD">
+    <title lang="pt">Game Dev Brasil</title>
+    <desc lang="pt">Todas as novidades e também os bastidores sobre o desenvolvimento de jogos no Brasil.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260220183000 +0000" stop="20260220190000 +0000" channel="TV Educativa da Bahia HD">
+    <title lang="pt">Expedições</title>
+    <desc lang="pt">Uma aventura pelo Brasil em busca dos rastros de dinossauros e pterossauros com mais de 110 milhões de anos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -254517,14 +254601,7 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220210000 +0000" stop="20260220213000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Brasil Visto de Cima</title>
-    <desc lang="pt">Um emocionante voo pelo Brasil. Por meio de imagens feitas em helicópteros e drones, surgem ângulos, visões e reflexões sobre os encantos, as belezas, as curiosidades e as contradições de um país imenso e cheio de surpresas.</desc>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  <programme start="20260220213000 +0000" stop="20260220220000 +0000" channel="TV Educativa da Bahia HD">
+  <programme start="20260220210000 +0000" stop="20260220220000 +0000" channel="TV Educativa da Bahia HD">
     <title lang="pt">TVE Notícias</title>
     <desc lang="pt">Acompanhe um registro dos principais fatos da Bahia, envolvendo política, economia, segurança, cultura, esporte, matérias de prestação de serviço e muito mais.</desc>
     <rating system="Brazil">
@@ -254539,8 +254616,8 @@
     </rating>
   </programme>
   <programme start="20260220223000 +0000" stop="20260220230000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Futurando</title>
-    <desc lang="pt">Conheça projetos inovadores desenvolvidos ao redor do mundo e as pessoas que estão por trás dessas iniciativas. Os temas são variados: pesquisas espaciais, inovações da medicina e esforços para criar metrópoles sustentáveis.</desc>
+    <title lang="pt">Parques do Brasil</title>
+    <desc lang="pt">Tudo sobre a biodiversidade dos parques nacionais e outras unidades de conservação brasileiras. Com ênfase na relação entre o meio ambiente, a saúde e a qualidade de vida, o programa explora a fauna, a flora e o patrimônio histórico.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -254553,22 +254630,22 @@
     </rating>
   </programme>
   <programme start="20260221000000 +0000" stop="20260221010000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Terra dos Primatas</title>
-    <desc lang="pt">Primatas, como lêmures e babuínos, demonstram adaptabilidade e resiliência em suas vidas cotidianas na busca por comida e abrigo.</desc>
+    <title lang="pt">Filme</title>
+    <desc lang="pt">As melhores produções de conteúdo adulto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260221010000 +0000" stop="20260221020000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Um Milagre</title>
-    <desc lang="pt">Ali, um médico que sofre de um transtorno autista, começa a trabalhar em um hospital de Istambul. Superando os preconceitos de pacientes e colegas, Ali encontra uma família capaz de apreciar o valor de suas habilidades especiais.</desc>
+    <title lang="pt">Filme</title>
+    <desc lang="pt">As melhores produções de conteúdo adulto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260221020000 +0000" stop="20260221023000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Sal a Gosto</title>
-    <desc lang="pt">A história da família Freitas, que enfrenta a falência de seu restaurante, divórcio, chegada inesperada de um sobrinho e a pandemia. Unidos, eles buscam superar os desafios e preservar seus sonhos.</desc>
+    <title lang="pt">Colapso</title>
+    <desc lang="pt">Elisângela deixa seu emprego de RH para pesquisar sobre relações de adoecimento mental no trabalho. No entanto, acaba se envolvendo de forma não profissional com seu paciente, Sérgio, um ex- porteiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -254580,16 +254657,16 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260221043000 +0000" stop="20260220053000 +0000" channel="TV Educativa da Bahia HD">
+  <programme start="20260221043000 +0000" stop="20260221053000 +0000" channel="TV Educativa da Bahia HD">
     <title lang="pt">Sangue Oculto</title>
     <desc lang="pt">Duas gêmeas, Carolina e Benedita, não se conhecem e descobrem que foram separadas ao nascerem. O caminho para descobrir a verdade está cheio de surpresas - e as praias da Costa da Caparica são palco de muitas histórias de amor.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220053000 +0000" stop="20260220063000 +0000" channel="TV Educativa da Bahia HD">
-    <title lang="pt">Segredos do Ártico</title>
-    <desc lang="pt">Descubra os segredos do Ártico, um lugar misterioso e pouco povoado. Devido ao clima hostil desses territórios, a vida selvagem e as tribos da população Inuit batalham para sobreviver.</desc>
+  <programme start="20260221053000 +0000" stop="20260221063000 +0000" channel="TV Educativa da Bahia HD">
+    <title lang="pt">Colapso</title>
+    <desc lang="pt">Elisângela deixa seu emprego de RH para pesquisar sobre relações de adoecimento mental no trabalho. No entanto, acaba se envolvendo de forma não profissional com seu paciente, Sérgio, um ex- porteiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -258411,7 +258488,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Gazeta HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -259048,7 +259125,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Gazeta">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -259685,7 +259762,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Gazeta HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -261701,7 +261778,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Gazeta Sul">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -266431,9 +266508,16 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218000500 +0000" stop="20260217005000 +0000" channel="TV Liberal">
+  <programme start="20260218000500 +0000" stop="20260218001000 +0000" channel="TV Liberal">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Liberal">
+    <title lang="pt">Big Brother Brasil</title>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -267068,9 +267152,16 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260218000500 +0000" stop="20260217005000 +0000" channel="TV Liberal HD">
+  <programme start="20260218000500 +0000" stop="20260218001000 +0000" channel="TV Liberal HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Liberal HD">
+    <title lang="pt">Big Brother Brasil</title>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -271725,7 +271816,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Mirante São Luís">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -272355,7 +272446,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Mirante São Luis HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -272999,7 +273090,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Morena">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -273685,7 +273776,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Morena HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -279886,7 +279977,7 @@
     </rating>
   </programme>
   <programme start="20260220153000 +0000" stop="20260220163000 +0000" channel="TV Pantanal">
-    <title lang="pt">Pantanal Nos Esportes</title>
+    <title lang="pt">Pantanal nos Esportes</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
       <value>[14]</value>
@@ -280411,7 +280502,7 @@
     </rating>
   </programme>
   <programme start="20260220153000 +0000" stop="20260220163000 +0000" channel="TV Pantanal HD">
-    <title lang="pt">Pantanal Nos Esportes</title>
+    <title lang="pt">Pantanal nos Esportes</title>
     <desc lang="pt">Sem descrição</desc>
     <rating system="Brazil">
       <value>[14]</value>
@@ -280622,7 +280713,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Paraíba HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -281742,14 +281833,14 @@
   </programme>
   <programme start="20260217065000 +0000" stop="20260217070000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Esquadrão do Mar Azul</title>
-    <desc lang="pt">Formação rochosa bloqueia uma parte da Ilha, fazendo com que todos que a atravessam desapareçam misteriosamente, como um truque de magia. Com determinação e coragem, Baiá, Marraia e Bela Baleia se lançam em uma missão cheia de reviravoltas.</desc>
+    <desc lang="pt">Valentim faz uma descoberta intrigante na praia, um pequeno montinho de areia que desperta sua curiosidade. Valentim reúne Duquesa, Fiufiu e Baiá para uma investigação sobre o monte de areia e as pegadas misteriosas que apareceram ao seu redor.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217070000 +0000" stop="20260217073000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Me Liga na Lata</title>
-    <desc lang="pt">Descendentes de um povo que perdeu suas terras na Pomerânia, as crianças pomeranas do Espírito Santo contextualizam os traços dessa cultura nas brincadeiras e língua nativas pelo telefone de lata. Contam como andam descalços, ajudam os parentes, aprendem a tocar instrumentos da cultura local, constroem seus próprios brinquedos, comem o brout, um pão à base de batatas, brincam de todas as etapas do tradicional casamento pomerano, mas, acima de tudo, mostram um brincar que é de todos.</desc>
+    <desc lang="pt">A natureza é matéria-prima para essas crianças que moram na comunidade de Tatajuba, no Ceará. Através do telefone de lata, elas contam como caçam calangos, caranguejos e siris, o que pescam, como constroem carrinhos e mostram como as mãos delicadas de uma menina costuram um enxoval completo de roupinhas para as bonecas. Tem também a brincadeira do Reisado guiada por um único adulto que mescla espontâneo e tradição entre versos e gestos dessa manifestação popular.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -281966,7 +282057,7 @@
   </programme>
   <programme start="20260217155000 +0000" stop="20260217160000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Esquadrão do Mar Azul</title>
-    <desc lang="pt">Formação rochosa bloqueia uma parte da Ilha, fazendo com que todos que a atravessam desapareçam misteriosamente, como um truque de magia. Com determinação e coragem, Baiá, Marraia e Bela Baleia se lançam em uma missão cheia de reviravoltas.</desc>
+    <desc lang="pt">Valentim faz uma descoberta intrigante na praia, um pequeno montinho de areia que desperta sua curiosidade. Valentim reúne Duquesa, Fiufiu e Baiá para uma investigação sobre o monte de areia e as pegadas misteriosas que apareceram ao seu redor.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -282106,7 +282197,7 @@
   </programme>
   <programme start="20260217202000 +0000" stop="20260217203000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Esquadrão do Mar Azul</title>
-    <desc lang="pt">Formação rochosa bloqueia uma parte da Ilha, fazendo com que todos que a atravessam desapareçam misteriosamente, como um truque de magia. Com determinação e coragem, Baiá, Marraia e Bela Baleia se lançam em uma missão cheia de reviravoltas.</desc>
+    <desc lang="pt">Valentim faz uma descoberta intrigante na praia, um pequeno montinho de areia que desperta sua curiosidade. Valentim reúne Duquesa, Fiufiu e Baiá para uma investigação sobre o monte de areia e as pegadas misteriosas que apareceram ao seu redor.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -282225,7 +282316,7 @@
   </programme>
   <programme start="20260217233000 +0000" stop="20260218000000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Me Liga na Lata</title>
-    <desc lang="pt">Descendentes de um povo que perdeu suas terras na Pomerânia, as crianças pomeranas do Espírito Santo contextualizam os traços dessa cultura nas brincadeiras e língua nativas pelo telefone de lata. Contam como andam descalços, ajudam os parentes, aprendem a tocar instrumentos da cultura local, constroem seus próprios brinquedos, comem o brout, um pão à base de batatas, brincam de todas as etapas do tradicional casamento pomerano, mas, acima de tudo, mostram um brincar que é de todos.</desc>
+    <desc lang="pt">A natureza é matéria-prima para essas crianças que moram na comunidade de Tatajuba, no Ceará. Através do telefone de lata, elas contam como caçam calangos, caranguejos e siris, o que pescam, como constroem carrinhos e mostram como as mãos delicadas de uma menina costuram um enxoval completo de roupinhas para as bonecas. Tem também a brincadeira do Reisado guiada por um único adulto que mescla espontâneo e tradição entre versos e gestos dessa manifestação popular.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -283688,14 +283779,14 @@
   </programme>
   <programme start="20260220065000 +0000" stop="20260220070000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Esquadrão do Mar Azul</title>
-    <desc lang="pt">Formação rochosa bloqueia uma parte da Ilha, fazendo com que todos que a atravessam desapareçam misteriosamente, como um truque de magia. Com determinação e coragem, Baiá, Marraia e Bela Baleia se lançam em uma missão cheia de reviravoltas.</desc>
+    <desc lang="pt">Valentim faz uma descoberta intrigante na praia, um pequeno montinho de areia que desperta sua curiosidade. Valentim reúne Duquesa, Fiufiu e Baiá para uma investigação sobre o monte de areia e as pegadas misteriosas que apareceram ao seu redor.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220070000 +0000" stop="20260220073000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Me Liga na Lata</title>
-    <desc lang="pt">Descendentes de um povo que perdeu suas terras na Pomerânia, as crianças pomeranas do Espírito Santo contextualizam os traços dessa cultura nas brincadeiras e língua nativas pelo telefone de lata. Contam como andam descalços, ajudam os parentes, aprendem a tocar instrumentos da cultura local, constroem seus próprios brinquedos, comem o brout, um pão à base de batatas, brincam de todas as etapas do tradicional casamento pomerano, mas, acima de tudo, mostram um brincar que é de todos.</desc>
+    <desc lang="pt">A natureza é matéria-prima para essas crianças que moram na comunidade de Tatajuba, no Ceará. Através do telefone de lata, elas contam como caçam calangos, caranguejos e siris, o que pescam, como constroem carrinhos e mostram como as mãos delicadas de uma menina costuram um enxoval completo de roupinhas para as bonecas. Tem também a brincadeira do Reisado guiada por um único adulto que mescla espontâneo e tradição entre versos e gestos dessa manifestação popular.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -283912,7 +284003,7 @@
   </programme>
   <programme start="20260220155000 +0000" stop="20260220160000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Esquadrão do Mar Azul</title>
-    <desc lang="pt">Formação rochosa bloqueia uma parte da Ilha, fazendo com que todos que a atravessam desapareçam misteriosamente, como um truque de magia. Com determinação e coragem, Baiá, Marraia e Bela Baleia se lançam em uma missão cheia de reviravoltas.</desc>
+    <desc lang="pt">Valentim faz uma descoberta intrigante na praia, um pequeno montinho de areia que desperta sua curiosidade. Valentim reúne Duquesa, Fiufiu e Baiá para uma investigação sobre o monte de areia e as pegadas misteriosas que apareceram ao seu redor.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -284031,7 +284122,7 @@
   </programme>
   <programme start="20260220193000 +0000" stop="20260220200000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Qual É, Bicho?</title>
-    <desc lang="pt">Camila recebe a visita de sua amiga Mary Fofa, que quer ser uma superstar. Camila deixa a amiga com Lino no Zoolatório e vai para o zoológico. Mary quer cantar, mas é muito desafinada. Cadu chega ao Zoolatório e não entende o que está acontecendo.</desc>
+    <desc lang="pt">Cadu chega ao Zoolatório e Camila sai, mas antes avisa que sua amiga Jackie virá visitá-la. Jackie chega ao Zoolatório e Cadu se apaixona por ela. Lino fica indignado com a situação e faz de tudo para acabar com o namoro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -284052,7 +284143,7 @@
   </programme>
   <programme start="20260220202000 +0000" stop="20260220203000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Esquadrão do Mar Azul</title>
-    <desc lang="pt">Formação rochosa bloqueia uma parte da Ilha, fazendo com que todos que a atravessam desapareçam misteriosamente, como um truque de magia. Com determinação e coragem, Baiá, Marraia e Bela Baleia se lançam em uma missão cheia de reviravoltas.</desc>
+    <desc lang="pt">Valentim faz uma descoberta intrigante na praia, um pequeno montinho de areia que desperta sua curiosidade. Valentim reúne Duquesa, Fiufiu e Baiá para uma investigação sobre o monte de areia e as pegadas misteriosas que apareceram ao seu redor.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -284171,7 +284262,7 @@
   </programme>
   <programme start="20260220233000 +0000" stop="20260221000000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Me Liga na Lata</title>
-    <desc lang="pt">Descendentes de um povo que perdeu suas terras na Pomerânia, as crianças pomeranas do Espírito Santo contextualizam os traços dessa cultura nas brincadeiras e língua nativas pelo telefone de lata. Contam como andam descalços, ajudam os parentes, aprendem a tocar instrumentos da cultura local, constroem seus próprios brinquedos, comem o brout, um pão à base de batatas, brincam de todas as etapas do tradicional casamento pomerano, mas, acima de tudo, mostram um brincar que é de todos.</desc>
+    <desc lang="pt">A natureza é matéria-prima para essas crianças que moram na comunidade de Tatajuba, no Ceará. Através do telefone de lata, elas contam como caçam calangos, caranguejos e siris, o que pescam, como constroem carrinhos e mostram como as mãos delicadas de uma menina costuram um enxoval completo de roupinhas para as bonecas. Tem também a brincadeira do Reisado guiada por um único adulto que mescla espontâneo e tradição entre versos e gestos dessa manifestação popular.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -284227,7 +284318,7 @@
   </programme>
   <programme start="20260221013000 +0000" stop="20260221020000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Qual É, Bicho?</title>
-    <desc lang="pt">Camila recebe a visita de sua amiga Mary Fofa, que quer ser uma superstar. Camila deixa a amiga com Lino no Zoolatório e vai para o zoológico. Mary quer cantar, mas é muito desafinada. Cadu chega ao Zoolatório e não entende o que está acontecendo.</desc>
+    <desc lang="pt">Cadu chega ao Zoolatório e Camila sai, mas antes avisa que sua amiga Jackie virá visitá-la. Jackie chega ao Zoolatório e Cadu se apaixona por ela. Lino fica indignado com a situação e faz de tudo para acabar com o namoro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -285347,7 +285438,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Rondônia HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -286012,7 +286103,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Roraima HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -288609,7 +288700,7 @@
   </programme>
   <programme start="20260221050600 +0000" stop="20260221060600 +0000" channel="TV Senado HD">
     <title lang="pt">Habitar/Habitat</title>
-    <desc lang="pt">Conheça as diversas formas de habitação da população brasileira. A abordagem liga aspectos arquitetônicos com formas de organização familiar, saberes locais, valores estéticos e motivos práticos de suas construções.</desc>
+    <desc lang="pt">O episódio mostra casas, ecovilas e exemplares de bioconstrução erguidos a partir do conceito de bioarquitetura, criado pelo arquiteto holandês Johan van Lengen, autor do Manual do Arquiteto Descalço.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -291101,7 +291192,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Tribuna HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -296295,7 +296386,7 @@
   </programme>
   <programme start="20260218001000 +0000" stop="20260217005000 +0000" channel="TV Verdes Mares HD">
     <title lang="pt">Big Brother Brasil</title>
-    <desc lang="pt">Um grupo de pessoas topa ficar confinado em uma espaçosa casa cenográfica, sendo vigiado por câmeras 24 horas por dia. Sem receber informações do mundo exterior, eles disputam uma série de provas e dinâmicas em busca de um prêmio milionário.</desc>
+    <desc lang="pt">Paredão entre Marcelo, Samira e Solange Couto.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -296776,14 +296867,14 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260221034000 +0000" stop="20260220042500 +0000" channel="TV Verdes Mares HD">
+  <programme start="20260221034000 +0000" stop="20260221042500 +0000" channel="TV Verdes Mares HD">
     <title lang="pt">Coração Acelerado</title>
     <desc lang="pt">Agrado Garcia, uma cantora e compositora talentosa, batalha para conquistar uma carreira de sucesso. João Raul se torna grande astro sertanejo e usa suas redes sociais para procurar a &quot;garota do seu passado&quot;.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260220042500 +0000" stop="20260220052000 +0000" channel="TV Verdes Mares HD">
+  <programme start="20260221042500 +0000" stop="20260220052000 +0000" channel="TV Verdes Mares HD">
     <title lang="pt">Vai que Cola</title>
     <desc lang="pt">Depois de se envolver em uma falcatrua, o malandro Valdomiro vai morar em uma pensão no subúrbio carioca. Dona Jô, proprietária do local, acredita que o rapaz tem um bom coração e decide recebê-lo como hóspede.</desc>
     <rating system="Brazil">
@@ -300075,14 +300166,14 @@
   </programme>
   <programme start="20260217055600 +0000" stop="20260217064800 +0000" channel="Viva HD">
     <title lang="pt">Anjo Mau</title>
-    <desc lang="pt">Rodrigo fica revoltado ao saber que seu pai deixou a maior parte das ações da empresa para Ciro; Ricardo diz a Rui que quer se casar com Paula.</desc>
+    <desc lang="pt">Rodrigo convida Lígia para ser sua madrinha de casamento; Frederico aconselha Helena a não se casar com Ricardo; Paula e Teresa vão à casa de Alzira pedir que ela jogue cartas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217064800 +0000" stop="20260217073700 +0000" channel="Viva HD">
     <title lang="pt">Cordel Encantado</title>
-    <desc lang="pt">Úrsula invade o quarto de Cesária e a humilha depois que lhe devolve o anel; Petrus relata a Zenóbio e Florinda como conseguiu fugir da masmorra; Jesuíno decide contar a Euzébio e Virtuosa que Cícero está vivo; Açucena sofre pelo fim de seu noivado.</desc>
+    <desc lang="pt">Timóteo explica à duquesa por que quer ficar noivo de Carlota; Batoré pressiona Antônia para marcar a data de seu casamento; Carlota conta a Fausto sobre ela e Timóteo; Petrus afirma a Zenóbio e Florinda que irá desmascarar Úrsula.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300103,7 +300194,7 @@
   </programme>
   <programme start="20260217091000 +0000" stop="20260217094200 +0000" channel="Viva HD">
     <title lang="pt">Fina Estampa</title>
-    <desc lang="pt">Danielle vai buscar Pedro Jorge com advogada e oficial de Justiça; Zambeze conforta Álvaro; Patrícia obriga a mãe a pedir desculpas; Griselda surpreende Antenor e Patrícia na cozinha; Alice descobre a senha do cofre de Tereza Cristina.</desc>
+    <desc lang="pt">Griselda conta ao delegado Paredes tudo o que Ferdinand fez contra sua família a mando de Tereza Cristina; Álvaro anuncia um concurso do quiosque e Alberto ameaça terminar com Jackelaine se ela participar; Deborah se inscreve no concurso.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300117,7 +300208,7 @@
   </programme>
   <programme start="20260217100300 +0000" stop="20260217110700 +0000" channel="Viva HD">
     <title lang="pt">Salve Jorge</title>
-    <desc lang="pt">Helô consegue sair do carro incendiado; Stenio se desespera com a notícia; Stenio e Helô se beijam; Pescoço inventa uma doença para não ir à delegacia; Sheila briga com Morena porque a amiga se recusa a lhe passar o telefone de Wanda.</desc>
+    <desc lang="pt">Morena e Jéssica não conseguem se explicar para Helô porque são interrompidas por Ricardo; o policial federal conta que o vídeo de segurança que mostra o responsável pelo atentado foi encontrado; Morena se abala com o desprezo de seus vizinhos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300152,21 +300243,21 @@
   </programme>
   <programme start="20260217141500 +0000" stop="20260217150700 +0000" channel="Viva HD">
     <title lang="pt">O Rei do Gado</title>
-    <desc lang="pt">Geremias diz que jamais procurará Giovanna e seus filhos; Dimas sugere que Mezenga contrate um detetive para seguir Léa; Fausto confirma para Mezenga que Marieta é sua sobrinha.</desc>
+    <desc lang="pt">Zé se envolve em uma briga na boate e Aparício e Zé Bento defendem-no; Léa ouve Mezenga pedir ajuda ao advogado para registrar Luana e conclui que ele a está traindo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217150700 +0000" stop="20260217160000 +0000" channel="Viva HD">
     <title lang="pt">Anjo Mau</title>
-    <desc lang="pt">Rodrigo fica revoltado ao saber que seu pai deixou a maior parte das ações da empresa para Ciro; Ricardo diz a Rui que quer se casar com Paula.</desc>
+    <desc lang="pt">Rodrigo convida Lígia para ser sua madrinha de casamento; Frederico aconselha Helena a não se casar com Ricardo; Paula e Teresa vão à casa de Alzira pedir que ela jogue cartas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217160000 +0000" stop="20260217170000 +0000" channel="Viva HD">
     <title lang="pt">Salve Jorge</title>
-    <desc lang="pt">Helô consegue sair do carro incendiado; Stenio se desespera com a notícia; Stenio e Helô se beijam; Pescoço inventa uma doença para não ir à delegacia; Sheila briga com Morena porque a amiga se recusa a lhe passar o telefone de Wanda.</desc>
+    <desc lang="pt">Morena e Jéssica não conseguem se explicar para Helô porque são interrompidas por Ricardo; o policial federal conta que o vídeo de segurança que mostra o responsável pelo atentado foi encontrado; Morena se abala com o desprezo de seus vizinhos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300187,14 +300278,14 @@
   </programme>
   <programme start="20260217183900 +0000" stop="20260217192800 +0000" channel="Viva HD">
     <title lang="pt">Cordel Encantado</title>
-    <desc lang="pt">Úrsula invade o quarto de Cesária e a humilha depois que lhe devolve o anel; Petrus relata a Zenóbio e Florinda como conseguiu fugir da masmorra; Jesuíno decide contar a Euzébio e Virtuosa que Cícero está vivo; Açucena sofre pelo fim de seu noivado.</desc>
+    <desc lang="pt">Timóteo explica à duquesa por que quer ficar noivo de Carlota; Batoré pressiona Antônia para marcar a data de seu casamento; Carlota conta a Fausto sobre ela e Timóteo; Petrus afirma a Zenóbio e Florinda que irá desmascarar Úrsula.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217192800 +0000" stop="20260217200000 +0000" channel="Viva HD">
     <title lang="pt">Fina Estampa</title>
-    <desc lang="pt">Danielle vai buscar Pedro Jorge com advogada e oficial de Justiça; Zambeze conforta Álvaro; Patrícia obriga a mãe a pedir desculpas; Griselda surpreende Antenor e Patrícia na cozinha; Alice descobre a senha do cofre de Tereza Cristina.</desc>
+    <desc lang="pt">Griselda conta ao delegado Paredes tudo o que Ferdinand fez contra sua família a mando de Tereza Cristina; Álvaro anuncia um concurso do quiosque e Alberto ameaça terminar com Jackelaine se ela participar; Deborah se inscreve no concurso.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300215,21 +300306,21 @@
   </programme>
   <programme start="20260217213000 +0000" stop="20260217222300 +0000" channel="Viva HD">
     <title lang="pt">Anjo Mau</title>
-    <desc lang="pt">Rodrigo fica revoltado ao saber que seu pai deixou a maior parte das ações da empresa para Ciro; Ricardo diz a Rui que quer se casar com Paula.</desc>
+    <desc lang="pt">Rodrigo convida Lígia para ser sua madrinha de casamento; Frederico aconselha Helena a não se casar com Ricardo; Paula e Teresa vão à casa de Alzira pedir que ela jogue cartas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217222300 +0000" stop="20260217231500 +0000" channel="Viva HD">
     <title lang="pt">O Rei do Gado</title>
-    <desc lang="pt">Geremias diz que jamais procurará Giovanna e seus filhos; Dimas sugere que Mezenga contrate um detetive para seguir Léa; Fausto confirma para Mezenga que Marieta é sua sobrinha.</desc>
+    <desc lang="pt">Zé se envolve em uma briga na boate e Aparício e Zé Bento defendem-no; Léa ouve Mezenga pedir ajuda ao advogado para registrar Luana e conclui que ele a está traindo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217231500 +0000" stop="20260218000600 +0000" channel="Viva HD">
     <title lang="pt">Cordel Encantado</title>
-    <desc lang="pt">Úrsula invade o quarto de Cesária e a humilha depois que lhe devolve o anel; Petrus relata a Zenóbio e Florinda como conseguiu fugir da masmorra; Jesuíno decide contar a Euzébio e Virtuosa que Cícero está vivo; Açucena sofre pelo fim de seu noivado.</desc>
+    <desc lang="pt">Timóteo explica à duquesa por que quer ficar noivo de Carlota; Batoré pressiona Antônia para marcar a data de seu casamento; Carlota conta a Fausto sobre ela e Timóteo; Petrus afirma a Zenóbio e Florinda que irá desmascarar Úrsula.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300250,14 +300341,14 @@
   </programme>
   <programme start="20260218014000 +0000" stop="20260218023700 +0000" channel="Viva HD">
     <title lang="pt">Fina Estampa</title>
-    <desc lang="pt">Danielle vai buscar Pedro Jorge com advogada e oficial de Justiça; Zambeze conforta Álvaro; Patrícia obriga a mãe a pedir desculpas; Griselda surpreende Antenor e Patrícia na cozinha; Alice descobre a senha do cofre de Tereza Cristina.</desc>
+    <desc lang="pt">Griselda conta ao delegado Paredes tudo o que Ferdinand fez contra sua família a mando de Tereza Cristina; Álvaro anuncia um concurso do quiosque e Alberto ameaça terminar com Jackelaine se ela participar; Deborah se inscreve no concurso.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260218023700 +0000" stop="20260218033600 +0000" channel="Viva HD">
     <title lang="pt">Salve Jorge</title>
-    <desc lang="pt">Helô consegue sair do carro incendiado; Stenio se desespera com a notícia; Stenio e Helô se beijam; Pescoço inventa uma doença para não ir à delegacia; Sheila briga com Morena porque a amiga se recusa a lhe passar o telefone de Wanda.</desc>
+    <desc lang="pt">Morena e Jéssica não conseguem se explicar para Helô porque são interrompidas por Ricardo; o policial federal conta que o vídeo de segurança que mostra o responsável pelo atentado foi encontrado; Morena se abala com o desprezo de seus vizinhos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300719,7 +300810,7 @@
   </programme>
   <programme start="20260220064100 +0000" stop="20260220072900 +0000" channel="Viva HD">
     <title lang="pt">Cordel Encantado</title>
-    <desc lang="pt">Úrsula invade o quarto de Cesária e a humilha depois que lhe devolve o anel; Petrus relata a Zenóbio e Florinda como conseguiu fugir da masmorra; Jesuíno decide contar a Euzébio e Virtuosa que Cícero está vivo; Açucena sofre pelo fim de seu noivado.</desc>
+    <desc lang="pt">Timóteo explica à duquesa por que quer ficar noivo de Carlota; Batoré pressiona Antônia para marcar a data de seu casamento; Carlota conta a Fausto sobre ela e Timóteo; Petrus afirma a Zenóbio e Florinda que irá desmascarar Úrsula.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300740,14 +300831,14 @@
   </programme>
   <programme start="20260220090200 +0000" stop="20260220095700 +0000" channel="Viva HD">
     <title lang="pt">Fina Estampa</title>
-    <desc lang="pt">Danielle vai buscar Pedro Jorge com advogada e oficial de Justiça; Zambeze conforta Álvaro; Patrícia obriga a mãe a pedir desculpas; Griselda surpreende Antenor e Patrícia na cozinha; Alice descobre a senha do cofre de Tereza Cristina.</desc>
+    <desc lang="pt">Griselda conta ao delegado Paredes tudo o que Ferdinand fez contra sua família a mando de Tereza Cristina; Álvaro anuncia um concurso do quiosque e Alberto ameaça terminar com Jackelaine se ela participar; Deborah se inscreve no concurso.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220095700 +0000" stop="20260220110600 +0000" channel="Viva HD">
     <title lang="pt">Salve Jorge</title>
-    <desc lang="pt">Helô consegue sair do carro incendiado; Stenio se desespera com a notícia; Stenio e Helô se beijam; Pescoço inventa uma doença para não ir à delegacia; Sheila briga com Morena porque a amiga se recusa a lhe passar o telefone de Wanda.</desc>
+    <desc lang="pt">Morena e Jéssica não conseguem se explicar para Helô porque são interrompidas por Ricardo; o policial federal conta que o vídeo de segurança que mostra o responsável pelo atentado foi encontrado; Morena se abala com o desprezo de seus vizinhos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300782,21 +300873,21 @@
   </programme>
   <programme start="20260220141500 +0000" stop="20260220151800 +0000" channel="Viva HD">
     <title lang="pt">O Rei do Gado</title>
-    <desc lang="pt">Geremias diz que jamais procurará Giovanna e seus filhos; Dimas sugere que Mezenga contrate um detetive para seguir Léa; Fausto confirma para Mezenga que Marieta é sua sobrinha.</desc>
+    <desc lang="pt">Zé se envolve em uma briga na boate e Aparício e Zé Bento defendem-no; Léa ouve Mezenga pedir ajuda ao advogado para registrar Luana e conclui que ele a está traindo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220151800 +0000" stop="20260220160200 +0000" channel="Viva HD">
     <title lang="pt">Anjo Mau</title>
-    <desc lang="pt">Rodrigo fica revoltado ao saber que seu pai deixou a maior parte das ações da empresa para Ciro; Ricardo diz a Rui que quer se casar com Paula.</desc>
+    <desc lang="pt">Rodrigo convida Lígia para ser sua madrinha de casamento; Frederico aconselha Helena a não se casar com Ricardo; Paula e Teresa vão à casa de Alzira pedir que ela jogue cartas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220160200 +0000" stop="20260220170100 +0000" channel="Viva HD">
     <title lang="pt">Salve Jorge</title>
-    <desc lang="pt">Helô consegue sair do carro incendiado; Stenio se desespera com a notícia; Stenio e Helô se beijam; Pescoço inventa uma doença para não ir à delegacia; Sheila briga com Morena porque a amiga se recusa a lhe passar o telefone de Wanda.</desc>
+    <desc lang="pt">Morena e Jéssica não conseguem se explicar para Helô porque são interrompidas por Ricardo; o policial federal conta que o vídeo de segurança que mostra o responsável pelo atentado foi encontrado; Morena se abala com o desprezo de seus vizinhos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300817,14 +300908,14 @@
   </programme>
   <programme start="20260220183100 +0000" stop="20260220191900 +0000" channel="Viva HD">
     <title lang="pt">Cordel Encantado</title>
-    <desc lang="pt">Úrsula invade o quarto de Cesária e a humilha depois que lhe devolve o anel; Petrus relata a Zenóbio e Florinda como conseguiu fugir da masmorra; Jesuíno decide contar a Euzébio e Virtuosa que Cícero está vivo; Açucena sofre pelo fim de seu noivado.</desc>
+    <desc lang="pt">Timóteo explica à duquesa por que quer ficar noivo de Carlota; Batoré pressiona Antônia para marcar a data de seu casamento; Carlota conta a Fausto sobre ela e Timóteo; Petrus afirma a Zenóbio e Florinda que irá desmascarar Úrsula.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220191900 +0000" stop="20260220201400 +0000" channel="Viva HD">
     <title lang="pt">Fina Estampa</title>
-    <desc lang="pt">Danielle vai buscar Pedro Jorge com advogada e oficial de Justiça; Zambeze conforta Álvaro; Patrícia obriga a mãe a pedir desculpas; Griselda surpreende Antenor e Patrícia na cozinha; Alice descobre a senha do cofre de Tereza Cristina.</desc>
+    <desc lang="pt">Griselda conta ao delegado Paredes tudo o que Ferdinand fez contra sua família a mando de Tereza Cristina; Álvaro anuncia um concurso do quiosque e Alberto ameaça terminar com Jackelaine se ela participar; Deborah se inscreve no concurso.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300845,21 +300936,21 @@
   </programme>
   <programme start="20260220213100 +0000" stop="20260220221800 +0000" channel="Viva HD">
     <title lang="pt">Anjo Mau</title>
-    <desc lang="pt">Rodrigo fica revoltado ao saber que seu pai deixou a maior parte das ações da empresa para Ciro; Ricardo diz a Rui que quer se casar com Paula.</desc>
+    <desc lang="pt">Rodrigo convida Lígia para ser sua madrinha de casamento; Frederico aconselha Helena a não se casar com Ricardo; Paula e Teresa vão à casa de Alzira pedir que ela jogue cartas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220221800 +0000" stop="20260220232100 +0000" channel="Viva HD">
     <title lang="pt">O Rei do Gado</title>
-    <desc lang="pt">Geremias diz que jamais procurará Giovanna e seus filhos; Dimas sugere que Mezenga contrate um detetive para seguir Léa; Fausto confirma para Mezenga que Marieta é sua sobrinha.</desc>
+    <desc lang="pt">Zé se envolve em uma briga na boate e Aparício e Zé Bento defendem-no; Léa ouve Mezenga pedir ajuda ao advogado para registrar Luana e conclui que ele a está traindo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220232100 +0000" stop="20260221000700 +0000" channel="Viva HD">
     <title lang="pt">Cordel Encantado</title>
-    <desc lang="pt">Úrsula invade o quarto de Cesária e a humilha depois que lhe devolve o anel; Petrus relata a Zenóbio e Florinda como conseguiu fugir da masmorra; Jesuíno decide contar a Euzébio e Virtuosa que Cícero está vivo; Açucena sofre pelo fim de seu noivado.</desc>
+    <desc lang="pt">Timóteo explica à duquesa por que quer ficar noivo de Carlota; Batoré pressiona Antônia para marcar a data de seu casamento; Carlota conta a Fausto sobre ela e Timóteo; Petrus afirma a Zenóbio e Florinda que irá desmascarar Úrsula.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300880,14 +300971,14 @@
   </programme>
   <programme start="20260221014000 +0000" stop="20260221023700 +0000" channel="Viva HD">
     <title lang="pt">Fina Estampa</title>
-    <desc lang="pt">Danielle vai buscar Pedro Jorge com advogada e oficial de Justiça; Zambeze conforta Álvaro; Patrícia obriga a mãe a pedir desculpas; Griselda surpreende Antenor e Patrícia na cozinha; Alice descobre a senha do cofre de Tereza Cristina.</desc>
+    <desc lang="pt">Griselda conta ao delegado Paredes tudo o que Ferdinand fez contra sua família a mando de Tereza Cristina; Álvaro anuncia um concurso do quiosque e Alberto ameaça terminar com Jackelaine se ela participar; Deborah se inscreve no concurso.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260221023700 +0000" stop="20260221033500 +0000" channel="Viva HD">
     <title lang="pt">Salve Jorge</title>
-    <desc lang="pt">Helô consegue sair do carro incendiado; Stenio se desespera com a notícia; Stenio e Helô se beijam; Pescoço inventa uma doença para não ir à delegacia; Sheila briga com Morena porque a amiga se recusa a lhe passar o telefone de Wanda.</desc>
+    <desc lang="pt">Morena e Jéssica não conseguem se explicar para Helô porque são interrompidas por Ricardo; o policial federal conta que o vídeo de segurança que mostra o responsável pelo atentado foi encontrado; Morena se abala com o desprezo de seus vizinhos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300915,7 +301006,7 @@
   </programme>
   <programme start="20260221055200 +0000" stop="20260221065200 +0000" channel="Viva HD">
     <title lang="pt">Anjo Mau</title>
-    <desc lang="pt">Rodrigo fica revoltado ao saber que seu pai deixou a maior parte das ações da empresa para Ciro; Ricardo diz a Rui que quer se casar com Paula.</desc>
+    <desc lang="pt">Rodrigo convida Lígia para ser sua madrinha de casamento; Frederico aconselha Helena a não se casar com Ricardo; Paula e Teresa vão à casa de Alzira pedir que ela jogue cartas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -300985,14 +301076,14 @@
   </programme>
   <programme start="20260217090000 +0000" stop="20260217090900 +0000" channel="Warner Channel HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260217090900 +0000" stop="20260217092000 +0000" channel="Warner Channel HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -302105,14 +302196,14 @@
   </programme>
   <programme start="20260220082500 +0000" stop="20260220084000 +0000" channel="Warner Channel HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260220084000 +0000" stop="20260220085000 +0000" channel="Warner Channel HD">
     <title lang="pt">Hollywood One on One</title>
-    <desc lang="pt">Hollywood One on One takes you to the stars with exclusive interviews and a behind the scenes look at the hottest movies now in theaters!</desc>
+    <desc lang="pt">Hollywood celebrities give insight into their personal and professional lives, and open up about upcoming projects.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
