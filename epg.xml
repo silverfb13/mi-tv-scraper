@@ -2701,14 +2701,14 @@
   </programme>
   <programme start="20260825144000 +0000" stop="20260825153000 +0000" channel="A&E HD">
     <title lang="pt">Acumuladores Compulsivos</title>
-    <desc lang="pt">Para fazer parte da vida de sua neta ainda não nascida, Cobra deve limpar sua casa e transformar sua propriedade em um ambiente mais seguro.</desc>
+    <desc lang="pt">Lutando contra a deficiência e com o tempo disponível, Meryl persegue um pico de compras. Isso levou a uma dívida enorme e um desentendimento com o irmão de Meryl e sua família. A cidade de Worchester descobriu sobre a condição de vida extremamente desordenada de Meryl e está ameaçando seriamente com despejo e limpeza forçada. Agora, com a ajuda da equipe de especialistas do Hoarders, ou Meryl limpará a propriedade ou a aplicação do código entrará em ação e Meryl perderá tudo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260825153000 +0000" stop="20260825162000 +0000" channel="A&E HD">
     <title lang="pt">Acumuladores Compulsivos</title>
-    <desc lang="pt">Para fazer parte da vida de sua neta ainda não nascida, Cobra deve limpar sua casa e transformar sua propriedade em um ambiente mais seguro.</desc>
+    <desc lang="pt">Lutando contra a deficiência e com o tempo disponível, Meryl persegue um pico de compras. Isso levou a uma dívida enorme e um desentendimento com o irmão de Meryl e sua família. A cidade de Worchester descobriu sobre a condição de vida extremamente desordenada de Meryl e está ameaçando seriamente com despejo e limpeza forçada. Agora, com a ajuda da equipe de especialistas do Hoarders, ou Meryl limpará a propriedade ou a aplicação do código entrará em ação e Meryl perderá tudo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -2785,7 +2785,7 @@
   </programme>
   <programme start="20260826001000 +0000" stop="20260826010000 +0000" channel="A&E HD">
     <title lang="pt">Culto à Personalidade</title>
-    <desc lang="pt">David Koresh, líder da seita davidiana, se autoproclama profeta e comete abusos, incluindo casamentos com meninas de 12 anos e abuso de crianças. Mesmo após sua morte em uma tragédia, ele ainda tem seguidores.</desc>
+    <desc lang="pt">A comunidade poligâmica de Warren Jeffs, no Sudoeste dos EUA, é marcada por abusos, casamentos arranjados e obediência incondicional ao líder. Jeffs controla a comunidade com uma mentalidade doentia e maligna.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -2820,7 +2820,7 @@
   </programme>
   <programme start="20260826041500 +0000" stop="20260826050500 +0000" channel="A&E HD">
     <title lang="pt">Culto à Personalidade</title>
-    <desc lang="pt">David Koresh, líder da seita davidiana, se autoproclama profeta e comete abusos, incluindo casamentos com meninas de 12 anos e abuso de crianças. Mesmo após sua morte em uma tragédia, ele ainda tem seguidores.</desc>
+    <desc lang="pt">A comunidade poligâmica de Warren Jeffs, no Sudoeste dos EUA, é marcada por abusos, casamentos arranjados e obediência incondicional ao líder. Jeffs controla a comunidade com uma mentalidade doentia e maligna.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -5247,28 +5247,28 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825000000 +0000" stop="20260825062700 +0000" channel="Animal Planet HD">
+  <programme start="20260825000000 +0000" stop="20260825062600 +0000" channel="Animal Planet HD">
     <title lang="pt">Extinto ou Não? Ilha dos Tubarões Perdidos</title>
     <desc lang="pt">O biólogo de animais selvagens e conservacionista Forrest Galante mergulha em mares repletos de tubarões no Hemisfério Sul. Seu objetivo é redescobrir três espécies supostamente extintas há pelo menos cem anos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825000000 +0000" stop="20260825062700 +0000" channel="Animal Planet HD">
+  <programme start="20260825000000 +0000" stop="20260825062600 +0000" channel="Animal Planet HD">
     <title lang="pt">Extinto ou Não? Ilha dos Tubarões Perdidos</title>
     <desc lang="pt">O biólogo de animais selvagens e conservacionista Forrest Galante mergulha em mares repletos de tubarões no Hemisfério Sul. Seu objetivo é redescobrir três espécies supostamente extintas há pelo menos cem anos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825062700 +0000" stop="20260825071800 +0000" channel="Animal Planet HD">
+  <programme start="20260825062600 +0000" stop="20260825071700 +0000" channel="Animal Planet HD">
     <title lang="pt">Confronto de Predadores - Tubarão-Branco x Tubarão-Mako</title>
     <desc lang="pt">O cientista Dr. Riley Elliott rastreia dois dos mais lendários predadores do oceano - grandes tubarões-brancos e tubarões-mako - enquanto eles se dirigem em rota de colisão durante sua migração anual ao largo da costa da Nova Zelândia.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825071800 +0000" stop="20260825080900 +0000" channel="Animal Planet HD">
+  <programme start="20260825071700 +0000" stop="20260825080900 +0000" channel="Animal Planet HD">
     <title lang="pt">Veterinários do Texas</title>
     <desc lang="pt">Dr. Ross examina uma coruja atropelada por um carro. Jamie Bell, uma cadela que não se alimenta há dias, esconde um grande e peludo segredo. Os veterinários visitam um centro de resgate de animais selvagens no Texas.</desc>
     <rating system="Brazil">
@@ -7587,7 +7587,7 @@
   </programme>
   <programme start="20260822110000 +0000" stop="20260822113000 +0000" channel="Band Bahia HD">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -9568,7 +9568,7 @@
   </programme>
   <programme start="20260825160000 +0000" stop="20260825173000 +0000" channel="Band BH HD">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -11528,7 +11528,7 @@
   </programme>
   <programme start="20260825150000 +0000" stop="20260825152500 +0000" channel="Band Curitiba HD">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -12130,7 +12130,7 @@
   </programme>
   <programme start="20260825160000 +0000" stop="20260825173000 +0000" channel="Band HD">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -15525,7 +15525,7 @@
   </programme>
   <programme start="20260825160000 +0000" stop="20260825173000 +0000" channel="Band Minas">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -16218,7 +16218,7 @@
   </programme>
   <programme start="20260825160000 +0000" stop="20260825173000 +0000" channel="Band Minas HD">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -17044,7 +17044,7 @@
   </programme>
   <programme start="20260822143000 +0000" stop="20260822150000 +0000" channel="Band Piauí HD">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -18150,7 +18150,7 @@
   </programme>
   <programme start="20260825150000 +0000" stop="20260825160000 +0000" channel="Band Porto Alegre">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -18745,7 +18745,7 @@
   </programme>
   <programme start="20260825150000 +0000" stop="20260825162500 +0000" channel="Band Rio">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -19396,7 +19396,7 @@
   </programme>
   <programme start="20260825150000 +0000" stop="20260825160000 +0000" channel="Band Rio Grande do Sul HD">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -19998,7 +19998,7 @@
   </programme>
   <programme start="20260825150000 +0000" stop="20260825162500 +0000" channel="Band RJ HD">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -21187,8 +21187,8 @@
     </rating>
   </programme>
   <programme start="20260825213000 +0000" stop="20260825222000 +0000" channel="Band São Luís - TV Maranhão">
-    <title lang="pt">Band Cidade</title>
-    <desc lang="pt">Acompanhe as notícias diárias mais importantes do estado do Piauí.</desc>
+    <title lang="pt">Band Eleições - MA</title>
+    <desc lang="pt">Eleições nacionais e regionalizadas da cobertura das eleições de 2026.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -21796,8 +21796,8 @@
     </rating>
   </programme>
   <programme start="20260825213000 +0000" stop="20260825222000 +0000" channel="Band São Luís - TV Maranhão HD">
-    <title lang="pt">Band Cidade</title>
-    <desc lang="pt">Acompanhe as notícias diárias mais importantes do estado do Piauí.</desc>
+    <title lang="pt">Band Eleições - MA</title>
+    <desc lang="pt">Eleições nacionais e regionalizadas da cobertura das eleições de 2026.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -23750,7 +23750,7 @@
   </programme>
   <programme start="20260825200000 +0000" stop="20260825210000 +0000" channel="BandSports HD">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -49720,7 +49720,7 @@
   </programme>
   <programme start="20260822104500 +0000" stop="20260822110000 +0000" channel="Cultura HD">
     <title lang="pt">Palaloos</title>
-    <desc lang="pt">Kazu encontra um arbusto com uma textura peluda que faz cócegas. Os palaloos tentam brincar com ele, mas o arbusto sai correndo; o trio encontra vários pisos de alturas diferentes no chão. Eles brincam de subir e descer nos pisos.</desc>
+    <desc lang="pt">Passeando pela Palalândia, os palaloos encontram escorregadores com túneis de várias formas e cores. Eles precisam descobrir qual escorregador é melhor; Tutu batuca em um de seus blocos mágicos e toca um pífano.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -49860,7 +49860,7 @@
   </programme>
   <programme start="20260822144500 +0000" stop="20260822150000 +0000" channel="Cultura HD">
     <title lang="pt">Quintal da Cultura na Missão do Dia</title>
-    <desc lang="pt">Cacá encomenda um amuleto mágico, Teru Bozu, famoso no Japão, que controla chuvas e, com ajuda de Osório, descobre o mistério de duendes que habitam o Jardim Zen no Pavilhão Japonês em São Paulo.</desc>
+    <desc lang="pt">Cacá recebe duas missões misteriosas de sua mãe: descobrir o Código de Leonardo Da Vinci e comprar uma pizza para o jantar; Doroteia visita uma exposição imersiva para investigar o tal código; Ludovico tenta decifrar o cardápio da pizzaria.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -49888,7 +49888,7 @@
   </programme>
   <programme start="20260822161500 +0000" stop="20260822162500 +0000" channel="Cultura HD">
     <title lang="pt">Palaloos</title>
-    <desc lang="pt">Kazu encontra um arbusto com uma textura peluda que faz cócegas. Os palaloos tentam brincar com ele, mas o arbusto sai correndo; o trio encontra vários pisos de alturas diferentes no chão. Eles brincam de subir e descer nos pisos.</desc>
+    <desc lang="pt">Passeando pela Palalândia, os palaloos encontram escorregadores com túneis de várias formas e cores. Eles precisam descobrir qual escorregador é melhor; Tutu batuca em um de seus blocos mágicos e toca um pífano.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -49923,7 +49923,7 @@
   </programme>
   <programme start="20260822170000 +0000" stop="20260822171500 +0000" channel="Cultura HD">
     <title lang="pt">Meu AmigãoZão</title>
-    <desc lang="pt">Yuri aprende a importância de dar uma segunda chance aos outros quando tenta substituir fazendeiro.</desc>
+    <desc lang="pt">Insatisfeita com o piquenique de sempre, Lili decide fazer para os garotos um do seu jeito.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -49979,7 +49979,7 @@
   </programme>
   <programme start="20260822193000 +0000" stop="20260822194500 +0000" channel="Cultura HD">
     <title lang="pt">Quintal da Cultura na Missão do Dia</title>
-    <desc lang="pt">Cacá encomenda um amuleto mágico, Teru Bozu, famoso no Japão, que controla chuvas e, com ajuda de Osório, descobre o mistério de duendes que habitam o Jardim Zen no Pavilhão Japonês em São Paulo.</desc>
+    <desc lang="pt">Cacá recebe duas missões misteriosas de sua mãe: descobrir o Código de Leonardo Da Vinci e comprar uma pizza para o jantar; Doroteia visita uma exposição imersiva para investigar o tal código; Ludovico tenta decifrar o cardápio da pizzaria.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -51302,7 +51302,7 @@
   </programme>
   <programme start="20260822120000 +0000" stop="20260822123000 +0000" channel="Curta! HD">
     <title lang="pt">Designers do Brasil</title>
-    <desc lang="pt">Em Maria da Fé?MG, Domingos Tótora transforma caixas de papelão descartadas e a terra do território em móveis e objetos com formas essenciais, que revelam uma funda conexão com a natureza.</desc>
+    <desc lang="pt">Heloisa Galvão trafega entre arte e design, fazendo um trabalho delicado e sutil em cerâmica. Explorando os limites da matéria, desenvolveu uma linguagem que traz o belo para o cotidiano.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -53675,21 +53675,21 @@
   </programme>
   <programme start="20260822082500 +0000" stop="20260822083600 +0000" channel="Discovery Kids HD">
     <title lang="pt">Agente Binky ao Resgate!</title>
-    <desc lang="pt">O Sargento Fluffy janta na casa dos agentes quando uma mosca cai em sua sopa. A equipe precisa se livrar dela antes que o convidado perceba o que aconteceu.</desc>
+    <desc lang="pt">Gordon entra em uma lata de lixo e começa a cheirar tão mal que não pode mais participar das missões. Seu fedor é tão forte que começa a causar problemas aos agentes e Binky encarrega a equipe de lhe dar um banho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822083600 +0000" stop="20260822084800 +0000" channel="Discovery Kids HD">
     <title lang="pt">Agente Binky ao Resgate!</title>
-    <desc lang="pt">O Sargento Fluffy janta na casa dos agentes quando uma mosca cai em sua sopa. A equipe precisa se livrar dela antes que o convidado perceba o que aconteceu.</desc>
+    <desc lang="pt">Gordon entra em uma lata de lixo e começa a cheirar tão mal que não pode mais participar das missões. Seu fedor é tão forte que começa a causar problemas aos agentes e Binky encarrega a equipe de lhe dar um banho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822084800 +0000" stop="20260822090000 +0000" channel="Discovery Kids HD">
     <title lang="pt">Agente Binky ao Resgate!</title>
-    <desc lang="pt">O Sargento Fluffy janta na casa dos agentes quando uma mosca cai em sua sopa. A equipe precisa se livrar dela antes que o convidado perceba o que aconteceu.</desc>
+    <desc lang="pt">Gordon entra em uma lata de lixo e começa a cheirar tão mal que não pode mais participar das missões. Seu fedor é tão forte que começa a causar problemas aos agentes e Binky encarrega a equipe de lhe dar um banho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -53724,7 +53724,7 @@
   </programme>
   <programme start="20260822093900 +0000" stop="20260822094900 +0000" channel="Discovery Kids HD">
     <title lang="pt">Meio-Irmãos, Meio-Heróis</title>
-    <desc lang="pt">Desde que descobriram que um astro de Hollywood é primo do JC, os seguidores de JC ficam atrás dele na escola fazendo tudo que ele quer.</desc>
+    <desc lang="pt">Selina ensaia seu discurso para um famoso congresso de pedicures.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -54004,7 +54004,7 @@
   </programme>
   <programme start="20260822191100 +0000" stop="20260822192200 +0000" channel="Discovery Kids HD">
     <title lang="pt">Super Wish</title>
-    <desc lang="pt">As crianças encontram um livro mágico em uma clareira da floresta. Maylin explica que ele contém todas as brincadeiras de aniversário já imaginadas, mas puxa as crianças para suas páginas e Jesse faz as regras.</desc>
+    <desc lang="pt">As crianças se perdem em uma tempestade de neve de açúcar, onde conhecem Mochi-Zuna, um bolo de arroz que se oferece para ajudá-los a encontrar uma saída, mas só se o aniversariante Jesse o carregar.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -56741,7 +56741,7 @@
   </programme>
   <programme start="20260822074800 +0000" stop="20260822083600 +0000" channel="Discovery Science HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -56755,7 +56755,7 @@
   </programme>
   <programme start="20260822092400 +0000" stop="20260822101200 +0000" channel="Discovery Science HD">
     <title lang="pt">Desastre</title>
-    <desc lang="pt">Uma avalanche repentina soterra um grupo de adolescentes em uma excursão de esqui.</desc>
+    <desc lang="pt">Durante terremoto catastrófico no norte da Califórnia, uma seção da Bay Bridge acaba desmoronando.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -56769,7 +56769,7 @@
   </programme>
   <programme start="20260822110000 +0000" stop="20260822114800 +0000" channel="Discovery Science HD">
     <title lang="pt">Olho Crítico</title>
-    <desc lang="pt">Acompanhe uma jornada pelos domínios da morte. Investigações científicas e análises esclarecem as experiências de quase-morte, fantasmas, reencarnação e comunicação com espíritos.</desc>
+    <desc lang="pt">Descubra registros arqueológicos de Stonehenge e da Grande Pirâmide em busca de pistas sobre suas misteriosas origens. Conheça o estranho fenômeno das Linhas de Nasca, no Peru, e dos círculos desenhados em plantações.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -56797,7 +56797,7 @@
   </programme>
   <programme start="20260822141200 +0000" stop="20260822150000 +0000" channel="Discovery Science HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -56811,7 +56811,7 @@
   </programme>
   <programme start="20260822154800 +0000" stop="20260822163600 +0000" channel="Discovery Science HD">
     <title lang="pt">Desastre</title>
-    <desc lang="pt">Uma avalanche repentina soterra um grupo de adolescentes em uma excursão de esqui.</desc>
+    <desc lang="pt">Durante terremoto catastrófico no norte da Califórnia, uma seção da Bay Bridge acaba desmoronando.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -56853,7 +56853,7 @@
   </programme>
   <programme start="20260822203600 +0000" stop="20260822212400 +0000" channel="Discovery Science HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -56888,7 +56888,7 @@
   </programme>
   <programme start="20260823003600 +0000" stop="20260823012400 +0000" channel="Discovery Science HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -56902,7 +56902,7 @@
   </programme>
   <programme start="20260823021200 +0000" stop="20260823030000 +0000" channel="Discovery Science HD">
     <title lang="pt">Desastre</title>
-    <desc lang="pt">Uma avalanche repentina soterra um grupo de adolescentes em uma excursão de esqui.</desc>
+    <desc lang="pt">Durante terremoto catastrófico no norte da Califórnia, uma seção da Bay Bridge acaba desmoronando.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -56916,14 +56916,14 @@
   </programme>
   <programme start="20260823034800 +0000" stop="20260823043600 +0000" channel="Discovery Science HD">
     <title lang="pt">Desastre</title>
-    <desc lang="pt">Uma avalanche repentina soterra um grupo de adolescentes em uma excursão de esqui.</desc>
+    <desc lang="pt">Durante terremoto catastrófico no norte da Califórnia, uma seção da Bay Bridge acaba desmoronando.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260823043600 +0000" stop="20260822052400 +0000" channel="Discovery Science HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57609,7 +57609,7 @@
   </programme>
   <programme start="20260822074800 +0000" stop="20260822083600 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57623,7 +57623,7 @@
   </programme>
   <programme start="20260822092400 +0000" stop="20260822101200 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Desastre</title>
-    <desc lang="pt">Uma avalanche repentina soterra um grupo de adolescentes em uma excursão de esqui.</desc>
+    <desc lang="pt">Durante terremoto catastrófico no norte da Califórnia, uma seção da Bay Bridge acaba desmoronando.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57637,7 +57637,7 @@
   </programme>
   <programme start="20260822110000 +0000" stop="20260822114800 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Olho Crítico</title>
-    <desc lang="pt">Acompanhe uma jornada pelos domínios da morte. Investigações científicas e análises esclarecem as experiências de quase-morte, fantasmas, reencarnação e comunicação com espíritos.</desc>
+    <desc lang="pt">Descubra registros arqueológicos de Stonehenge e da Grande Pirâmide em busca de pistas sobre suas misteriosas origens. Conheça o estranho fenômeno das Linhas de Nasca, no Peru, e dos círculos desenhados em plantações.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57665,7 +57665,7 @@
   </programme>
   <programme start="20260822141200 +0000" stop="20260822150000 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57679,7 +57679,7 @@
   </programme>
   <programme start="20260822154800 +0000" stop="20260822163600 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Desastre</title>
-    <desc lang="pt">Uma avalanche repentina soterra um grupo de adolescentes em uma excursão de esqui.</desc>
+    <desc lang="pt">Durante terremoto catastrófico no norte da Califórnia, uma seção da Bay Bridge acaba desmoronando.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57721,7 +57721,7 @@
   </programme>
   <programme start="20260822203600 +0000" stop="20260822212400 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57756,7 +57756,7 @@
   </programme>
   <programme start="20260823003600 +0000" stop="20260823012400 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57770,7 +57770,7 @@
   </programme>
   <programme start="20260823021200 +0000" stop="20260823030000 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Desastre</title>
-    <desc lang="pt">Uma avalanche repentina soterra um grupo de adolescentes em uma excursão de esqui.</desc>
+    <desc lang="pt">Durante terremoto catastrófico no norte da Califórnia, uma seção da Bay Bridge acaba desmoronando.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -57784,14 +57784,14 @@
   </programme>
   <programme start="20260823034800 +0000" stop="20260823043600 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Desastre</title>
-    <desc lang="pt">Uma avalanche repentina soterra um grupo de adolescentes em uma excursão de esqui.</desc>
+    <desc lang="pt">Durante terremoto catastrófico no norte da Califórnia, uma seção da Bay Bridge acaba desmoronando.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260823043600 +0000" stop="20260822052400 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58260,7 +58260,7 @@
   </programme>
   <programme start="20260825074800 +0000" stop="20260825083600 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58274,7 +58274,7 @@
   </programme>
   <programme start="20260825092400 +0000" stop="20260825101200 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Desastre</title>
-    <desc lang="pt">Uma avalanche repentina soterra um grupo de adolescentes em uma excursão de esqui.</desc>
+    <desc lang="pt">Durante terremoto catastrófico no norte da Califórnia, uma seção da Bay Bridge acaba desmoronando.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58288,7 +58288,7 @@
   </programme>
   <programme start="20260825110000 +0000" stop="20260825114800 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Olho Crítico</title>
-    <desc lang="pt">Acompanhe uma jornada pelos domínios da morte. Investigações científicas e análises esclarecem as experiências de quase-morte, fantasmas, reencarnação e comunicação com espíritos.</desc>
+    <desc lang="pt">Descubra registros arqueológicos de Stonehenge e da Grande Pirâmide em busca de pistas sobre suas misteriosas origens. Conheça o estranho fenômeno das Linhas de Nasca, no Peru, e dos círculos desenhados em plantações.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58316,7 +58316,7 @@
   </programme>
   <programme start="20260825141200 +0000" stop="20260825150000 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58330,7 +58330,7 @@
   </programme>
   <programme start="20260825154800 +0000" stop="20260825163600 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Desastre</title>
-    <desc lang="pt">Uma avalanche repentina soterra um grupo de adolescentes em uma excursão de esqui.</desc>
+    <desc lang="pt">Durante terremoto catastrófico no norte da Califórnia, uma seção da Bay Bridge acaba desmoronando.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58372,7 +58372,7 @@
   </programme>
   <programme start="20260825203600 +0000" stop="20260825212400 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58407,7 +58407,7 @@
   </programme>
   <programme start="20260826003600 +0000" stop="20260826012400 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58421,7 +58421,7 @@
   </programme>
   <programme start="20260826021200 +0000" stop="20260826030000 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Desastre</title>
-    <desc lang="pt">Uma avalanche repentina soterra um grupo de adolescentes em uma excursão de esqui.</desc>
+    <desc lang="pt">Durante terremoto catastrófico no norte da Califórnia, uma seção da Bay Bridge acaba desmoronando.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -58435,14 +58435,14 @@
   </programme>
   <programme start="20260826034800 +0000" stop="20260826043600 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Desastre</title>
-    <desc lang="pt">Uma avalanche repentina soterra um grupo de adolescentes em uma excursão de esqui.</desc>
+    <desc lang="pt">Durante terremoto catastrófico no norte da Califórnia, uma seção da Bay Bridge acaba desmoronando.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260826043600 +0000" stop="20260825052400 +0000" channel="Discovery Sciene HD">
     <title lang="pt">Ases da Construção</title>
-    <desc lang="pt">Conheça Snohvit, a primeira fábrica de gás natural liquefeito da Europa. Ela está sendo construída na Espanha e depois será levada até o Círculo Ártico. É a primeira vez que uma fábrica do gênero é construída tão longe do local de instalação.</desc>
+    <desc lang="pt">A hidrelétrica de El Cajón, localizada no rio Grande de Santiago, no México, é um dos maiores projetos de engenharia da América Latina. A estrutura de 750 milhões de dólares pode suprir dois por cento da demanda de eletricidade do México.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -67815,7 +67815,7 @@
   </programme>
   <programme start="20260822081500 +0000" stop="20260822083000 +0000" channel="Futura HD">
     <title lang="pt">Entrevista - Futura 25 Anos</title>
-    <desc lang="pt">Participante do projeto Diz Aí, a fotógrafa baiana Fanny Oliveira fala da experiência em produzir as próprias narrativas na periferia de Salvador, na Bahia.</desc>
+    <desc lang="pt">Diretor do programa &quot;Show da História&quot;, Tom Gitahy fala do desafio de resgatar a história do país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -67857,14 +67857,14 @@
   </programme>
   <programme start="20260822101000 +0000" stop="20260822101500 +0000" channel="Futura HD">
     <title lang="pt">Pipo e Fifi</title>
-    <desc lang="pt">Pipo acha que bebês caem de avião. Fifi aposta na cegonha. Cléo desfaz os dois mitos com linguagem adaptada para infância.</desc>
+    <desc lang="pt">Visita do conselheiro tutelar Otávio apavora Fifi e Gomes, que acham que serão presos. Porém, o Mal-entendido vira uma oportunidade de aprendizagem.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822101500 +0000" stop="20260822102000 +0000" channel="Futura HD">
     <title lang="pt">Pipo e Fifi</title>
-    <desc lang="pt">Pipo acha que bebês caem de avião. Fifi aposta na cegonha. Cléo desfaz os dois mitos com linguagem adaptada para infância.</desc>
+    <desc lang="pt">Visita do conselheiro tutelar Otávio apavora Fifi e Gomes, que acham que serão presos. Porém, o Mal-entendido vira uma oportunidade de aprendizagem.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -67969,7 +67969,7 @@
   </programme>
   <programme start="20260822140000 +0000" stop="20260822143000 +0000" channel="Futura HD">
     <title lang="pt">Negros em Foco</title>
-    <desc lang="pt">Novembro é o mês que celebra o dia da Consciência Negra. Relembre as lutas dos movimentos negros pelo fim da opressão. A data marca a importância das discussões e ações para combaterem o racismo e a desigualdade social no Brasil.</desc>
+    <desc lang="pt">O empreendedorismo feminino tem crescido muito nos últimos anos, com resultados e números surpreendentes. Esse cenário impulsiona o protagonismo da mulher e marca uma nova era no mercado. Confira a contribuição da mulher negra para esse crescimento.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -68067,7 +68067,7 @@
   </programme>
   <programme start="20260822203000 +0000" stop="20260822210000 +0000" channel="Futura HD">
     <title lang="pt">Todo Mundo É Filho de Santo</title>
-    <desc lang="pt">Orixá dos ventos, das tempestades e do fogo, símbolo da força feminina e do movimento. Guerreira, conduz os espíritos dos mortos ao Òrum. Seus filhos herdam sua coragem, intensidade e a capacidade de transformar tudo o que tocam.</desc>
+    <desc lang="pt">Iemanjá, mãe de todas as cabeças, guia seus filhos com amor incondicional e soberana generosidade. Dona de beleza intensa, encanta pescadores e reina sobre os mares. Seus filhos são empáticos, leais e sensíveis.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -68114,14 +68114,21 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823000000 +0000" stop="20260823010000 +0000" channel="Futura HD">
+  <programme start="20260823000000 +0000" stop="20260823000600 +0000" channel="Futura HD">
     <title lang="pt">Mimbó - Filhos da Liberdade</title>
     <desc lang="pt">A história de quatro irmãos escravizados fugidos de fazendas de Pernambuco. Eles andaram 680 quilômetros pela mata até chegar ao Piauí. Durante 30 anos, os irmãos viveram escondidos em uma caverna. Quando saíram, eles não sabiam que a escravidão tinha sido abolida, e fundaram o Quilombo Mimbó na margem do rio Canindé. Hoje, seus descendentes lutam por seus direitos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823010000 +0000" stop="20260823033000 +0000" channel="Futura HD">
+  <programme start="20260823000600 +0000" stop="20260823010200 +0000" channel="Futura HD">
+    <title lang="pt">Mimbó - Filhos da Liberdade</title>
+    <desc lang="pt">A história de quatro irmãos escravizados fugidos de fazendas de Pernambuco. Eles andaram 680 quilômetros pela mata até chegar ao Piauí. Durante 30 anos, os irmãos viveram escondidos em uma caverna. Quando saíram, eles não sabiam que a escravidão tinha sido abolida, e fundaram o Quilombo Mimbó na margem do rio Canindé. Hoje, seus descendentes lutam por seus direitos.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260823010200 +0000" stop="20260823033000 +0000" channel="Futura HD">
     <title lang="pt">Um Herói</title>
     <desc lang="pt">Rahim está preso devido a uma dívida que não conseguiu pagar. Durante uma condicional de dois dias, ele tenta convencer seu credor a retirar a queixa, caso ele consiga pagar parte do que deve. Porém, as coisas não saem como planejadas.</desc>
     <rating system="Brazil">
@@ -69033,7 +69040,7 @@
   </programme>
   <programme start="20260825081500 +0000" stop="20260825083000 +0000" channel="Futura HD">
     <title lang="pt">Entrevista - Futura 25 Anos</title>
-    <desc lang="pt">Participante do projeto Diz Aí, a fotógrafa baiana Fanny Oliveira fala da experiência em produzir as próprias narrativas na periferia de Salvador, na Bahia.</desc>
+    <desc lang="pt">Diretor do programa &quot;Show da História&quot;, Tom Gitahy fala do desafio de resgatar a história do país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -69376,14 +69383,14 @@
   </programme>
   <programme start="20260826000000 +0000" stop="20260826003000 +0000" channel="Futura HD">
     <title lang="pt">Negros em Foco</title>
-    <desc lang="pt">Novembro é o mês que celebra o dia da Consciência Negra. Relembre as lutas dos movimentos negros pelo fim da opressão. A data marca a importância das discussões e ações para combaterem o racismo e a desigualdade social no Brasil.</desc>
+    <desc lang="pt">O empreendedorismo feminino tem crescido muito nos últimos anos, com resultados e números surpreendentes. Esse cenário impulsiona o protagonismo da mulher e marca uma nova era no mercado. Confira a contribuição da mulher negra para esse crescimento.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260826003000 +0000" stop="20260826010000 +0000" channel="Futura HD">
     <title lang="pt">Todo Mundo É Filho de Santo</title>
-    <desc lang="pt">Orixá dos ventos, das tempestades e do fogo, símbolo da força feminina e do movimento. Guerreira, conduz os espíritos dos mortos ao Òrum. Seus filhos herdam sua coragem, intensidade e a capacidade de transformar tudo o que tocam.</desc>
+    <desc lang="pt">Iemanjá, mãe de todas as cabeças, guia seus filhos com amor incondicional e soberana generosidade. Dona de beleza intensa, encanta pescadores e reina sobre os mares. Seus filhos são empáticos, leais e sensíveis.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -77713,63 +77720,63 @@
   </programme>
   <programme start="20260822090200 +0000" stop="20260822091400 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822091400 +0000" stop="20260822092500 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822092500 +0000" stop="20260822093700 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822093700 +0000" stop="20260822094800 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822094800 +0000" stop="20260822100000 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822100000 +0000" stop="20260822101100 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822101100 +0000" stop="20260822102300 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822102300 +0000" stop="20260822103400 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822103400 +0000" stop="20260822104600 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -77916,42 +77923,42 @@
   </programme>
   <programme start="20260822175300 +0000" stop="20260822180500 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822180500 +0000" stop="20260822181600 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822181600 +0000" stop="20260822182800 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822182800 +0000" stop="20260822183900 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822183900 +0000" stop="20260822185100 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822185100 +0000" stop="20260822190200 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -77972,14 +77979,14 @@
   </programme>
   <programme start="20260822220400 +0000" stop="20260822221600 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822221600 +0000" stop="20260822223000 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -78026,14 +78033,21 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823000000 +0000" stop="20260823002400 +0000" channel="Gloob HD">
+  <programme start="20260823000000 +0000" stop="20260823000100 +0000" channel="Gloob HD">
     <title lang="pt">D.P.A. - Detetives do Prédio Azul</title>
     <desc lang="pt">Leocádia faz uma gincana para escolher o novo garçom da cantina. Mas um dos competidores parece ter sido sabotado. Pippo e Sol investigam se ele está falando a verdade.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823002400 +0000" stop="20260823005100 +0000" channel="Gloob HD">
+  <programme start="20260823000100 +0000" stop="20260823002500 +0000" channel="Gloob HD">
+    <title lang="pt">D.P.A. - Detetives do Prédio Azul</title>
+    <desc lang="pt">Leocádia faz uma gincana para escolher o novo garçom da cantina. Mas um dos competidores parece ter sido sabotado. Pippo e Sol investigam se ele está falando a verdade.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260823002500 +0000" stop="20260823005100 +0000" channel="Gloob HD">
     <title lang="pt">D.P.A. - Detetives do Prédio Azul</title>
     <desc lang="pt">Mais uma família chega para visitar o 333. O filho Max, um menino muito esperto que tem uma super bola que escuta tudo. A bola some e ele vai atrás, e Sol e Pippo ficam de olho no potencial detetive.</desc>
     <rating system="Brazil">
@@ -78077,14 +78091,14 @@
   </programme>
   <programme start="20260823030600 +0000" stop="20260823031800 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260823031800 +0000" stop="20260823032900 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -79302,77 +79316,77 @@
   </programme>
   <programme start="20260825090200 +0000" stop="20260825091400 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260825091400 +0000" stop="20260825092500 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260825092500 +0000" stop="20260825093700 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260825093700 +0000" stop="20260825094800 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260825094800 +0000" stop="20260825100000 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260825100000 +0000" stop="20260825101100 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260825101100 +0000" stop="20260825102300 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260825102300 +0000" stop="20260825103400 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260825103400 +0000" stop="20260825104600 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260825104600 +0000" stop="20260825105700 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260825105700 +0000" stop="20260825110900 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -79498,7 +79512,7 @@
   </programme>
   <programme start="20260825161800 +0000" stop="20260825163000 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -79680,7 +79694,7 @@
   </programme>
   <programme start="20260826032200 +0000" stop="20260826033300 +0000" channel="Gloob HD">
     <title lang="pt">Alvinnn!!! E os Esquilos</title>
-    <desc lang="pt">A Srta. Smith elogia as notas de Simon nas aulas e Derek o intimida, impedindo que ele use o banheiro dos meninos.</desc>
+    <desc lang="pt">Simon organiza uma escavação arqueológica com Dave, mas fica doente e Alvin o substitui.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -79841,21 +79855,21 @@
   </programme>
   <programme start="20260822074000 +0000" stop="20260822074300 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822074300 +0000" stop="20260822074600 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822074600 +0000" stop="20260822075000 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -80450,105 +80464,105 @@
   </programme>
   <programme start="20260822170000 +0000" stop="20260822170200 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822170200 +0000" stop="20260822170500 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822170500 +0000" stop="20260822170700 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822170700 +0000" stop="20260822171000 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822171000 +0000" stop="20260822171200 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822171200 +0000" stop="20260822171500 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822171500 +0000" stop="20260822171700 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822171700 +0000" stop="20260822172000 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822172000 +0000" stop="20260822172200 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822172200 +0000" stop="20260822172500 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822172500 +0000" stop="20260822172700 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822172700 +0000" stop="20260822173000 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822173000 +0000" stop="20260822173200 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822173200 +0000" stop="20260822173500 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822173500 +0000" stop="20260822174000 +0000" channel="Gloobinho HD">
     <title lang="pt">Cocomelon</title>
-    <desc lang="pt">As formigas trabalham duro para coletar comida. Se divirta cantando enquanto elas pegam alimento.</desc>
+    <desc lang="pt">Tá na hora do almoço. Descubra que comidas deliciosas se encontram nas lancheiras.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -80576,14 +80590,14 @@
   </programme>
   <programme start="20260822182000 +0000" stop="20260822184000 +0000" channel="Gloobinho HD">
     <title lang="pt">Vera e o Reino do Arco-Íris</title>
-    <desc lang="pt">Griselda descobre o verdadeiro significado do Dia da Amizade após ser transformada em uma sereia.</desc>
+    <desc lang="pt">Vera convida seus amigos para uma festa do pijama. Na hora de dormir, o Rei Arco-Íris usa um feitiço e acaba virando um sonâmbulo voador e sai flutuando desgovernado pela Cidade Arco-Íris.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822184000 +0000" stop="20260822190000 +0000" channel="Gloobinho HD">
     <title lang="pt">Vera e o Reino do Arco-Íris</title>
-    <desc lang="pt">Griselda descobre o verdadeiro significado do Dia da Amizade após ser transformada em uma sereia.</desc>
+    <desc lang="pt">Vera convida seus amigos para uma festa do pijama. Na hora de dormir, o Rei Arco-Íris usa um feitiço e acaba virando um sonâmbulo voador e sai flutuando desgovernado pela Cidade Arco-Íris.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -80819,65 +80833,72 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823000000 +0000" stop="20260823001000 +0000" channel="Gloobinho HD">
+  <programme start="20260823000000 +0000" stop="20260823000200 +0000" channel="Gloobinho HD">
     <title lang="pt">Ursinhos Carinhosos</title>
     <desc lang="pt">Bluster e sua turma tentam praticar um roubo e deter uma missão importante dos ursinhos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823001000 +0000" stop="20260823002000 +0000" channel="Gloobinho HD">
+  <programme start="20260823000200 +0000" stop="20260823000800 +0000" channel="Gloobinho HD">
+    <title lang="pt">Pocoyo</title>
+    <desc lang="pt">Quando Sonequita tem que sair, precisa que alguém tome conta do pequeno Soninho; o Pato se oferece, mas precisa da ajuda de Pocoyo.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260823000800 +0000" stop="20260823001900 +0000" channel="Gloobinho HD">
     <title lang="pt">Ursinhos Carinhosos</title>
     <desc lang="pt">Bluster e sua turma tentam praticar um roubo e deter uma missão importante dos ursinhos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823002000 +0000" stop="20260823002200 +0000" channel="Gloobinho HD">
+  <programme start="20260823001900 +0000" stop="20260823003000 +0000" channel="Gloobinho HD">
+    <title lang="pt">Ursinhos Carinhosos</title>
+    <desc lang="pt">Bluster e sua turma tentam praticar um roubo e deter uma missão importante dos ursinhos.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260823003000 +0000" stop="20260823003400 +0000" channel="Gloobinho HD">
     <title lang="pt">D.P.A. Mini</title>
     <desc lang="pt">Brisa busca um cobertor para Berenice no armário e descobre que há um monstro misterioso dentro dele. Tudo o que elas conseguem ver são dois olhos gigantes.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823002200 +0000" stop="20260823003000 +0000" channel="Gloobinho HD">
+  <programme start="20260823003400 +0000" stop="20260823003800 +0000" channel="Gloobinho HD">
     <title lang="pt">D.P.A. Mini</title>
     <desc lang="pt">Os detetives olham para cima, veem um lindo arco-íris que cruza o céu e ele some de repente. Eles investigam o que fazer para trazê-lo de volta.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823003000 +0000" stop="20260823003700 +0000" channel="Gloobinho HD">
+  <programme start="20260823003800 +0000" stop="20260823004500 +0000" channel="Gloobinho HD">
     <title lang="pt">Vovó Tatá</title>
     <desc lang="pt">Juca e Keka tem dificuldades em dividir e aprendem no Brinca-Mundo que um pouco para cada um é melhor que ter tudo e deixar amigos sem nada, para orgulho da Vovó Tatá e pais.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823003700 +0000" stop="20260823004400 +0000" channel="Gloobinho HD">
+  <programme start="20260823004500 +0000" stop="20260823005300 +0000" channel="Gloobinho HD">
     <title lang="pt">Vovó Tatá</title>
     <desc lang="pt">Pedro e Jane deixam crianças com Vovó Tatá durante reforma da casa; no Brinca-Mundo, turma explora diferentes casas e decidem que não há lugar melhor do que Casa da Vovó Tatá.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823004400 +0000" stop="20260823005100 +0000" channel="Gloobinho HD">
+  <programme start="20260823005300 +0000" stop="20260823010000 +0000" channel="Gloobinho HD">
     <title lang="pt">Vovó Tatá</title>
     <desc lang="pt">Em busca de livro infantil perfeito, Box leva Pedro e Jane no Brinca-Mundo; aventuras da dupla viram livro perfeito, mas eles terão de esquecer aventura vivida para tê-lo.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823005100 +0000" stop="20260823005800 +0000" channel="Gloobinho HD">
+  <programme start="20260823010000 +0000" stop="20260823011000 +0000" channel="Gloobinho HD">
     <title lang="pt">Vovó Tatá</title>
     <desc lang="pt">Keka e Juca não entendem por que pais saem para trabalhar, mas, ao chegarem no Brinca-Mundo, percebem que cada um tem papel importante na comunidade e sentem orgulho dos pais.</desc>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  <programme start="20260823005800 +0000" stop="20260823011000 +0000" channel="Gloobinho HD">
-    <title lang="pt">Vovó Tatá</title>
-    <desc lang="pt">As crianças estão tristes porque um amiguinho vai se mudar, mas Brinca-Mundo aprende, com viagem de Dona Aquarela, que amizade continua mesmo à distância.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -81185,14 +81206,14 @@
   </programme>
   <programme start="20260823000000 +0000" stop="20260823061000 +0000" channel="Gloobinho HD">
     <title lang="pt">Vera e o Reino do Arco-Íris</title>
-    <desc lang="pt">Griselda descobre o verdadeiro significado do Dia da Amizade após ser transformada em uma sereia.</desc>
+    <desc lang="pt">Vera convida seus amigos para uma festa do pijama. Na hora de dormir, o Rei Arco-Íris usa um feitiço e acaba virando um sonâmbulo voador e sai flutuando desgovernado pela Cidade Arco-Íris.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260823000000 +0000" stop="20260823061000 +0000" channel="Gloobinho HD">
     <title lang="pt">Vera e o Reino do Arco-Íris</title>
-    <desc lang="pt">Griselda descobre o verdadeiro significado do Dia da Amizade após ser transformada em uma sereia.</desc>
+    <desc lang="pt">Vera convida seus amigos para uma festa do pijama. Na hora de dormir, o Rei Arco-Íris usa um feitiço e acaba virando um sonâmbulo voador e sai flutuando desgovernado pela Cidade Arco-Íris.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -88689,7 +88710,7 @@
   </programme>
   <programme start="20260825183000 +0000" stop="20260825194600 +0000" channel="HBO HD">
     <title lang="pt">Lanternas</title>
-    <desc lang="pt">Ao seguir o novo recruta John Stewart e a lenda &quot;lanterna&quot; Hal Jordan, dois intergalácticos policiais se envolvem em um mistério enquanto investigam um assassinato.</desc>
+    <desc lang="pt">Ao seguir o novo recruta John Stewart e a lenda &quot;lanterna&quot; Hal Jordan, dois policiais intergalácticos se envolvem em um mistério enquanto investigam um assassinato.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -92273,7 +92294,7 @@
   </programme>
   <programme start="20260825120500 +0000" stop="20260825125500 +0000" channel="HISTORY CHANNEL HD">
     <title lang="pt">Caçadores de Relíquias</title>
-    <desc lang="pt">Procurando escapar do frio do inverno, os meninos vão para a Flórida para se divertir sob o sol; Mike e Medford procuram um Cadillac raro de 1956; durante uma caminhada ao acaso, os rapazes encontram um tesouro.</desc>
+    <desc lang="pt">Robbie e Mike se deparam com alguns objetos relacionados ao Texas que podem valer milhares de dólares. Mas depende deles decidir se apostam muito alto ou apenas voltam para casa.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -92308,21 +92329,21 @@
   </programme>
   <programme start="20260825161500 +0000" stop="20260825170500 +0000" channel="HISTORY CHANNEL HD">
     <title lang="pt">Caçadores de Relíquias</title>
-    <desc lang="pt">Procurando escapar do frio do inverno, os meninos vão para a Flórida para se divertir sob o sol; Mike e Medford procuram um Cadillac raro de 1956; durante uma caminhada ao acaso, os rapazes encontram um tesouro.</desc>
+    <desc lang="pt">Robbie e Mike se deparam com alguns objetos relacionados ao Texas que podem valer milhares de dólares. Mas depende deles decidir se apostam muito alto ou apenas voltam para casa.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260825170500 +0000" stop="20260825175500 +0000" channel="HISTORY CHANNEL HD">
     <title lang="pt">Caçadores de Relíquias</title>
-    <desc lang="pt">Procurando escapar do frio do inverno, os meninos vão para a Flórida para se divertir sob o sol; Mike e Medford procuram um Cadillac raro de 1956; durante uma caminhada ao acaso, os rapazes encontram um tesouro.</desc>
+    <desc lang="pt">Robbie e Mike se deparam com alguns objetos relacionados ao Texas que podem valer milhares de dólares. Mas depende deles decidir se apostam muito alto ou apenas voltam para casa.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260825175500 +0000" stop="20260825184500 +0000" channel="HISTORY CHANNEL HD">
     <title lang="pt">Caçadores de Relíquias</title>
-    <desc lang="pt">Procurando escapar do frio do inverno, os meninos vão para a Flórida para se divertir sob o sol; Mike e Medford procuram um Cadillac raro de 1956; durante uma caminhada ao acaso, os rapazes encontram um tesouro.</desc>
+    <desc lang="pt">Robbie e Mike se deparam com alguns objetos relacionados ao Texas que podem valer milhares de dólares. Mas depende deles decidir se apostam muito alto ou apenas voltam para casa.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -99406,7 +99427,7 @@
   </programme>
   <programme start="20260822104500 +0000" stop="20260822110000 +0000" channel="MultiCultura Educação">
     <title lang="pt">Palaloos</title>
-    <desc lang="pt">Kazu encontra um arbusto com uma textura peluda que faz cócegas. Os palaloos tentam brincar com ele, mas o arbusto sai correndo; o trio encontra vários pisos de alturas diferentes no chão. Eles brincam de subir e descer nos pisos.</desc>
+    <desc lang="pt">Passeando pela Palalândia, os palaloos encontram escorregadores com túneis de várias formas e cores. Eles precisam descobrir qual escorregador é melhor; Tutu batuca em um de seus blocos mágicos e toca um pífano.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -99546,7 +99567,7 @@
   </programme>
   <programme start="20260822144500 +0000" stop="20260822150000 +0000" channel="MultiCultura Educação">
     <title lang="pt">Quintal da Cultura na Missão do Dia</title>
-    <desc lang="pt">Cacá encomenda um amuleto mágico, Teru Bozu, famoso no Japão, que controla chuvas e, com ajuda de Osório, descobre o mistério de duendes que habitam o Jardim Zen no Pavilhão Japonês em São Paulo.</desc>
+    <desc lang="pt">Cacá recebe duas missões misteriosas de sua mãe: descobrir o Código de Leonardo Da Vinci e comprar uma pizza para o jantar; Doroteia visita uma exposição imersiva para investigar o tal código; Ludovico tenta decifrar o cardápio da pizzaria.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -99574,7 +99595,7 @@
   </programme>
   <programme start="20260822161500 +0000" stop="20260822162500 +0000" channel="MultiCultura Educação">
     <title lang="pt">Palaloos</title>
-    <desc lang="pt">Kazu encontra um arbusto com uma textura peluda que faz cócegas. Os palaloos tentam brincar com ele, mas o arbusto sai correndo; o trio encontra vários pisos de alturas diferentes no chão. Eles brincam de subir e descer nos pisos.</desc>
+    <desc lang="pt">Passeando pela Palalândia, os palaloos encontram escorregadores com túneis de várias formas e cores. Eles precisam descobrir qual escorregador é melhor; Tutu batuca em um de seus blocos mágicos e toca um pífano.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -99609,7 +99630,7 @@
   </programme>
   <programme start="20260822170000 +0000" stop="20260822171500 +0000" channel="MultiCultura Educação">
     <title lang="pt">Meu AmigãoZão</title>
-    <desc lang="pt">Yuri aprende a importância de dar uma segunda chance aos outros quando tenta substituir fazendeiro.</desc>
+    <desc lang="pt">Insatisfeita com o piquenique de sempre, Lili decide fazer para os garotos um do seu jeito.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -99665,7 +99686,7 @@
   </programme>
   <programme start="20260822193000 +0000" stop="20260822194500 +0000" channel="MultiCultura Educação">
     <title lang="pt">Quintal da Cultura na Missão do Dia</title>
-    <desc lang="pt">Cacá encomenda um amuleto mágico, Teru Bozu, famoso no Japão, que controla chuvas e, com ajuda de Osório, descobre o mistério de duendes que habitam o Jardim Zen no Pavilhão Japonês em São Paulo.</desc>
+    <desc lang="pt">Cacá recebe duas missões misteriosas de sua mãe: descobrir o Código de Leonardo Da Vinci e comprar uma pizza para o jantar; Doroteia visita uma exposição imersiva para investigar o tal código; Ludovico tenta decifrar o cardápio da pizzaria.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -102479,7 +102500,7 @@
   </programme>
   <programme start="20260822090800 +0000" stop="20260822091100 +0000" channel="Music Box Brasil HD">
     <title lang="pt">HackTown 2025</title>
-    <desc lang="pt">A banda Cor dos Olhos se apresenta no festival HackTown 2025.</desc>
+    <desc lang="pt">Todos os eventos do festival de inovação, negócios, tecnologia e criatividade na cidade de Santa Rita do Sapucaí, em Minas Gerais.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -102612,7 +102633,7 @@
   </programme>
   <programme start="20260822100400 +0000" stop="20260822100600 +0000" channel="Music Box Brasil HD">
     <title lang="pt">HackTown 2025</title>
-    <desc lang="pt">A banda Cor dos Olhos se apresenta no festival HackTown 2025.</desc>
+    <desc lang="pt">Todos os eventos do festival de inovação, negócios, tecnologia e criatividade na cidade de Santa Rita do Sapucaí, em Minas Gerais.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -119949,15 +119970,22 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823001000 +0000" stop="20260823004000 +0000" channel="Premiere Clubes HD">
+  <programme start="20260823001000 +0000" stop="20260823001100 +0000" channel="Premiere Clubes HD">
     <title lang="pt">Vasco x Santos</title>
     <desc lang="pt">Vinte equipes disputam, em pontos corridos e 38 rodadas, a Série A do futebol masculino brasileiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
+  <programme start="20260823001100 +0000" stop="20260823004000 +0000" channel="Premiere Clubes HD">
+    <title lang="pt">Chapecoense x Bahia</title>
+    <desc lang="pt">Vinte equipes disputam, em pontos corridos e 38 rodadas, a Série A do futebol masculino brasileiro.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
   <programme start="20260823004000 +0000" stop="20260823011000 +0000" channel="Premiere Clubes HD">
-    <title lang="pt">Atlético-MG x Grêmio</title>
+    <title lang="pt">São Paulo x Coritiba</title>
     <desc lang="pt">Vinte equipes disputam, em pontos corridos e 38 rodadas, a Série A do futebol masculino brasileiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
@@ -137822,7 +137850,7 @@
   </programme>
   <programme start="20260822090000 +0000" stop="20260822100000 +0000" channel="Rede Difusora HD">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -137892,7 +137920,7 @@
   </programme>
   <programme start="20260822211500 +0000" stop="20260822222000 +0000" channel="Rede Difusora HD">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -144059,7 +144087,7 @@
   </programme>
   <programme start="20260825063000 +0000" stop="20260825070000 +0000" channel="Rede Minas HD">
     <title lang="pt">Fronteiras</title>
-    <desc lang="pt">Diretores latinos exploram as fronteiras da narrativa por meio de curtas-metragens.</desc>
+    <desc lang="pt">A série explora os 23 mil quilômetros de fronteiras brasileiras, revelando a invisibilizada faixa de 150 quilômetros que adentra o país. Uma viagem por uma região crucial para o desenvolvimento do Brasil.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -144171,7 +144199,7 @@
   </programme>
   <programme start="20260825173000 +0000" stop="20260825180000 +0000" channel="Rede Minas HD">
     <title lang="pt">Fronteiras</title>
-    <desc lang="pt">Diretores latinos exploram as fronteiras da narrativa por meio de curtas-metragens.</desc>
+    <desc lang="pt">A série explora os 23 mil quilômetros de fronteiras brasileiras, revelando a invisibilizada faixa de 150 quilômetros que adentra o país. Uma viagem por uma região crucial para o desenvolvimento do Brasil.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -180730,28 +180758,28 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825170000 +0000" stop="20260825183000 +0000" channel="SBT Brasilia">
+  <programme start="20260825170000 +0000" stop="20260825180000 +0000" channel="SBT Brasilia">
     <title lang="pt">A Desalmada</title>
     <desc lang="pt">Fernanda é uma mulher em busca de vingança depois de ser vítima da crueldade de um homem que a feriu física e emocionalmente na sua noite de núpcias, mas o destino prepara uma armadilha que vai fazê-la acreditar novamente no amor.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825183000 +0000" stop="20260825200000 +0000" channel="SBT Brasilia">
+  <programme start="20260825180000 +0000" stop="20260825184500 +0000" channel="SBT Brasilia">
     <title lang="pt">Fofocalizando</title>
     <desc lang="pt">Revista eletrônica com informação, humor e as principais fofocas do mundo dos famosos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825200000 +0000" stop="20260825211500 +0000" channel="SBT Brasilia">
-    <title lang="pt">O que a Vida me Roubou</title>
-    <desc lang="pt">No México, a linda Montserrat e sua mãe lidam com amores, gângsteres, falências, obsessões e assassinatos.</desc>
+  <programme start="20260825184500 +0000" stop="20260825210000 +0000" channel="SBT Brasilia">
+    <title lang="pt">Bodø/Glimt x NEC</title>
+    <desc lang="pt">Todas as emoções da principal competição de futebol masculino disputada entre clubes europeus.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825211500 +0000" stop="20260825220000 +0000" channel="SBT Brasilia">
+  <programme start="20260825210000 +0000" stop="20260825220000 +0000" channel="SBT Brasilia">
     <title lang="pt">SBT Brasília - 2ª Edição</title>
     <desc lang="pt">Com uma linguagem dinâmica, o telejornal traz os principais acontecimentos do Distrito Federal para que o telespectador fique bem informado.</desc>
     <rating system="Brazil">
@@ -180772,21 +180800,28 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825234500 +0000" stop="20260826003000 +0000" channel="SBT Brasilia">
+  <programme start="20260825234500 +0000" stop="20260826001500 +0000" channel="SBT Brasilia">
+    <title lang="pt">Amor Valente</title>
+    <desc lang="pt">Sem descrição</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260826001500 +0000" stop="20260826004500 +0000" channel="SBT Brasilia">
     <title lang="pt">A História de Joana, a Virgem</title>
     <desc lang="pt">Joana, uma virgem, é inseminada artificialmente por engano após uma confusão na clínica. Sua vida vira de cabeça para baixo com a gravidez inesperada, especialmente quando ela se apaixona pelo pai biológico do bebê, Gabriel.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260826003000 +0000" stop="20260826011500 +0000" channel="SBT Brasilia">
+  <programme start="20260826004500 +0000" stop="20260826013000 +0000" channel="SBT Brasilia">
     <title lang="pt">Sessão +SBT</title>
     <desc lang="pt">Para celebrar os 45 anos da emissora, o programa resgata momentos históricos do acervo do canal.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260826011500 +0000" stop="20260826030000 +0000" channel="SBT Brasilia">
+  <programme start="20260826013000 +0000" stop="20260826030000 +0000" channel="SBT Brasilia">
     <title lang="pt">Programa do Ratinho</title>
     <desc lang="pt">O apresentador Carlos Massa leva ao público um programa alegre e repleto de atrações. Ele recebe convidados famosos e games, comédia, participação do público e quadros únicos, como o &quot;Jornal Racional&quot;, &quot;Gol Show&quot; e &quot;Dez ou Mil&quot;, entre outros.</desc>
     <rating system="Brazil">
@@ -182132,7 +182167,7 @@
   </programme>
   <programme start="20260825154500 +0000" stop="20260825170000 +0000" channel="SBT Cuiabá">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -182580,7 +182615,7 @@
   </programme>
   <programme start="20260825154500 +0000" stop="20260825170000 +0000" channel="SBT Cuiabá HD">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -184540,7 +184575,7 @@
   </programme>
   <programme start="20260825154500 +0000" stop="20260825170000 +0000" channel="SBT Piaui">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -185021,28 +185056,28 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825170000 +0000" stop="20260825183000 +0000" channel="SBT Rio HD">
+  <programme start="20260825170000 +0000" stop="20260825180000 +0000" channel="SBT Rio HD">
     <title lang="pt">A Desalmada</title>
     <desc lang="pt">Fernanda é uma mulher em busca de vingança depois de ser vítima da crueldade de um homem que a feriu física e emocionalmente na sua noite de núpcias, mas o destino prepara uma armadilha que vai fazê-la acreditar novamente no amor.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825183000 +0000" stop="20260825200000 +0000" channel="SBT Rio HD">
+  <programme start="20260825180000 +0000" stop="20260825184500 +0000" channel="SBT Rio HD">
     <title lang="pt">Fofocalizando</title>
     <desc lang="pt">Revista eletrônica com informação, humor e as principais fofocas do mundo dos famosos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825200000 +0000" stop="20260825211500 +0000" channel="SBT Rio HD">
-    <title lang="pt">O que a Vida me Roubou</title>
-    <desc lang="pt">No México, a linda Montserrat e sua mãe lidam com amores, gângsteres, falências, obsessões e assassinatos.</desc>
+  <programme start="20260825184500 +0000" stop="20260825210000 +0000" channel="SBT Rio HD">
+    <title lang="pt">Bodø/Glimt x NEC</title>
+    <desc lang="pt">Todas as emoções da principal competição de futebol masculino disputada entre clubes europeus.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825211500 +0000" stop="20260825221500 +0000" channel="SBT Rio HD">
+  <programme start="20260825210000 +0000" stop="20260825221500 +0000" channel="SBT Rio HD">
     <title lang="pt">SBT Rio - 2ª Edição</title>
     <desc lang="pt">Veja informações importantes e notícias do dia, do Rio de Janeiro e do Brasil.</desc>
     <rating system="Brazil">
@@ -185063,21 +185098,28 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825234500 +0000" stop="20260826003000 +0000" channel="SBT Rio HD">
+  <programme start="20260825234500 +0000" stop="20260826001500 +0000" channel="SBT Rio HD">
+    <title lang="pt">Amor Valente</title>
+    <desc lang="pt">Sem descrição</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260826001500 +0000" stop="20260826004500 +0000" channel="SBT Rio HD">
     <title lang="pt">A História de Joana, a Virgem</title>
     <desc lang="pt">Joana, uma virgem, é inseminada artificialmente por engano após uma confusão na clínica. Sua vida vira de cabeça para baixo com a gravidez inesperada, especialmente quando ela se apaixona pelo pai biológico do bebê, Gabriel.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260826003000 +0000" stop="20260826011500 +0000" channel="SBT Rio HD">
+  <programme start="20260826004500 +0000" stop="20260826013000 +0000" channel="SBT Rio HD">
     <title lang="pt">Sessão +SBT</title>
     <desc lang="pt">Para celebrar os 45 anos da emissora, o programa resgata momentos históricos do acervo do canal.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260826011500 +0000" stop="20260826030000 +0000" channel="SBT Rio HD">
+  <programme start="20260826013000 +0000" stop="20260826030000 +0000" channel="SBT Rio HD">
     <title lang="pt">Programa do Ratinho</title>
     <desc lang="pt">O apresentador Carlos Massa leva ao público um programa alegre e repleto de atrações. Ele recebe convidados famosos e games, comédia, participação do público e quadros únicos, como o &quot;Jornal Racional&quot;, &quot;Gol Show&quot; e &quot;Dez ou Mil&quot;, entre outros.</desc>
     <rating system="Brazil">
@@ -185511,28 +185553,28 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825170000 +0000" stop="20260825183000 +0000" channel="SBT RS">
+  <programme start="20260825170000 +0000" stop="20260825180000 +0000" channel="SBT RS">
     <title lang="pt">A Desalmada</title>
     <desc lang="pt">Fernanda é uma mulher em busca de vingança depois de ser vítima da crueldade de um homem que a feriu física e emocionalmente na sua noite de núpcias, mas o destino prepara uma armadilha que vai fazê-la acreditar novamente no amor.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825183000 +0000" stop="20260825200000 +0000" channel="SBT RS">
+  <programme start="20260825180000 +0000" stop="20260825184500 +0000" channel="SBT RS">
     <title lang="pt">Fofocalizando</title>
     <desc lang="pt">Revista eletrônica com informação, humor e as principais fofocas do mundo dos famosos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825200000 +0000" stop="20260825211500 +0000" channel="SBT RS">
-    <title lang="pt">O que a Vida me Roubou</title>
-    <desc lang="pt">No México, a linda Montserrat e sua mãe lidam com amores, gângsteres, falências, obsessões e assassinatos.</desc>
+  <programme start="20260825184500 +0000" stop="20260825210000 +0000" channel="SBT RS">
+    <title lang="pt">Bodø/Glimt x NEC</title>
+    <desc lang="pt">Todas as emoções da principal competição de futebol masculino disputada entre clubes europeus.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825211500 +0000" stop="20260825221500 +0000" channel="SBT RS">
+  <programme start="20260825210000 +0000" stop="20260825221500 +0000" channel="SBT RS">
     <title lang="pt">SBT Rio Grande - 2ª Edição</title>
     <desc lang="pt">O programa mostra a realidade do estado, trazendo a verdade das ruas, dos bairros e das cidades.</desc>
     <rating system="Brazil">
@@ -185553,21 +185595,28 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825234500 +0000" stop="20260826003000 +0000" channel="SBT RS">
+  <programme start="20260825234500 +0000" stop="20260826001500 +0000" channel="SBT RS">
+    <title lang="pt">Amor Valente</title>
+    <desc lang="pt">Sem descrição</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260826001500 +0000" stop="20260826004500 +0000" channel="SBT RS">
     <title lang="pt">A História de Joana, a Virgem</title>
     <desc lang="pt">Joana, uma virgem, é inseminada artificialmente por engano após uma confusão na clínica. Sua vida vira de cabeça para baixo com a gravidez inesperada, especialmente quando ela se apaixona pelo pai biológico do bebê, Gabriel.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260826003000 +0000" stop="20260826011500 +0000" channel="SBT RS">
+  <programme start="20260826004500 +0000" stop="20260826013000 +0000" channel="SBT RS">
     <title lang="pt">Sessão +SBT</title>
     <desc lang="pt">Para celebrar os 45 anos da emissora, o programa resgata momentos históricos do acervo do canal.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260826011500 +0000" stop="20260826030000 +0000" channel="SBT RS">
+  <programme start="20260826013000 +0000" stop="20260826030000 +0000" channel="SBT RS">
     <title lang="pt">Programa do Ratinho</title>
     <desc lang="pt">O apresentador Carlos Massa leva ao público um programa alegre e repleto de atrações. Ele recebe convidados famosos e games, comédia, participação do público e quadros únicos, como o &quot;Jornal Racional&quot;, &quot;Gol Show&quot; e &quot;Dez ou Mil&quot;, entre outros.</desc>
     <rating system="Brazil">
@@ -186001,28 +186050,28 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825170000 +0000" stop="20260825183000 +0000" channel="SBT RS HD">
+  <programme start="20260825170000 +0000" stop="20260825180000 +0000" channel="SBT RS HD">
     <title lang="pt">A Desalmada</title>
     <desc lang="pt">Fernanda é uma mulher em busca de vingança depois de ser vítima da crueldade de um homem que a feriu física e emocionalmente na sua noite de núpcias, mas o destino prepara uma armadilha que vai fazê-la acreditar novamente no amor.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825183000 +0000" stop="20260825200000 +0000" channel="SBT RS HD">
+  <programme start="20260825180000 +0000" stop="20260825184500 +0000" channel="SBT RS HD">
     <title lang="pt">Fofocalizando</title>
     <desc lang="pt">Revista eletrônica com informação, humor e as principais fofocas do mundo dos famosos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825200000 +0000" stop="20260825211500 +0000" channel="SBT RS HD">
-    <title lang="pt">O que a Vida me Roubou</title>
-    <desc lang="pt">No México, a linda Montserrat e sua mãe lidam com amores, gângsteres, falências, obsessões e assassinatos.</desc>
+  <programme start="20260825184500 +0000" stop="20260825210000 +0000" channel="SBT RS HD">
+    <title lang="pt">Bodø/Glimt x NEC</title>
+    <desc lang="pt">Todas as emoções da principal competição de futebol masculino disputada entre clubes europeus.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825211500 +0000" stop="20260825221500 +0000" channel="SBT RS HD">
+  <programme start="20260825210000 +0000" stop="20260825221500 +0000" channel="SBT RS HD">
     <title lang="pt">SBT Rio Grande - 2ª Edição</title>
     <desc lang="pt">O programa mostra a realidade do estado, trazendo a verdade das ruas, dos bairros e das cidades.</desc>
     <rating system="Brazil">
@@ -186043,21 +186092,28 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825234500 +0000" stop="20260826003000 +0000" channel="SBT RS HD">
+  <programme start="20260825234500 +0000" stop="20260826001500 +0000" channel="SBT RS HD">
+    <title lang="pt">Amor Valente</title>
+    <desc lang="pt">Sem descrição</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260826001500 +0000" stop="20260826004500 +0000" channel="SBT RS HD">
     <title lang="pt">A História de Joana, a Virgem</title>
     <desc lang="pt">Joana, uma virgem, é inseminada artificialmente por engano após uma confusão na clínica. Sua vida vira de cabeça para baixo com a gravidez inesperada, especialmente quando ela se apaixona pelo pai biológico do bebê, Gabriel.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260826003000 +0000" stop="20260826011500 +0000" channel="SBT RS HD">
+  <programme start="20260826004500 +0000" stop="20260826013000 +0000" channel="SBT RS HD">
     <title lang="pt">Sessão +SBT</title>
     <desc lang="pt">Para celebrar os 45 anos da emissora, o programa resgata momentos históricos do acervo do canal.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260826011500 +0000" stop="20260826030000 +0000" channel="SBT RS HD">
+  <programme start="20260826013000 +0000" stop="20260826030000 +0000" channel="SBT RS HD">
     <title lang="pt">Programa do Ratinho</title>
     <desc lang="pt">O apresentador Carlos Massa leva ao público um programa alegre e repleto de atrações. Ele recebe convidados famosos e games, comédia, participação do público e quadros únicos, como o &quot;Jornal Racional&quot;, &quot;Gol Show&quot; e &quot;Dez ou Mil&quot;, entre outros.</desc>
     <rating system="Brazil">
@@ -186444,7 +186500,7 @@
   </programme>
   <programme start="20260825154500 +0000" stop="20260825170000 +0000" channel="SBT São Paulo">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -186892,7 +186948,7 @@
   </programme>
   <programme start="20260825154500 +0000" stop="20260825170000 +0000" channel="SBT São Paulo HD">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -187816,7 +187872,7 @@
   </programme>
   <programme start="20260825154500 +0000" stop="20260825170000 +0000" channel="SBT Sergipe">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -188264,7 +188320,7 @@
   </programme>
   <programme start="20260825154500 +0000" stop="20260825170000 +0000" channel="SBT Sergipe HD">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -188733,7 +188789,7 @@
   </programme>
   <programme start="20260825143000 +0000" stop="20260825150000 +0000" channel="SBT Tocantins">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -189223,7 +189279,7 @@
   </programme>
   <programme start="20260825143000 +0000" stop="20260825150000 +0000" channel="SBT Tocantins HD">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -193857,14 +193913,14 @@
   </programme>
   <programme start="20260822200000 +0000" stop="20260822203000 +0000" channel="SporTV3 HD">
     <title lang="pt">Baú do Esporte</title>
-    <desc lang="pt">Acompanhe uma homenagem a Alessandro Rosa Vieira, o Falcão. Conheça a vida e a carreira do maior atleta de futsal de todos os tempos. Falcão é bicampeão mundial, campeão pan-americano e tem mais de 3 mil gols marcados.</desc>
+    <desc lang="pt">Rubens Barrichello fala sobre o GP da Europa de 1993, em Donington Park, vencido por Ayrton Senna. O piloto da Stock Car também fala sobre o amigo e ídolo Senna.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822203000 +0000" stop="20260822204500 +0000" channel="SporTV3 HD">
     <title lang="pt">Baú do Esporte</title>
-    <desc lang="pt">Acompanhe uma homenagem a Alessandro Rosa Vieira, o Falcão. Conheça a vida e a carreira do maior atleta de futsal de todos os tempos. Falcão é bicampeão mundial, campeão pan-americano e tem mais de 3 mil gols marcados.</desc>
+    <desc lang="pt">Rubens Barrichello fala sobre o GP da Europa de 1993, em Donington Park, vencido por Ayrton Senna. O piloto da Stock Car também fala sobre o amigo e ídolo Senna.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -193883,35 +193939,35 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260822233500 +0000" stop="20260823001000 +0000" channel="SporTV3 HD">
+  <programme start="20260822233500 +0000" stop="20260823000900 +0000" channel="SporTV3 HD">
     <title lang="pt">Vem com Elas</title>
     <desc lang="pt">Um mergulho nas divisões de base do futebol feminino brasileiro e como estão sendo formados novos talentos. A promessa Aline Gomes fala de sua trajetória: aos 17 anos é uma das artilheiras do nacional e foi convocada por Pia Sundhage.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823001000 +0000" stop="20260823010000 +0000" channel="SporTV3 HD">
+  <programme start="20260823000900 +0000" stop="20260823010100 +0000" channel="SporTV3 HD">
     <title lang="pt">Rio de Janeiro - Final Feminina</title>
     <desc lang="pt">Todas as emoções da Street League Skateboarding, circuito mundial de skate street com os principais nomes da modalidade e etapas realizadas por todo o planeta.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823010000 +0000" stop="20260823021500 +0000" channel="SporTV3 HD">
+  <programme start="20260823010100 +0000" stop="20260823021600 +0000" channel="SporTV3 HD">
     <title lang="pt">Rio de Janeiro - Final Masculina</title>
     <desc lang="pt">Todas as emoções da Street League Skateboarding, circuito mundial de skate street com os principais nomes da modalidade e etapas realizadas por todo o planeta.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823021500 +0000" stop="20260823025000 +0000" channel="SporTV3 HD">
+  <programme start="20260823021600 +0000" stop="20260823025300 +0000" channel="SporTV3 HD">
     <title lang="pt">Skate pra Sempre</title>
     <desc lang="pt">Das piscinas secas da Califórnia às pistas em formato de U, o vertical foi a modalidade que popularizou o skate pelo mundo. Do 900 de Tony Hawk ao 1080 de Gui Khury, o halfpipe viveu um boom no Brasil com Bob e Mineirinho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823025000 +0000" stop="20260822052000 +0000" channel="SporTV3 HD">
+  <programme start="20260823025300 +0000" stop="20260822052000 +0000" channel="SporTV3 HD">
     <title lang="pt">Lima</title>
     <desc lang="pt">Todas as emoções dos torneios que valem pontos para o ranking da Federação Internacional de Judô.</desc>
     <rating system="Brazil">
@@ -194373,30 +194429,37 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823000000 +0000" stop="20260823003000 +0000" channel="SporTV HD">
+  <programme start="20260823000000 +0000" stop="20260823002400 +0000" channel="SporTV HD">
     <title lang="pt">Vasco x Santos</title>
     <desc lang="pt">Vinte equipes disputam, em pontos corridos e 38 rodadas, a Série A do futebol masculino brasileiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823003000 +0000" stop="20260823010000 +0000" channel="SporTV HD">
-    <title lang="pt">Vitória x Botafogo</title>
-    <desc lang="pt">Vinte equipes disputam, em pontos corridos e 38 rodadas, a Série A do futebol masculino brasileiro.</desc>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  <programme start="20260823010000 +0000" stop="20260823013000 +0000" channel="SporTV HD">
+  <programme start="20260823002400 +0000" stop="20260823005400 +0000" channel="SporTV HD">
     <title lang="pt">Chapecoense x Bahia</title>
     <desc lang="pt">Vinte equipes disputam, em pontos corridos e 38 rodadas, a Série A do futebol masculino brasileiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823013000 +0000" stop="20260823030000 +0000" channel="SporTV HD">
+  <programme start="20260823005400 +0000" stop="20260823022400 +0000" channel="SporTV HD">
     <title lang="pt">Troca de Passes</title>
     <desc lang="pt">O dia a dia do esporte e as principais notícias pelo país.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260823022400 +0000" stop="20260823025600 +0000" channel="SporTV HD">
+    <title lang="pt">Internacional x Atlético-MG</title>
+    <desc lang="pt">Vinte equipes disputam, em pontos corridos e 38 rodadas, a Série A do futebol masculino brasileiro.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260823025600 +0000" stop="20260823030000 +0000" channel="SporTV HD">
+    <title lang="pt">Fluminense x Remo</title>
+    <desc lang="pt">Vinte equipes disputam, em pontos corridos e 38 rodadas, a Série A do futebol masculino brasileiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -205078,7 +205141,7 @@
   </programme>
   <programme start="20260822171600 +0000" stop="20260822173300 +0000" channel="truTV HD">
     <title lang="pt">Rick and Morty</title>
-    <desc lang="pt">Rick Samurai e Shogun Morty enfrentam Rick Ninjas em uma homenagem a clássicos filmes japoneses.</desc>
+    <desc lang="pt">Rick e Morty embarcam em uma aventura ao estilo dos jogos em 16 bits, onde enfrentam reinvenções de momentos e personagens das primeiras quatro temporadas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -205155,14 +205218,14 @@
   </programme>
   <programme start="20260822224000 +0000" stop="20260822225500 +0000" channel="truTV HD">
     <title lang="pt">Rick and Morty</title>
-    <desc lang="pt">Rick Samurai e Shogun Morty enfrentam Rick Ninjas em uma homenagem a clássicos filmes japoneses.</desc>
+    <desc lang="pt">Rick e Morty embarcam em uma aventura ao estilo dos jogos em 16 bits, onde enfrentam reinvenções de momentos e personagens das primeiras quatro temporadas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822225500 +0000" stop="20260822230000 +0000" channel="truTV HD">
     <title lang="pt">Rick and Morty</title>
-    <desc lang="pt">Rick Samurai e Shogun Morty enfrentam Rick Ninjas em uma homenagem a clássicos filmes japoneses.</desc>
+    <desc lang="pt">Rick e Morty embarcam em uma aventura ao estilo dos jogos em 16 bits, onde enfrentam reinvenções de momentos e personagens das primeiras quatro temporadas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -211805,7 +211868,7 @@
   </programme>
   <programme start="20260825144500 +0000" stop="20260825160000 +0000" channel="TV Allamanda">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -212253,7 +212316,7 @@
   </programme>
   <programme start="20260825144500 +0000" stop="20260825160000 +0000" channel="TV Allamanda HD">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -213378,14 +213441,14 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825144500 +0000" stop="20260825154000 +0000" channel="TV Alterosa HD">
+  <programme start="20260825144500 +0000" stop="20260825154500 +0000" channel="TV Alterosa HD">
     <title lang="pt">Alterosa Esporte</title>
     <desc lang="pt">Confira um bate-bola inteligente e muito bem-humorado com uma bancada de ídolos do futebol, jornalistas esportivos e uma nova geração de comentaristas.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825154000 +0000" stop="20260825163000 +0000" channel="TV Alterosa HD">
+  <programme start="20260825154500 +0000" stop="20260825163000 +0000" channel="TV Alterosa HD">
     <title lang="pt">Alterosa Alerta</title>
     <desc lang="pt">O objetivo principal do programa vai além de denúncias e de reclamações, ele busca a resposta e vai até a solução do problema.</desc>
     <rating system="Brazil">
@@ -213394,49 +213457,49 @@
   </programme>
   <programme start="20260825163000 +0000" stop="20260825170000 +0000" channel="TV Alterosa HD">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825170000 +0000" stop="20260825183000 +0000" channel="TV Alterosa HD">
+  <programme start="20260825170000 +0000" stop="20260825180000 +0000" channel="TV Alterosa HD">
     <title lang="pt">A Desalmada</title>
     <desc lang="pt">Fernanda é uma mulher em busca de vingança depois de ser vítima da crueldade de um homem que a feriu física e emocionalmente na sua noite de núpcias, mas o destino prepara uma armadilha que vai fazê-la acreditar novamente no amor.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825183000 +0000" stop="20260825200000 +0000" channel="TV Alterosa HD">
+  <programme start="20260825180000 +0000" stop="20260825184500 +0000" channel="TV Alterosa HD">
     <title lang="pt">Fofocalizando</title>
     <desc lang="pt">Revista eletrônica com informação, humor e as principais fofocas do mundo dos famosos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825200000 +0000" stop="20260825211500 +0000" channel="TV Alterosa HD">
-    <title lang="pt">O que a Vida me Roubou</title>
-    <desc lang="pt">No México, a linda Montserrat e sua mãe lidam com amores, gângsteres, falências, obsessões e assassinatos.</desc>
+  <programme start="20260825184500 +0000" stop="20260825210000 +0000" channel="TV Alterosa HD">
+    <title lang="pt">Bodø/Glimt x NEC</title>
+    <desc lang="pt">Todas as emoções da principal competição de futebol masculino disputada entre clubes europeus.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825211500 +0000" stop="20260825213000 +0000" channel="TV Alterosa HD">
-    <title lang="pt">SBT Cidades</title>
-    <desc lang="pt">Notícias com foco em prestação de serviços, defesa do cidadão e participação popular.</desc>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  <programme start="20260825213000 +0000" stop="20260825221000 +0000" channel="TV Alterosa HD">
+  <programme start="20260825210000 +0000" stop="20260825213000 +0000" channel="TV Alterosa HD">
     <title lang="pt">Alterosa Alerta - 2ª Edição</title>
     <desc lang="pt">Acompanhe as últimas notícias, denúncias e reclamações da região metropolitana.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825221000 +0000" stop="20260825224500 +0000" channel="TV Alterosa HD">
+  <programme start="20260825213000 +0000" stop="20260825221500 +0000" channel="TV Alterosa HD">
     <title lang="pt">Jornal da Alterosa</title>
     <desc lang="pt">O programa mostra o desdobramento das principais notícias do dia e tudo que acontece nas diversas cidades e regiões do estado de Minas Gerais, além de abordar assuntos de interesse para o cidadão.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260825221500 +0000" stop="20260825224500 +0000" channel="TV Alterosa HD">
+    <title lang="pt">SBT Cidades</title>
+    <desc lang="pt">Notícias com foco em prestação de serviços, defesa do cidadão e participação popular.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -213448,21 +213511,28 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825234500 +0000" stop="20260826003000 +0000" channel="TV Alterosa HD">
+  <programme start="20260825234500 +0000" stop="20260826001500 +0000" channel="TV Alterosa HD">
+    <title lang="pt">Amor Valente</title>
+    <desc lang="pt">Sem descrição</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260826001500 +0000" stop="20260826004500 +0000" channel="TV Alterosa HD">
     <title lang="pt">A História de Joana, a Virgem</title>
     <desc lang="pt">Joana, uma virgem, é inseminada artificialmente por engano após uma confusão na clínica. Sua vida vira de cabeça para baixo com a gravidez inesperada, especialmente quando ela se apaixona pelo pai biológico do bebê, Gabriel.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260826003000 +0000" stop="20260826011500 +0000" channel="TV Alterosa HD">
+  <programme start="20260826004500 +0000" stop="20260826013000 +0000" channel="TV Alterosa HD">
     <title lang="pt">Sessão +SBT</title>
     <desc lang="pt">Para celebrar os 45 anos da emissora, o programa resgata momentos históricos do acervo do canal.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260826011500 +0000" stop="20260826030000 +0000" channel="TV Alterosa HD">
+  <programme start="20260826013000 +0000" stop="20260826030000 +0000" channel="TV Alterosa HD">
     <title lang="pt">Programa do Ratinho</title>
     <desc lang="pt">O apresentador Carlos Massa leva ao público um programa alegre e repleto de atrações. Ele recebe convidados famosos e games, comédia, participação do público e quadros únicos, como o &quot;Jornal Racional&quot;, &quot;Gol Show&quot; e &quot;Dez ou Mil&quot;, entre outros.</desc>
     <rating system="Brazil">
@@ -215130,7 +215200,7 @@
   </programme>
   <programme start="20260825144500 +0000" stop="20260825160000 +0000" channel="TV Amazônia">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -215578,7 +215648,7 @@
   </programme>
   <programme start="20260825144500 +0000" stop="20260825160000 +0000" channel="TV Amazônia HD">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -221640,7 +221710,7 @@
   </programme>
   <programme start="20260822144500 +0000" stop="20260822150000 +0000" channel="TV Aperipê">
     <title lang="pt">Quintal da Cultura na Missão do Dia</title>
-    <desc lang="pt">Cacá encomenda um amuleto mágico, Teru Bozu, famoso no Japão, que controla chuvas e, com ajuda de Osório, descobre o mistério de duendes que habitam o Jardim Zen no Pavilhão Japonês em São Paulo.</desc>
+    <desc lang="pt">Cacá recebe duas missões misteriosas de sua mãe: descobrir o Código de Leonardo Da Vinci e comprar uma pizza para o jantar; Doroteia visita uma exposição imersiva para investigar o tal código; Ludovico tenta decifrar o cardápio da pizzaria.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -221675,7 +221745,7 @@
   </programme>
   <programme start="20260822170000 +0000" stop="20260822171500 +0000" channel="TV Aperipê">
     <title lang="pt">Meu AmigãoZão</title>
-    <desc lang="pt">Yuri aprende a importância de dar uma segunda chance aos outros quando tenta substituir fazendeiro.</desc>
+    <desc lang="pt">Insatisfeita com o piquenique de sempre, Lili decide fazer para os garotos um do seu jeito.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -221731,7 +221801,7 @@
   </programme>
   <programme start="20260822193000 +0000" stop="20260822194500 +0000" channel="TV Aperipê">
     <title lang="pt">Quintal da Cultura na Missão do Dia</title>
-    <desc lang="pt">Cacá encomenda um amuleto mágico, Teru Bozu, famoso no Japão, que controla chuvas e, com ajuda de Osório, descobre o mistério de duendes que habitam o Jardim Zen no Pavilhão Japonês em São Paulo.</desc>
+    <desc lang="pt">Cacá recebe duas missões misteriosas de sua mãe: descobrir o Código de Leonardo Da Vinci e comprar uma pizza para o jantar; Doroteia visita uma exposição imersiva para investigar o tal código; Ludovico tenta decifrar o cardápio da pizzaria.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -222487,7 +222557,7 @@
   </programme>
   <programme start="20260825104500 +0000" stop="20260825110000 +0000" channel="TV Aperipê">
     <title lang="pt">Palaloos</title>
-    <desc lang="pt">Kazu encontra um arbusto com uma textura peluda que faz cócegas. Os palaloos tentam brincar com ele, mas o arbusto sai correndo; o trio encontra vários pisos de alturas diferentes no chão. Eles brincam de subir e descer nos pisos.</desc>
+    <desc lang="pt">Passeando pela Palalândia, os palaloos encontram escorregadores com túneis de várias formas e cores. Eles precisam descobrir qual escorregador é melhor; Tutu batuca em um de seus blocos mágicos e toca um pífano.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -222585,7 +222655,7 @@
   </programme>
   <programme start="20260825161500 +0000" stop="20260825162500 +0000" channel="TV Aperipê">
     <title lang="pt">Palaloos</title>
-    <desc lang="pt">Kazu encontra um arbusto com uma textura peluda que faz cócegas. Os palaloos tentam brincar com ele, mas o arbusto sai correndo; o trio encontra vários pisos de alturas diferentes no chão. Eles brincam de subir e descer nos pisos.</desc>
+    <desc lang="pt">Passeando pela Palalândia, os palaloos encontram escorregadores com túneis de várias formas e cores. Eles precisam descobrir qual escorregador é melhor; Tutu batuca em um de seus blocos mágicos e toca um pífano.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -224650,7 +224720,7 @@
   </programme>
   <programme start="20260822090000 +0000" stop="20260822103000 +0000" channel="TV Arapuan">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -225231,7 +225301,7 @@
   </programme>
   <programme start="20260822090000 +0000" stop="20260822103000 +0000" channel="TV Arapuan HD">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -228234,7 +228304,7 @@
   </programme>
   <programme start="20260822100400 +0000" stop="20260822101500 +0000" channel="TV Brasil HD">
     <title lang="pt">Palaloos</title>
-    <desc lang="pt">Kazu encontra um arbusto com uma textura peluda que faz cócegas. Os palaloos tentam brincar com ele, mas o arbusto sai correndo; o trio encontra vários pisos de alturas diferentes no chão. Eles brincam de subir e descer nos pisos.</desc>
+    <desc lang="pt">Passeando pela Palalândia, os palaloos encontram escorregadores com túneis de várias formas e cores. Eles precisam descobrir qual escorregador é melhor; Tutu batuca em um de seus blocos mágicos e toca um pífano.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -228514,7 +228584,7 @@
   </programme>
   <programme start="20260823003000 +0000" stop="20260823010000 +0000" channel="TV Brasil HD">
     <title lang="pt">Colapso</title>
-    <desc lang="pt">Sem descrição</desc>
+    <desc lang="pt">Elisângela deixa seu emprego de RH para pesquisar sobre relações de adoecimento mental no trabalho. No entanto, acaba se envolvendo de forma não profissional com seu paciente, Sérgio, um ex- porteiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -228542,7 +228612,7 @@
   </programme>
   <programme start="20260823040000 +0000" stop="20260823043000 +0000" channel="TV Brasil HD">
     <title lang="pt">Colapso</title>
-    <desc lang="pt">Sem descrição</desc>
+    <desc lang="pt">Elisângela deixa seu emprego de RH para pesquisar sobre relações de adoecimento mental no trabalho. No entanto, acaba se envolvendo de forma não profissional com seu paciente, Sérgio, um ex- porteiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -229564,7 +229634,7 @@
   </programme>
   <programme start="20260822100400 +0000" stop="20260822101500 +0000" channel="TV BRASIL RIO DE JANEIRO">
     <title lang="pt">Palaloos</title>
-    <desc lang="pt">Kazu encontra um arbusto com uma textura peluda que faz cócegas. Os palaloos tentam brincar com ele, mas o arbusto sai correndo; o trio encontra vários pisos de alturas diferentes no chão. Eles brincam de subir e descer nos pisos.</desc>
+    <desc lang="pt">Passeando pela Palalândia, os palaloos encontram escorregadores com túneis de várias formas e cores. Eles precisam descobrir qual escorregador é melhor; Tutu batuca em um de seus blocos mágicos e toca um pífano.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -229844,7 +229914,7 @@
   </programme>
   <programme start="20260823003000 +0000" stop="20260823010000 +0000" channel="TV BRASIL RIO DE JANEIRO">
     <title lang="pt">Colapso</title>
-    <desc lang="pt">Sem descrição</desc>
+    <desc lang="pt">Elisângela deixa seu emprego de RH para pesquisar sobre relações de adoecimento mental no trabalho. No entanto, acaba se envolvendo de forma não profissional com seu paciente, Sérgio, um ex- porteiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -229872,7 +229942,7 @@
   </programme>
   <programme start="20260823040000 +0000" stop="20260823043000 +0000" channel="TV BRASIL RIO DE JANEIRO">
     <title lang="pt">Colapso</title>
-    <desc lang="pt">Sem descrição</desc>
+    <desc lang="pt">Elisângela deixa seu emprego de RH para pesquisar sobre relações de adoecimento mental no trabalho. No entanto, acaba se envolvendo de forma não profissional com seu paciente, Sérgio, um ex- porteiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -230894,7 +230964,7 @@
   </programme>
   <programme start="20260822100400 +0000" stop="20260822101500 +0000" channel="TV BRASIL RIO DE JANEIRO HD">
     <title lang="pt">Palaloos</title>
-    <desc lang="pt">Kazu encontra um arbusto com uma textura peluda que faz cócegas. Os palaloos tentam brincar com ele, mas o arbusto sai correndo; o trio encontra vários pisos de alturas diferentes no chão. Eles brincam de subir e descer nos pisos.</desc>
+    <desc lang="pt">Passeando pela Palalândia, os palaloos encontram escorregadores com túneis de várias formas e cores. Eles precisam descobrir qual escorregador é melhor; Tutu batuca em um de seus blocos mágicos e toca um pífano.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -231174,7 +231244,7 @@
   </programme>
   <programme start="20260823003000 +0000" stop="20260823010000 +0000" channel="TV BRASIL RIO DE JANEIRO HD">
     <title lang="pt">Colapso</title>
-    <desc lang="pt">Sem descrição</desc>
+    <desc lang="pt">Elisângela deixa seu emprego de RH para pesquisar sobre relações de adoecimento mental no trabalho. No entanto, acaba se envolvendo de forma não profissional com seu paciente, Sérgio, um ex- porteiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -231202,7 +231272,7 @@
   </programme>
   <programme start="20260823040000 +0000" stop="20260823043000 +0000" channel="TV BRASIL RIO DE JANEIRO HD">
     <title lang="pt">Colapso</title>
-    <desc lang="pt">Sem descrição</desc>
+    <desc lang="pt">Elisângela deixa seu emprego de RH para pesquisar sobre relações de adoecimento mental no trabalho. No entanto, acaba se envolvendo de forma não profissional com seu paciente, Sérgio, um ex- porteiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -232224,7 +232294,7 @@
   </programme>
   <programme start="20260822100400 +0000" stop="20260822101500 +0000" channel="TV BRASIL SÃO PAULO">
     <title lang="pt">Palaloos</title>
-    <desc lang="pt">Kazu encontra um arbusto com uma textura peluda que faz cócegas. Os palaloos tentam brincar com ele, mas o arbusto sai correndo; o trio encontra vários pisos de alturas diferentes no chão. Eles brincam de subir e descer nos pisos.</desc>
+    <desc lang="pt">Passeando pela Palalândia, os palaloos encontram escorregadores com túneis de várias formas e cores. Eles precisam descobrir qual escorregador é melhor; Tutu batuca em um de seus blocos mágicos e toca um pífano.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -232504,7 +232574,7 @@
   </programme>
   <programme start="20260823003000 +0000" stop="20260823010000 +0000" channel="TV BRASIL SÃO PAULO">
     <title lang="pt">Colapso</title>
-    <desc lang="pt">Sem descrição</desc>
+    <desc lang="pt">Elisângela deixa seu emprego de RH para pesquisar sobre relações de adoecimento mental no trabalho. No entanto, acaba se envolvendo de forma não profissional com seu paciente, Sérgio, um ex- porteiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -232532,7 +232602,7 @@
   </programme>
   <programme start="20260823040000 +0000" stop="20260823043000 +0000" channel="TV BRASIL SÃO PAULO">
     <title lang="pt">Colapso</title>
-    <desc lang="pt">Sem descrição</desc>
+    <desc lang="pt">Elisângela deixa seu emprego de RH para pesquisar sobre relações de adoecimento mental no trabalho. No entanto, acaba se envolvendo de forma não profissional com seu paciente, Sérgio, um ex- porteiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -237313,7 +237383,7 @@
   </programme>
   <programme start="20260825160000 +0000" stop="20260825170000 +0000" channel="TV Catarina?">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -237929,7 +237999,7 @@
   </programme>
   <programme start="20260825160000 +0000" stop="20260825170000 +0000" channel="TV Catarina HD">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -238846,7 +238916,7 @@
   </programme>
   <programme start="20260825134500 +0000" stop="20260825140000 +0000" channel="TV Ceará HD">
     <title lang="pt">Meu AmigãoZão</title>
-    <desc lang="pt">Yuri aprende a importância de dar uma segunda chance aos outros quando tenta substituir fazendeiro.</desc>
+    <desc lang="pt">Insatisfeita com o piquenique de sempre, Lili decide fazer para os garotos um do seu jeito.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -246469,7 +246539,7 @@
   </programme>
   <programme start="20260823003000 +0000" stop="20260823010000 +0000" channel="TV Educativa da Bahia HD">
     <title lang="pt">Colapso</title>
-    <desc lang="pt">Sem descrição</desc>
+    <desc lang="pt">Elisângela deixa seu emprego de RH para pesquisar sobre relações de adoecimento mental no trabalho. No entanto, acaba se envolvendo de forma não profissional com seu paciente, Sérgio, um ex- porteiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -246497,7 +246567,7 @@
   </programme>
   <programme start="20260823040000 +0000" stop="20260823043000 +0000" channel="TV Educativa da Bahia HD">
     <title lang="pt">Colapso</title>
-    <desc lang="pt">Sem descrição</desc>
+    <desc lang="pt">Elisângela deixa seu emprego de RH para pesquisar sobre relações de adoecimento mental no trabalho. No entanto, acaba se envolvendo de forma não profissional com seu paciente, Sérgio, um ex- porteiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -246868,7 +246938,7 @@
   </programme>
   <programme start="20260825063000 +0000" stop="20260825070000 +0000" channel="TV Educativa da Bahia HD">
     <title lang="pt">Fronteiras</title>
-    <desc lang="pt">Diretores latinos exploram as fronteiras da narrativa por meio de curtas-metragens.</desc>
+    <desc lang="pt">A série explora os 23 mil quilômetros de fronteiras brasileiras, revelando a invisibilizada faixa de 150 quilômetros que adentra o país. Uma viagem por uma região crucial para o desenvolvimento do Brasil.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -246945,7 +247015,7 @@
   </programme>
   <programme start="20260825173000 +0000" stop="20260825180000 +0000" channel="TV Educativa da Bahia HD">
     <title lang="pt">Fronteiras</title>
-    <desc lang="pt">Diretores latinos exploram as fronteiras da narrativa por meio de curtas-metragens.</desc>
+    <desc lang="pt">A série explora os 23 mil quilômetros de fronteiras brasileiras, revelando a invisibilizada faixa de 150 quilômetros que adentra o país. Uma viagem por uma região crucial para o desenvolvimento do Brasil.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -247365,7 +247435,7 @@
   </programme>
   <programme start="20260823040000 +0000" stop="20260823043000 +0000" channel="TV Educativa de Porto Alegre HD">
     <title lang="pt">Colapso</title>
-    <desc lang="pt">Sem descrição</desc>
+    <desc lang="pt">Elisângela deixa seu emprego de RH para pesquisar sobre relações de adoecimento mental no trabalho. No entanto, acaba se envolvendo de forma não profissional com seu paciente, Sérgio, um ex- porteiro.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -247959,8 +248029,8 @@
     </rating>
   </programme>
   <programme start="20260825063000 +0000" stop="20260825070000 +0000" channel="TV Educativa de Porto Alegre HD">
-    <title lang="pt">Fronteiras</title>
-    <desc lang="pt">Diretores latinos exploram as fronteiras da narrativa por meio de curtas-metragens.</desc>
+    <title lang="pt">Nossos Biomas</title>
+    <desc lang="pt">A história da floresta mais antiga da América do Sul que, dotada de uma impressionante biodiversidade, vê povos originários surgirem e acolhe viajantes.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -248218,8 +248288,8 @@
     </rating>
   </programme>
   <programme start="20260825173000 +0000" stop="20260825180000 +0000" channel="TV Educativa de Porto Alegre HD">
-    <title lang="pt">Fronteiras</title>
-    <desc lang="pt">Diretores latinos exploram as fronteiras da narrativa por meio de curtas-metragens.</desc>
+    <title lang="pt">Nossos Biomas</title>
+    <desc lang="pt">A história da floresta mais antiga da América do Sul que, dotada de uma impressionante biodiversidade, vê povos originários surgirem e acolhe viajantes.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -255366,7 +255436,7 @@
   </programme>
   <programme start="20260825150000 +0000" stop="20260825163000 +0000" channel="TV Interativa">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -255975,7 +256045,7 @@
   </programme>
   <programme start="20260825150000 +0000" stop="20260825163000 +0000" channel="TV Interativa HD">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -256617,28 +256687,28 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825170000 +0000" stop="20260825183000 +0000" channel="TV Jangadeiro HD">
+  <programme start="20260825170000 +0000" stop="20260825180000 +0000" channel="TV Jangadeiro HD">
     <title lang="pt">A Desalmada</title>
     <desc lang="pt">Fernanda é uma mulher em busca de vingança depois de ser vítima da crueldade de um homem que a feriu física e emocionalmente na sua noite de núpcias, mas o destino prepara uma armadilha que vai fazê-la acreditar novamente no amor.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825183000 +0000" stop="20260825200000 +0000" channel="TV Jangadeiro HD">
+  <programme start="20260825180000 +0000" stop="20260825184500 +0000" channel="TV Jangadeiro HD">
     <title lang="pt">Fofocalizando</title>
     <desc lang="pt">Revista eletrônica com informação, humor e as principais fofocas do mundo dos famosos.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825200000 +0000" stop="20260825211500 +0000" channel="TV Jangadeiro HD">
-    <title lang="pt">O que a Vida me Roubou</title>
-    <desc lang="pt">No México, a linda Montserrat e sua mãe lidam com amores, gângsteres, falências, obsessões e assassinatos.</desc>
+  <programme start="20260825184500 +0000" stop="20260825210000 +0000" channel="TV Jangadeiro HD">
+    <title lang="pt">Bodø/Glimt x NEC</title>
+    <desc lang="pt">Todas as emoções da principal competição de futebol masculino disputada entre clubes europeus.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825211500 +0000" stop="20260825221000 +0000" channel="TV Jangadeiro HD">
+  <programme start="20260825210000 +0000" stop="20260825221000 +0000" channel="TV Jangadeiro HD">
     <title lang="pt">Jornal Jangadeiro - 2ª Edição</title>
     <desc lang="pt">Acompanhe os principais fatos do dia com matérias, reportagens especiais e denúncias.</desc>
     <rating system="Brazil">
@@ -256666,21 +256736,28 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260825234500 +0000" stop="20260826003000 +0000" channel="TV Jangadeiro HD">
+  <programme start="20260825234500 +0000" stop="20260826001500 +0000" channel="TV Jangadeiro HD">
+    <title lang="pt">Amor Valente</title>
+    <desc lang="pt">Sem descrição</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260826001500 +0000" stop="20260826004500 +0000" channel="TV Jangadeiro HD">
     <title lang="pt">A História de Joana, a Virgem</title>
     <desc lang="pt">Joana, uma virgem, é inseminada artificialmente por engano após uma confusão na clínica. Sua vida vira de cabeça para baixo com a gravidez inesperada, especialmente quando ela se apaixona pelo pai biológico do bebê, Gabriel.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260826003000 +0000" stop="20260826011500 +0000" channel="TV Jangadeiro HD">
+  <programme start="20260826004500 +0000" stop="20260826013000 +0000" channel="TV Jangadeiro HD">
     <title lang="pt">Sessão +SBT</title>
     <desc lang="pt">Para celebrar os 45 anos da emissora, o programa resgata momentos históricos do acervo do canal.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260826011500 +0000" stop="20260826030000 +0000" channel="TV Jangadeiro HD">
+  <programme start="20260826013000 +0000" stop="20260826030000 +0000" channel="TV Jangadeiro HD">
     <title lang="pt">Programa do Ratinho</title>
     <desc lang="pt">O apresentador Carlos Massa leva ao público um programa alegre e repleto de atrações. Ele recebe convidados famosos e games, comédia, participação do público e quadros únicos, como o &quot;Jornal Racional&quot;, &quot;Gol Show&quot; e &quot;Dez ou Mil&quot;, entre outros.</desc>
     <rating system="Brazil">
@@ -256701,7 +256778,14 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260826043000 +0000" stop="20260826053000 +0000" channel="TV Jangadeiro HD">
+  <programme start="20260826043000 +0000" stop="20260825053000 +0000" channel="TV Jangadeiro HD">
+    <title lang="pt">Eleições 2026</title>
+    <desc lang="pt">Acompanhe minuto a minuto os resultados das eleições brasileiras de 2026.</desc>
+    <rating system="Brazil">
+      <value>[14]</value>
+    </rating>
+  </programme>
+  <programme start="20260825053000 +0000" stop="20260825063000 +0000" channel="TV Jangadeiro HD">
     <title lang="pt">SBT Notícias</title>
     <desc lang="pt">Os principais assuntos e notícias do Brasil e do mundo e tudo que ganhou repercussão durante o dia.</desc>
     <rating system="Brazil">
@@ -258936,7 +259020,7 @@
   </programme>
   <programme start="20260825160000 +0000" stop="20260825173000 +0000" channel="TV Macapá HD">
     <title lang="pt">Os Donos da Bola</title>
-    <desc lang="pt">Acompanhe o programa de debate sobre o mundo do futebol mais bem-humorado da televisão.</desc>
+    <desc lang="pt">Acompanhe as principais notícias do esporte do Mato Grosso do Sul e de todo o país.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -261560,8 +261644,8 @@
     </rating>
   </programme>
   <programme start="20260825213000 +0000" stop="20260825222000 +0000" channel="TV Maranhense HD">
-    <title lang="pt">Band Cidade</title>
-    <desc lang="pt">Acompanhe as notícias diárias mais importantes do estado do Piauí.</desc>
+    <title lang="pt">Band Eleições - MA</title>
+    <desc lang="pt">Eleições nacionais e regionalizadas da cobertura das eleições de 2026.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -266501,16 +266585,9 @@
       <value>[14]</value>
     </rating>
   </programme>
-  <programme start="20260823013000 +0000" stop="20260823020000 +0000" channel="TV Novo Tempo HD">
+  <programme start="20260823013000 +0000" stop="20260823023000 +0000" channel="TV Novo Tempo HD">
     <title lang="pt">Novo Tempo in Concert</title>
     <desc lang="pt">Acompanhe os melhores concertos de música cristã.</desc>
-    <rating system="Brazil">
-      <value>[14]</value>
-    </rating>
-  </programme>
-  <programme start="20260823020000 +0000" stop="20260823023000 +0000" channel="TV Novo Tempo HD">
-    <title lang="pt">Lugar de Paz</title>
-    <desc lang="pt">Este programa é destinado à espiritualidade e oração. Pedidos e agradecimentos são compartilhados com o mundo mostrando o grande amor de Deus.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -272460,14 +272537,14 @@
   </programme>
   <programme start="20260822065000 +0000" stop="20260822070000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Esquadrão do Mar Azul</title>
-    <desc lang="pt">Formação rochosa bloqueia uma parte da Ilha, fazendo com que todos que a atravessam desapareçam misteriosamente, como um truque de magia. Com determinação e coragem, Baiá, Marraia e Bela Baleia se lançam em uma missão cheia de reviravoltas.</desc>
+    <desc lang="pt">Com ajuda do Tubarão Tigre, Marraia e Pipa querem descobrir o que aconteceu com os peixinhos que costumavam nadar em uma parte da Ilha do Mar Azul. Eles suspeitam de um possível predador, mas encontram a resposta após uma investigação subaquática.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822070000 +0000" stop="20260822073000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Me Liga na Lata</title>
-    <desc lang="pt">Em terras de poucas chuvas, crianças do Vale do Jequitinhonha mostram e contam como constroem carrinhos com latas e tábuas com mãos de poucas perguntas. As mesmas que são também sabedoras de jogos de pedrinhas, bolinhas de gude, de apanhar fruta no pé e de lavar roupa no rio. Os pés deslizam sobre uma amarelinha de chutar pedra até o último dia da semana, pulam corda, saltam em riachos e montam em cavalos de pau. À noite se juntam em cantorias de Folia de Reis, passando de casa em casa.</desc>
+    <desc lang="pt">Nesse episódio crianças de Acupe nos apresentam o Nego Fugido, festa popular onde adultos e crianças representam os escravos fujões que são caçados no mato e trazidos de volta ao rei. A vibração dos tambores e a catártica manifestação envolve a cidade inteira, aos domingos de julho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -272516,7 +272593,7 @@
   </programme>
   <programme start="20260822091500 +0000" stop="20260822094500 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Qual É, Bicho?</title>
-    <desc lang="pt">A campainha toca e Frederick Picnic aparece. Ele é o chef de cozinha que está montando um restaurante na vizinhança. Frederick vem pedir ajuda, pois precisa de uma xícara de açúcar para seu restaurante e Camila e Lino estranham o pedido.</desc>
+    <desc lang="pt">O galã Tony Compello vai ao Zoolatório e Camila o apresenta para todos. Tony mostra o seu braço peludo e diz que é a sua marca registrada. Tony acha que Lino pode se transformar em um galã de novela e resolver ensiná-lo a ser ator.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -272530,7 +272607,7 @@
   </programme>
   <programme start="20260822100000 +0000" stop="20260822111500 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Quintal da Cultura na Missão do Dia</title>
-    <desc lang="pt">Cacá encomenda um amuleto mágico, Teru Bozu, famoso no Japão, que controla chuvas e, com ajuda de Osório, descobre o mistério de duendes que habitam o Jardim Zen no Pavilhão Japonês em São Paulo.</desc>
+    <desc lang="pt">Cacá recebe duas missões misteriosas de sua mãe: descobrir o Código de Leonardo Da Vinci e comprar uma pizza para o jantar; Doroteia visita uma exposição imersiva para investigar o tal código; Ludovico tenta decifrar o cardápio da pizzaria.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -272558,7 +272635,7 @@
   </programme>
   <programme start="20260822120000 +0000" stop="20260822122500 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Me Liga na Lata</title>
-    <desc lang="pt">Em terras de poucas chuvas, crianças do Vale do Jequitinhonha mostram e contam como constroem carrinhos com latas e tábuas com mãos de poucas perguntas. As mesmas que são também sabedoras de jogos de pedrinhas, bolinhas de gude, de apanhar fruta no pé e de lavar roupa no rio. Os pés deslizam sobre uma amarelinha de chutar pedra até o último dia da semana, pulam corda, saltam em riachos e montam em cavalos de pau. À noite se juntam em cantorias de Folia de Reis, passando de casa em casa.</desc>
+    <desc lang="pt">Nesse episódio crianças de Acupe nos apresentam o Nego Fugido, festa popular onde adultos e crianças representam os escravos fujões que são caçados no mato e trazidos de volta ao rei. A vibração dos tambores e a catártica manifestação envolve a cidade inteira, aos domingos de julho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -272698,14 +272775,14 @@
   </programme>
   <programme start="20260822155000 +0000" stop="20260822160000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Esquadrão do Mar Azul</title>
-    <desc lang="pt">Formação rochosa bloqueia uma parte da Ilha, fazendo com que todos que a atravessam desapareçam misteriosamente, como um truque de magia. Com determinação e coragem, Baiá, Marraia e Bela Baleia se lançam em uma missão cheia de reviravoltas.</desc>
+    <desc lang="pt">Com ajuda do Tubarão Tigre, Marraia e Pipa querem descobrir o que aconteceu com os peixinhos que costumavam nadar em uma parte da Ilha do Mar Azul. Eles suspeitam de um possível predador, mas encontram a resposta após uma investigação subaquática.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822160000 +0000" stop="20260822161500 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Meu AmigãoZão</title>
-    <desc lang="pt">Yuri aprende a importância de dar uma segunda chance aos outros quando tenta substituir fazendeiro.</desc>
+    <desc lang="pt">Insatisfeita com o piquenique de sempre, Lili decide fazer para os garotos um do seu jeito.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -272747,7 +272824,7 @@
   </programme>
   <programme start="20260822183000 +0000" stop="20260822190000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Qual É, Bicho?</title>
-    <desc lang="pt">A campainha toca e Frederick Picnic aparece. Ele é o chef de cozinha que está montando um restaurante na vizinhança. Frederick vem pedir ajuda, pois precisa de uma xícara de açúcar para seu restaurante e Camila e Lino estranham o pedido.</desc>
+    <desc lang="pt">O galã Tony Compello vai ao Zoolatório e Camila o apresenta para todos. Tony mostra o seu braço peludo e diz que é a sua marca registrada. Tony acha que Lino pode se transformar em um galã de novela e resolver ensiná-lo a ser ator.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -272803,7 +272880,7 @@
   </programme>
   <programme start="20260822201000 +0000" stop="20260822202500 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Meu AmigãoZão</title>
-    <desc lang="pt">Yuri aprende a importância de dar uma segunda chance aos outros quando tenta substituir fazendeiro.</desc>
+    <desc lang="pt">Insatisfeita com o piquenique de sempre, Lili decide fazer para os garotos um do seu jeito.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -272852,7 +272929,7 @@
   </programme>
   <programme start="20260822213000 +0000" stop="20260822214000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Esquadrão do Mar Azul</title>
-    <desc lang="pt">Formação rochosa bloqueia uma parte da Ilha, fazendo com que todos que a atravessam desapareçam misteriosamente, como um truque de magia. Com determinação e coragem, Baiá, Marraia e Bela Baleia se lançam em uma missão cheia de reviravoltas.</desc>
+    <desc lang="pt">Com ajuda do Tubarão Tigre, Marraia e Pipa querem descobrir o que aconteceu com os peixinhos que costumavam nadar em uma parte da Ilha do Mar Azul. Eles suspeitam de um possível predador, mas encontram a resposta após uma investigação subaquática.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -272915,7 +272992,7 @@
   </programme>
   <programme start="20260822233000 +0000" stop="20260822235500 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Me Liga na Lata</title>
-    <desc lang="pt">Em terras de poucas chuvas, crianças do Vale do Jequitinhonha mostram e contam como constroem carrinhos com latas e tábuas com mãos de poucas perguntas. As mesmas que são também sabedoras de jogos de pedrinhas, bolinhas de gude, de apanhar fruta no pé e de lavar roupa no rio. Os pés deslizam sobre uma amarelinha de chutar pedra até o último dia da semana, pulam corda, saltam em riachos e montam em cavalos de pau. À noite se juntam em cantorias de Folia de Reis, passando de casa em casa.</desc>
+    <desc lang="pt">Nesse episódio crianças de Acupe nos apresentam o Nego Fugido, festa popular onde adultos e crianças representam os escravos fujões que são caçados no mato e trazidos de volta ao rei. A vibração dos tambores e a catártica manifestação envolve a cidade inteira, aos domingos de julho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -272950,7 +273027,7 @@
   </programme>
   <programme start="20260823013000 +0000" stop="20260823024500 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Quintal da Cultura na Missão do Dia</title>
-    <desc lang="pt">Cacá encomenda um amuleto mágico, Teru Bozu, famoso no Japão, que controla chuvas e, com ajuda de Osório, descobre o mistério de duendes que habitam o Jardim Zen no Pavilhão Japonês em São Paulo.</desc>
+    <desc lang="pt">Cacá recebe duas missões misteriosas de sua mãe: descobrir o Código de Leonardo Da Vinci e comprar uma pizza para o jantar; Doroteia visita uma exposição imersiva para investigar o tal código; Ludovico tenta decifrar o cardápio da pizzaria.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -273013,7 +273090,7 @@
   </programme>
   <programme start="20260823050000 +0000" stop="20260823053000 +0000" channel="TV Rá Tim Bum! HD">
     <title lang="pt">Me Liga na Lata</title>
-    <desc lang="pt">Em terras de poucas chuvas, crianças do Vale do Jequitinhonha mostram e contam como constroem carrinhos com latas e tábuas com mãos de poucas perguntas. As mesmas que são também sabedoras de jogos de pedrinhas, bolinhas de gude, de apanhar fruta no pé e de lavar roupa no rio. Os pés deslizam sobre uma amarelinha de chutar pedra até o último dia da semana, pulam corda, saltam em riachos e montam em cavalos de pau. À noite se juntam em cantorias de Folia de Reis, passando de casa em casa.</desc>
+    <desc lang="pt">Nesse episódio crianças de Acupe nos apresentam o Nego Fugido, festa popular onde adultos e crianças representam os escravos fujões que são caçados no mato e trazidos de volta ao rei. A vibração dos tambores e a catártica manifestação envolve a cidade inteira, aos domingos de julho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -275393,7 +275470,7 @@
   </programme>
   <programme start="20260825174500 +0000" stop="20260825190000 +0000" channel="TV Rio Branco">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -275799,7 +275876,7 @@
   </programme>
   <programme start="20260825174500 +0000" stop="20260825190000 +0000" channel="TV Rio Branco HD">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -283023,7 +283100,7 @@
   </programme>
   <programme start="20260825154500 +0000" stop="20260825170000 +0000" channel="TV Tropical HD">
     <title lang="pt">Chaves</title>
-    <desc lang="pt">Na rua em frente à vila, Chaves está trabalhando como jornaleiro. Já o Seu Madruga promove uma apresentação de ioiôs com dois artistas vindos do estrangeiro.</desc>
+    <desc lang="pt">Chaves vende seu último bilhete de loteria para o Seu Madruga, que descobre que ganhou o grande prêmio. O problema é que ele não sabe onde guardou o bilhete.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -293446,14 +293523,14 @@
   </programme>
   <programme start="20260822105500 +0000" stop="20260822111500 +0000" channel="ZooMoo Kids HD">
     <title lang="pt">Turma do Gato Galáctico</title>
-    <desc lang="pt">Luna e Duda querem o mesmo vestido; elas aprendem que é importante ceder e compartilhar.</desc>
+    <desc lang="pt">Roni e Luna procuram Astro; ele ensina os dois sobre o valor e a importância do trabalho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822111500 +0000" stop="20260822112900 +0000" channel="ZooMoo Kids HD">
     <title lang="pt">Turma do Gato Galáctico</title>
-    <desc lang="pt">Luna e Duda querem o mesmo vestido; elas aprendem que é importante ceder e compartilhar.</desc>
+    <desc lang="pt">Roni e Luna procuram Astro; ele ensina os dois sobre o valor e a importância do trabalho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -293481,7 +293558,7 @@
   </programme>
   <programme start="20260822120000 +0000" stop="20260822121400 +0000" channel="ZooMoo Kids HD">
     <title lang="pt">Barken, o Barqueiro</title>
-    <desc lang="pt">Barken e seus amigos revelam curiosidades da vida marinha. Como o sal é extraído do mar, qual é a diferença entre lagos e rios e mais.</desc>
+    <desc lang="pt">A Lua, fiel companheira da Terra, influencia as marés e o equilíbrio natural. Sua fase pode causar marés altas ou baixas, impactando diretamente a natureza. O capitão e sua equipe tentam compreender essa força cósmica.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -293691,14 +293768,14 @@
   </programme>
   <programme start="20260822143200 +0000" stop="20260822143600 +0000" channel="ZooMoo Kids HD">
     <title lang="pt">Patati Patatá - O Melhor da Pré-Escola</title>
-    <desc lang="pt">Patati Patatá tem uma missão muito importante. Eles estão ajudando o Seu Noé a colocar diversos animaizinhos dentro de uma grande arca.</desc>
+    <desc lang="pt">Tinha tudo para ser mais um dia normal para o Patati Patatá. Até que a nossa duplinha resolveu dar bom dia e espalhar alegria para todos os amiguinhos na escola.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822143600 +0000" stop="20260822143900 +0000" channel="ZooMoo Kids HD">
     <title lang="pt">Patati Patatá - O Melhor da Pré-Escola</title>
-    <desc lang="pt">Patati Patatá tem uma missão muito importante. Eles estão ajudando o Seu Noé a colocar diversos animaizinhos dentro de uma grande arca.</desc>
+    <desc lang="pt">Tinha tudo para ser mais um dia normal para o Patati Patatá. Até que a nossa duplinha resolveu dar bom dia e espalhar alegria para todos os amiguinhos na escola.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -293754,14 +293831,14 @@
   </programme>
   <programme start="20260822145800 +0000" stop="20260822151800 +0000" channel="ZooMoo Kids HD">
     <title lang="pt">Turma do Gato Galáctico</title>
-    <desc lang="pt">Luna e Duda querem o mesmo vestido; elas aprendem que é importante ceder e compartilhar.</desc>
+    <desc lang="pt">Roni e Luna procuram Astro; ele ensina os dois sobre o valor e a importância do trabalho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822151800 +0000" stop="20260822153100 +0000" channel="ZooMoo Kids HD">
     <title lang="pt">Turma do Gato Galáctico</title>
-    <desc lang="pt">Luna e Duda querem o mesmo vestido; elas aprendem que é importante ceder e compartilhar.</desc>
+    <desc lang="pt">Roni e Luna procuram Astro; ele ensina os dois sobre o valor e a importância do trabalho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -293866,7 +293943,7 @@
   </programme>
   <programme start="20260822163000 +0000" stop="20260822164500 +0000" channel="ZooMoo Kids HD">
     <title lang="pt">Barken, o Barqueiro</title>
-    <desc lang="pt">Barken e seus amigos revelam curiosidades da vida marinha. Como o sal é extraído do mar, qual é a diferença entre lagos e rios e mais.</desc>
+    <desc lang="pt">A Lua, fiel companheira da Terra, influencia as marés e o equilíbrio natural. Sua fase pode causar marés altas ou baixas, impactando diretamente a natureza. O capitão e sua equipe tentam compreender essa força cósmica.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -294118,21 +294195,21 @@
   </programme>
   <programme start="20260822194300 +0000" stop="20260822194700 +0000" channel="ZooMoo Kids HD">
     <title lang="pt">O Admirável Corpo Humano</title>
-    <desc lang="pt">Hema viaja pelo admirável corpo humano para conhecer o intestino e suas funções.</desc>
+    <desc lang="pt">Hema viaja pelo admirável corpo humano para conhecer o pâncreas e suas funções.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822194700 +0000" stop="20260822195000 +0000" channel="ZooMoo Kids HD">
     <title lang="pt">O Admirável Corpo Humano</title>
-    <desc lang="pt">Hema viaja pelo admirável corpo humano para conhecer o intestino e suas funções.</desc>
+    <desc lang="pt">Hema viaja pelo admirável corpo humano para conhecer o pâncreas e suas funções.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
   </programme>
   <programme start="20260822195000 +0000" stop="20260822195300 +0000" channel="ZooMoo Kids HD">
     <title lang="pt">O Admirável Corpo Humano</title>
-    <desc lang="pt">Hema viaja pelo admirável corpo humano para conhecer o intestino e suas funções.</desc>
+    <desc lang="pt">Hema viaja pelo admirável corpo humano para conhecer o pâncreas e suas funções.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
@@ -294510,7 +294587,7 @@
   </programme>
   <programme start="20260823000200 +0000" stop="20260823001700 +0000" channel="ZooMoo Kids HD">
     <title lang="pt">Turma do Gato Galáctico</title>
-    <desc lang="pt">Luna e Duda querem o mesmo vestido; elas aprendem que é importante ceder e compartilhar.</desc>
+    <desc lang="pt">Roni e Luna procuram Astro; ele ensina os dois sobre o valor e a importância do trabalho.</desc>
     <rating system="Brazil">
       <value>[14]</value>
     </rating>
